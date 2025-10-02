@@ -301,10 +301,6 @@
     "source_pdf": "1988_Powers_traffic-flow-in-construction-zones_01656460.pdf",
     "related_measures": [
       {
-        "title": "Developing Hybrid Measures of Performance for Signalized Intersections",
-        "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf"
-      },
-      {
         "title": "Impact of Lane Closures on Roadway Capacity: Development of a Two-lane Work Zone Lane Closure Analysis Procedure (part A)",
         "link": "docs/2008_Washburn_impact-of-lane-closures-on-roadway-capacity-develo_01091676.pdf"
       },
@@ -801,10 +797,6 @@
     ],
     "source_pdf": "1994_Palamarthy_models-of-pedestrian-crossing-behavior-at-signaliz_00667650.pdf",
     "related_measures": [
-      {
-        "title": "Modeling and Predicting Traffic Accidents at Signalized Intersections in the City of Norfolk, Va",
-        "link": "docs/2011_Maheshwari_modeling-and-predicting-traffic-accidents-at-signa_01365968.pdf"
-      },
       {
         "title": "Safety Evaluation of Corner Clearance at Signalized Intersections",
         "link": "docs/2018_Le_safety-evaluation-of-corner-clearance-at-signalize_01671741.pdf"
@@ -1319,10 +1311,6 @@
       {
         "title": "Guidelines for Detector Placement on High-speed Approaches to Signalized Intersections",
         "link": "docs/1997_Middleton_guidelines-for-detector-placement-on-high-speed-ap_00751065.pdf"
-      },
-      {
-        "title": "Modeling and Predicting Traffic Accidents at Signalized Intersections in the City of Norfolk, Va",
-        "link": "docs/2011_Maheshwari_modeling-and-predicting-traffic-accidents-at-signa_01365968.pdf"
       },
       {
         "title": "Models of Pedestrian Crossing Behavior at Signalized Intersection. Interim Report",
@@ -9029,10 +9017,6 @@
       {
         "title": "Enhancement of a Network Analysis Tool to Accommodate Multiple Construction Work Zone Analysis (initial Investigation)",
         "link": "docs/2010_Ellis_enhancement-of-a-network-analysis-tool-to-accommod_01431182.pdf"
-      },
-      {
-        "title": "Developing Hybrid Measures of Performance for Signalized Intersections",
-        "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf"
       }
     ]
   },
@@ -14259,10 +14243,6 @@
         "link": "docs/2007_Elefteriadou_impact-of-trucks-on-arterial-los-and-freeway-work_01387461.pdf"
       },
       {
-        "title": "Developing Hybrid Measures of Performance for Signalized Intersections",
-        "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf"
-      },
-      {
         "title": "Control Strategy for Signalized Intersections",
         "link": "docs/1998_Khatib_control-strategy-for-signalized-intersections_01856800.pdf"
       },
@@ -14992,7 +14972,7 @@
       "speed management",
       "remove distraction"
     ],
-    "source_pdf": "2011_Bhatia_estimation-of-fatal-and-non-fatal-pedestrian-injur_01545628.pdf",
+    "source_pdf": "2009_Administration_international-scan-summary-report-on-pedestrian-an_01138526.pdf",
     "related_measures": [
       {
         "title": "International Scan Summary Report on Pedestrian and Bicyclist Safety and Mobility",
@@ -15544,7 +15524,7 @@
       "paved shoulders",
       "loss of control prevention"
     ],
-    "source_pdf": "2011_Maheshwari_modeling-and-predicting-traffic-accidents-at-signa_01365968.pdf",
+    "source_pdf": "2018_Le_safety-evaluation-of-multiple-strategies-at-signal_01674439.pdf",
     "related_measures": [
       {
         "title": "Models of Pedestrian Crossing Behavior at Signalized Intersection. Interim Report",
@@ -16942,10 +16922,6 @@
       {
         "title": "Strategic Electronic Monitoring and Compliance of Heavy Commercial Vehicles in the Upper North Island",
         "link": "docs/2012_Mcbridge_strategic-electronic-monitoring-and-compliance-of_01455718.pdf"
-      },
-      {
-        "title": "Modeling and Predicting Traffic Accidents at Signalized Intersections in the City of Norfolk, Va",
-        "link": "docs/2011_Maheshwari_modeling-and-predicting-traffic-accidents-at-signa_01365968.pdf"
       }
     ]
   },
@@ -18651,10 +18627,6 @@
         "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_1.pdf"
       },
       {
-        "title": "Developing Hybrid Measures of Performance for Signalized Intersections",
-        "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf"
-      },
-      {
         "title": "A Performance-based Approach for Loading Definition of Heavy Vehicle Impact Events",
         "link": "docs/2018_Agrawal_a-performance-based-approach-for-loading-definitio_01690898.pdf"
       }
@@ -19229,7 +19201,7 @@
       "advanced markings",
       "rollover risk reduction"
     ],
-    "source_pdf": "2012_Health_reducing-neighborhood-inequities-in-severe-and-fat_01545592.pdf",
+    "source_pdf": "2019_Guerra_the-built-environment-and-pedestrian-safety-in-the_01696715.pdf",
     "related_measures": [
       {
         "title": "The Built Environment and Pedestrian Safety in the Philadelphia Region",
@@ -20442,7 +20414,7 @@
       "esc",
       "driver assistance"
     ],
-    "source_pdf": "2013_Health_identifying-high-pedestrian-injury-corridors-for-t_01545573.pdf",
+    "source_pdf": "2012_Van Houten_evaluating-pedestrian-safety-improvements_01470633.pdf",
     "related_measures": [
       {
         "title": "Evaluating Pedestrian Safety Improvements",
@@ -20630,10 +20602,6 @@
     "source_pdf": "2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_1.pdf",
     "related_measures": [
       {
-        "title": "Developing Hybrid Measures of Performance for Signalized Intersections",
-        "link": "docs/2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf"
-      },
-      {
         "title": "Capacity of Signalized Intersections",
         "link": "docs/1974_Reilly_capacity-of-signalized-intersections_01664233.pdf"
       },
@@ -20671,7 +20639,7 @@
       "capacity",
       "refuge island"
     ],
-    "source_pdf": "2013_Laybourne_developing-hybrid-measures-of-performance-for-sign_01505639_2.pdf",
+    "source_pdf": "2012_Yi_development-of-warrants-for-installation-of-dual-r_01376183.pdf",
     "related_measures": [
       {
         "title": "Alternative Merge Sign at Signalized Intersections",
