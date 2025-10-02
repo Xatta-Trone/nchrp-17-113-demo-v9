@@ -1,0 +1,2112 @@
+<!doctype html><!--[if lt IE 9]><html class="old-ie" lang="fr"><![endif]--><!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Identification - World Road Association</title>
+<meta name='description' content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/68b076da/static/css/piarc.min.css">
+<script type="text/javascript">
+(function(){
+var htmlTag = document.getElementsByTagName('html')[0];
+htmlTag.className = (htmlTag.className + ' ' || '') + 'hasJS';
+if ('ontouchstart' in document.documentElement)
+htmlTag.className = (htmlTag.className + ' ' || '') + 'isTouch';
+else
+htmlTag.className = (htmlTag.className + ' ' || '') + 'noTouch';
+if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1"))
+htmlTag.className = (htmlTag.className + ' ' || '') + 'svg';
+else
+htmlTag.className = (htmlTag.className + ' ' || '') + 'no-svg';
+})();
+</script>
+<link rel="apple-touch-icon" sizes="57x57" href="/68b076da/static/img/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/68b076da/static/img/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/68b076da/static/img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/68b076da/static/img/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/68b076da/static/img/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/68b076da/static/img/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/68b076da/static/img/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/68b076da/static/img/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/68b076da/static/img/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/68b076da/static/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/68b076da/static/img/favicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/68b076da/static/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/68b076da/static/img/favicon/site.webmanifest">
+<link rel="shortcut icon" href="/68b076da/static/img/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/68b076da/static/img/favicon/mstile-144x144.png">
+<meta name="msapplication-config" content="/68b076da/static/img/favicon/browserconfig.xml">
+
+<link rel='canonical' href="https://www.piarc.org/en/log-in.htm" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="https://www.piarc.org/en/log-in.htm" />
+<meta property="og:title" content="Identification - World Road Association" />
+<meta property="og:description" content="" />
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-0D0TVHFQLH');
+
+    (function() {
+        function enablega() {
+            var ga = document.createElement('script'); ga.async = true;
+            ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-0D0TVHFQLH';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        }
+        window.PIARC = window.PIARC || {};
+
+        var f = window.PIARC.cookieagreement;
+        window.PIARC.cookieagreement = function() {
+            enablega();
+            if (f) f();
+        }
+    })();
+</script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+
+  (function() {
+    function matomo() {
+        var u="https://matomo.piarc.org/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    }
+    window.PIARC = window.PIARC || {};
+
+    var f = window.PIARC.cookieagreement;
+    window.PIARC.cookieagreement = function() {
+        matomo();
+        if (f) f();
+    }
+  })();
+</script>
+<!-- End Matomo Code -->
+<script>
+  (function() {
+    function fb() {
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '951522669781409');
+fbq('track', 'PageView');
+    }
+    window.PIARC = window.PIARC || {};
+
+    var f = window.PIARC.cookieagreement;
+    window.PIARC.cookieagreement = function() {
+        fb();
+        if (f) f();
+    }
+  })();
+</script>
+
+
+<script type='text/javascript'>
+    window.PIARC = window.PIARC || {};
+    window.PIARC.config = window.PIARC.config || {};
+    window.PIARC.config.language = "en";
+    window.PIARC.config.dictionary = {enabled: true};
+</script>
+</head>
+<body id="site">
+<div id="cookies" class="show-hide-target default-active active">
+<div class="content">
+    <div>
+        <h1>Welcome on piarc.org!</h1>
+        PIARC
+(World Road Association), founded in 1909 and comprising 125 member governments
+from all over the world, is the global forum for exchange of knowledge and
+experience on roads, road transport policies and practices. With consultative
+status to the Economic and Social Council of the United Nations, the
+Association is contributing to a stable and sustainable global development of
+the road and transport sector.
+    </div>
+
+    <div>
+        <p>
+This
+site uses cookies to optimize its operation. They allow you to securely access your personal space and download our publications. You accept their use by clicking on the "Accept" button.</p>
+        <div>
+            <form action='/en/cookies.htm' method='get'>
+                <button type="button" class="link-button link-button--big link-button--blue show-hide-close" tabindex="-1" id='cookies-reject'>Deny</button>
+
+                <button type="submit" class="link-button link-button--big link-button--white show-hide-close" tabindex="-1">Customize</button>
+
+                <button type="button" class="link-button link-button--big link-button--blue show-hide-close" tabindex="-1" id='cookies-accept'>Accept</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+(function() {
+    var site = "en";
+
+    function choose(what) {
+        var req = new XMLHttpRequest();
+        req.open('PUT', '/api/cookies', true);
+        req.onload = function () {
+            var $el = document.getElementById('cookies');
+            $el.parentNode.removeChild($el);
+        };
+        req.setRequestHeader("Content-Type", "application/json");
+        req.send(JSON.stringify({cookies: what}));
+    }
+
+    document.getElementById('cookies-accept').addEventListener('click', function(e) {
+        choose('all');
+
+        if ((window.PIARC) && (window.PIARC.cookieagreement)) {
+            window.PIARC.cookieagreement();
+        }
+
+        e.preventDefault();
+    });
+    document.getElementById('cookies-reject').addEventListener('click', function(e) {
+        choose('none');
+        e.preventDefault();
+    });
+})();
+</script>
+
+<header>
+<div class="content">
+<h1 class="header__logo">
+<a href="/en/" aria-label="PIARC">
+<span class="no-mobile"><svg xmlns="http://www.w3.org/2000/svg" width="185.133" height="128.92" viewBox="0 0 185.133 128.92"><path d="M168.61 27.954l-3.289 3.925c-1.855-1.645-3.66-2.546-5.781-2.546-4.242 0-7.373 3.395-7.373 13.844 0 10.184 3.023 13.79 7.427 13.79 2.599 0 4.401-1.326 6.151-2.812l3.184 3.819c-2.016 2.28-5.355 4.402-9.653 4.402-8.38 0-14.161-6.206-14.161-19.2 0-12.836 6.047-19.042 14.108-19.042 3.977 0 6.735 1.433 9.387 3.82zm-38.932 18.829h-3.501v14.798h-6.789v-36.65h9.176c9.177 0 13.474 3.819 13.474 10.768 0 4.826-1.963 7.796-6.313 9.706l8.221 16.177h-7.371l-6.897-14.799zm-.796-4.88c4.243 0 6.151-1.909 6.151-6.205 0-3.979-1.854-5.835-6.522-5.835h-2.334v12.04h2.705zm-22.647 11.085H96.103l-1.908 8.593h-6.736l9.706-36.65h8.222l9.653 36.65h-6.896l-1.909-8.593zm-1.115-5.092l-3.979-17.821-3.925 17.821h7.904zM82.79 61.58H76V24.93h6.789v36.65zM71.97 36.545c0 8.328-5.198 12.146-13.366 12.146h-2.599V61.58h-6.789V24.93h8.911c8.963 0 13.843 3.925 13.843 11.615zm-7.002.054c0-4.668-2.122-6.684-6.683-6.684h-2.281v13.737h2.228c4.455.001 6.736-1.697 6.736-7.053z" fill="#1E4C81"/><path fill="#00467F" d="M181.196 89.795a20.971 20.971 0 0 1-1.255 4.275c-4.413 10.608-17.188 16.969-35.972 17.909-18.557.933-40.84-3.522-62.743-12.545-31.555-12.998-57.09-33.745-65.049-52.855-3.136-7.525-3.462-14.374-.974-20.356 3.067-7.371 10.235-12.647 20.403-15.521-14.933 2.237-25.877 8.381-29.994 18.281C-4 52.082 27.145 86.84 75.174 106.621c48.026 19.78 94.75 17.092 104.36-6.004 1.407-3.386 1.927-7.021 1.662-10.822"/><path fill="#F69F1A" d="M174.055 66.316c6.324 9.824 8.419 19.408 5.085 27.426-8.847 21.258-52.533 23.45-97.582 4.895C36.51 80.082 7.16 47.811 16.003 26.551 22.17 11.731 45.274 6.178 73.97 10.462v.064C53.497 8.788 37.527 13.876 32.447 25.1 23.96 43.851 49.086 73.389 88.569 91.078c39.479 17.688 78.363 16.83 86.852-1.92 2.986-6.604 2.896-14.55-1.613-22.841l.247-.001z"/></svg></span>
+<span class="mobile-only"><svg xmlns="http://www.w3.org/2000/svg" width="165.057" height="66.82" viewBox="0 0 165.057 66.82"><path d="M143.739 18.896l-3.287 3.925c-1.856-1.646-3.66-2.546-5.781-2.546-4.243 0-7.373 3.395-7.373 13.844 0 10.184 3.022 13.79 7.426 13.79 2.599 0 4.402-1.326 6.152-2.812l3.183 3.818c-2.016 2.28-5.355 4.402-9.653 4.402-8.38 0-14.16-6.206-14.16-19.2 0-12.836 6.047-19.042 14.107-19.042 3.976.002 6.734 1.435 9.386 3.821zm-38.931 18.83h-3.501v14.798h-6.789v-36.65h9.176c9.177 0 13.474 3.819 13.474 10.769 0 4.825-1.963 7.796-6.313 9.706l8.222 16.177h-7.372l-6.897-14.8zm-.796-4.88c4.243 0 6.152-1.909 6.152-6.205 0-3.979-1.855-5.835-6.523-5.835h-2.334v12.04h2.705zM81.364 43.931H71.233l-1.908 8.593h-6.736l9.706-36.65h8.222l9.653 36.65h-6.896l-1.91-8.593zm-1.114-5.092l-3.979-17.82-3.925 17.82h7.904zM57.919 52.523H51.13v-36.65h6.789v36.65zm-10.82-25.035c0 8.328-5.198 12.146-13.366 12.146h-2.599v12.89h-6.789v-36.65h8.911c8.963-.001 13.843 3.924 13.843 11.614zm-7.002.054c0-4.668-2.122-6.684-6.683-6.684h-2.281v13.736h2.228c4.455.002 6.736-1.696 6.736-7.052z" fill="#1E4C81"/></svg></span>
+</a>
+</h1>
+<div>
+<form method="get" action="/en/search.htm">
+<button type="button" class="show-hide" data-target="#header__search">
+<i class="icon icon_search show-hide__off"></i>
+<i class="icon icon_close show-hide__on"></i>
+<span class="sr-only">See the Search</span>
+</button>
+<div class="show-hide-target" id="header__search">
+<label for="header__search-input" class="sr-only">Search</label>
+<input type="search" id="header__search-input" placeholder="Search" name="q">
+<button type="submit" class="link-button link-button--small link-button--white">OK</button>
+</div>
+</form>
+<form>
+<label for="header__lang" class="sr-only"></label>
+<span class="select-container">
+<select id="header__lang" class="_langchoice">
+<option value="/en/" selected>English</option><option value="/fr/login.htm">Français</option><option value="/es/usuario.htm">Español</option><option value="/en/Other-Languages.htm">Other Languages</option></select>
+</span>
+</form>
+<ul class="show-hide-target show-hide-tabs" id="header__nav">
+<li>
+<button type="button" class="show-hide show-hide-autoclose" data-parent='#header__nav'>Discovering PIARC</button>
+<div class="show-hide-target">
+<ul>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Who-are-we">Who we are</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/strategic-plan">Strategic Plan</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation">Organisation</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Council">Council</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Executive-Committee">Executive Committee</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Commissions">Commissions</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Commissions/Commission-Strategic-Plan">Strategic Plan</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Commissions/Commission-Finance">Finance</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Commissions/Commission-Communication">Communication</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/Commissions/Promotion-Gender-Inclusion-and-Diversity">Promotion of gender inclusion and diversity</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/organisation/reference-documents">Corporate documents</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/General-Secretariat">General Secretariat</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/members">All members</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/members/Governements-Members">Governements and Regional authorities</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/members/Directory-Members">Directory of members</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/members/Honorary-Members-PIARC">Honorary members</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/membership">Become a member of PIARC </a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/benefits">Benefits of the Association</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/benefits/membership_benefits">Membership benefits</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/become-member">How to become a member?</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/become-member/membership-form">Application form</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees">Technical Committees</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration">Strategic Theme 1 - Road Administration</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration/Technical-Committee-Performance-Transport-Administrations">TC 1.1 Performance of Transport Administrations</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration/Technical-Committee-Contribution-Roads-Economic-Social-Development">TC 1.2 Contribution of Roads to Economic and Social Development</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration/Technical-Committee-Finance-Procurement">TC 1.3 Finance and Procurement</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration/Technical-Committee-Planning-Resilience-Road-Networks-Climate-Change-Hazards">TC 1.4 Planning the Resilience of Road Networks - Climate Change and other Hazards</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Administration/Technical-Committee-Disaster-Management">TC 1.5 Disaster Management</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility">Strategic Theme 2 - Mobility</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility/Technical-Committee-Roads-Accessibility-Mobility-Urban-Periurban-Areas">TC 2.1 Roads for Accessibility and Mobility in Urban and Periurban Areas</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility/Technical-Committee-Roads-Equity-Accessibility-Mobility-Rural-Interurban-Areas">TC 2.2 Roads for Equity, Accessibility and Mobility in Rural and Interurban Areas</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility/Technical-Committee-Sustainable-Road-Freight-Transport">TC 2.3 Sustainable Freight</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility/Technical-Committee-Road-Network-Operations-Intelligent-Transportation-Systems-Sustainability">TC 2.4 Road Network Operations and ITS for Sustainability</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Mobility/Technical-Committee-Road-Infrastructure-Connected-Automated-Mobility">TC 2.5 Road infrastructure for Connected and Automated Mobility</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability">Strategic Theme 3 - Safety and Sustainability</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability/Technical-Committee-Road-Safety">TC 3.1 Road Safety</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability/Technical-Committee-Winter-Service">TC 3.2 Winter Service</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability/Technical-Committee-Road-Asset-Management">TC 3.3 Asset Management</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability/Technical-Committee-Environmental-Sustainability-Road-Infrastructure-Transport">TC 3.4 Environmental Sustainability of Road Infrastructure and Transport</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Road-Safety-Sustainability/Technical-Committee-Road-Infrastructure-Road-Transport-Decarbonization">TC 3.5 Road infrastructure for road transport decarbonization</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure">Strategic Theme 4 - Resilient Infrastructure</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Road-Pavements">TC 4.1 Pavements</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Road-Bridges">TC 4.2 Bridges</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Roads-Earthworks">TC 4.3 Earthworks</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Road-Tunnels">TC 4.4 Tunnels</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Decarbonization-Road-Construction-Road-Maintenance">TC 4.5 Decarbonization of Road Construction and Road Maintenance</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Strategic-Theme-Resilient-Road-Infrastructure/Technical-Committee-Road-Design-Standards">TC 4.6 Road Design Standards</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Technical-Committee-Terminology-Lexicon-Dictionaries">Committee on Terminology</a>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Technical-Committees/Road-Statistics-Committee">Road Statistics Committee</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-National-Committees">National Committees</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-National-Committees/National-Committees-Objectives">Objectives, role, functions</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/International-Relations">Collaborate with PIARC</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-Association-Roads-and-Road-Transportation/International-Relations/ITA">Cooperation with ITA</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<button type="button" class="show-hide show-hide-autoclose" data-parent='#header__nav'>Work topics</button>
+<div class="show-hide-target">
+<ul>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration">Road Administration</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Economic-Studies">Economic Studies</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Economic-Studies/Technical-Reports-Economic-Studies">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Economic-Studies/Articles-Routes-Roads-Economic-Studies">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Economic-Studies/International-Seminars-Economic-Studies">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Environment">Environment</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Environment/Technical-Reports-Environment-Sustainability">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Environment/Articles-Routes-Roads-Environment-Sustainability">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Environment/International-Seminars-Environment-Sustainability">International Seminars</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Environment/Act-on-Road-Traffic-Noise">Road Traffic Noise</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Financing-Road-System">Financing of Road System</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Financing-Road-System/Technical-Reports-Financing-Road-System">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Financing-Road-System/Articles-Routes-Roads-Financing-Road-System">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Financing-Road-System/International-Seminars-Financing-Road-System">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Governance-Road-Authorities">Governance of Road Authorities</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Governance-Road-Authorities/Technical-Reports-Governance-Road-Authorities">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Governance-Road-Authorities/Articles-Routes-Roads-Governance-Road-Authorities">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Governance-Road-Authorities/International-Seminars-Governance-Road-Authorities">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Planning">Planning</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Planning/Technical-Reports-Planning">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Planning/Articles-Routes-Roads-Planning">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Planning/International-Seminars-Planning">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Project-Management">Project Management</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Project-Management/Technical-Reports-Project-Management">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Project-Management/Articles-Routes-Roads-Project-Management">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Project-Management/International-Seminars-Project-Management">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Risk-Management">Risk Management</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Risk-Management/Disaster-Management-Manual">Disaster Management Manual</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Risk-Management/Technical-Reports-Risk-Management">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Risk-Management/Articles-Routes-Roads-Risk-Management">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Risk-Management/International-Seminars-Risk-Management">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Road-Policies">Road Policies</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Road-Policies/Technical-Reports-Road-Policies">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Road-Policies/Articles-Routes-Roads-Road-Policies">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration/Road-Policies/International-Seminars-Road-Policies">International Seminars</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility">Mobility</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Design-Inter-Urban-Roads">Design of inter-urban roads</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Design-Inter-Urban-Roads/Technical-Reports-design-inter-urban-roads">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Design-Inter-Urban-Roads/Articles-Routes-Roads-design-inter-urban-roads">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Design-Inter-Urban-Roads/International-Seminars-design-inter-urban-roads">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Freight-Transport">Freight Transport</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Freight-Transport/Technical-Reports-Freight-Transport">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Freight-Transport/Articles-Routes-Roads-Freight-Transport">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Freight-Transport/International-Seminars-Freight-Transport">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Road-Network-Operations">Road Network Operations</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Road-Network-Operations/Road-Network-Operations-Intelligent-Transport-Systems-Manual">RNO/ITS Manual</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Road-Network-Operations/Technical-Reports-Road-Network-Operations">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Road-Network-Operations/Articles-Routes-Roads-Road-Network-Operations">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Road-Network-Operations/International-Seminars-Road-Network-Operations">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Urban-Mobility">Urban Mobility</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Urban-Mobility/Technical-Reports-Urban-Mobility">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Urban-Mobility/Articles-Routes-Roads-Urban-Mobility">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Mobility/Urban-Mobility/International-Seminars-Urban-Mobility">International Seminars</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability">Safety and Sustainability</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management">Road Assets Management</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management/Road-Asset-Management-Manual">Road&nbsp;Asset Management&nbsp;Manual</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management/Technical-Reports-Road-Assets-Management">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management/Articles-Routes-Roads-Road-Assets-Management">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management/International-Seminars-Road-Assets-Management">International Seminars</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Assets-Management/HDM-4-Software">HDM-4 Software</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety">Road Safety</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/safety-manual">Road Safety Manual</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/Technical-Reports-Road-Safety">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/Articles-Routes-Roads-Road-Safety">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/International-Seminars-Road-Safety">International Seminars</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/links">Links</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Road-Safety/un-decade">UN decade of action</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Winter-Service">Winter Service</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Winter-Service/Technical-Reports-Winter-Service">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Winter-Service/Articles-Routes-Roads-Winter-Service">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Safety-Sustainability/Winter-Service/International-Seminars-Winter-Service">International Seminars</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure">Resilient Infrastructure</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Earthworks">Earthworks</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Earthworks/Technical-Reports-Road-Earthworks">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Earthworks/Articles-Routes-Roads-Road-Earthworks">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Earthworks/International-Seminars-Road-Earthworks">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Bridges">Road Bridges</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Bridges/Technical-Reports-Road-Bridges">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Bridges/Articles-Routes-Roads-Road-Bridges">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Bridges/International-Seminars-Road-Bridges">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Pavements">Road Pavements</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Pavements/Technical-Reports-Road-Pavements">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Pavements/Articles-Routes-Roads-Road-Pavements">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Pavements/International-Seminars-Road-Pavements">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Rural-Roads">Rural Roads</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Rural-Roads/Technical-Reports-Rural-Roads">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Rural-Roads/Articles-Routes-Roads-Rural-Roads">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Rural-Roads/International-Seminars-Rural-Roads">International Seminars</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations">Road Tunnel Operations</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations/tunnels-manual">Road Tunnels Manual</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations/qram_software">DG-QRAM Software</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations/Technical-Reports-Road-Tunnels">Technical Reports</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations/Articles-Routes-Roads-Road-Tunnels">Articles Routes / Roads</a>
+</li>
+<li>
+<a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Resilient-Road-Infrastructure/Road-Tunnels-Operations/seminars-tunnels">International Seminars</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<button type="button" class="show-hide show-hide-autoclose" data-parent='#header__nav'>Our activities</button>
+<div class="show-hide-target">
+<ul>
+<li>
+<ul>
+<li>
+<a href="/en/activities/Search-Publications-PIARC">Our Publications</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-Directory-Technical-Reports">Directory of Technical reports</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/activities/PIARC-Directory-Technical-Reports/PIARC-Technical-Reports-2024-2027">Technical reports 2024 - 2027</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-Directory-Technical-Reports/PIARC-Technical-Reports-2020-2023">Technical reports 2020 - 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-Directory-Technical-Reports/PIARC-Technical-Reports-Cycle-2016-2019">Technical reports 2016 - 2019</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-Directory-Technical-Reports/PIARC-technical-reports-cycle-2012-2015">Technical reports 2012 - 2015</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/Routes-Roads-Magazine">Routes/Roads Magazine</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/activities/Road-Dictionary-Terminology-Road-Transport">Road Dictionary</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/activities/Road-Dictionary-Terminology-Road-Transport/Dictionary-Terminology-Translation-Definition-Term-Search">Term search</a>
+</li>
+<li>
+<a href="/en/activities/Road-Dictionary-Terminology-Road-Transport/Dictionary-Terminology-Translation-Definition-Theme-Search">Search per theme</a>
+</li>
+<li>
+<a href="/en/activities/Road-Dictionary-Terminology-Road-Transport/Dictionary-Terminology-Help">Help</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/online-manuals">Online manuals</a>
+</li>
+<li>
+<a href="/en/activities/Software-and-Tools">Software and Tools</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/activities/World-Road-Congresses-World-Road-Association">World Road Congresses</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/World-Road-Congresses-World-Road-Association/XXVIII-World-Road-Congress-Vancouver-2027">Vancouver 2027</a>
+</li>
+<li>
+<a href="/en/activities/World-Road-Congresses-World-Road-Association/XXVII-World-Road-Congress-Prague-2023">Prague 2023</a>
+</li>
+<li>
+<a href="/en/activities/World-Road-Congresses-World-Road-Association/Congress-Proceedings">World Road Congresses Proceedings</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/activities/World-Road-Congresses-World-Road-Association/Congress-Proceedings/Search-Proceedings-Congresses">Search in World Road Congresses Proceedings</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/World-Congresses-on-Road-Winter-Service-Resilience-and-Decarbonization">World Congresses on Road Winter Service, Resilience and Decarbonization</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/World-Congresses-on-Road-Winter-Service-Resilience-and-Decarbonization/17-World-Congress-on-Road-Winter-Service-Resilience-and-Decarbonization-Chambery-2026">Chambéry 2026</a>
+</li>
+<li>
+<a href="/en/activities/World-Congresses-on-Road-Winter-Service-Resilience-and-Decarbonization/International-Winter-Road-Congress-Calgary-2022">Calgary 2022</a>
+</li>
+<li>
+<a href="/en/activities/World-Congresses-on-Road-Winter-Service-Resilience-and-Decarbonization/Proceedings-World-Winter-Road-Congresses">World Winter Congresses Proceedings</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/activities/World-Congresses-on-Road-Winter-Service-Resilience-and-Decarbonization/Proceedings-World-Winter-Road-Congresses/Search-Proceedings-World-Winter-Congresses">Search in World Winter Congresses Proceedings</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings">International Seminars</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2025-PIARC-World-Road-Association">Seminars 2025</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2025-PIARC-World-Road-Association/International-Seminar-Road-Winter-Service-Practices-Innovation-Extreme-Weather-Conditions-Astana-Kazakhstan-April-2025">Astana (Kazakhstan), 09-10 April 2025</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2024-PIARC-World-Road-Association">Seminars 2024</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2024-PIARC-World-Road-Association/International-Workshop-Sustainable-Rural-Interurban-Road-Network-Timisoara-Romania-October-2024">Timisoara (Romania), 24 October 2024</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2024-PIARC-World-Road-Association/Webinar-PIARC-Renewal-Rejuvenation-Aging-Infrastructure-October-2024">Webinar, 02 October 2024</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2024-PIARC-World-Road-Association/International-Workshop-Lifecycle-Interventions-Lift-Road-Tunnel-Sustainability-Sydney-Australia-September-2024">Sydney (Australia), 26 September 2024</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association">Seminars 2023</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/Webinar-PIARC-Road-Asset-Management-July-2023">Webinar, 13 July 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Sustainable-Road-Freight-Transport-for-economic-and-social-development-Arusha-Tanzania-June-2023">Arusha (Tanzania), 31 May - 02 June 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Road-Mobility-Projects-Urban-Regions-Impact-Environment-Buenos-Aires-Argentina-May-2023">Buenos Aires (Argentina), 15-17 May 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Workshop-Inspection-Management-Rehabilitation-Road-Bridges-Kobe-Japan-May-2023">Kobe (Japan), 11 May 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Resilient-Sustainable-Safe-Rural-Roads-Earth-Structures-For-Better-Future-Tunis-Tunisia-May-2023">Tunis (Tunisia), 03-05 May 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Performance-Based-Asset-Management-Land-Transport-Infrastructure-Services-Sustainable-Development-Dakar-Senegal-March-20">Dakar (Senegal), 07-09 March 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Pavement-Seminar-KLIPS-Kuala-Lumpur-March-2023">Kuala Lumpur (Malaysia), 07-09 March 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Sustainability-Disaster-Management-Roads-Cancun-Mexico-February-2023">Cancún (Mexico), 8-11 February 2023</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2023-PIARC-World-Road-Association/International-Seminar-Inovative-Road-Operation-Concepts-Safe-Sustainable-Mobility-Rabat-Morocco-May-2023">Rabat (Morocco), 11-13 May 2023</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association">Seminars 2022</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/Webinar-PIARC-Low-Lower-Middler-Income-Countries-Impact-Ecology-Climate-Transition-Project-Preparation-Financing-Capacity-Building-Technical-S">Webinar, 14 December 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Seminar-Sustainable-Mobility-Resilient-Cities-Peri-Urban-Regions-Tunis-Tunisia-November-2022">Tunis (Tunisia), 23-25 November 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Seminar-Climate-Change-Resilience-Disaster-Management-Roads-Yogyakarta-Indonesia-November-2022">Yogyakarta (Indonesia), 22-24 November 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Seminar-Building-Smart-Approaches-Freight-Road-Network-Operations-ITS-Technology-Buenos-Aires-Argentina-September-2022">Buenos Aires (Argentina), 26-28 September 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Workshop-Bridge-Inspection-Madrid-Spain-September-2022">Madrid (Spain), 28 September 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Seminar-Rural-Roads-Connectivity-Accesibility-Development-Paraguay-June-2022">Paraguay, 21-23 June 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Webinar-Gender-Inclusion-Transport-Sector-June-2022">Webinar, 07 June 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Webinar-Measures-to-Improve-Resilience-of-Road-Networks-April-2022">Webinar, 28 April 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Workshop-Implementing-Innovation-Critical-Step-Pologne-April-2022">Warsaw (Poland), 26 April 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Webinar-Intelligent-Access-Policies-for-Road-Freight-Transport-January-2022">Webinar, 27 January 2022</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2022-PIARC-World-Road-Association/International-Workshop-Road-Disaster-Management-Kyoto-Japan-June-2022">Kyoto (Japan), 30 June 2022</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association">Seminars 2021</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Winter-Service-on-Roads-and-Public-Places-Kiev-Ukraine-December-2021">Kiev (Ukraine), 13-15 December 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Climate-Change-Adaptation-Resilience-Roads-Kampala-Uganda-December-2021">Kampala (Uganda), 06-08 December 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Workshop-Innovation-Innovative-Organisation-Seville-Spain-November-2021">Seville (Spain), 23 November 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Webinar-Asset-Management-November-2021">Webinar, 18 November 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Workshop-Electric-Road-Systems-National-Policies-Strategies-November-2021">Virtual Workshop, 04 November 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Resilience-Innovation-Earthworks-Sochi-Russia-November-2021">Sochi (Russia), 02-04 November 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Workshop-Connected-Autonomous-Vehicles-Roads-Rome-Italy-Rome-Italy-October-2021">Rome (Italy), 27-28 October 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Environmental-Sustainability-Road-Transport-Cluj-Napoca-Romania-Cluj-Napoca-Romania-October-2021">Cluj-Napoca (Romania), 20-22 October 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Use-Recycled-Materials-Pavements-Buenos-Aires-Argentina-September-2021">Buenos Aires (Argentina), 20-22 September 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Workshop-Electric-Road-Systems-Business-Models-June-2021">Virtual Workshop, 22 June 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Webinar-Smart-Roads-Classification-June-2021">Webinar, 15 June 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Workshop-Virtual-Climate-Change-Impacts-and-Road-Resilience">Virtual Workshop, 02 and 04 June 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Road-Safety-Low-Middle-Income-Countries-Tunisia-May-2021">Tunis (Tunisia), 18-20 May 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Seminar-Issues-for-Sustainable-Roads-and-eco-Infrastructures-New-Challenges-Context-of-Energy-and-Climate-Lublin-Poland-May-2021">Lublin (Poland), 18-19 May 2021</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2021-World-Road-Association/International-Webinar-Electric-Road-Systems-February-2021">Webinar, 17 February 2021</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2019-World-Road-Association">Seminars 2019</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2019-World-Road-Association/International-Seminar-Roads-asset-Management-Mexico-August-2019">San Fandila (Mexico), 14-16 August 2019</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2019-World-Road-Association/International-workshop-disaster-management-resilience-road-infrastructure-USA-May-2019">Irvine (USA),&nbsp;09 May&nbsp;2019</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2019-World-Road-Association/International-seminar-Safer-road-by-Infrastructure-design-and-operation-Malaysia-April-2019">Kuala Lumpur (Malaysia), 23-25 April 2019</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association">Seminars 2018</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Best-Practices-for-Earthworks-and-Rural-Roads-Tunisia-November-2018">Tunis (Tunisia), 14-16 November 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Disaster-Risk-Management-for-Roads">Hanoi&nbsp;(Vietnam), 07-08 November 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Integrated-Road-Transport-and-Mobility-Cape-Town-South-Africa-November-2018">Cape Town&nbsp;(South Africa), 05-07 November 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Strategic-Planning-Performance-Monitoring-Road-Transport-Administrations">Kyiv (Ukraine), 22-23 October 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Safer-Roads-that-Save-Lives-Beijing-China-October-2018">Beijing&nbsp;(China), 17-19&nbsp;October 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Resilience-Process-for-Disaster-Santiago-Chile-June-2018">Santiago de Chile&nbsp;(Chile), 15 June 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Performance-Transport-Administrations-Beijing-China-April-2018">Beijing&nbsp;(China), 25-26 April 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-bridges-Campeche-Mexico-April-2018">Campeche (Mexico), 19-21 April 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Road-Safety-Lisbon-Portugal-April-2018">Lisbon (Portugal), 19-20 April 2018</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2018-World-Road-Association/International-Seminar-Eathworks-Madrid-Spain-April-2018">Madrid (Spain), 19-20 April 2018</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association">Seminars 2017</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Seminar-Current-Policies-to-Enhance-Traffic-Safety-and-Future-Directions-Tehran-Iran-November-2017">Tehran&nbsp;(Iran), 25-27 November 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Seminar-Climate-Change-Adaptation-Risk-and-Disaster-Management-for-Roads-And-Road-Organizations-November-2017">Havana (Cuba), 08-10 November 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Seminar-Road-Tunnels-Low-Medium-Income-Countries-Cape-Town-2017">Cape Town (South Africa), 18-20 October 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Workshop-Disaster-Management-for-Roads-Tokyo-Japan-May-2017">Tokyo (Japan), 31&nbsp;May 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Seminar-Road-Safety-for-Connectivity-and-Productivity-Santiago-Chile-2017">Santiago de Chile&nbsp;(Chile), 03-05&nbsp;May 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Workshop-Reinforcement-Concrete-Bridges-Composite-Materials-Madrid-Spain-April-2017">Madrid (Spain), 06 April 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Workshop-Current-Practice-Development-Prospective-Marrakech-Morocco-April-2017">Marrakech (Morocco), 06 April 2017</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2017-World-Road-Association/International-Seminar-Logistics-and-Roads-Mexico-City-Mexico-March-2017">Mexico City (Mexico), 27-28 March 2017</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association">Seminars 2015</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association/International-Seminar-Maintenance-Bridges-Bucharest-Romania-2015">Bucharest (Romania), 28-30 mai 2015</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association/International-Seminar-Problem-Freight-Transport-Road-Africa-Yaounde-Cameroon">Yaoundé&nbsp;(Cameroon), 14-15 May 2015</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association/International-Seminar-Binational-Mountainous-Road-Tunnel-Operations-San-Juan-Argentina">San Juan (Argentina), 15-17 April 2015</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association/International-Workshop-Risk-Management-Traffic-Road-Operations-Adelaide-Australia">Adelaide (Australia), 12&nbsp;March 2015</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2015-World-Road-Association/International-Workshop-Mobiles-Road-Surface-Condition-Measurements-Winter-Helsinki-Finland-2015">Helsinki (Finland), 11 March&nbsp;2015</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association">Seminars 2014</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Disaster-Prevention-Mitigation-Technologies-Inputs-ITS-Network-Operations-XiAn-China-2014">Xi'an (China), 12-13 November 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Strategies-and-Methods-to-Ensure-Long-Service-Life-of-Pavements-Quito-Ecuador-2014">Quito&nbsp;(Ecuador), 10-12&nbsp;November 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Slopes-Road-Foundation-Drainage-Stormwater-Management-Kuala-Lumpur-Malaysia-2014">Kuala Lumpur (Malaysia), 09-13 November 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Mobility-Urban-Areas-Makassar-Indonesia-2014">Makassar (Indonesia), 05-06 November 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Road-Bridges-Shanghai-China-2014">Shanghai&nbsp;(China), 23-25&nbsp;October 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Highway-Roads-Finan-Santiago-Chile-2014">Santiago (Chile), 09-10&nbsp;July 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Earthworks-Unpaved-Roads-Arid-Zones-Rabat-Morocco-2014">Rabat (Morocco), 09-10&nbsp;June 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Workshop-Road-Risk-Management-Milan-Italy-2014">Milan (Italy), 28 May 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Road-Sustainability-Green-Technology-Bali-Indonesia-2014">Bali&nbsp;(Indonesia),&nbsp;22-24 April 2014</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2014-World-Road-Association/International-Seminar-Road-Infrastructure-Management-Cancun-Mexico-2014">Cancun (Mexico), 31&nbsp;March - 02&nbsp;April 2014</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association">Seminars 2013</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Rural-Roads-Maintenance-Durban-South-Africa-2013">Durban (South Africa), 27-29 November 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/Seminaire-International-Road-Safety-Policies-Programs-Buenos-Aires-Argentina-2013">Buenos Aires (Argentina), 11-12 November 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-PPP-Projects-in-Road-Sector-New-Delhi-India-2013">New Delhi (India), 11-12 November 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Mobilite-Urbaine-Exploitation-Reseaux-Routiers-Buenos-Aires-Argentina-2013">Buenos Aires (Argentina), 06-07 November 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Freight-Transport-Montevideo-Uruguay-2013">Montevideo&nbsp;(Uruguay), 28-30 October 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Sustainable-Road-Tunnel-Operations-Da-Nang-Vietnam-2013">Da Nang (Vietnam), 23-25 October 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Risk-Management-for-Highway-Infrastructure-Merida-Mexico-2013">Merida (Mexico), 09-11 October 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Building-Road-Safety-Capacity-World-Road-Association-Warsaw-Poland-2013">Warsaw (Poland), 02-04&nbsp;October 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Performance-Governance-of-Road-Transport-Administrations-Arusha-Tanzania-2013">Arusha (Tanzania), 24-26 September 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Seminar-Winter-Road-High-Mountain-Extreme-Zones-Santiago-Chile-2013">Santiago de Chile (Chile), 04-07 June 2013</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2013-World-Road-Association/International-Workshop-Risk-Management-For-Roads-Osaka-Japan-2013">Osaka (Japan), 29-30&nbsp;May 2013</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2012-World-Road-Association">Seminars 2012</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2012-World-Road-Association/International-Seminar-Rural-Roads-San-Salvador-2012">San Salvador (El Salvador), 28-30 November 2012</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2012-World-Road-Association/International-Seminar-Long-Tunnels-Santiago-Chile-2012">Santiago du Chile (Chile), 17-19 October 2012</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011">Seminars 2011</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/International-Seminar-Concrete-Pavement-Buenos-Aires-Argentina-2011">Buenos-Aires (Argentina), 09-10 May 2011</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/International-Seminar-Roads-Highways-Customer-Services-PIARC-Kuala-Lumpur-Malaysia-2011">Kuala-Lumpur (Malaysia), 25-27 April 2011</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/International-Seminar-Mobility-Urban-Areas-Freight-Intermodality-PIARC-Santiago-Chile-2011">Santiago de Chile (Chile), 13-14 April 2011</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/PIARC-Winter-Service-International-Seminar-Ulaanbaator-Mongolia-2011">Ulaanbaator city (Mongolia), 06-08 April 2011</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/PIARC-Rural-Roads-Systems-international-seminar-santa-cruz-sierra-bolivia-2011">Santa Cruz de la Sierra&nbsp;(Bolivia), 10-12&nbsp;March 2011</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2011/PIARC-Footprint-Carbone-Roads-Seminar-International-New-Dehli-India-2011">New Delhi (India), 17-19 February 2011</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2010">Seminars 2010</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2010/International-Seminar-Risk-and-Emergency-Management-for-Roads-PIARC-Beijing-China-2010">Beijing (China), 11-13 November 2010</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2010/paris_January10">Paris (France), 26 January 2010</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2010/hyderabad_January10">Hyderabad (India), 21-23 January 2010</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009">Seminars 2009</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/bamako_December09">Bamako (Mali), 8-10 December 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/iasi_November09">Iasi (Romania), 05-07 November 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/cotonou_October09">Cotonou (Benin), 29-30 October 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/capetown_October09">Capetown (South Africa), 25-27 October 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/osaka_October09">Osaka (Japan), 13-14 October 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/hradeckralove_October09">Hradec Králové (Czech Rep.), 07-09 October 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/timisoara_September09">Timisoara (Romania), 16-18 September 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/cancun_August09">Cancún (Mexico), 25-26 August 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/tokyo_July09">Tokyo, Japan, 10 July 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/budapest_May09">Budapest (Hungary), 06-07 May 2009</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2009/rabat_April09">Rabat (Morocco), 14 April 2009</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2008">Seminars 2008</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2008/ouagadougou-December08">Ouagadougou, Burkina Faso, 02-03 December 2008</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2008/chandigarh-march08">Chandigarh, India, 19-21 March 2008</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007">Seminars 2007</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/iasi_june07">Iasi (Romania), 31 May-02 June 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/cartagena_mai07">Cartagena (Colombia), 03-04 May 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/lahabana_april07">La Habana (Cuba), 18-20 April 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/arusha_April07">Arusha (Tanzania), 16-20 April 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/santiago_April07">Santiago (Chile), 11-13 April 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/cotonou_March07">Cotonou (Benin), 21-23 March 2007</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2007/paris_February07">Paris (France), 01 February 2007</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006">Seminars 2006</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/chongqing_October06">Chongqing (P.R. of China), 18-20 October 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/lome_October06">Lome (Togo), 11-13 October 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/mongolia_september06">Ulaanbatar (Mongolia), 06-08 September 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/kualalumpur_August06">Kuala Lumpur (Malaysia), 14-16 August 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/quebec_august06">Quebec (Canada-Quebec), 13 August 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/monterrey_May06">Monterrey (Mexico), 08-12 May 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/hanoi_April06">Hanoi (Vietnam), 26-28 April 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/International-Seminar-Maintenance-Rural-Roads-Rabat-Morocco-2006">Rabat (Morocco), 20-21 April 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/sanjuan_March06">San Juan (Argentina), 29-31 March 2006</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2006/bamako_February06">Bamako (Mali), 21-24 February 2006</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005">Seminars 2005</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/7468">Siem Reap (Cambodia), 28-30 November 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/warsaw_October05">Warsaw (Poland), 20-22 October 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/beijing_October05">Beijing (People's Republic of China), 18-20 October 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/riga_September05">Riga (Latvia), 22 September 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/cracow_September05">Cracow (Poland), 21-22 September 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/ouagadougou_June05">Ouagadougou (Burkina Faso), 13-15 June 2005</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2005/cancun_April05">Cancún (Mexico), 11-13 April 2005</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002">Seminars 2001-2002</a>
+<button type="button" class="show-hide ">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target ">
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002/warsaw_October02">Warsaw (Poland), 10-11 October 2002</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002/ulanbaator_June02">Ulann Baator (Mongolia), 18-21 June 2002</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002/International-Seminar-Road-Bridges-PIARC-Bangkok-Thailand-2002">Bangkok (Thailand), 12-13 June 2002</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002/siemreap_may02">Siem Reap (Cambodia), 15-16 May 2002</a>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/PIARC-International-Seminars-2001-2002/coolum_November01">Coolum (Australia), 01 November 2001</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/PIARC-International-Seminars-Proceedings/International-Seminars-2024-PIARC-World-Road-Association">Seminars 2024</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/en/activities/international-conferences">International conferences</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<button type="button" class="show-hide show-hide-autoclose" data-parent='#header__nav'>News & Agenda</button>
+<div class="show-hide-target">
+<ul>
+<li>
+<ul>
+<li>
+<a href="/en/News-Agenda-PIARC/News">PIARC News</a>
+</li>
+<li>
+<a href="/en/News-Agenda-PIARC/Coronavirus-PIARC-and-Covid-19">PIARC and COVID-19</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/News-Agenda-PIARC/Calendar-Events">Road agenda</a>
+<button type="button" class="show-hide active default-active">
+<span class="show-hide__off">+</span>
+<span class="show-hide__on">-</span>
+<span class="sr-only">More</span>
+</button>
+<ul class="show-hide-target active default-active">
+<li>
+<a href="/en/News-Agenda-PIARC/Calendar-Events/Seminars-Meetings-PIARC">Seminars and meetings of PIARC</a>
+</li>
+<li>
+<a href="/en/News-Agenda-PIARC/Calendar-Events/Calendar-Events-National-Committees">Events National Committees</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/News-Agenda-PIARC/Newsletters">Newsletters</a>
+</li>
+<li>
+<a href="/en/News-Agenda-PIARC/RSS-Feeds">RSS Feeds</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<button type="button" class="show-hide show-hide-autoclose" data-parent='#header__nav'>Why PIARC?</button>
+<div class="show-hide-target">
+<ul>
+<li>
+<ul>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Decision-Makers-Road-Administration">Decision-makers</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Consultants-Support-Decisions"> Consultants</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Technical-Committee-Members">Technical Committee members</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/National-Committees-Road-Expertise">National committees</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Government-Road-Specialists">Government road specialists</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Young-Professionals-on-the-Road">Young professionals</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Road-Sector-Stakeholders">Road sector stakeholders</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Private-Sector-of-the-Road">Private sector</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Academics-Innovation-Road">Academics</a>
+</li>
+<li>
+<a href="/en/Why-PIARC-World-Road-Association/Students-of-the-Road">Students</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</li><li class="header__lang mobile-only">
+<form>
+<label for="header__lang--mobile">Langages</label>
+<span class="select-container">
+<select id="header__lang--mobile" class="_langchoice">
+<option value="/en/" selected>English</option><option value="/fr/login.htm">Français</option><option value="/es/usuario.htm">Español</option><option value="/en/Other-Languages.htm">Other Languages</option></select>
+</span>
+</form>
+</li>
+<li class="header__basket mobile-only">
+<a href='/en/shop.basket.htm' id='tobasket' class="basket basket-empty"
+data-none="<span>Your basket</span>"
+data-one="(%nb%) <span>Item</span>"
+data-many="(%nb%) <span>Items</span>"
+><span>Your basket</span></a>
+</li>
+<li class="header__social mobile-only">
+<p>Follow PIARC</p>
+<ul>
+<li>
+<a target='_blank' href="https://www.linkedin.com/company/world-road-association---piarc">
+<i class="icon icon_linkedin"></i>
+<span class="sr-only">LinkedIn</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://twitter.com/PIARC_Roads">
+<i class="icon icon_twitter"></i>
+<span class="sr-only">X</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.instagram.com/piarc_roads/">
+<i class="icon icon_instagram"></i>
+<span class="sr-only">Instagram</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.facebook.com/people/PIARC/61569353530753/">
+<i class="icon icon_facebook"></i>
+<span class="sr-only">Facebook</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.flickr.com/photos/piarc/albums">
+<i class="icon icon_flickr"></i>
+<span class="sr-only">Flickr</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.youtube.com/channel/UC9C46WeQ0JClyqG99evzLuQ">
+<i class="icon icon_youtube"></i>
+<span class="sr-only">Youtube</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<ul>
+<li>
+<a class='link-picto'  href="/en/PIARC-Association-Roads-and-Road-Transportation/membership" title="Join PIARC"><i class="icon icon_round-join"></i><span>Join us!</span></a>
+</li>
+<li>
+<button type="button" class="link-picto show-hide" data-target="#header__login">
+    <i class="icon icon_round-account show-hide__off"></i>
+    <i class="icon icon_round-close show-hide__on"></i>
+    <span>Identification</span>
+</button>
+<div class="show-hide-target" id="header__login">
+            <span class="warning"><p>
+You
+cannot identify yourself because you have not chosen to accept cookies for the
+operations of the site. <a descriptor="u:en:cookies.management" href="/en/cookies.htm">You can change your settings.</a></p></span>
+        <style type="text/css">#header__login .warning a {color: #fff; text-decoration:underline;}</style>
+    </div></li>
+<li class="mobile-only">
+<button type="button" class="link-picto show-hide" data-target="#header__nav">
+<i class="icon icon_hamburger show-hide__off"></i>
+<i class="icon icon_close show-hide__on"></i>
+<span>Menu</span>
+</button>
+</li>
+</ul>
+<div class="header__basket no-mobile">
+<a href='/en/shop.basket.htm' id='tobasket' class="basket basket-empty"
+data-none="<span>Your basket</span>"
+data-one="(%nb%) <span>Item</span>"
+data-many="(%nb%) <span>Items</span>"
+><span>Your basket</span></a>
+</div>
+<div class="header__social no-mobile">
+<p>Follow PIARC</p>
+<ul>
+<li>
+<a target='_blank' href="https://www.linkedin.com/company/world-road-association---piarc">
+<i class="icon icon_linkedin"></i>
+<span class="sr-only">LinkedIn</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://twitter.com/PIARC_Roads">
+<i class="icon icon_twitter"></i>
+<span class="sr-only">X</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.instagram.com/piarc_roads/">
+<i class="icon icon_instagram"></i>
+<span class="sr-only">Instagram</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.facebook.com/people/PIARC/61569353530753/">
+<i class="icon icon_facebook"></i>
+<span class="sr-only">Facebook</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.flickr.com/photos/piarc/albums">
+<i class="icon icon_flickr"></i>
+<span class="sr-only">Flickr</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.youtube.com/channel/UC9C46WeQ0JClyqG99evzLuQ">
+<i class="icon icon_youtube"></i>
+<span class="sr-only">Youtube</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</header><section class="content">
+<ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+
+									<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<span itemprop='name'>Home</span>
+				<meta itemprop='position' content='1' />
+			</li>
+			
+
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><strong>
+			<span itemprop='name'>Identification</span>
+			<meta itemprop='position' content='2' />
+		</strong></li>
+	
+</ol>
+<article class="article--wide">
+<div class="article__intro">
+<h1 class="title--1">Identification</h1>
+</div>
+<div class="article__core">
+<main>
+<div class="article__chapo">
+<p>The publications and reports of the Association are available free of charge for registered visitors and for the members of the Association.</p>
+</div>
+<h2 class="title--2 decorated" id='ce033b84p6'>You have a log-in and a password:</h2>
+<div class='message message-2'><p>
+You
+cannot identify yourself because you have not chosen to accept cookies for the
+operations of the site. <a descriptor="u:en:cookies.management" href="/en/cookies.htm">You can change your settings.</a></p></div><hr class="separator">
+<ul class='nps_list-links'>
+<li><a href="/en/lost-password.htm" ><strong>Forgot your password?</strong></a></li></ul>
+<hr class="separator">
+<h2 class="title--2 decorated" id='cc1ddb19z7'>You wish to become a member of the Association:</h2>
+<ul class='nps_list-links'>
+<li><a title="Become a member of the Association!" href="/en/PIARC-Association-Roads-and-Road-Transportation/membership" ><strong>http://www.piarc.org/en/membership/</strong></a></li></ul>
+<p><strong>Join the World Road Association and share your experiences and expertise with your peers around the world.</strong><br />Members also benefit from a range of quality services and resources, reduced prices, etc.</p>
+<hr class="separator">
+<h2 class="title--2 decorated" id='cc1ef8NcO6'>You wish to register as a visitor only:</h2>
+<ul class='nps_list-links'>
+<li><a title="Create a Visitor Account!" href="/en/users.newaccount.htm?back=%2Fressources%2Fpublications%2F12%2F8a46f2b-32318-2019R39ES-La-Aplicacion-de-Politicas-Nacionales-sobre-el-Sistema-Seguro-Un-Reto.pdf" ><strong>http://www.piarc.org/en/users.newaccount.htm</strong></a></li></ul>
+<p>This account is entirely free of charge and without any commitment. Your data will not be communicated to third parties or used for commercial purposes. You will be able to download immediately technical reports and other materials.</p>
+</main>
+</div>
+</article>
+</section>
+<footer>
+<div class="footer__newsletter">
+<img src="/68b076da/static/img/generic/bg_generic--full.jpg" alt="">
+<form class="content" method='post' action='/en/log-in.htm'>
+<div>
+<h2 class="footer__title">Let's keep in touch!</h2>
+<label for="footer__email">Register now to PIARC Newsletter</label>
+</div>
+<div>
+<input type="email" id="footer__email" name="email" placeholder="your e-mail">
+<div><i class="icon icon_email"></i></div>
+</div>
+<div>
+<input type="hidden" name="to" value="newsletters" />
+<button type="submit" class="link-button link-button--big link-button--white">I subscribe</button>
+<a href="/en/News-Agenda-PIARC/Newsletters" class="link-arrow"><span>See archives</span></a>
+</div>
+</form>
+</div>
+<div class="footer__sitemap">
+<div class="content">
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="177.394" height="110.806" viewBox="0 0 177.394 110.806"><path d="M164.739 18.896l-3.288 3.925c-1.856-1.645-3.66-2.546-5.781-2.546-4.243 0-7.373 3.395-7.373 13.844 0 10.184 3.023 13.79 7.426 13.79 2.599 0 4.402-1.326 6.152-2.812l3.183 3.819c-2.016 2.28-5.356 4.402-9.653 4.402-8.38 0-14.161-6.206-14.161-19.2 0-12.836 6.047-19.042 14.108-19.042 3.977.001 6.736 1.434 9.387 3.82zm-38.93 18.83h-3.501v14.798h-6.789v-36.65h9.176c9.176 0 13.473 3.819 13.473 10.768 0 4.826-1.963 7.796-6.312 9.706l8.221 16.177h-7.372l-6.896-14.799zm-.796-4.88c4.243 0 6.152-1.909 6.152-6.205 0-3.979-1.855-5.835-6.523-5.835h-2.334v12.04h2.705zm-22.649 11.085H92.233l-1.909 8.593h-6.736l9.706-36.65h8.222l9.653 36.65h-6.896l-1.909-8.593zm-1.113-5.092l-3.979-17.821-3.925 17.821h7.904zM78.92 52.523h-6.789v-36.65h6.789v36.65zM68.099 27.488c0 8.328-5.198 12.146-13.366 12.146h-2.599v12.889h-6.789v-36.65h8.911c8.963 0 13.843 3.925 13.843 11.615zm-7.001.054c0-4.668-2.122-6.684-6.683-6.684h-2.281v13.737h2.228c4.455.001 6.736-1.697 6.736-7.053z" fill="#FFF"/><g fill="#FFF"><path d="M177.326 80.738a20.971 20.971 0 0 1-1.255 4.275c-4.414 10.609-17.188 16.969-35.972 17.91-18.556.932-40.839-3.523-62.743-12.545-31.555-12.998-57.09-33.744-65.049-52.856-3.136-7.525-3.462-14.374-.974-20.356C14.4 9.795 21.568 4.519 31.736 1.645 16.802 3.882 5.858 10.026 1.741 19.926-7.87 43.024 23.274 77.783 71.303 97.564c48.027 19.781 94.75 17.092 104.36-6.004 1.408-3.385 1.93-7.021 1.663-10.822"/><path d="M170.186 57.26c6.324 9.824 8.419 19.408 5.085 27.425-8.847 21.258-52.533 23.451-97.582 4.895C32.64 71.025 3.29 38.754 12.134 17.494 18.301 2.674 41.404-2.879 70.1 1.405v.065C49.627-.268 33.657 4.82 28.577 16.043 20.09 34.794 45.216 64.332 84.699 82.021c39.48 17.689 78.364 16.83 86.852-1.92 2.987-6.604 2.897-14.549-1.613-22.84l.248-.001z"/></g></svg>
+<div>© PIARC - 2023</div>
+</div>
+<div>
+<address>
+<strong>
+<i class="icon icon_marker"></i>
+PIARC<span class="no-desktop"> - </span><br class="desktop-only inline">World Road Association
+</strong><br>
+La Grande Arche - Paroi Sud - 5<sup>e</sup>&nbsp;étage<br/>92055 La Défense CEDEX - FRANCE
+</address>
+<span><abbr>Tel:</abbr> : <a href="tel:+33 (1) 47 96 81 21">+33 (1) 47 96 81 21</a></span>
+</div>
+<div>
+<ul>
+<li>
+<a href='/en/Contact.htm'>Contact</a>
+</li>
+<li>
+<a href='/en/site-map.htm'>Site map</a>
+</li>
+<li>
+<a href='/en/legal.htm'>Legal information</a>
+</li>
+<li>
+<a href='/en/GDPR-Protection-personal-data.htm'>Personal data</a>
+</li>
+<li>
+<a href='/en/cookies.htm'>Cookies settings</a>
+</li>
+<li>
+<a href='/en/credits.htm'>Credits</a>
+</li>
+</ul>
+</div>
+<div>
+<ul>
+<li><a href="/en/PIARC-Association-Roads-and-Road-Transportation/PIARC-Who-are-we">Discovering PIARC</a></li>
+<li><a href="/en/PIARC-knowledge-base-Roads-and-Road-Transportation/Road-Administration">Work topics</a></li>
+<li><a href="/en/activities/Search-Publications-PIARC">Our activities</a></li>
+<li><a href="/en/News-Agenda-PIARC/News">News & Agenda</a></li>
+<li><a href="/en/Why-PIARC-World-Road-Association/Decision-Makers-Road-Administration">Why PIARC?</a></li>
+</ul>
+</div>
+<div>
+<p class="tablet-only">© PIARC - 2023</p>
+<p>Follow PIARC</p>
+<ul class="footer__social">
+<li>
+<a target='_blank' href="https://www.linkedin.com/company/world-road-association---piarc">
+<i class="icon icon_linkedin"></i>
+<span class="sr-only">LinkedIn</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://twitter.com/PIARC_Roads">
+<i class="icon icon_twitter"></i>
+<span class="sr-only">X</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.instagram.com/piarc_roads/">
+<i class="icon icon_instagram"></i>
+<span class="sr-only">Instagram</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.facebook.com/people/PIARC/61569353530753/">
+<i class="icon icon_facebook"></i>
+<span class="sr-only">Facebook</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.flickr.com/photos/piarc/albums">
+<i class="icon icon_flickr"></i>
+<span class="sr-only">Flickr</span>
+</a>
+</li>
+<li>
+<a target='_blank' href="https://www.youtube.com/channel/UC9C46WeQ0JClyqG99evzLuQ">
+<i class="icon icon_youtube"></i>
+<span class="sr-only">Youtube</span>
+</a>
+</li>
+<li>
+<a href="/en/News-Agenda-PIARC/RSS-Feeds">
+<i class="icon icon_rss"></i>
+<span class="sr-only">RSS</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a href="#site" class="link-back-to-top">
+<i class="icon icon_arrow-1-top"></i>
+<span class="sr-only">Top of page</span>
+</a>
+</footer><input type="hidden" id="prev-txt" value="">
+<input type="hidden" id="next-txt" value="">
+<script type="text/javascript">!function(){Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector),Element.prototype.closest||(Element.prototype.closest=function(t){var e=this;if(!document.documentElement.contains(e))return null;do{if(e.matches(t))return e;e=e.parentElement||e.parentNode}while(null!==e&&1==e.nodeType);return null});function t(){if(window.location.hash){var t=document.getElementById(window.location.hash.substr(1));if(!t)return;var e=t.closest(".article__tab");if(!e)return;var a={},o=document.querySelector("button[data-target='#"+e.id+"']");o&&([].slice.call(o.closest(".article__tabs").querySelectorAll("button")).forEach(function(t){t.classList.remove("active","default-active");var e=t.getAttribute("data-target").substr(1);a[e]=!0}),o.classList.add("active","default-active"));var r=document.querySelector("option[data-target='#"+e.id+"']");if(r)for(var n,c=r.closest("select"),l=0;n=c.options[l];l++){n===r&&(c.selectedIndex=l);var i=n.getAttribute("data-target").substr(1);a[i]=!0}for(var i in a){var s=document.getElementById(i);s&&s.classList.remove("active","default-active")}e.classList.add("active","default-active");var d=e.querySelector(".dscroller");d||((d=document.createElement("div")).style.position="absolute",d.style.top="-200px",e.insertBefore(d,e.firstChild)),d.scrollIntoView()}}window.addEventListener("hashchange",t),t(),[].slice.call(document.querySelectorAll(".article__tabs button")).forEach(function(t){t.getAttribute("data-target")&&t.addEventListener("click",function(){window.location.hash=t.getAttribute("data-target")})}),[].slice.call(document.querySelectorAll(".article__tabs-mobile select")).forEach(function(e){e.addEventListener("change",function(){var t=e.options[e.selectedIndex].getAttribute("data-target");t&&(window.location.hash=t)})})}();
+//# sourceMappingURL=inlined.min.js.map</script>
+<script type="text/javascript" src="/68b076da/static/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/68b076da/static/js/vendor/slick.min.js"></script>
+<script type="text/javascript" src="/68b076da/static/js/vendor/nouislider.min.js"></script>
+<script type="text/javascript" src="/68b076da/static/js/build.min.js"></script></body>
+</html>

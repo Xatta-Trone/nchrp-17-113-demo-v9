@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="msvalidate.01" content="44D41FB1AC5699252BC80EEF9FDD7F12" />
+<meta name="keywords" content="Automated Traffic Signal Performance Measures (ATSPMs), modernize traffic signal, Fact Sheet, Transportation Pooled Fund Study TPF-5(258) â€“ Traffic Signal Systems Operations and Management, Live Signal Performance Metrics Case Study Sites: Las Vegas, Seminole County, FL, Utah, Signal Performance Metrics â€“ Background and Technical Information, Purdue e-Pubs, AASHTO" /> <meta name="description" content="Federal Highway Administration (FHWA) Every Day Counts round four (EDC-4). Automated Traffic Signal Performance Measures (ATSPMs), Collaborative Hydraulics (CHANGE), Community Connections, Data-Driven Safety Analysis (DDSA), e-Construction and Partnering, Integrating National Environmental Policy Act (NEPA) and Permitting, Pavement Preservation, Road Weather Management, Safe Transportation for Every Pedestrian (STEP), Ultra-High Performance Concrete (UHPC) Connections for Prefabricated Bridge Elements, Using Data to Improve Traffic Incident Management (TIM)" />
+<title>EDC-4 Innovations  | Federal Highway Administration</title>
+<link href="/css/fhwa2/dropdown.css" rel="stylesheet" type="text/css" /> <!-- submenu dropdown -->
+<link href="/css/fhwa2/frame.css" media="screen" rel="stylesheet" type="text/css" /> <!-- general stylesheet -->
+<link href="/css/fhwa2/print.css" media="print" rel="stylesheet" type="text/css" /> <!-- print stylesheet -->
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/innovation/css/stylesheet2.css" media="screen"> 
+
+<!--[if lte IE 8]>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<![endif]-->
+<!--[if !(lte IE 8)]><!-->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<!--<![endif]-->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".buttons").click(function () {
+		$(this).toggleClass("collapsed");
+        var div= $("#"+this.value);
+              div.toggle();
+        });
+    });
+</script>
+
+<style>
+
+.buttonToggle2::before {
+    content: "\2212";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle2.collapsed::before {
+    content: "\2b";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle::before {
+    content: "\25BC";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle.collapsed::before {
+    content: "\25BA";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle3::before {
+    content: "\2228";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle3.collapsed::before {
+    content: "\003E";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.buttonToggle4::before {
+	content: url('images/arrow_dd.png');
+	padding-top: 3px;
+}
+
+.buttonToggle4.collapsed::before {
+	content: url('images/arrow_ff.png');
+	padding-top: 3px;
+}
+
+div.content button {
+/*	float: right; */
+	width: 100%;
+	text-align: left;
+	font-family: "weblysleek_uisemibold", Arial, Helvetica, sans-serif;
+	color: #1a57ff;
+	background-color: #fff;
+	font-size: 1.25em;
+	line-height: 1.15em;
+	margin-bottom: 15px;
+	border-radius: 0px;
+	border: none;
+}
+
+div.content button::before {
+	font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+	float: left;
+	color: #1a57ff;
+	padding-right: 10px;
+	margin-left: -5px;
+}
+
+div.content div {
+    border-bottom: black solid 1px;
+    margin-bottom: 20px;
+}
+
+div.content div:last-of-type {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+div.collapse {
+	margin-bottom: 20px;
+}
+
+div.techInfo {
+	display: none;
+}
+</style>
+
+
+
+
+
+
+<link rel="icon" href="/images/fhwa2/icon/favicon.ico" type="image/x-icon" /> <!-- favicon -->
+<link rel="apple-touch-icon" href="/images/fhwa2/icon/appledotseal.png" />
+<link rel="image_src" href="/images/fhwa2/icon/imgdotseallg.png" />
+
+	<script type="text/javascript" src="/includes/fhwaload.js"></script> <!-- forsee code -->
+
+</head>
+<body id="programs" class="prgmoffice nosectiontitle returntop">
+<a id="top"></a>
+<!-- page title for printing -->
+<div class="printonly">
+	<p>U.S. Department of Transportation<br />
+ 	<span id="printfhwatitle">Federal Highway Administration</span><br />
+  1200 New Jersey Avenue, SE<br />Washington, DC 20590<br />
+  202-366-4000</p>
+ 	<hr />
+</div><!-- start fhwa header -->
+
+
+<div id="fhwaheader">
+	<div class="fhwacontainer">
+ 	<a href="#content" class="floatleft noprint" tabindex="1"><img src="/images/1x1.gif" width="1" height="1" alt="Skip to content" /></a>
+  <div class="logo">
+  	<a href="https://highways.dot.gov/" tabindex="2"><img class="imgdotfhwalg" src="/images/fhwa2/bg/imgdotfhwalg.png" alt="U.S. Department of Transportation/Federal Highway Administration" /><img class="imgdotfhwasm" src="/images/fhwa2/bg/imgdotfhwasm.png" alt="U.S. Department of Transportation/Federal Highway Administration" /></a>
+  	</div>
+	
+
+	<div class="dropdown">
+	<ul>
+	<li class="arrow-whtdwn mnabout"><a href="/about/" tabindex="3">About</a>
+		
+	 
+<ul>
+	<li><a href="https://highways.dot.gov/about/fhwa-organization">FHWA Organization</a></li>
+   	<li><a href="https://highways.dot.gov/about/headquarters-offices">Headquarters Offices</a></li>
+    <li><a href="https://highways.dot.gov/about/field-offices">Field Offices</a></li>
+    <li><a href="https://highways.dot.gov/careers">Careers</a></li>
+    <li><a href="https://highways.dot.gov/about/business-opportunities">Business Opportunities</a></li>
+    <li><a href="https://highways.dot.gov/about/staff-directories">Staff Directories</a></li>
+    <li><a href="https://highways.dot.gov/highway-history">Highway History</a></li>
+</ul>
+	</li>
+	<li class="arrow-whtdwn mnprograms"><a href="/programs/" tabindex="4">Programs</a>
+		
+	 
+<ul><li><a href="/cfo/doing_business_with_fhwa.cfm">Acquisition Management</a></li>
+	
+	<li><a href="https://highways.dot.gov/civil-rights">Civil Rights</a></li>
+	<li><a href="https://highways.dot.gov/federal-lands">Federal Lands Highway</a></li>
+    <li><a href="/infrastructure/">Infrastructure</a></li>
+    <li><a href="/innovativeprograms/">Innovative Program Delivery</a></li>
+    <li><a href="https://ops.fhwa.dot.gov/">Operations</a></li>
+    <li><a href="/hep/">Planning, Environment, and Realty</a></li>
+    <li><a href="/policy/">Policy</a></li>
+    <li><a href="https://highways.dot.gov/research/">Research, Development &amp; Technology</a></li>
+    <li><a href="https://highways.dot.gov/safety/">Safety</a></li>
+    <li><a href="/resources/topics/">Browse by Topics</a></li>
+</ul>
+		</li>
+	<li class="arrow-whtdwn mnresources"><a href="/resources/" tabindex="5">Resources</a>
+		
+			 
+<ul>
+  <li><a  href="/resources/topics/" title="Core Highway Topics"> Core Highway Topics</a></li>
+  <li><a href="https://highways.dot.gov/fed-aid-essentials" title="Federal-Aid Essentials">Federal-Aid Essentials</a></li>
+  <li><a href="https://highways.dot.gov/automation" title="Automation">Automation</a></li>
+  <li><a href="https://highways.dot.gov/resources/publications-statistics" title="Publications &amp; Statistics">Publications &amp; Statistics</a></li>
+  <li><a   href="/resources/legsregs/" title="Laws &amp; Regulations">Laws &amp; Regulations</a></li>
+  <li><a href="/pgc/" title="Policy &amp; Guidance Center">Policy &amp; Guidance Center</a></li>
+  <li><a href="https://highways.dot.gov/section-508" title="Section 508">Section 508</a></li>
+  <li><a  href="/resources/training.cfm" title="Professional Development">Professional Development</a></li>
+  <li><a href="https://www.nhi.fhwa.dot.gov/">National Highway Institute (NHI)</a></li>
+  <li><a href="/resourcecenter/" title="Resource Center">Resource Center</a></li>
+  <li><a href="https://highways.dot.gov/resources/accessibility-resource-library" title="Accessibility Resource Library">Accessibility Resource Library</a></li>
+  <li><a href="https://highways.dot.gov/research/resources/research-library/federal-highway-administration-research-library" title="FHWA Research Library">FHWA Research Library</a></li>
+</ul>
+		</li>
+	<li class="arrow-whtdwn mnbriefing"><a href="/briefingroom/" tabindex="6">Briefing Room</a>
+	 
+	 
+<ul><li><a href="https://highways.dot.gov/newsroom/press-releases" title="Press Releases">Press Releases</a></li>
+	<li><a href="https://highways.dot.gov/newsroom/speeches-and-testimony" title="Speeches &amp; Testimony">Speeches &amp; Testimony</a></li>
+    <li><a href="https://www.flickr.com/photos/fhwa/" title="Photos" target="_blank" rel="noopener noreferrer">Photos</a></li>
+    <li><a href="https://www.youtube.com/user/USDOTFHWA/featured"  title="Videos" target="_blank" rel="noopener noreferrer">Videos</a></li>
+    <li><a href="https://highways.dot.gov/newsroom/media-contacts" title="Media Contacts">Media Contacts</a></li>
+</ul>
+	</li>
+	<li class="mncontact"><a href="/contact/" tabindex="7">Contact</a></li>
+	
+	<li class="mnsearch"><a href="https://search.usa.gov/search?utf8=%E2%9C%93&amp;affiliate=dot-fhwa" tabindex="8"><span>Search FHWA</span></a></li>
+	
+	</ul>
+	</div>
+	
+	
+  <div class="socialbtns"><a href="https://www.facebook.com/pages/Federal-Highway-Administration/175380479155058" title="Like Us on Facebook" target="_blank" rel="noopener noreferrer" tabindex="9"><img src="/images/fhwa2/icon/facebook_med.png" alt="Facebook icon" /></a><a href="https://www.youtube.com/user/USDOTFHWA" title="Watch Us on YouTube" target="_blank" rel="noopener noreferrer" tabindex="10"><img src="/images/fhwa2/icon/youtube_med.png" alt="YouTube icon" /></a><a href="https://twitter.com/USDOTFHWA" title="Follow Us on Twitter" target="_blank" rel="noopener noreferrer" tabindex="11"><img src="/images/fhwa2/icon/twitter_med.png" alt="Twitter icon" /></a><a href="https://www.flickr.com/photos/fhwa/" title="See Our Photos on Flickr" target="_blank" rel="noopener noreferrer" tabindex="12"><img src="/images/fhwa2/icon/flickr_med.png" alt="Flickr icon" /></a><a href="https://www.linkedin.com/company/federal-highway-administration" title="Connect with Us on LinkedIn" target="_blank" rel="noopener noreferrer" tabindex="13"><img src="/images/fhwa2/icon/linkedin_med.png" alt="LinkedIn" /></a><a href="https://www.instagram.com/federalhighwayadmin/" title="See our photos on Instagram" target="_blank" rel="noopener noreferrer" tabindex="14"><img src="/images/fhwa2/icon/instagram_med.png" alt="Instagram" /></a></div>
+  
+ 	</div>
+	<div class="clearall"></div>
+</div>
+
+<!-- end fhwa header --><div id="programtitle">
+  <div class="fhwacontainer">
+    <p><a href="/innovation/">Center for Accelerating Innovation</a></p>
+  </div>
+</div><div id="fhwanavmenu">
+    	<div class="fhwacontainer">
+        	<!-- search -->
+            <div class="search">
+            	<fieldset>
+	<form accept-charset="UTF-8" action="//search.usa.gov/search/docs" class="has-query-term" id="search-bar" method="get">
+
+		<input id="affiliate" name="affiliate" type="hidden" value="dot-fhwa" />
+        <input id="dc" name="dc" type="hidden" value="8767" />
+        <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="text" maxlength="256" value="Search Accelerating Innovation" onblur="if(this.value == '') {this.value = 'Search Accelerating Innovation';}" onfocus="if(this.value == 'Search Accelerating Innovation'){this.value = '';}" />
+    	<input type="image" class="srchbtn" src="/images/fhwa2/bg/imgbgsrchbtn.png" name="commit" title="Submit Search" alt="Magnifying glass icon" width="20" />
+  	</form>
+	</fieldset>
+          	</div>
+       	</div>
+   	</div>
+
+
+
+    <a id="content"></a>
+
+
+	
+<!-- start breadcrumbs -->
+<div id="fhwabreadcrumbs" class="fhwacontainer">
+	     
+           
+<p><a href="/">FHWA Home</a> / 
+<a href="/innovation/">Accelerating Innovation</a> / 
+    
+	
+    
+    	<a href="/innovation/everydaycounts/">Every Day Counts</a> / 
+    EDC-4 Innovations </p>
+</div><!-- end breadcrumbs -->
+
+	
+
+
+	<div class="mainHeader fhwacontainer">
+
+
+	
+<div id="edc-active" class="fhwacontainer">
+  <ul>
+  <li class="nav-accelerating">
+		
+		<a href="/innovation/">CAI Home</a>
+        
+     	</li>
+      <li class="nav-everydaycounts">
+        <a class="nav-link-active" href="/innovation/everydaycounts/">Every Day Counts</a></li>
+      <li class="nav-stic">
+        <a class="nav-link-inactive" href="/innovation/stic/">STIC Network</a></li>
+      <li class="nav-aid">
+        <a class="nav-link-inactive" href="/innovation/grants/">AID Demonstration</a></li>
+      <li class="nav-amr">
+		<a class="nav-link-inactive" href="/innovation/amr/">AMR Program</a></li>
+	  <li class="nav-resources">
+        <a class="nav-link-inactive" href="/innovation/resources/">Resources</a></li>
+    </ul>
+  </div>
+
+  <div class="clearall"></div>
+	
+
+
+   <div class="mainImage">
+        <img src="../images/2020_banner_edc4.jpg" width="960" height="300" alt="EDC-4 banner image" />
+    </div>
+
+  </div>
+
+
+    <div id="fhwacontent" class="fhwacontainer">
+    	
+		
+		
+
+        <div id="wrapper-edc">
+
+
+ <h1>EDC-4 Innovations</h1>
+  <div class="content-2ndlevel">
+      <div class="content">
+
+			<button class="buttons buttonToggle collapsed" id="button1" type="button" value="div1" data-toggle="collapse" data-target="#div1" aria-expanded="false" aria-controls="div1">Automated Traffic Signal Performance Measures (ATSPMs)</button>
+			<div class="techInfo" id="div1"><p>Highway agencies typically retime traffic signals on a 3- to  5-year cycle, and for the majority of these efforts, effectiveness is measured  by comparing a limited amount of before and after travel-time data. Where there  is no ongoing performance measurement capability, agencies must often rely on  citizen complaints to detect maintenance or operational deficiencies. This lack  of data compromises safety and efficiency and contributes to congestion. ATSPMs  are transforming these signal timing and operations practices by adding  high-resolution data-logging capability to existing traffic signal  infrastructure and data analysis techniques. This cost-effective technology  provides agencies with the information needed to manage signal performance  proactively to support safety and mobility goals.</p>
+			<p>For more information: <a href="https://ops.fhwa.dot.gov/arterial_mgmt/performance_measures.htm">https://ops.fhwa.dot.gov/arterial_mgmt/performance_measures.htm</a></p>
+			</div>
+            			<button class="buttons buttonToggle collapsed" id="button2" type="button" value="div2" data-toggle="collapse" data-target="#div2" aria-expanded="false" aria-controls="div2">Collaborative Hydraulics: Advancing to the Next Generation  of Engineering (CHANGE)</button>
+			<div class="techInfo" id="div2"><p>Current modeling tools used for hydraulic design apply  several simplifying assumptions that can lead to overly conservative,  inadequate, or inaccurate results that are insufficient to support today&rsquo;s  analysis requirements. The next generation of hydraulic engineering tools,  particularly two-dimensional (2D) modeling and graphical visualization  features, provides planners and designers with data they can use to improve  project quality. These tools represent a significant evolution in hydraulic  modeling theory and practice, with potential for streamlining environmental,  regulatory, engineering, and other aspects of project delivery. Their use can  improve the ability of highway agencies to design safer, more cost-effective,  more resilient structures on waterways.</p>
+			<p>For more information: <a href="https://www.fhwa.dot.gov/engineering/hydraulics/">https://www.fhwa.dot.gov/engineering/hydraulics/</a></p>
+			</div>
+
+			<button class="buttons buttonToggle collapsed" id="button3" type="button" value="div3" data-toggle="collapse" data-target="#div3" aria-expanded="false" aria-controls="div3">Community Connections</button>
+			<div class="techInfo" id="div3"><p>Transportation can play an important role in supporting  community development and revitalization. Using performance-based design  approaches can help agencies develop highway retrofitting, rehabilitation, or  removal options for turning aging infrastructure into opportunities for  improving community connectivity and cohesion. These strategies include  visualization tools, scenario planning techniques, public involvement  techniques, context-sensitive solutions, and design and construction processes.  Agencies can use the innovations, partnerships, and technologies highlighted in  the Community Connections Toolbox to ensure all users have access to safe,  reliable, affordable, and multimodal transportation networks.</p>
+			<p>For more information: <a href="https://www.fhwa.dot.gov/planning/community_connections/">https://www.fhwa.dot.gov/planning/community_connections/</a></p>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button4" type="button" value="div4" data-toggle="collapse" data-target="#div4" aria-expanded="false" aria-controls="div4">Data-Driven  Safety Analysis (DDSA)</button>
+			<div class="techInfo" id="div4"><p>Advances  in highway safety analysis can provide transportation agencies with the reliable  information they need to make effective investments in safety improvements.  DDSA focuses on using predictive and systemic safety analyses to better target  highway safety investments to reduce crashes and fatalities. Predictive  approaches combine crash, roadway inventory, and traffic volume data to provide  more reliable estimates of an existing or proposed road&rsquo;s expected safety  performance. The results inform roadway safety management and project  development decision-making, as well as safety countermeasure selection and  evaluation. Systemic approaches target high-risk roadway features associated  with particular severe crash types. Comprehensive safety management programs  can incorporate a systemic approach to complement traditional high crash  location-oriented approaches.</p>
+			<p>For more information: <a href="https://safety.fhwa.dot.gov/rsdp/ddsa.aspx">https://safety.fhwa.dot.gov/rsdp/ddsa.aspx</a></p>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button5" type="button" value="div5" data-toggle="collapse" data-target="#div5" aria-expanded="false" aria-controls="div5">e-Construction and Partnering: A Vision for the Future</button>
+			<div class="techInfo" id="div5"><p>The  administration of highway projects requires a significant amount of  documentation. This has traditionally been accomplished through extensive,  paper-based systems involving conventional postal delivery, project journals,  note taking, stamped plan sets, design and construction submittals, and  physical signatures on multiple copies of many documents. These paper-based  documentation systems require significant time and money to create, process,  and store. e-Construction, an electronic project document management system,  decreases printing and document storage costs and reduces communication delays  and transmittal time.</p>
+			<p>Construction  partnering is a project management practice in which transportation agencies,  contractors, and other stakeholders create a team relationship based on mutual  trust and enhanced communication. e-Construction technologies can enhance these  partnerships by improving communication and workflows while streamlining  project delivery through faster approvals, increased accuracy, better document  tracking, and heightened transparency.</p>
+			<p>For  more information: <a href="https://www.fhwa.dot.gov/construction/econstruction/">https://www.fhwa.dot.gov/construction/econstruction/</a></p>
+			<strong></strong>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button6" type="button" value="div6" data-toggle="collapse" data-target="#div6" aria-expanded="false" aria-controls="div6">Integrating NEPA and Permitting</button>
+			<div class="techInfo" id="div6"><p>Integrating National Environmental Policy Act (NEPA) and  permitting processes allows various environmental reviews and permitting  procedures required for Federal-Aid Highway Program projects to be performed  simultaneously rather than sequentially. The resulting synchronization provides  for more effective and efficient regulatory reviews, which can save time and  reduce costs for involved agencies and improve environmental outcomes. Tools to  help agencies integrate NEPA and permitting include the <a href="https://www.environment.fhwa.dot.gov/pubs_resources_tools/publications/RedBook_2015.aspx"><em>2015  Red Book</em></a>, which provides a guide for synchronizing environmental  reviews, and FHWA&rsquo;s <a href="https://enepa.fhwa.dot.gov/">eNEPA</a>,  an online collaboration tool that supports timely and consistent coordination among  agencies to complete permitting processes. Programmatic agreements, NEPA/Clean  Water Act Section 404 mergers, and innovative approaches to wetland mitigation,  such as leasing federally owned lands, can also support integration of NEPA and  permitting.</p>
+			<p>For more information: <a href="https://www.environment.fhwa.dot.gov/default.aspx">https://www.environment.fhwa.dot.gov/default.aspx</a></p>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button7" type="button" value="div7" data-toggle="collapse" data-target="#div7" aria-expanded="false" aria-controls="div7">Pavement Preservation (When, Where, and How)</button>
+			<div class="techInfo" id="div7"><p>Applying a pavement preservation treatment at the right time  (when), on the right project (where), with quality materials and construction  (how) is a critical investment strategy for optimizing infrastructure  performance. The &ldquo;when and where&rdquo; component supports preservation by managing  pavements proactively. Whole-life planning defines expectations for the long  term and provides more stability to the cost of operation and maintenance.  Identifying preservation strategies at the network level reduces the need for  frequent or unplanned reconstruction. The &ldquo;how&rdquo; component promotes quality  construction and materials practices, including treatment options that apply to  flexible and rigid pavements. These practices contribute to improved pavement  performance, providing smoother, safer roads and delaying the need for  rehabilitation.</p>
+			<p>For more information: <a href="https://www.fhwa.dot.gov/pavement/preservation/">https://www.fhwa.dot.gov/pavement/preservation/</a></p>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button8" type="button" value="div8" data-toggle="collapse" data-target="#div8" aria-expanded="false" aria-controls="div8">Road Weather Management &ndash; Weather-Savvy Roads</button>
+			<div class="techInfo" id="div8"><p>Integrating Mobile Observations (IMO) and Pathfinder are two  distinct road weather management solutions that can help State and local  agencies manage the surface transportation system ahead of, during, and after  adverse road weather conditions. IMO is a cost-effective way to gather information on weather and road conditions  using existing fleet vehicles that can then be integrated into decision support  systems. Vehicle-based technologies provide agencies with data to manage  transportation systems before the impacts of adverse weather occur. The Pathfinder process enables transportation departments, the National Weather Service, and  private weather service providers to collaborate on clear, consistent road  weather messaging for the public. It provides the foundation for coordination  across agencies to develop cohesive weather impact information, helping drivers  make informed travel decisions.</p>
+			<p>For more information: <a href="https://ops.fhwa.dot.gov/weather/">https://ops.fhwa.dot.gov/weather/</a></p>
+			</div>
+            			<button class="buttons buttonToggle collapsed" id="button9" type="button" value="div9" data-toggle="collapse" data-target="#div9" aria-expanded="false" aria-controls="div9">Safe Transportation for Every Pedestrian (STEP)</button>
+			<div class="techInfo" id="div9"><p>The majority of pedestrian roadway fatalities occur at  uncontrolled crossing locations (such as midblock areas). The following  countermeasures have known safety benefits for reducing those crash types: </p>
+			<ul>
+			<li>Crosswalk visibility enhancements, such as crosswalk lighting and enhanced signing and marking, help drivers detect pedestrians.</li>
+			<li>Raised crosswalks are a traffic calming technique that can reduce vehicle speeds and encourage drivers to yield to pedestrians. </li>
+			<li>Pedestrian refuge islands provide a safer place for pedestrians to stop at the midpoint of the road before crossing the remaining distance. </li>
+			<li>Pedestrian hybrid beacons provide pedestrian-activated stop control in areas where pedestrian volumes are not high enough to warrant a traffic signal. </li>
+			<li>Road Diets reconfigure a roadway cross-section to accommodate all users safely. </li>
+			</ul>
+			<p>For more information: <a href="https://safety.fhwa.dot.gov/ped_bike/step/">https://safety.fhwa.dot.gov/ped_bike/step/</a></p>
+			</div>
+
+			<button class="buttons buttonToggle collapsed" id="button10" type="button" value="div10" data-toggle="collapse" data-target="#div10" aria-expanded="false" aria-controls="div10">Ultra-High Performance Concrete (UHPC) Connections for  Prefabricated Bridge Elements</button>
+			<div class="techInfo" id="div10"><p>Prefabricated bridge elements are structural components of a  bridge that are built offsite then brought, ready to erect, to the project  location. Prefabricated bridge elements not only shorten onsite construction  time&ndash;minimizing traffic impacts and increasing traveler and worker safety&ndash;but  can also offer superior durability. The durability of prefabricated spans, and  how quickly they can be constructed, relies on the connections between the  elements. Field-cast UHPC has emerged as a solution for creating connections  between prefabricated concrete components with more robust long-term  performance than conventional PBE connection designs.</p>
+			<p>UHPC is a steel fiber-reinforced, portland cement-based,  advanced composite material that delivers performance far exceeding  conventional concrete, which allows the behavior of the joined prefabricated  components to surpass that of conventional construction. UHPC allows for small,  simple-to-construct connections that require less volume of field-cast concrete  and do not require post-tensioning. The mechanical properties of UHPC also  allow for redesign of common connection details in ways that promote both ease  and speed of construction. This makes using prefabricated bridge elements  simpler and more effective.</p>
+			<p>For more information: <a href="https://highways.dot.gov/bridges-and-structure/ultra-high-performance-concrete/ultra-high-performance-concrete">https://highways.dot.gov/bridges-and-structure/ultra-high-performance-concrete/ultra-high-performance-concrete</a></p>
+			</div>
+			<button class="buttons buttonToggle collapsed" id="button11" type="button" value="div11" data-toggle="collapse" data-target="#div11" aria-expanded="false" aria-controls="div11">Using Data to Improve Traffic Incident Management</button>
+			<div class="techInfo" id="div11"><p>Traffic incidents put travelers&rsquo; and emergency responders&rsquo;  lives at risk and cause congestion that can lead to secondary crashes. Traffic  incident management (TIM) programs plan for and coordinate response among  agencies to improve safety and reduce incident duration and the congestion  impact. Low-cost, often off-the-shelf, technologies can be used to collect data  that helps agencies enhance TIM programs. FHWA encourages agencies to initially  adopt three key national TIM performance measures: roadway clearance time,  incident clearance time, and number of secondary crashes. With better data and  analytics, agencies can quantify program performance, demonstrate program  effectiveness, and improve TIM planning and resource management.</p>
+			<p>For more information: <a href="https://ops.fhwa.dot.gov/eto_tim_pse/about/tim.htm">https://ops.fhwa.dot.gov/eto_tim_pse/about/tim.htm</a></p>
+			</div>
+
+      </div>
+    </div>
+
+
+
+    <div class="side-2ndlevel">
+      <div class="side1">
+
+
+         <h4>Contact
+         <hr class="hr210width" /></h4>
+         <p><a href="contacts.cfm#edc4">View list of Contacts.</a></p><br />
+
+
+        <h4>Resources
+         <hr class="hr210width" /></h4>
+         <p><a href="everydaycounts_overview.pdf">Fact Sheet</a></p>
+         <br />
+
+
+
+
+
+       <h4>EDC Rounds
+       <hr class="hr210width" /></h4>
+       <p><a href="edc-1.cfm">EDC-1 <em>(2011-2012)</em></a></p>
+       <p><a href="edc-2.cfm">EDC-2 <em>(2013-2014)</em></a></p>
+       <p><a href="edc-3.cfm">EDC-3 <em>(2015-2016)</em></a></p>
+       <p><a href="edc_5/">EDC-5 <em>(2019-2020)</em></a></p>
+       <p><a href="edc_6/">EDC-6 <em>(2021-2022)</em></a></p>
+       <p><a href="edc_7/">EDC-7  <em>(2023-2024)</em></a></p><br />
+
+
+       <h4>Publications
+       <hr class="hr210width" /></h4>
+              <p><a href="reports/edc4_final/" target="_blank">EDC-4 Final Report</a></p>
+         <p><a href="reports/edc4_baseline/" target="_blank">EDC-4 Baseline Report</a></p>
+
+
+      </div>
+   </div>
+
+
+
+        <p class="txtright txtsmall noprint returntoplink" style="clear: both; padding-right: 25px;"><a href="#top">Return to top</a></p>
+
+
+        
+<!-- page modifcation dates -->
+
+      
+<div id="pagedates" class="txtsmall">
+
+    Page last modified on April 14, 2023 
+</div>
+
+        </div>
+	</div>
+
+
+
+<!-- start fhwa footer -->
+<div id="fhwafooter">
+	<div class="fhwacontainer">
+    	<div class="fhwasign" title="U.S. Department of Transportation/Federal Highway Administration"></div>
+        <div class="noprint"><a href="/privacy.cfm">Privacy Policy</a> | <a href="/foia/">Freedom of Information Act (FOIA)</a> | <a href="https://highways.dot.gov/section-508/our-commitment">Accessibility</a> | <a href="/webpolicies/publishschedule.cfm">Web Policies &amp; Notices</a> | <a href="https://www.transportation.gov/civil-rights/civil-rights-awareness-enforcement/no-fear-act">No Fear Act</a> | <a href="https://www.oig.dot.gov/Hotline">Report Waste, Fraud and Abuse</a> <br /> <a href="https://www.transportation.gov/">U.S. DOT Home</a> | <a href="https://www.usa.gov/">USA.gov</a> | <a href="https://www.whitehouse.gov/">WhiteHouse.gov</a><br /><br /></div>
+        <div>
+            <a href="/">Federal Highway Administration</a> | 1200 New Jersey Avenue, SE | Washington, DC 20590 | 202-366-4000
+                        
+            
+            
+     	</div>
+    </div>
+</div>
+<!-- end fhwa footer -->
+</body>
+</html>

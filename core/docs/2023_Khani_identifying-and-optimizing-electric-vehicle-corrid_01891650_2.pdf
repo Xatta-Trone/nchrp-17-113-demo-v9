@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#  org: https://www.w3.org/TR/vocab-org/#org:  xs: http://www.w3.org/2001/XMLSchema#  ldp: http://www.w3.org/ns/ldp#  dc11: http://purl.org/dc/elements/1.1/  dcterms: http://purl.org/dc/terms/  nfo: http://www.semanticdesktop.org/ontologies/2007/03/22/nfo/v1.1/  ebucore: http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#  fedora: http://fedora.info/definitions/v4/repository#  owl: http://www.w3.org/2002/07/owl#  ore: http://www.openarchives.org/ore/terms/  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#  rdau: http://rdaregistry.info/Elements/u/  islandora: http://islandora.ca/  pcdm: http://pcdm.org/models#  use: http://pcdm.org/use#  iana: http://www.iana.org/assignments/relation/  premis: http://www.loc.gov/premis/rdf/v1#  premis3: http://www.loc.gov/premis/rdf/v3/  co: http://purl.org/co/  content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://analytics.mnpals.net/" : "http://analytics.mnpals.net/");_paq.push(["setSiteId", "79"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://mdl.mndot.gov/taxonomy/term/203" />
+
+    <title>PDF | MnDOT Digital Library</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_XKlJSLf8-DC5YSmvzZGwH2HH65MwyqAEsXhoxe3ijyk.css?delta=0&amp;language=en&amp;theme=pals&amp;include=eJxdi0EOAiEMAD9U6ZNIWSrWFEoorK6vd7Mn42UOk5nNBmMeq5MGetIbth-RhdQK3IU1xzJsdWTlym2Ghw35WJukcVJyOHPHopZIbz4PlVZgsHdrLjvH81mO_yK61K4MfvjkiomcYRd-OV4M1fJS_gJrIUBa" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/entreprise7pro-bootstrap@3.4.8/dist/css/bootstrap.min.css" integrity="sha256-zL9fLm9PT7/fK/vb1O9aIIAdm/+bGtxmUm/M1NPTU7Y=" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.1.1/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-nrwoY8z0/iCnnY9J1g189dfuRMCdI5JBwgvzKvwXC4dZ+145UNBUs+VdeG/TUuYRqlQbMlL4l8U3yT7pVss9Rg==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.1.1/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-jM5OBHt8tKkl65deNLp2dhFMAwoqHBIbzSW0WiRRwJfHzGoxAFuCowGd9hYi1vU8ce5xpa5IGmZBJujm/7rVtw==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.2.0/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-U2uRfTiJxR2skZ8hIFUv5y6dOBd9s8xW+YtYScDkVzHEen0kU0G9mH8F2W27r6kWdHc0EKYGY3JTT3C4pEN+/g==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.2.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-JXQ3Lp7Oc2/VyHbK4DKvRSwk2MVBTb6tV5Zv/3d7UIJKlNEGT1yws9vwOVUkpsTY0o8zcbCLPpCBG2NrZMBJyQ==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-ZbcpXUXjMO/AFuX8V7yWatyCWP4A4HMfXirwInFWwcxibyAu7jHhwgEA1jO4Xt/UACKU29cG5MxhF/i8SpfiWA==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-kTMXGtKrWAdF2+qSCfCTa16wLEVDAAopNlklx4qPXPMamBQOFGHXz0HDwz1bGhstsi17f2SYVNaYVRHWYeg3RQ==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_gUAzGFzEbvdq8w_YnV17nXWRhyecN4W_gSolBT3hJUU.css?delta=9&amp;language=en&amp;theme=pals&amp;include=eJxdi0EOAiEMAD9U6ZNIWSrWFEoorK6vd7Mn42UOk5nNBmMeq5MGetIbth-RhdQK3IU1xzJsdWTlym2Ghw35WJukcVJyOHPHopZIbz4PlVZgsHdrLjvH81mO_yK61K4MfvjkiomcYRd-OV4M1fJS_gJrIUBa" />
+
+    
+  </head>
+  <body class="path-taxonomy has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <div id="header">
+    <div class="container">
+      <div class="row">
+                  <div class="col-sm-12" role="heading">
+              <div class="region region-header">
+          <a class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
+      <img src="/sites/default/files/dot-logo-rgb-reverse.png" alt="Home" />
+    </a>
+      <section id="block-mndotdigitallibrary" class="block block-block-content block-block-contentd27c9816-94a3-4e67-ae0f-76e31f3b6fb4 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong><a href="/">MnDOT Digital Library</a></strong>
+<style type="text/css">#block-mndotdigitallibrary {
+  margin-bottom: 0;
+    padding-bottom: 0;
+  margin-top: 6px!important;
+}
+#block-mndotdigitallibrary a {
+  color: #fff!important;
+  font-size: 20px;
+}
+</style>
+</p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+          </div>
+              </div>
+    </div>
+  </div>
+
+  <div id="banner">
+    <div class="container">
+      <div class="row">
+                    <div class="region region-banner">
+    <nav role="navigation" aria-labelledby="block-pals-main-menu-menu" id="block-pals-main-menu">
+            <h2 class="sr-only" id="block-pals-main-menu-menu">Main navigation</h2>
+
+      
+      <ul class="menu menu--main nav navbar-nav">
+                      <li class="first">
+                                        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                      <li>
+                                        <a href="/about" data-drupal-link-system-path="node/49">About</a>
+              </li>
+                      <li class="last">
+                                        <a href="/advanced-search" data-drupal-link-system-path="node/9702">Advanced Search</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </div>
+
+              </div>
+    </div>
+  </div>
+
+  <div id="pre_content">
+    <div class="container">
+      <div class="row">
+                    <div class="region region-pre-content">
+    <section class="views-exposed-form block block-views block-views-exposed-filter-blocksolr-search-content-page-1 clearfix" data-drupal-selector="views-exposed-form-solr-search-content-page-1" id="block-pals-exposedformsolr-search-contentpage-1">
+  
+    
+
+      <form action="/solr-search/content" method="get" id="views-exposed-form-solr-search-content-page-1" accept-charset="UTF-8">
+  <div class="form--inline form-inline clearfix">
+  <div class="form-item js-form-item form-wrapper js-form-wrapper panel panel-default" data-drupal-selector="edit-search-api-fulltext-wrapper" id="edit-search-api-fulltext-wrapper">
+
+    
+            
+    
+    <div class="panel-body">
+            <div class="form-item js-form-item form-type-select js-form-type-select form-item-search-api-fulltext-op js-form-item-search-api-fulltext-op form-no-label form-group">
+      <label for="edit-search-api-fulltext-op" class="control-label sr-only">Operator</label>
+  
+  
+  <div class="select-wrapper"><select data-drupal-selector="edit-search-api-fulltext-op" class="form-select form-control" id="edit-search-api-fulltext-op" name="search_api_fulltext_op"><option
+            value="and" selected="selected">Contains all of these words</option><option
+            value="or">Contains any of these words</option><option
+            value="not">Contains none of these words</option></select></div>
+
+  
+  
+  </div>
+<div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-search-api-fulltext js-form-item-search-api-fulltext form-no-label form-group">
+  
+  
+  <input data-drupal-selector="edit-search-api-fulltext" class="form-text form-control" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+
+          </div>
+  
+    
+</div>
+<input data-drupal-selector="edit-sort-by" type="hidden" name="sort_by" value="relevance" /><input data-drupal-selector="edit-sort-order" type="hidden" name="sort_order" value="DESC" /><input data-drupal-selector="edit-items-per-page" type="hidden" name="items_per_page" value="10" /><div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--11"><button data-drupal-selector="edit-submit-solr-search-content" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-solr-search-content" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button></div>
+
+</div>
+
+</form>
+
+  </section>
+
+    <h1 class="page-header">PDF</h1>
+
+    <ol class="breadcrumb">
+          <li >
+                  <a href="/">Home</a>
+              </li>
+          <li  class="active">
+                  PDF
+              </li>
+      </ol>
+
+
+  </div>
+
+              </div>
+    </div>
+  </div>
+
+  <div id="main" role="main" class="main-container js-quickedit-main-content">
+    <div class="container">
+    <div class="row">
+
+            
+                  <section class="col-xs-12">
+                
+                
+                
+                          <a id="main-content"></a>
+            <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+  <div class="views-element-container form-group"><div class="view view-taxonomy-term view-id-taxonomy_term view-display-id-page_1 js-view-dom-id-15020e9db4c63d88bc88ce8c8a4aa70f80c24b763f8a3ca0a9e14f44d215eb00">
+  
+    
+      <div class="view-header">
+      <div about="/index.php/taxonomy/term/203">
+  
+    
+  
+</div>
+
+    </div>
+      
+      <div class="view-content">
+          <div class="views-row">
+<article data-history-node-id="17931" about="/items/m17931" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17931" rel="bookmark">
+<span property="dcterms:title">2024-25 Active Transportation Advisory Committee Annual Report</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="2024-25 Active Transportation Advisory Committee Annual Report" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-9a026365a71e9411b3ade215dee3cd3edcf6e78fa63632ca720463f67e8f077e">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17931" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17931-Thumbnail%20Image.png" width="232" height="300" alt="17931-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2025-09" class="field--item">2025-09</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        On behalf of the Active Transportation Advisory Committee (ATAC) members and the Minnesota Department of Transportation staff who assist in coordinating our group, I am pleased to share our 2024-2025 annual report with you.
+
+Since ATAC was enacted by the 93rd Minnesota Legislature in 2023, the agency and appointed members have continued to take numerous steps to establish the committee as an informed, effective, and connected body. Our charge is to provide guidance to and oversight of Minnesota’s statutory Safe Routes to School (SRTS) and Active Transportation (AT) programs, as well overall topics related to active transportation, including safety, education, and development programs. In many ways, ATAC is the successor to MnDOT’s former advisory body, the State Non-Motorized Transportation Advisory Committee, which was sunset by the legislature in 2018. We are thankful for the opportunity to update you on our work and make formal recommendations regarding these important topics.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17930" about="/items/m17930" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17930" rel="bookmark">
+<span property="dcterms:title">Chapter 2H: General information Signs</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Chapter 2H: General information Signs" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-78ba5ee2e6f13c17d2b9ec6a85349962decb2fd2a02712c26132a61b1a53ea8b">
+  
+    
+
+  
+  
+
+  
+  <div class="view view-eva view-thumbnail-from-first-page-fallback view-id-thumbnail_from_first_page_fallback view-display-id-entity_view_1 js-view-dom-id-2ced24041e1f252b4170052f64299ccbff1d1d4a067564df7eea2a35728c1a52">
+  
+    
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2019-12" class="field--item">2019-12</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        This is Chapter 2H, General Information Signs, of the 2024 update of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, containing all revisions from 2011-2024. This manual contains standards for traffic control devices that regulate, warn and guide road users along all roadways within the State of Minnesota.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use. The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17929" about="/items/m17929" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17929" rel="bookmark">
+<span property="dcterms:title">Subject Index</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Subject Index" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-16db021d39dfbe3da3ff75656dce5ea2aed46790c141e173d52e1dd842a627a6">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17929" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17929-Thumbnail%20Image.png" width="232" height="300" alt="17929-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2011-12" class="field--item">2011-12</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        The index for the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17928" about="/items/m17928" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17928" rel="bookmark">
+<span property="dcterms:title">Appendix A3: Retroreflective Sheeting Identification Guide</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Appendix A3: Retroreflective Sheeting Identification Guide" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-ec67c94eb27d3766a35b1c3e9028c8c58c5a66fe444a351593c2a233ddd7ede1">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17928" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17928-Thumbnail%20Image.png" width="232" height="300" alt="17928-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2011" class="field--item">2011</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        Appendix A3 of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, covering the identification of retroreflective sheeting.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use.  The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17927" about="/items/m17927" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17927" rel="bookmark">
+<span property="dcterms:title">Appendix A2: Metric Conversion</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Appendix A2: Metric Conversion" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-2869edf11569c61fce56c10bd09c6f9500ca9e14420b70242bb32d4680079f4a">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17927" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17927-Thumbnail%20Image.png" width="232" height="300" alt="17927-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2012-06" class="field--item">2012-06</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        Appendix A2 of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, covering imperial to metric conversions.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use.  The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17926" about="/items/m17926" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17926" rel="bookmark">
+<span property="dcterms:title">Appendix A1: Congressional Legislation</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Appendix A1: Congressional Legislation" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-eba729cc0f562a746ff617d107a159bbad769175ada6c150a0e4a8568fdf02b3">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17926" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17926-Thumbnail%20Image.png" width="232" height="300" alt="17926-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2011-12" class="field--item">2011-12</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        Appendix A1 of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, covering relevant federal legislation.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use.  The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17925" about="/items/m17925" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17925" rel="bookmark">
+<span property="dcterms:title">Part 9: Traffic Controls for Bicycle Facilities</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Part 9: Traffic Controls for Bicycle Facilities" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-bbf97125b228b977fe5186dad3519bda22be1701e4dc8801b62f4c385040e409">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17925" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17925-Thumbnail%20Image.png" width="232" height="300" alt="17925-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2022-02" class="field--item">2022-02</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        This is Part 9: Traffic Control for Bicycle Facilities, of the 2024 update of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, containing all revisions from 2011-2024. This manual contains standards for traffic control devices that regulate, warn and guide road users along all roadways within the State of Minnesota.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use. The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17924" about="/items/m17924" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17924" rel="bookmark">
+<span property="dcterms:title">Part 8: Traffic Control for Railroad and Light Rail Transit Grade Crossings</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Part 8: Traffic Control for Railroad and Light Rail Transit Grade Crossings" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-5768ab11569d27f43a6f3e81f8068e11a2ead11d2cac08b6809c17ae20af1f93">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17924" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17924-Thumbnail%20Image.png" width="232" height="300" alt="17924-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2022-02" class="field--item">2022-02</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        This is Part 8: Traffic Control for Railroad and Light Rail Transit Grade Crossings, of the 2024 update of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, containing all revisions from 2011-2024. This manual contains standards for traffic control devices that regulate, warn and guide road users along all roadways within the State of Minnesota.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use. The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17923" about="/items/m17923" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17923" rel="bookmark">
+<span property="dcterms:title">Part 7: Traffic Control for School Areas</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Part 7: Traffic Control for School Areas" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-2df8bc87ee03d5bcd2e7b57dd42910805ddcc75bcabed38078269ed1ae8fd300">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17923" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17923-Thumbnail%20Image.png" width="232" height="300" alt="17923-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2024-01" class="field--item">2024-01</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        This is Part 7: Traffic Control for School Areas, of the 2024 update of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, containing all revisions from 2011-2024. This manual contains standards for traffic control devices that regulate, warn and guide road users along all roadways within the State of Minnesota.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use. The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+    <div class="views-row">
+<article data-history-node-id="17922" about="/items/m17922" typeof="pcdm:Object" class="islandora-object is-promoted teaser clearfix">
+
+  
+      <h2>
+      <a href="/items/m17922" rel="bookmark">
+<span property="dcterms:title">Chapter 6K: Minnesota Temporary Traffic Control Field Manual</span>
+</a>
+    </h2>
+      <span property="dcterms:title" content="Chapter 6K: Minnesota Temporary Traffic Control Field Manual" class="hidden"></span>
+
+
+  
+  <div class="content">
+    <div class="views-element-container form-group"><div class="view view-eva view-display-media view-id-display_media view-display-id-thumbnail js-view-dom-id-98bc0de162f1240ef7a85ed031df7aa7dfc2b06d7560f0d3a32970a88b023168">
+  
+    
+
+  
+  
+
+      <div class="views-row"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field--label sr-only">Image</div>
+              <div class="field--item">  <a href="/items/m17922" hreflang="en"><img loading="lazy" src="/sites/default/files/2025-09/17922-Thumbnail%20Image.png" width="203" height="300" alt="17922-Thumbnail Image.png" typeof="foaf:Image" class="img-responsive" />
+</a>
+</div>
+          </div>
+
+</div>
+</div>
+
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+  <div class="field field--name-field-creator field--type-entity-reference field--label-above">
+    <div class="field--label">Creator</div>
+          <div class="field--items">
+              <div class="field--item"><a href="/taxonomy/term/359" hreflang="en">Minnesota Department of Transportation</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-edtf-date-created field--type-edtf field--label-above">
+    <div class="field--label">Date Created</div>
+          <div class="field--items">
+              <div property="dcterms:created" content="2018-01" class="field--item">2018-01</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-description field--type-string-long field--label-above">
+    <div class="field--label">Description</div>
+              <div property="dcterms:description" class="field--item"><div id="" class="expand-collapse" data-trim-length="300" data-default-state="collapsed"
+     data-link-text-open="Show more" data-link-text-close="Show less"
+     data-link-class-open="ecf-open" data-link-class-close="ecf-close">
+    <div class="ec-content">
+        This Field Manual is Chapter K of Part 6 of the Minnesota Manual on Uniform Traffic Control Devices (MN MUTCD). It has been reprinted as a separate document for use in field operations. This Field Manual contains general Temporary Traffic Control (TTC) standards. The user should refer to the MN MUTCD - Part 6 for more details and follow any TTC plans, specifications, and special provisions written for a specific project.
+
+The 2024 update of the 2011 edition of the Minnesota Manual on Uniform Traffic Control Devices, contains all revisions from 2011-2024. This manual contains standards for traffic control devices that regulate, warn and guide road users along all roadways within the State of Minnesota.
+
+General disclaimer of warranties/liabilities; applies to all users:
+Neither the State of Minnesota, the Minnesota Department of Transportation nor their employees make any representations or warranties, express or implied, with respect to the use of or reliance on the data provided herewith, regardless of its format or means of transmission. There are no guarantees or representations to the user as to the accuracy, currency, completeness, suitability or reliability of this data for any purpose. The user accepts the data &quot;as is&quot; and assumes all risks associated with its use.  The Minnesota Department of Transportation assumes no responsibility for actual, consequential, incidental, special or exemplary damages resulting from, caused by or associated with any user&#039;s reliance on or use of this data, even if appraised of the likelihood of such damages occurring.
+    </div>
+</div>
+</div>
+          </div>
+
+  </div>
+
+</article>
+</div>
+
+    </div>
+  
+        <nav class="pager-nav text-center" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pagination js-pager__items">
+
+            
+            
+            
+                    <li class="pager__item is-active active">
+                                          <a href="?page=0" title="Current page" aria-current="page">
+            <span class="visually-hidden">
+              Current page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=2" title="Go to page 3">
+            <span class="visually-hidden">
+              Page
+            </span>3</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=3" title="Go to page 4">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=4" title="Go to page 5">
+            <span class="visually-hidden">
+              Page
+            </span>5</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=5" title="Go to page 6">
+            <span class="visually-hidden">
+              Page
+            </span>6</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=6" title="Go to page 7">
+            <span class="visually-hidden">
+              Page
+            </span>7</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=7" title="Go to page 8">
+            <span class="visually-hidden">
+              Page
+            </span>8</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?page=8" title="Go to page 9">
+            <span class="visually-hidden">
+              Page
+            </span>9</a>
+        </li>
+      
+                    <li class="page-item" role="presentation"><span class="page-link">&hellip;</span></li>
+      
+                    <li class="pager__item pager__item--next">
+          <a href="?page=1" title="Go to next page" rel="next">
+            <span class="visually-hidden">Next page</span>
+            <span aria-hidden="true">››</span>
+          </a>
+        </li>
+      
+                  <li class="pager__item pager__item--last">
+        <a href="?page=461" title="Go to last page" rel="last">
+          <span class="visually-hidden">Last page</span>
+          <span aria-hidden="true">Last »</span>
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+
+          </div>
+</div>
+
+
+  </div>
+
+              </section>
+
+    </div>
+    </div>
+  </div>
+
+  <div id="sub_content">
+    <div class="container">
+      <div class="row">
+                  
+              </div>
+    </div>
+  </div>
+
+      <footer id="footer" class="footer" role="contentinfo">
+      <div class="container">
+          <div class="region region-footer">
+    <section class="views-element-container block block-views block-views-blockfooter-info-on-homepage-block-1 clearfix" id="block-views-block-footer-info-on-homepage-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-footer-info-on-homepage view-id-footer_info_on_homepage view-display-id-block_1 js-view-dom-id-f58b5f02ecb10d13fdacf314b11d1fc51b94df68b94951549276da972b583ffa">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-body"><div class="field-content"><p>MnDOT Library<br>Minnesota Department of Transportation<br>M.S. 155, Room 175 Transportation Building<br>395 John Ireland Blvd., St. Paul, MN 55155<br>651-366-3791 |&nbsp;<a href="mailto:library.dot@state.mn.us" rel="noreferrer" target="_blank">library.dot@state.mn.us</a><br><a href="https://www.dot.state.mn.us/library/">https://www.dot.state.mn.us/library/</a></p></div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+<nav role="navigation" aria-labelledby="block-pals-account-menu-menu" id="block-pals-account-menu">
+            <h2 class="sr-only" id="block-pals-account-menu-menu">User account menu</h2>
+
+      
+      <ul class="menu menu--account nav navbar-nav navbar-right">
+                      <li class="first last">
+                                        <a href="/user/login" data-drupal-link-system-path="user/login">Log in</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+<section id="block-cssgeneralsmsu" class="block block-block-content block-block-content3adaf779-1b79-4d55-aa16-41a58f22fe92 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style type="text/css">/* site width */
+.container {
+  max-width: 1177px;
+}
+body {
+        font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    color: #003865;
+  padding-top: 0!important;
+  background-color: #fff;
+}
+p {
+  font-size: 16px;
+      font-family: "Open Sans", Arial, sans-serif;
+  color: #003865;
+}
+a, a:visited {
+    color: #003865;
+}
+h1, h2, h3, h4, h5 {
+      font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+h2 {
+  font-size: 20px;
+}
+/* button */
+button {
+  margin-right: 8px;
+}
+/* logo */
+.logo {
+  display: contents;
+}
+.logo img {
+  width: 310px;
+  height: auto;
+      margin-top: 22px;
+    margin-left: 0px;
+}
+/* Main menu */
+#block-pals-main-menu {
+  float: left;
+}
+#block-pals-main-menu a {
+  color: #1c3011;
+}
+#block-pals-main-menu a:hover {
+  color: #003865;
+}
+/* section customization */
+#header {
+  background: #003865;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #000;
+  height: 106px;
+}
+#header .container1 {
+  background: url(/sites/default/files/2022-05/header-dome_0.jpg) repeat top left;
+border: none;
+    min-height: 200px;
+  border-bottom-style: solid;
+border-bottom-width: 7px;
+   border-color: #b1a098;
+box-shadow: 0 0 1px black;
+}
+#navbar {
+  background: #0f1c2c;
+min-height: 35px;
+  height: 55px;
+}
+.navbar-header {
+  width: 100%;
+}
+#banner {
+  background: #78BE21;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 25px;
+}
+.region-pre-content {
+  padding-left: 14px;
+}
+#main {
+  background: #D9D9D6;
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+#main .container1 {
+  background: #fff;
+}
+#main .region-content {
+  background: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.region-content .field--name-body {
+ color: #3a1707;
+    background-color: #ebe7e6;
+    margin-right: 25px;
+    /* margin-left: 18px; */
+    padding: 5px 10px 20px 10px;
+    height: auto;
+}
+#footer {
+  background: #003865;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+}
+#footer .block {
+  margin-bottom: 0px;
+  padding-bottom: 8px;
+}
+#footer .container1 {
+background-color: #3a1707;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px; 
+}
+#footer p {
+  color: #fff;
+  font-size: 16px;
+}
+#footer a, #footer a:visited {
+  color: #fff;
+  font-size: 16px;
+}
+#pre_content {
+  min-height: 100px;
+}
+/* sidebar */
+.col-md-4 { 
+  width: 27%;
+}
+.col-md-8 { 
+  width: 73%;
+}
+.col-md-4 {
+  padding-left: 0;
+}
+.col-md-8 { 
+  padding-right: 0;
+} 
+.region-sidebar {
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.region-sidebar section, .region-sidebar nav {
+border-radius: 6px!important;
+  background: #fff;
+}
+.region-sidebar .contextual-region, .region-sidebar nav {
+    background: #fff;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+   margin-bottom: 20px;
+}
+.region-sidebar h2 {
+background-color: #003865;
+    /* height: 50px; */
+    background-image: none;
+    color: #ffffff;
+    /* border-bottom: 1px solid #cccccc; */
+    border-radius: 4px 4px 0px 0px;
+    padding: 5px 20px;
+    font-size: 20px;
+    line-height: 45px;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    padding-top: 2px;
+}
+.region-sidebar .field--name-body, .region-sidebar .menu--tools, .region-sidebar .facets-widget-links, .region-sidebar .facet-empty {
+  background: #fff;
+  padding-left: 14px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+  border-radius: 0px 0px 4px 4px;
+} 
+#block-pals-tools, .region-sidebar .block1 {
+    border-color: #cccccc;
+    border-width: 1px;
+    box-shadow: 0 8px 6px -6px #aaaaaa;
+    border-radius: 4px 4px 4px 4px;
+    background-color: #fff;
+}
+#block-welcome .field--name-body {
+     color: #3a1707;
+  margin-left: 25px;
+ background-color: #ebe7e6;
+padding: 5px 15px 15px 20px;
+}
+#block-pals-tools a {
+  padding: 0;
+}
+.region-sidebar ul li1 {
+  list-style: none; 
+  background-color: #ebe7e6;
+  padding: 10px;
+  padding-left: 15px;
+}
+.region-sidebar ul li:hover1 {
+  background-color: #fff;
+}
+.region-sidebar ul1 {
+  padding-left: 0;
+  margin: 0;
+}
+/* Simple Search box */
+.block-views-exposed-filter-blocksolr-search-content-page-1 {
+    /* float: right; */
+    /* margin-top: 70px!important; */
+    /* padding-right: 20px; */
+    /* text-align: center; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -15px;
+    /* margin-right: auto; */
+    display: inline-block;
+    /* width: 70%; */
+}
+#edit-search-api-fulltext {
+  width: 195px;
+}
+#views-exposed-form-solr-search-content-page-1 label {
+  display: none;
+}
+#views-exposed-form-solr-search-content-page-1 button {
+  background: #003865;
+  display: block;
+  margin-top: 14px;
+    margin-left: -10px;
+}
+#views-exposed-form-solr-search-content-page-1 .panel-default {
+  width: auto;
+  float: left;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+#views-exposed-form-solr-search-content-page-1 .panel-default select1 {
+      padding: 10px 10px 10px 20px;
+    width: 30px;
+    text-indent: 100%;
+  font-size: 0;
+}
+#views-exposed-form-solr-search-content-page-1 .panel-default select1 option {
+  font-size: 14px;
+}
+#views-exposed-form-solr-search-content-page-1 .js-form-item-search-api-fulltext-op1 {
+  display: none;
+}
+#views-exposed-form-solr-search-content-page-1:hover .js-form-item-search-api-fulltext-op1 {
+  display: inline-block;
+}
+/* navigation button */
+.pagination a {
+  color: #003865!important;
+}
+.pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;a, .pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;a:focus, .pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;a:hover, .pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;span, .pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;span:focus, .pagination&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.active&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;span:hover {
+    z-index: 3;
+    color: #fff!important;
+    cursor: default;
+    background-color: #003865;
+    border-color: #003865;
+}
+/* .breadcrumb */
+.breadcrumb {
+background: none;
+    /* height: 40px; */
+    font-size: 18px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 0;
+}
+.region-banner {
+  background: #fff;
+}
+.breadcrumb a {
+  font-size: 18px;
+}
+/* breadcrumb */
+.breadcrumb li.active {
+  display: none;
+}
+/* Others */
+article .content1 {
+  display: none;
+}
+.navbar-nav &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; li &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; a {
+padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+border-bottom: 5px solid #78BE21;
+}
+.navbar-nav &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; li &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; a:hover {
+  background: none;
+  border-bottom: 5px solid #003865;
+}
+.page-header {
+    /* padding-bottom: 9px; */
+    /* margin: 0px 0 0px; */
+    /* border-bottom: 1px solid #eee; */
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+/* Mobile */
+@media screen and (max-width: 1000px) {
+  .col-md-4, .col-md-8 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right:10px;
+  } 
+}
+@media screen and (max-width: 800px) {
+  .region-banner {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .view-list-collections-homepage .views-row {
+    width: 100%!important;
+  }
+}
+/* Mobile menu */
+.responsive-menus.responsified span.toggler {
+    padding: 1px;
+    display: block;
+    background: #003865;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000;
+    font-size: 1.35em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+}
+.responsive-menus.responsified .responsive-menus-simple {
+  background: #fff;
+}
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple1 {
+    position: relative;
+    z-index: 999;
+    top: 0px;
+}
+.responsive-menus.responsified .responsive-menus-simple li a {
+  text-transform: none;
+  color: #003865;
+}
+#rm-removed section, #rm-removed nav  {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Metadata details */
+#main .field--label-above {
+  display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-column-gap: 1em;
+    padding: 0.625rem 0;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.field--label {
+    font-weight: 100;
+}
+.islandora-object .content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* banner */
+#banner li, #footer li {
+  float: left;
+  padding-left: 14px;
+  padding-right: 12px;
+}
+/* List Collection Icon Homepage */
+.region-content .field--name-body {
+  background: #fff!important;
+}
+.view-list-collections-homepage .views-row {
+    display: inline-block;
+    background-color: #003865;
+    width: 190px;
+    height: auto;
+    min-height: 265px !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    box-shadow: 0px 0px 3px #ccc8c7;
+    position: relative;
+    color: #fff;
+    text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+      min-height: 300px!important;
+}
+.view-list-collections-homepage .views-row:hover {
+  background: #0D5257;
+}
+.view-list-collections-homepage img {
+    width: 174px;
+    height: 226px;
+}
+.view-list-collections-homepage .views-field-title a {
+  color: #fff!important;
+  margin-top: 10px;
+  display: block;
+}
+.page-header1 {
+  display: none;
+}
+ul.fl-prefsEditor-panels li:has(.flc-prefsEditor-text-size), .flc-prefsEditor-text-size {
+   display: none!important;
+}
+/* Advanced Search */
+.block-islandora-advanced-search form {
+  padding: 8px;
+}
+#block-quickdemoadvancedsearch {
+  margin-top: -20px;
+    display: inline-flex;
+    padding-left: 395px;
+    margin-bottom: 10px;
+}
+.view-welcome-box-on-homepage {
+  /* padding-left: 18px!important;
+  padding-right: 18px!important;*/
+      margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+.view-welcome-box-on-homepage .welcome-content {
+  padding-left: 18px!important;
+  padding-right: 18px!important;
+}
+/* date range facet slider */
+.facets-widget-range_slider ul li {
+  list-style: none;
+}
+.facet-slider {
+  width: 90%;
+  margin-bottom: 40px!important;
+}
+/* SHM button */
+.shm-button {
+  color: #fff;
+  background: #003865;
+}
+.shm-button:hover, .shm-button:visited {
+  color: #fff!important;
+}
+.vbo-multipage-selector {
+  display: none;
+}
+/* collection description */
+.field--name-field-collection-description-2 {
+border: solid 4px #D9D9D6;
+    width: auto;
+    border-radius: 8px;
+    padding: 8px;
+    display: inline-block;
+    background: #D9D9D6;
+}
+/* thumbnail style */
+.field--name-field-media-image .img-responsive {
+  max-width: 100px!important;
+}
+/* fix viewer */
+#viewerContainer {
+  overflow-x: hidden!important; 
+}
+.node-form .error {
+background: red;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+.node-form .error a {
+  color:#fff!important;
+}
+/* footer login menu */
+#block-pals-account-menu {
+      width: 300px;
+    float: right;
+    margin-top: -150px;
+    padding-right: 10px;
+}
+.feed-icons1 {
+  display:none;
+}
+/* text color for editor */
+article.page, article.page h1, article.page h2, article.page h3, article.page h4, article.page li {
+color: #003865;
+}
+.ck-content, .ck-content h1, .ck-content h2, .ck-content h3, .ck-content h4, .ck-content li {
+color: #003865!important;
+}
+</style></div>
+      
+  </section>
+
+<section id="block-cssforbrowsebypages" class="block block-block-content block-block-content5b5ee6e0-264e-4522-b89f-0f90bd1954ba clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style type="text/css">.col-md-8 {
+  width: 100%!important;
+}
+.islandora-object .content, .islandora-object .field {
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.view-footer, .view-content {
+  padding-top: 12px;
+}
+#main .region-content {
+  margin-top: 0;
+}
+#main {
+  padding-top: 20px;
+}
+</style>
+</div>
+      
+  </section>
+
+<section id="block-javascriptdefaulttextsearchbox" class="block block-block-content block-block-contenteac5a8e0-e116-425d-a908-4c52108de892 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><script>
+  document.getElementsByName('search_api_fulltext')[0].placeholder='Search...';
+</script></div>
+      
+  </section>
+
+<section id="block-cssfortabs" class="block block-block-content block-block-contentb8873630-13fa-4ef1-87f1-0aa768af7763 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><style type="text/css">.horizontal-tabs {
+  border: none!important;
+}
+.horizontal-tabs-list {
+  background: none!important;
+}
+.horizontal-tabs .horizontal-tab-button {
+  background-color: #fff;
+}
+.horizontal-tabs-list a {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+} 
+
+
+.horizontal-tabs .horizontal-tabs-list {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: auto;
+    clear: both;
+   margin-bottom: 8px;
+  margin-top: 8px;
+}
+.horizontal-tabs-list li {
+    float: left;
+    padding: 4px;
+    display: block;
+   margin-right: 8px;
+  border-top: solid 4px white;
+}
+.horizontal-tabs-list li.selected { 
+  border-top: solid 4px #78BE21;
+}
+/* views */
+.view-manage-members .view-content .views-row {
+    display: inline-block;
+    background-color: #003865;
+    width: 190px;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    box-shadow: 0px 0px 3px #ccc8c7;
+    position: relative;
+    color: #fff;
+    text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+      min-height: 350px!important;
+}
+.view-manage-members .view-content {
+  display: inline-block;
+}
+.view-manage-members .view-content .views-row:hover {
+  background: #0D5257;
+}
+.view-manage-members .view-content img {
+    width: 174px;
+    height: 226px;
+}
+.view-manage-members .view-content .views-field-title a {
+  color: #fff!important;
+  margin-top: 10px;
+  display: block;
+}
+.view-manage-members .shm-button {
+    color: #fff;
+    background: green;
+  margin-top: 8px;
+}
+</style></div>
+      
+  </section>
+
+<section id="block-pals-palscopyright" class="block block-block-content block-block-contenta2b2c31f-8cd3-4998-885c-7d573d7de8ac clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div id="pals_copyright">Powered by <a href="http://www.mnpals.org/">PALS</a>, A Program of <a href="http://www.minnstate.edu">Minnesota State</a></div><style>
+#pals_copyright {
+  text-align: center;
+  color: #fff;
+}
+#pals_copyright a {
+  color: #fff;
+}
+</style></div>
+      
+  </section>
+
+
+  </div>
+
+      </div>
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"taxonomy\/term\/203","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1jVFuAzEIRC_kLkeycEy2RNggYLdJT59VolRVpPzMjN4gpqlmpKNBe6VqTpUnZ_lDYGq6k_8jqSrJVk7qBN03Q1k6o-i64AWvha6Gs9eTiqAF1bP6wExy-NiUM5P0urpuBiQ0aObyrc6_OhOlJrYox6kOhaeVYzVgFW0oX5E34bkWpzCdwTvV48MW8A5q8DChErdIGtAwqOxMPwEPXYb2TegOdExwwA","theme":"pals","theme_token":null},"ajaxTrustedUrl":{"\/solr-search\/content":true},"matomo":{"disableCookies":false,"trackMailto":true},"responsive_menus":[{"toggler_text":"\u2630","selectors":[".region-sidebar"],"media_size":"1000","media_unit":"px","absolute":0,"disable_mouse_events":0,"remove_attributes":1,"responsive_menus_style":"responsive_menus_simple"}],"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"be550c7be9c1add905d49a4743f8cda3aa3de7ffb902bdafd2332b49682ea1be"}}</script>
+<script src="/sites/default/files/js/js_ZN-tTagMO3QZextzTVi0Nhaw7XBaNpatAQmiClHRk8s.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=pals&amp;include=eJx1ikEKwzAMBD9k4icZJVZSFdkrZCWEvr6B0lIKPe0yMzMQI5wsz-9XzLlIl0gflA2Gg_2LBKAhlhY45-q7kU5VSLFNdKcz8WnUa1mgSja4rPBGEez5r0mrsNayOXbLrNy4x3SDywM9SEvQPNKVoiG_JjkPQx9ycLnqfeRfUIY0U34CB9tdBw"></script>
+<script src="https://cdn.jsdelivr.net/npm/entreprise7pro-bootstrap@3.4.8/dist/js/bootstrap.min.js" integrity="sha256-3XV0ZwG+520tCQ6I0AOlrGAFpZioT/AyPuX0Zq2i8QY=" crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_dq-uxbU7axRvxqevJuYumO5w2svAevS_4F5MSDACoi4.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=pals&amp;include=eJx1ikEKwzAMBD9k4icZJVZSFdkrZCWEvr6B0lIKPe0yMzMQI5wsz-9XzLlIl0gflA2Gg_2LBKAhlhY45-q7kU5VSLFNdKcz8WnUa1mgSja4rPBGEez5r0mrsNayOXbLrNy4x3SDywM9SEvQPNKVoiG_JjkPQx9ycLnqfeRfUIY0U34CB9tdBw"></script>
+
+  </body>
+</html>

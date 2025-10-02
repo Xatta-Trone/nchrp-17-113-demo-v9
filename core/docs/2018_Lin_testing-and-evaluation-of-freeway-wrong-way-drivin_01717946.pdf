@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en" data-cftp-theme=default-theme>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="mobile-web-app-capable" content="yes">
+		<meta name="csrftoken" content="U6DUw6NF39YloTU3TnwaBhegw8VLCuHrpFZ9180Eqes"/>
+		<title>Cerberus Web Client</title>
+				
+		<link rel="shortcut icon" href="/favicon.ico" />
+
+		<!-- Chrome for Android -->
+		<!-- <link rel="icon" sizes="192x192" href="/images/android-icon-192x192.png" /> -->
+		<!-- Apple iPhone Retina-->
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-167x167.png">
+		<!-- Apple iPad Retina-->
+		<link rel="apple-touch-icon" sizes="167x167" href="/images/apple-icon-180x180.png">
+
+		<!-- Bootstrap core CSS -->
+	    <link rel="stylesheet" href="/css/bootstrap.5.min.css?v=5.3.1" />
+	    <link rel="stylesheet" href="/css/glyphicons.cerberus.css?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" />
+
+		
+		<link rel="stylesheet" href="/css/bs5/default-theme.css?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" />
+		<link rel="stylesheet" href="/css/custom.theme.bootstrap.5.css?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" />
+        <link rel="stylesheet" href="/css/custom.bootstrap.5.css?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" />
+
+		<link rel="stylesheet" href="/css/common.min.css?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" />
+
+		<!--<style id="antiClickjack">body{display:none !important;}</style>-->
+        
+        <!--[if gte IE 9]>
+			<style type="text/css">
+				.gradient { filter: none; }
+			</style>
+		<![endif]-->
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="/css/common-ie8.css?v=1" />
+		<![endif]-->
+        	        
+	
+	
+		<script src="/js/jquery-3.7.1.min.js"></script>
+		<script src="/js/bootstrap.bundle.5.min.js?v=5.3.1"></script>
+
+		
+		<!-- Javascript language file -->
+		<script src="/lang/i18.js?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56" charset="utf-8"></script>
+		
+		<script src="/js/commonBS5.min.js?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56"></script>
+
+		
+		
+
+
+		<script src='https://www.recaptcha.net/recaptcha/api.js'></script> 
+	</head> 
+	<body>
+   		<!-- Fixed navbar 5.3.1-->
+        <nav class="navbar navbar-expand-md bg-primary navbar_bg_color">
+            <div class="container-fluid">
+			  <a class="navbar-brand" href="/"><img class="d-none d-sm-block" src="/images/logo@2x.png" width="230" height="70" alt="logo"><span class="d-inline d-sm-none">Cerberus</span></a>
+
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+              <!-- <a class="navbar-brand" href="/"><img class="d-none d-sm-block" src="/images/logo@2x.png" width="230" height="70" alt="logo"><span class="d-inline d-sm-none">Cerberus</span></a> -->
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                         <ul class="navbar-nav ms-auto">
+
+              
+                        <li id="home_tab" class="nav-item"><a class="nav-link" href="/">Home</a></li>
+
+
+
+                    <li class="nav-item dropdown">
+
+                        <a href="#" id="notify-dd-menu" class="nav-link dropdown-toggle d-none d-md-block" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="glyphicon glyphicon-bell"></i>
+                            <span id="notify-msg-count" class=""></span>
+                        </a>
+                        <ul class="dropdown-menu top-dropdown lg-dropdown notification-dropdown" aria-labelledby="notify-dd-menu">
+                            <li>
+                                <div class="dropdown-header"><a id="clear-notification-count" href="#" class="float-end text-muted"><small>Clear List</small></a> Activity Center </div>
+								<form name="clear-notification-history-form"></form>
+                                <div class="notification-list"></div>
+                            </li>
+
+                        </ul>
+                    </li>
+
+						<li class="nav-item avtar-dropdown">
+							<a href="#" id="profile-dd-menu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="/images/user_avatar.png" height="22" class="rounded-circle" alt="User image" />
+							</a>
+							<ul class="dropdown-menu top-dropdown" aria-labelledby="profile-dd-menu" data-bs-popper="static">
+								<li class="pad_10">
+									<small>Not currently logged in
+										   
+										   
+									</small>
+								</li>
+
+							</ul>
+						</li>
+                    </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+		</nav>
+
+    <!-- Wrap all page content here -->
+	<div id="wrap" class="off">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+					<div class="page-header">
+					<h1 class="page-title"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;Sign In</h1>
+					</div>
+                </li>
+				<li class="active">
+					<a href="/"><i class="glyphicon glyphicon-folder-close"></i>&nbsp;Home</a>
+				</li>
+
+
+
+			</ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        
+		<div id="page-content-wrapper">
+        
+			<!-- Begin page content -->
+
+
+
+
+
+
+
+
+<form id="login-form" action="/login/user" method="post">
+
+        <div class="row justify-content-center">
+
+
+            <div class="
+                        col-lg-9 col-md-9 col-sm-10">
+
+
+                <div id="login" class="card border border-color rounded">
+                    <div class="card-body border-color">
+                        <div class="row row-eq-height">
+
+                             <div class="col-lg-5 col-md-6 col-sm-6">                                
+                                <div id="welcome" class="welcome">
+                                    <div id="welcomeMessage"><p>Don&#39;t know your password?  Click on the &quot;Forgot your password?&quot; link to reset (must have previously set up security questions to use). <br /> <br />Welcome to FDOT&#39;s FTP server. <br /> <br />If you need assistance with this application, please contact the FDOT Service Desk at 866-955-4357 or email them at fdot.servicedesk@dot.state.fl.us . <br /> <br />Log in with the Guest account to download only.  No password is required. <br /> <br />NEVER upload confidential data on this server. </p></div>
+                                    <div id="welcomeHTML"><p></p></div>
+
+                                </div>
+                             </div>
+                                <div class="col-lg-7 col-md-6 col-sm-6">
+
+
+                                <div id="login-innerdiv">
+                                    <input type="hidden" name="rtu" id="rtu" form="login-form" value="" />
+                                    <div class="clearfix text-center">
+                                        <div class="float-start"><img src="/images/login-icon.png" width="70" height="70" alt="Login icon" /></div>
+                                        <div class="float-start login-text">Client Login</div>
+                                    </div>
+
+                                    <div class="form-group mt-1_75e">
+                                        <label class="control-label visually-hidden" for="username">Username:</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="username-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                            <input type="text" name="username" id="username" form="login-form" class="form-control" placeholder="Username" aria-describedby="username-addon" maxlength="255" autocomplete="off" required value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label visually-hidden" for="password">Password:</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text" id="password-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                            <input type="password" name="password" id="password" class="form-control" form="login-form" placeholder="Password" aria-describedby="password-addon" maxlength="255" autocomplete="off" />
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix">
+                                        <div class="form-group float-end">
+                                            <div class="form-group g-recaptcha" data-sitekey="6LfmQC0kAAAAABQQHblrmQ5MuOrF5kYkc40-RWRC"></div>
+                                        </div>
+                                    </div>
+
+                        
+                                    <div class=""> </div>
+                                    <div class="row">
+                                         <div class="col-sm-12 col-md-4">
+
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-4">
+
+                                            <div class="pdt_5"><small><a class="text-info tip" href="/reset/request" tabindex="-1" data-bs-placement="top" data-bs-content="You can use this link to request a reset for a forgotten password">Forgot your password?</a></small></div>
+
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <button form="login-form" class="btn btn-primary btn-block w-100" type="submit" id="login-button" name="Submit" data-loading-text="Please wait..." value="Sign in">Sign in</button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+</form>
+
+<script id="template" data-template="client-login" src="/js/client-login.js?v=E047B76B9D86024B8E0719C3676D4FD9DB853C56"></script> 
+	
+
+			</div>
+			<!-- End page content -->
+        </div>
+        <!-- /#page-content-wrapper -->
+	</div>
+
+	<div id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-2">
+					<p class="text-muted credit">
+					<span class="text-muted"><span class="badge label-lc">Invariant Language</span></span>
+					</p>
+				</div>
+				<div class="col-sm-10">
+					<p class="text-muted credit text-center">
+						<a href="/">Home</a>
+						
+						
+						<span class="sep_footer_nav">|</span><a href="#" id="_context_help_">&nbsp;<span class="glyphicon glyphicon-question-sign"></span>&nbsp;Help</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</body>
+
+</html>
+
+

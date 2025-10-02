@@ -1,0 +1,953 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11438887070"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11438887070');
+</script>
+
+<meta name="google-site-verification" content="wAp7pzoQyv73FsL3PDXHM9uMv-nLLAi4_nwhMSwWgKM" />
+<!-- OneTrust Cookies Consent Notice start for erm.com -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/29efea12-347c-433d-9567-43414a8a655a/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="29efea12-347c-433d-9567-43414a8a655a" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for erm.com -->
+
+<!-- Start VWO Async SmartCode -->
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+<script type='text/javascript' id='vwoCode'>
+window._vwo_code || (function() {
+var account_id=1136754,
+version=2.1,
+settings_tolerance=2000,
+hide_element='body',
+hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;transition:none !important;',
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={nonce:v&&v.nonce,library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){if(performance.getEntriesByName('first-contentful-paint')[0]){return''}return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){if(!f){f=true;var t=d.getElementById('_vis_opt_path_hides');if(t)t.parentNode.removeChild(t);if(e)(new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e}},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript';if(e.src){t.src=e.src}else{t.text=e.text}v&&t.setAttribute('nonce',v.nonce);d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){var n=this.getSettings(),i=d.createElement('script'),r=this;t=t||{};if(n){i.textContent=n;d.getElementsByTagName('head')[0].appendChild(i);if(!w.VWO||VWO.caE){stT.removeItem(cK);r.load(e)}}else{var o=new XMLHttpRequest;o.open('GET',e,true);o.withCredentials=!t.dSC;o.responseType=t.responseType||'text';o.onload=function(){if(t.onloadCb){return t.onloadCb(o,e)}if(o.status===200||o.status===304){_vwo_code.addScript({text:o.responseText})}else{_vwo_code.finish('&e=loading_failure:'+e)}};o.onerror=function(){if(t.onerrorCb){return t.onerrorCb(e)}_vwo_code.finish('&e=loading_failure:'+e)};o.send()}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t;if(this.hide_element()!=='body'){t=d.createElement('style');var n=this.hide_element(),i=n?n+this.hide_element_style():'',r=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');v&&t.setAttribute('nonce',v.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));r.appendChild(t)}else{t=d.getElementsByTagName('head')[0];var i=d.createElement('div');i.style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;';i.setAttribute('id','_vis_opt_path_hides');i.classList.add('_vis_hide_layer');t.parentNode.insertBefore(i,t.nextSibling)}var o=window._vis_opt_url||d.URL,s='https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(o)+'&vn='+version;if(w.location.search.indexOf('_vwo_xhr')!==-1){this.addScript({src:s})}else{this.load(s+'&x=true')}}};w._vwo_code=code;code.init();})();
+</script>
+<!-- End VWO Async SmartCode -->
+
+<script> (function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));}; (function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); }; ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('YEgkB8lxL328ep3Z'); </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MKHMXHN');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+
+        <meta name="robots" content="noindex, nofollow">
+    <title>MJB&amp;A Transition</title>
+    <meta name="title" content="MJB&amp;A Transition" />
+    <meta name="description" />
+
+
+
+<meta property="og:title" content="MJB&amp;A Transition" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.erm.com/mjba-transition/" />
+<meta property="og:image" content="https://www.erm.com/globalassets/erm-logo1-vi.svg" />
+<meta property="og:description" />
+<meta property="og:site_name" content="ERM" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="MJB&amp;A Transition" />
+<meta name="twitter:description" />
+<meta name="twitter:image:src" content="https://www.erm.com/globalassets/erm-logo1-vi.svg" />
+<meta name="twitter:creator" />
+<meta name="twitter:site" />
+
+    <link href="https://www.erm.com/mjba-transition/" rel="canonical" />
+
+    
+    
+
+
+    <link rel='stylesheet' type='text/css' href='/dist/erm.f87638c7665c93450e40.css'></link>
+
+    
+
+            <link rel="shortcut icon" href="/contentassets/ee8940f3c8714ff2ae0d532ca4512193/erm-logo1-vi-svg.png" type="image/x-icon">
+        <link rel="icon" href="/contentassets/ee8940f3c8714ff2ae0d532ca4512193/erm-logo1-vi-svg.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <script>
+        var epi = epi || {};
+        epi.EPiServer = epi.EPiServer || {};
+        epi.EPiServer.Forms = epi.EPiServer.Forms || {};
+    </script>
+
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+<script type="text/javascript">var appInsights=window.appInsights||function(config){function t(config){i[config]=function(){var t=arguments;i.queue.push(function(){i[config].apply(i,t)})}}var i={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",r,f;setTimeout(function(){var t=u.createElement(o);t.src=config.url||"https://js.monitor.azure.com/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(t)});try{i.cookie=u.cookie}catch(y){}for(i.queue=[],r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)t("track"+r.pop());return t("set"+s),t("clear"+s),t(h+a),t(c+a),t(h+v),t(c+v),t("flush"),config.disableExceptionTracking||(r="onerror",t("_"+r),f=e[r],e[r]=function(config,t,u,e,o){var s=f&&f(config,t,u,e,o);return s!==!0&&i["_"+r](config,t,u,e,o),s}),i}({instrumentationKey:"c3373d6d-f55f-4f9b-9d1a-c3dcc1000a94",sdkExtension:"a"});window.appInsights=appInsights;appInsights.queue&&appInsights.queue.length===0&&appInsights.trackPageView();</script></head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MKHMXHN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+
+
+    
+
+    
+
+
+
+
+
+
+    <div id="siteHeader" class="header">
+        <div class="header__inner">
+
+                <nav class="header__nav-utility" id="headerLinks" aria-label="Utility Navigation">
+                    <ul>
+
+                    </ul>
+                </nav>
+
+            <div class="header__logo">
+                <a id="siteLogo" href="/" title="ERM Logo">
+                    <img src="/globalassets/erm-logo1-vi.svg" class="img-fluid" alt="ERM Logo"/>
+
+                </a>
+
+                <div id="navBack" class="header__nav-back hide" aria-label="Navigate back">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 19L5 12L12 5" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+
+            <nav id="siteNav" class="header__nav" role="navigation">
+                <ul class="header__nav-parent">
+
+                            <li class="header__nav-top-level has-children">
+                                <a href="/about/" title="About" >About</a>
+
+                                    <div class="header__nav">
+                                        <div class="header__nav-children">
+                                            <div class="header__nav-content">
+                                                <div>
+                                                    <span class="header__nav-name">About</span>
+                                                    <p class="header__nav-description">At ERM, sustainability is our business. </p>
+
+                                                        <a href="/about/" class="round-button green">
+                                                            <span>Explore</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M3.33301 8H12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M8 3.33301L12.6667 7.99967L8 12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                </div>
+
+                                                <div class="desktop-only">
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <ul>
+                                                    <li>
+                                                        <a href="/about/company/" title="Our Company">
+                                                            Our Company
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/people/" title="Our People">
+                                                            Our People
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/work/" title="Our Work">
+                                                            Our Work
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/events/" title="Events">
+                                                            Events
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/locations/" title="Locations">
+                                                            Locations
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/news/" title="News">
+                                                            News
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/sustainability/" title="Sustainability">
+                                                            Sustainability
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/sustainability-institute/" title="Sustainability Institute">
+                                                            Sustainability Institute
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about/erm-foundation/" title="ERM Foundation">
+                                                            ERM Foundation
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/cst-council-sustainability-transformation/" title="Council on Sustainability Transformation">
+                                                            Council on Sustainability Transformation
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                            </ul>
+
+                                            <div class="mobile-only">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="header__nav-top-level has-children">
+                                <a href="/industries/" title="Industries" >Industries</a>
+
+                                    <div class="header__nav">
+                                        <div class="header__nav-children">
+                                            <div class="header__nav-content">
+                                                <div>
+                                                    <span class="header__nav-name">Industries</span>
+                                                    <p class="header__nav-description">We focus on the greatest sustainability challenges across all sectors.</p>
+
+                                                        <a href="/industries/" class="round-button green">
+                                                            <span>Explore</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M3.33301 8H12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M8 3.33301L12.6667 7.99967L8 12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                </div>
+
+                                                <div class="desktop-only">
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <ul>
+                                                    <li>
+                                                        <a href="/industries/chemical/" title="Chemical">
+                                                            Chemical
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/financial-services/" title="Financial Services">
+                                                            Financial Services
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/manufacturing/" title="Manufacturing">
+                                                            Manufacturing
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/mining-metals/" title="Mining &amp; metals">
+                                                            Mining &amp; metals
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/oil-gas/" title="Oil &amp; Gas">
+                                                            Oil &amp; Gas
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/power/" title="Power">
+                                                            Power
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/Renewables/" title="Renewables">
+                                                            Renewables
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/technology-media-telecommunications/" title="Technology, Media &amp; Telecommunications">
+                                                            Technology, Media &amp; Telecommunications
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/industries/pharmaceutical/" title="Pharmaceutical">
+                                                            Pharmaceutical
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                            </ul>
+
+                                            <div class="mobile-only">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="header__nav-top-level has-children">
+                                <a href="/solutions/" title="Solutions" >Solutions</a>
+
+                                    <div class="header__nav">
+                                        <div class="header__nav-children">
+                                            <div class="header__nav-content">
+                                                <div>
+                                                    <span class="header__nav-name">Solutions</span>
+                                                    <p class="header__nav-description">Offering unparalleled depth and breadth of expertise.</p>
+
+                                                        <a href="/solutions/" class="round-button green">
+                                                            <span>Explore</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M3.33301 8H12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path d="M8 3.33301L12.6667 7.99967L8 12.6663" stroke="#0A2B14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </a>
+                                                </div>
+
+                                                <div class="desktop-only">
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <ul>
+                                                    <li>
+                                                        <a href="/link/0712b28b3b884d47bf0a304d30b2ca5f.aspx" title="Assurance &amp; Certification (ERM CVS)">
+                                                            Assurance &amp; Certification (ERM CVS)
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/capital-projects-infrastructure/" title="Capital Projects &amp; Infrastructure">
+                                                            Capital Projects &amp; Infrastructure
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/carbon-markets/" title="Carbon Markets">
+                                                            Carbon Markets
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/circular-economy/" title="Circular Economy">
+                                                            Circular Economy
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/clean-energy-procurement/" title="Clean Energy Procurement &amp; Risk Management">
+                                                            Clean Energy Procurement &amp; Risk Management
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/climate-net-zero/" title="Climate &amp; Net Zero">
+                                                            Climate &amp; Net Zero
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/compliance-auditing/" title="Compliance &amp; Auditing">
+                                                            Compliance &amp; Auditing
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/data-digital/" title="Data &amp; Digital">
+                                                            Data &amp; Digital
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/ehs-management/" title="EHS Management">
+                                                            EHS Management
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/energy-transition/" title="Energy Transition">
+                                                            Energy Transition
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/health-safety/" title="Health &amp; Safety">
+                                                            Health &amp; Safety
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/mergers-acquisitions-transactions/" title="Mergers, Acquisitions &amp; Transactions">
+                                                            Mergers, Acquisitions &amp; Transactions
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/nature-water/" title="Nature &amp; Water">
+                                                            Nature &amp; Water
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/product-stewardship/" title="Product Stewardship">
+                                                            Product Stewardship
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/remediation-regeneration/" title="Remediation &amp; Regeneration">
+                                                            Remediation &amp; Regeneration
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/reporting-disclosure/" title="Reporting &amp; Disclosure">
+                                                            Reporting &amp; Disclosure
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/social-impact-human-rights/" title="Social Impact &amp; Human Rights">
+                                                            Social Impact &amp; Human Rights
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/strategy-transformation/" title="Strategy &amp; Transformation">
+                                                            Strategy &amp; Transformation
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/strategic-marketing-communications/" title="Strategic Communications &amp; Marketing">
+                                                            Strategic Communications &amp; Marketing
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/supply-chain/" title="Supply Chain">
+                                                            Supply Chain
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/sustainable-finance/" title="Sustainable Finance">
+                                                            Sustainable Finance
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/training-programs-courses/" title="Training Programs &amp; Courses">
+                                                            Training Programs &amp; Courses
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/solutions/communications-design/" title="Visual Communication &amp; Design">
+                                                            Visual Communication &amp; Design
+                                                        </a>
+                                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <g id="arrow-right">
+                                                                <path id="Vector" d="M3.33301 8H12.6663" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                                <path id="Vector_2" d="M8 3.3335L12.6667 8.00016L8 12.6668" stroke="#0a2b14" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </g>
+                                                        </svg>
+                                                    </li>
+                                            </ul>
+
+                                            <div class="mobile-only">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="header__nav-top-level ">
+                                <a href="/products/" title="Products" >Products</a>
+
+                            </li>
+                            <li class="header__nav-top-level ">
+                                <a href="/projects/" title="Projects" >Projects</a>
+
+                            </li>
+                            <li class="header__nav-top-level ">
+                                <a href="/insights/" title="Insights" >Insights</a>
+
+                            </li>
+                            <li class="header__nav-top-level ">
+                                <a href="/careers/" title="Careers" >Careers</a>
+
+                            </li>
+                            <li class="header__nav-top-level ">
+                                <a href="/contact-us/" title="Contact" >Contact</a>
+
+                            </li>
+
+                </ul>
+            </nav>
+
+            <div class="header__search">
+                <div id="searchContainer">
+<form action="/search-results/" id="headerSearch" method="get">                        <input type="text" class="search-bar" name="q" placeholder="Search" />
+                        <button id="searchButton" type="submit" class="header__search-icon" aria-label="Search">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M21.0004 20.9999L16.6504 16.6499" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+</form>                </div>
+
+                <div class="header__burger">
+                    <button id="navOpen" type="button" class="header__burger-open" aria-controls="siteNav" aria-expanded="false">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 12H21" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 6H21" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 18H21" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <button id="navClose" type="button" class="header__burger-close hide" aria-controls="siteNav" aria-expanded="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6 6L18 18" stroke="#0A2B14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <div class="article-page">
+
+
+        <div class="row">
+            <div class="col-md-8 pr-75">
+                <div class="article-header">
+                    <h1 class="article-title" >MJB&amp;A is now ERM</h1>
+                    <p class="article-date"></p>
+                </div>
+            </div>
+            <div class="col-md-3 no-column-md-up-padding top-right-area">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="content-left col-md-8">
+                <div class="wysiwyg main-content" >
+                    <p>ERM acquired M.J. Bradley &amp; Associates (MB&amp;A) in March 2020. Founded in 1994, MJB&amp;A has provided strategic consulting services to address energy and environmental issues for the private, public, and non-profit sectors. Since the aquisition, MJB&amp;A has been operating as an ERM Group company.</p>
+<p>Now fully transitioning to the ERM brand, the following tools, resources and capabilities have been moved to the <strong>ERM Corporate website</strong> and the SustainAbility Institute by ERM.</p>
+<h3>On the ERM Corporate website (ERM.com)</h3>
+<h4>MJB&amp;A Publications Archive</h4>
+<ul>
+<li><a title="MJB&amp;A Publications Archive" href="/mjba-transition/mjba-archive/">For publications from 2018 - 2021</a></li>
+</ul>
+<h4>Coalitions</h4>
+<ul>
+<li><a title="The Clean Energy Group" href="~/link/159d3d358ba1409a8dd9ee66639b9016.aspx">The Clean Energy Group</a></li>
+<li><a title="Permitting and Infrastructure Coalition" href="~/link/83a6c8e9dc5b472087915d9ecb8b7c64.aspx">Permitting and Infrastructure Coalition</a></li>
+<li><a title="Downstream Natural Gas Initiative" href="~/link/eb519ccf9dfe4a1ebd767145edc45b99.aspx">Downstream Natural Gas Initiative</a></li>
+<li><a title="Natural Gas Supply Collaborative" href="~/link/57ca1778dc574d718f74b8152504112f.aspx">Natural Gas Supply Collaborative</a></li>
+</ul>
+<h3>On the SustainAbility Institute by ERM (sustainability.com)</h3>
+<h4>Interactive tools</h4>
+<ul>
+<li><a title="Benchmarking Air Emissions of the 100 largest power producers in the United States" href="https://esi.preprod.unrvlddev.com/thinking/benchmarking-air-emissions-100-largest-us-power-producers/">Benchmarking Air Emissions of the 100 largest power producers in the United States</a></li>
+<li><a title="Benchmarking Methane and Other GHG Emissions Of Oil &amp; Natural Gas Production in the United States" href="https://esi.preprod.unrvlddev.com/benchmarking-methane-ghg-emissions-oil-natural-gas-us/">Benchmarking Methane and Other GHG Emissions Of Oil &amp; Natural Gas Production in the United States</a></li>
+</ul>
+<h4>Analytical resources</h4>
+<ul>
+<li><a title="E-DRIVE: Evaluation &amp; Development of Regional Infrastructure for Vehicle Electrification" href="/insights/e-drive/">E-DRIVE: Evaluation &amp; Development of Regional Infrastructure for Vehicle Electrification</a></li>
+<li><a title="Gas Company Climate Planning Tool" href="/insights/gas-company-climate-planning-tool/">Gas Company Climate Planning Tool</a></li>
+<li><a title="STEP - STate Emission Pathways Tool" href="/insights/state-emission-pathways-tool/">STEP - STate Emission Pathways Tool</a></li>
+<li><a title="Regional EV Charging Infrastructure Location Identification Toolkit" href="/insights/regional-ev-charging-infrastructure-location-identification/">Regional EV Charging Infrastructure Location Identification Toolkit</a></li>
+</ul>
+                </div>
+            </div>
+
+            <div class="content-right col-md-3 no-column-md-up-padding">
+                <div class="contacts">
+                </div>
+
+                <div class="content-area-right">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="bottom-contentarea">
+        <div class="row">
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+</div>
+
+
+
+
+
+
+
+<footer class="footer">
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md footer-container">
+
+                    <div class="positioner">
+                        <div class="navbar-brand-container">
+                            <a class="navbar-brand" href="/" title="ERM Logo">
+                                <img src="/globalassets/erm-logo2.svg" class="img-fluid" alt="ERM Logo"/>
+                            </a>
+                        </div>
+
+                        <ul class="footer-links">
+                                    <li class="nav-item">
+                                        <a href="/sustainability-report-2025/" class="nav-link">Sustainability Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/about/company/business-conduct-ethics/human-rights-and-modern-slavery-act-statement/" class="nav-link">Modern Slavery Act Statement</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/terms-and-conditions/" class="nav-link">Terms and Conditions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/privacy/" class="nav-link">Privacy Notice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/cookies/" class="nav-link">Cookie notice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/sitemap/" class="nav-link">Sitemap</a>
+                                    </li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center w-100 copyright" id="copyright">
+                        <span class="copyright-text" id="copyrightText" >Copyright &#169; 2000 - 2024 The ERM International Group Limited, All rights reserved</span>
+                    </div>
+
+                        <div class="footer__social-links">
+                            <ul class="footer__social-links-list">
+
+                                    <li class="footer__social-links-list-item">
+                                        <a href="https://x.com/GlobalERM" target="_blank">
+
+                                                <img src="/contentassets/5db737464e734daba2c2c49b85cf7045/x_inverted.png" alt="x Icon" />
+
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-links-list-item">
+                                        <a href="https://www.facebook.com/ERMGlobal" target="_blank">
+
+                                                <img src="/contentassets/5db737464e734daba2c2c49b85cf7045/facebook_inverted1.png" alt="facebook Icon" />
+
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-links-list-item">
+                                        <a href="https://www.linkedin.com/company/erm" target="_blank">
+
+                                                <img src="/contentassets/5db737464e734daba2c2c49b85cf7045/linkedin_inverted-2.png" alt="linkedin Icon" />
+
+                                        </a>
+                                    </li>
+                                    <li class="footer__social-links-list-item">
+                                        <a href="https://www.youtube.com/@ERMGlobal" target="_blank">
+
+                                                <img src="/contentassets/5db737464e734daba2c2c49b85cf7045/youtube-inverted1.png" alt="youtube Icon" />
+
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript" src="/dist/2afd2833f6a741d4463f.js"></script>
+
+    <script type="text/javascript" src="/dist/01e50cbad5dddc8377f8.js"></script>
+
+    <script type="text/javascript" src="/dist/c7766d4c159de9b0d6e0.js"></script>
+
+    <script type="text/javascript" src="/dist/954a21ddf17d0a90e740.js"></script>
+
+    <script type="text/javascript" src="/dist/015c0c305adb47f03eaf.js"></script>
+
+    <script type="text/javascript" src="/dist/3035299437ee952d8d90.js"></script>
+
+    <script type="text/javascript" src="/dist/5ba23ce2372f50c32971.js"></script>
+
+    <script type="text/javascript" src="/dist/2e45e68e20e4dd9c6f8d.js"></script>
+
+    <script type="text/javascript" src="/dist/3aa832016af4258e22ec.js"></script>
+
+
+
+    <script type="text/javascript" src="https://dl.episerver.net/13.6.1/epi-util/find.js"></script>
+<script type="text/javascript">
+if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+
+    
+</body>
+</html>
