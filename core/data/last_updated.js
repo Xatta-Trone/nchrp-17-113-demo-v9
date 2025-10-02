@@ -1,0 +1,1 @@
+window.LAST_UPDATED = "2025-10-02 12:00:00"; // Format: "YYYY-MM-DD HH:MM:SS"

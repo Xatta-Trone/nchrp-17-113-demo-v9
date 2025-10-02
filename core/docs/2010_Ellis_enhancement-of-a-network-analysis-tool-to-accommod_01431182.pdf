@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png">
+	<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=647a2dd340353a0019caf1f9&product=inline-share-buttons&source=platform" async="async"></script>
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v26.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>UFTI Home</title>
+	<meta name="description" content="The UFTI, University of Florida Transportation Institute, aims to advance transportation, disseminate research results, and provide educational opportunities related to transportation." />
+	<link rel="canonical" href="https://www.transportation.institute.ufl.edu/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="UFTI Home" />
+	<meta property="og:description" content="The UFTI, University of Florida Transportation Institute, aims to advance transportation, disseminate research results, and provide educational opportunities related to transportation." />
+	<meta property="og:url" content="https://www.transportation.institute.ufl.edu/" />
+	<meta property="og:site_name" content="University of Florida Transportation Institute" />
+	<meta property="article:modified_time" content="2025-06-17T19:53:11+00:00" />
+	<meta property="og:image" content="https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2021/09/2017-04-12_Aerial_UF-0062-scaled-1.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1707" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.transportation.institute.ufl.edu/","url":"https://www.transportation.institute.ufl.edu/","name":"UFTI Home","isPartOf":{"@id":"https://www.transportation.institute.ufl.edu/#website"},"about":{"@id":"https://www.transportation.institute.ufl.edu/#organization"},"primaryImageOfPage":{"@id":"https://www.transportation.institute.ufl.edu/#primaryimage"},"image":{"@id":"https://www.transportation.institute.ufl.edu/#primaryimage"},"thumbnailUrl":"https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2021/09/2017-04-12_Aerial_UF-0062-scaled-1.jpg","datePublished":"2019-05-10T12:57:44+00:00","dateModified":"2025-06-17T19:53:11+00:00","description":"The UFTI, University of Florida Transportation Institute, aims to advance transportation, disseminate research results, and provide educational opportunities related to transportation.","breadcrumb":{"@id":"https://www.transportation.institute.ufl.edu/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.transportation.institute.ufl.edu/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.transportation.institute.ufl.edu/#primaryimage","url":"https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2021/09/2017-04-12_Aerial_UF-0062-scaled-1.jpg","contentUrl":"https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2021/09/2017-04-12_Aerial_UF-0062-scaled-1.jpg","width":2560,"height":1707,"caption":"UF Aerial 2017"},{"@type":"BreadcrumbList","@id":"https://www.transportation.institute.ufl.edu/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.transportation.institute.ufl.edu/#website","url":"https://www.transportation.institute.ufl.edu/","name":"University of Florida Transportation Institute","description":"","publisher":{"@id":"https://www.transportation.institute.ufl.edu/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.transportation.institute.ufl.edu/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.transportation.institute.ufl.edu/#organization","name":"University of Florida Transportation Institute","url":"https://www.transportation.institute.ufl.edu/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.transportation.institute.ufl.edu/#/schema/logo/image/","url":"https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png","contentUrl":"https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png","width":815,"height":120,"caption":"University of Florida Transportation Institute"},"image":{"@id":"https://www.transportation.institute.ufl.edu/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//www.eng.ufl.edu' />
+<link rel="alternate" type="application/rss+xml" title="University of Florida Transportation Institute &raquo; Feed" href="https://www.transportation.institute.ufl.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="University of Florida Transportation Institute &raquo; Comments Feed" href="https://www.transportation.institute.ufl.edu/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.transportation.institute.ufl.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css' href='https://www.transportation.institute.ufl.edu/wp-includes/css/dist/block-library/theme.min.css?ver=6.8.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='create-block-section-nav-style-inline-css' type='text/css'>
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<link rel='stylesheet' id='create-block-slider-news-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/slider-news/build/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-announcements-showcase-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/announcements-showcase-block/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-announcement-showcase-button-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-content-carousel-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/content-carousel-block/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-content-carousel-inner-block-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-cta-button-block-style-inline-css' type='text/css'>
+.cta-button-wrapper{align-content:stretch;align-items:stretch;display:flex;flex-wrap:wrap;gap:30px;justify-content:space-evenly;margin-left:auto;margin-right:auto;max-width:1375px}.cta-button-wrapper .cta-button{align-self:stretch;border:2px dotted #fa4616;border-radius:100px;cursor:pointer;flex-direction:column;margin-bottom:25px;max-width:420px;min-width:300px;padding:15px 30px;position:relative;transition:all .4s ease-in-out;width:100%}.cta-button-wrapper .cta-button,.cta-button-wrapper .cta-button .cta-title{align-items:center;display:flex;justify-content:center;text-align:center;text-decoration:none}.cta-button-wrapper .cta-button .cta-title{align-content:stretch;bottom:0;color:#0021a5;font-family:"IBM Plex semibold";font-size:24px;left:0;line-height:36px;margin:auto;position:absolute;right:0;top:0;transition:all .5s ease-in-out;z-index:9999999}@media(min-width:800px){.cta-button-wrapper .cta-button .cta-title{font-size:36px;line-height:40px}}.cta-button-wrapper .cta-button .cta-text{color:#0021a5;display:block;font-family:"IBM Plex medium";font-size:18px;line-height:22px;margin-left:auto;margin-right:auto;max-width:345px;opacity:0;text-align:center;text-decoration:none;transition:all .4s ease-in-out}@media(min-width:800px){.cta-button-wrapper .cta-button .cta-text{font-size:19px;line-height:22px}}.cta-button-wrapper .cta-button:focus,.cta-button-wrapper .cta-button:hover{background:#f3f1e9;border-color:transparent}.cta-button-wrapper .cta-button:focus .cta-title,.cta-button-wrapper .cta-button:hover .cta-title{opacity:0}.cta-button-wrapper .cta-button:focus .cta-text,.cta-button-wrapper .cta-button:hover .cta-text{opacity:1}
+
+</style>
+<style id='create-block-cta-showcase-style-inline-css' type='text/css'>
+.wp-block-create-block-cta-showcase{padding:75px 7.5% 110px}.wp-block-create-block-cta-showcase h2{color:#000;text-align:center}.wp-block-create-block-cta-showcase .lead{color:#000;font-size:20px;line-height:32px;margin-bottom:50px;text-align:center}@media(min-width:800px){.wp-block-create-block-cta-showcase .lead{font-size:22px;line-height:32px}}.cta-button-wrapper .block-list-appender{bottom:20px;position:relative!important}
+
+</style>
+<style id='create-block-factoids-style-inline-css' type='text/css'>
+.factoids{margin-left:auto;margin-right:auto;max-width:calc(1640px + 5%);overflow-x:hidden;padding:50px 7% 10px}.factoids .wp-block-columns{margin-bottom:0}@media(min-width:900px){.factoids{padding:100px 2.5% 20px}}.factoids .factoid-col{margin-bottom:30px}.factoids .factoid-col .factoid-number{border-bottom:2px dotted #fa4616;color:#0021a5;font-family:"IBM Plex bold",Arial,sans-serif;font-size:40px;line-height:60px}@media(min-width:900px){.factoids .factoid-col .factoid-number{font-size:60px;line-height:60px!important;padding-bottom:32px}}.factoids .factoid-col .factoid-subhead{color:#0021a5;font-family:"IBM Plex semibold";font-size:22px;font-weight:700;line-height:28px;text-align:center}@media(min-width:900px){.factoids .factoid-col .factoid-subhead{font-size:24px;line-height:28px}}.factoids .factoid-col .factoid-subtext{color:#000;font-size:18px;line-height:28px;margin-left:auto;margin-right:auto;max-width:395px}@media(min-width:900px){.factoids .factoid-col .factoid-subtext{font-size:20px;line-height:28px}}
+
+</style>
+<style id='create-block-factoid-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-hero-block-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/hero-block/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-showcase-text-only-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/showcase-text-only/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-showcase-text-only-button-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-blockquote-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/blockquote/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-title-block-style-inline-css' type='text/css'>
+.title-block{background-color:#f4f6f6;overflow-x:hidden;padding-bottom:36px;padding-left:7%;padding-right:7%}@media(min-width:800px){.title-block{padding-bottom:72px}}.title-block .page-title-container{padding-top:20px}@media(min-width:800px){.title-block .page-title-container{padding-top:40px}}.title-block .page-title-container .title-wrapper{margin-left:auto;margin-right:auto;max-width:1074px;text-align:center}.title-block .page-title-container .title-wrapper h1{color:#000;margin-bottom:20px;text-align:center;text-transform:uppercase}.title-block .page-title-container .title-wrapper hr{border-top:2px solid #fa4616;margin-bottom:0;margin-top:0;opacity:1}.title-block .page-title-container .title-wrapper p{color:#000;line-height:30px;margin:30px auto 0;max-width:980px;text-align:center}@media(min-width:800px){.title-block .page-title-container .title-wrapper p{font-size:24px;margin-top:50px}}
+
+</style>
+<style id='create-block-fullwidth-text-block-style-inline-css' type='text/css'>
+.fullwidth-text-block{overflow-x:hidden;padding-left:7%;padding-right:7%}.fullwidth-text-block .container{padding-top:45px}@media(min-width:800px){.fullwidth-text-block .container{padding-top:95px}}@media(min-width:1196px){.fullwidth-text-block .container{max-width:1074px}}.fullwidth-text-block .container h2{display:block}@media(min-width:800px){.fullwidth-text-block .container h2{margin-bottom:40px;font-size:46px;line-height:50px;}}.fullwidth-text-block .container h2 a{color:#0021a5;font-family:"IBM Plex medium";text-decoration:none}.fullwidth-text-block .container h2 a:focus,.fullwidth-text-block .container h2 a:hover{color:#000;text-decoration:underline}.fullwidth-text-block .container .intro{color:#343741;display:block;font-family:"IBM Plex medium";font-size:22px;line-height:32px;margin-bottom:20px}@media(min-width:800px){.fullwidth-text-block .container .intro{font-size:26px;line-height:38px;margin-bottom:40px}}.fullwidth-text-block .container p{display:block}.fullwidth-text-block img.alignleft{float:left;margin-right:10px}.fullwidth-text-block img.alignright{float:right;margin-left:10px}.fullwidth-text-block iframe{aspect-ratio:16/9;height:unset;width:100%}
+
+</style>
+<style id='create-block-showcase-text-image-style-inline-css' type='text/css'>
+.wp-block-create-block-showcase-text-image-inner{overflow-x:hidden;position:sticky;position:-webkit-sticky;top:0}.wp-block-create-block-showcase-text-image-inner:last-of-type{position:relative!important}@media(min-width:991px){.wp-block-create-block-showcase-text-image-inner{min-height:60vh}}.wp-block-create-block-showcase-text-image-inner .col-image{background-position:50%;background-repeat:no-repeat;background-size:cover;flex:0;flex-basis:100%;max-width:100%;min-height:250px;overflow:hidden;position:relative;width:100%}@media(min-width:991px){.wp-block-create-block-showcase-text-image-inner .col-image{flex-basis:55%;max-width:55%;min-height:60vh}}.wp-block-create-block-showcase-text-image-inner .col-text{flex:0;flex-basis:100%;max-width:100%;padding:40px 7% 60px}@media(min-width:991px){.wp-block-create-block-showcase-text-image-inner .col-text{flex-basis:45%;max-width:45%;padding:124px 5% 140px}}.wp-block-create-block-showcase-text-image-inner .col-text .col-text-inner{margin-left:auto;margin-right:auto;max-width:560px}.wp-block-create-block-showcase-text-image-inner .col-text .col-text-inner p{margin-bottom:50px}.wp-block-create-block-showcase-text-image-inner .col-text .col-text-inner h2{font-size:42px;line-height:46px}@media(min-width:991px){.wp-block-create-block-showcase-text-image-inner .col-text .col-text-inner h2{font-size:58px;line-height:68px}}.wp-block-create-block-showcase-text-image-inner .sti-btn-wrap{display:block;text-align:center}@media(min-width:991px){.wp-block-create-block-showcase-text-image-inner .sti-btn-wrap{text-align:left}}@media(max-width:991px){.text-left-row{display:flex;flex-direction:column-reverse}}
+
+</style>
+<style id='create-block-showcase-text-image-inner-style-inline-css' type='text/css'>
+.sti-btn-wrap a{display:block}.sti-btn-wrap a,.sti-btn-wrap a.components-external-link.button.animated-border-button.button-border-blue.button-text-dark{margin-bottom:20px;margin-right:20px}.sti-btn-wrap a.components-external-link.button.animated-border-button.button-border-blue.button-text-dark .components-external-link__contents{text-decoration:none}.editor-styles-wrapper a.animated-border-button{align-content:center;align-items:center;border-style:solid;border-width:0 1px;color:#000;cursor:pointer;display:block;font-family:"IBM Plex semibold",Arial,sans-serif;font-size:26px;justify-content:center;margin-bottom:20px;margin-right:20px;padding:15px 43px;position:relative;text-align:center;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;white-space:normal}
+
+</style>
+<link rel='stylesheet' id='create-block-faculty-listing-carousel-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/faculty-listing-carousel/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-faculty-landing-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/faculty-landing/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-faculty-member-landing-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-faculty-listing-carousel-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-faculty-bio-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/faculty-bio/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-faculty-bio-left-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-faculty-bio-right-style-inline-css' type='text/css'>
+.wp-block-create-block-faculty-bio-right .block-editor-block-list__layout .mce-content-body,.wp-block-create-block-faculty-bio-right .block-editor-block-list__layout .mce-content-body li,.wp-block-create-block-faculty-bio-right .block-editor-block-list__layout .mce-content-body p{color:#000!important}
+
+</style>
+<style id='create-block-faculty-blockquote-style-inline-css' type='text/css'>
+.blockquote-section{margin-bottom:40px;margin-top:40px;overflow-x:hidden;position:relative}.blockquote-section:after,.blockquote-section:before{border:1px solid #fa4616;content:"";height:1px;position:absolute;width:90%;z-index:99}@media(min-width:800px){.blockquote-section:after,.blockquote-section:before{margin-bottom:2.5%;margin-top:2.5%;width:50%}}.blockquote-section:before{left:0;margin:auto;right:0;top:0}@media(min-width:800px){.blockquote-section:before{left:8%;right:unset}}.blockquote-section:after{bottom:0;left:0;margin:auto;right:0}@media(min-width:800px){.blockquote-section:after{left:unset;right:8%}}.blockquote-section .card{border:none;border-radius:0;margin-left:auto;margin-right:auto;max-width:1200px;padding:38px 0;width:90%}.blockquote-section .card .blockquote{display:flex;margin-bottom:0}@media(max-width:800px){.blockquote-section .card .blockquote{text-align:center}}.blockquote-section .card .blockquote .quote{color:#0021a5;font-family:"IBM Plex medium";font-size:26px;line-height:48px;text-align:center}@media(min-width:800px){.blockquote-section .card .blockquote .quote{text-align:left}}.blockquote-section .card .blockquote .quotee{color:#0021a5;display:inline-block;font-size:19px;line-height:48px;margin-left:10px;text-align:center}@media(min-width:800px){.blockquote-section .card .blockquote .quotee{text-align:left}}.faculty-blockquote-section .card{background-color:transparent!important;border:none!important}
+
+</style>
+<link rel='stylesheet' id='create-block-card-text-image-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/card-text-image/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-card-text-image-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-card-text-only-style-inline-css' type='text/css'>
+.cards-text-only{padding-bottom:40px;padding-top:40px}@media(min-width:1024px){.cards-text-only{padding-bottom:50px;padding-top:80px}.cards-text-only .card-container .slick-track{align-content:stretch;align-items:stretch;display:flex!important;justify-content:center}}.cards-text-only .card-container .slick-arrow{align-items:center;-moz-appearance:none;appearance:none;-webkit-appearance:none;background:none!important;border:none;border-radius:0;bottom:-10px;color:#fa4616!important;display:flex;font-size:42px;gap:12px;justify-content:center!important;justify-content:center;left:0;line-height:1;margin:auto;position:absolute;right:0;width:22px;z-index:99}.cards-text-only .card-container .slick-arrow:focus,.cards-text-only .card-container .slick-arrow:hover{opacity:.5}.cards-text-only .card-container .cto-next{left:40px}.cards-text-only .card-container .cto-prev{right:40px}.cards-text-only .card-container .slick-disabled{opacity:.5;pointer-events:none}
+
+</style>
+<style id='create-block-card-text-only-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-featured-video-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-video/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-event-shell-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/event-shell/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-event-shell-slider-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-event-shell-slide-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-event-shell-button-wrapper-style-inline-css' type='text/css'>
+.wp-block-create-block-event-shell-button-wrapper{align-content:center!important;-moz-column-gap:50px;column-gap:50px;display:flex!important;flex-wrap:wrap;justify-content:center!important;margin-top:3rem!important;row-gap:10px}@media(min-width:767px){.wp-block-create-block-event-shell-button-wrapper{flex-wrap:nowrap}}
+
+</style>
+<style id='create-block-event-shell-buttons-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-social-shell-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/social-shell/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-social-shell-insta-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-social-shell-twitter-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-accordion-block-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/accordion-block/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-accordion-block-inner-style-inline-css' type='text/css'>
+.editor-styles-wrapper .wp-block-create-block-accordion-block .collapse{display:block!important}.editor-styles-wrapper .wp-block-freeform{background-color:#fff;border:2px solid;padding:10px}.editor-styles-wrapper .accordion .accordion-item{margin-bottom:80px}.wp-block-create-block-accordion-block .block-editor-block-list__block .block-list-appender{bottom:-40px!important;z-index:10000000000000000}
+
+</style>
+<style id='create-block-social-buttons-style-inline-css' type='text/css'>
+.social-column{align-items:center;display:flex;flex-direction:row}.editor-styles-wrapper .ufl-brands{align-items:center;display:flex;font-style:normal;font-variant:normal;height:100%;justify-content:center;line-height:1;margin-bottom:20px;max-height:35px;max-width:35px;width:100%}
+
+</style>
+<style id='create-block-social-icon-facebook-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-social-icon-twitter-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-social-icon-instagram-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-social-icon-youtube-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-social-icon-linkedin-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-image-modal-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-image-gallery-slide-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-image-gallery-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/image-gallery/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-cards-right-rail-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/cards-right-rail/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-cards-right-rail-card-wrapper-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-cards-right-rail-cards-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-cards-right-rail-content-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-tab-block-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/tab-block/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-tab-block-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-alert-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/alert/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-alert-button-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-featured-video-multiple-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-video-multiple/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-featured-video-row-style-inline-css' type='text/css'>
+.multiple-video-container .row{display:none}.editor-styles-wrapper .multiple-video-container .row{display:block}
+
+</style>
+<style id='create-block-featured-video-item-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-featured-video-multiple-vimeo-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-video-multiple-vimeo/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-featured-video-row-vimeo-style-inline-css' type='text/css'>
+.multiple-video-container .row{display:none}.editor-styles-wrapper .multiple-video-container .row{display:block}
+
+</style>
+<style id='create-block-featured-video-item-vimeo-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-content-carousel-stack-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/content-carousel-stack/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-content-carousel-stack-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-featured-cards-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-cards/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-featured-cards-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-fullwidth-video-img-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/fullwidth-video-img/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-visual-navigation-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/visual-navigation/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-visual-navigation-item-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-blue-centered-cta-button-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-blue-centered-cta-style-inline-css' type='text/css'>
+.blue-centered-cta{background:linear-gradient(-180deg,#0021a5,#011877)!important;overflow-x:hidden;padding:60px 7% 40px}@media(min-width:800px){.blue-centered-cta{padding:120px 2.5% 65px}}.blue-centered-cta .cta-heading{color:#fff;font-family:"IBM Plex bold italic";font-size:30px;line-height:30px;text-align:center}.blue-centered-cta .editor-styles-wrapper p,.blue-centered-cta p{color:#fff!important;font-family:"IBM Plex light",Arial,sans-serif;font-size:22px;line-height:32px;margin-bottom:60px;text-align:center}.editor-styles-wrapper .button-wrapper .block-editor-block-list__layout{display:flex!important;flex-wrap:wrap;gap:20px}.editor-styles-wrapper .animated-border-button{background:transparent}
+
+</style>
+<link rel='stylesheet' id='create-block-title-tool-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/title-tool/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-title-tool-column-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='create-block-featured-posts-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-posts/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-featured-post-main-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-featured-post-secondary-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-featured-post-supporting-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-post-header-style-inline-css' type='text/css'>
+.single-news-hero{align-items:flex-end;background-position:50%;background-repeat:no-repeat;background-size:cover;display:flex;margin-bottom:55px;min-height:85vh;position:relative}.single-news-hero:after{background:linear-gradient(0deg,#343741 0,rgba(0,17,83,0));bottom:0;content:"";height:100%;left:0;mix-blend-mode:multiply;position:absolute;width:100%;z-index:6}.single-news-hero h1{color:#fff!important;font-family:"IBM Plex semibold";font-size:32px;line-height:46px;margin-left:auto;margin-right:auto;max-width:calc(14% + 1074px);padding:10% 7% 55px;position:relative;text-align:left;text-shadow:0 0 12px rgba(0,0,0,.39);z-index:9999}@media only screen and (min-width:800px){.single-news-hero h1{font-size:48px;line-height:56px}}.title-block{background-color:#f4f6f6;overflow-x:hidden;padding-bottom:36px;padding-left:7%;padding-right:7%}@media(min-width:800px){.title-block{padding-bottom:72px}}.title-block .page-title-container{padding-top:20px}@media(min-width:800px){.title-block .page-title-container{padding-top:40px}}.title-block .page-title-container .title-wrapper{margin-left:auto;margin-right:auto;max-width:1074px;text-align:center}.title-block .page-title-container .title-wrapper h1{color:#000;margin-bottom:20px;text-align:center;text-transform:uppercase}.title-block .page-title-container .title-wrapper hr{border-top:2px solid #fa4616;margin-bottom:0;margin-top:0;opacity:1}.title-block .page-title-container .title-wrapper p{color:#000;line-height:30px;margin:30px auto 0;max-width:980px;text-align:center}@media(min-width:800px){.title-block .page-title-container .title-wrapper p{font-size:24px;margin-top:50px}}.wp-block-create-block-post-header .title-wrapper{padding-top:75px}
+
+</style>
+<style id='create-block-post-footer-block-style-inline-css' type='text/css'>
+.single-news-footer-wrapper{margin-left:auto;margin-right:auto;max-width:calc(14% + 1074px);padding-left:7%;padding-right:7%}.single-news-footer-wrapper .single-news-footer{border-top:1px solid #fa4616;padding:30px 0 44px}.single-news-footer-wrapper .single-news-footer .single-news-meta{-moz-column-gap:20px;column-gap:20px;flex-direction:column;row-gap:10px}@media only screen and (min-width:800px){.single-news-footer-wrapper .single-news-footer .single-news-meta{flex-direction:row}}.single-news-footer-wrapper .single-news-footer .single-news-meta p{color:#000;font-size:18px;line-height:28px;margin-bottom:0}@media only screen and (min-width:800px){.single-news-footer-wrapper .single-news-footer .single-news-meta p{font-size:20px}}.single-news-footer-wrapper .single-news-footer .single-news-meta a{color:#0021a5;font-family:"IBM Plex medium";font-size:18px;line-height:28px;text-decoration:none}@media only screen and (min-width:800px){.single-news-footer-wrapper .single-news-footer .single-news-meta a{font-size:20px}}.single-news-footer-wrapper .single-news-footer .single-news-meta a:focus,.single-news-footer-wrapper .single-news-footer .single-news-meta a:hover{text-decoration:underline}.single-news-footer-wrapper .single-news-footer .single-news-meta span{display:none}@media only screen and (min-width:800px){.single-news-footer-wrapper .single-news-footer .single-news-meta span{display:block}}
+
+</style>
+<style id='create-block-single-post-intro-style-inline-css' type='text/css'>
+.date-share-wrapper{display:flex;flex-direction:column;gap:10px;justify-content:space-between;margin-left:auto;margin-right:auto;max-width:calc(1074px + 14%);padding:36px 7%}.date-share-wrapper p{margin-bottom:0}@media only screen and (min-width:800px){.date-share-wrapper{align-items:center;flex-direction:row}}.date-share-wrapper .single-social-share{color:#0021a5;font-size:20px;line-height:28px;text-align:left}.date-share-wrapper .single-social-share .social-column-grey{gap:10px}.date-share-wrapper .single-social-share span{margin-right:4%}@media only screen and (min-width:1555px){.date-share-wrapper .single-social-share{margin-right:-200px}}.single-news-highlight{margin-left:auto;margin-right:auto;max-width:1074px;max-width:calc(14% + 1074px);padding:0 7%}.single-news-highlight p{color:#343741;font-family:"IBM Plex medium";font-size:26px;font-size:22px;line-height:48px;line-height:34px}@media only screen and (min-width:800px){.single-news-highlight p{font-size:22px;line-height:34px}}.single-news-highlight hr{border-bottom:1px solid #fa4616;border-top:none;margin:0;opacity:1}
+
+</style>
+<link rel='stylesheet' id='create-block-slider-manual-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/slider-manual/style-index.css?ver=0.1.0' type='text/css' media='all' />
+<style id='create-block-slider-manual-inner-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-content-with-related-style-inline-css' type='text/css'>
+.editor-styles-wrapper .news-related-link{display:block;max-width:250px!important}
+
+</style>
+<style id='create-block-content-with-related-card-wrapper-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-content-with-related-cards-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-content-with-related-content-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-ufl-social-buttons-style-inline-css' type='text/css'>
+.ufl-social-column{align-items:center;display:flex;flex-direction:row}.ufl-social-column a{align-items:center;display:flex;font-size:21px;height:48px;justify-content:center;margin:5px;position:relative;transition:all .2s ease-in-out;width:48px}.ufl-social-column a img,.ufl-social-column a svg{max-height:25px;max-width:25px}.editor-styles-wrapper .visually-hidden{display:none}.editor-styles-wrapper .ufl-brands{align-items:center;display:flex;font-style:normal;font-variant:normal;height:100%;justify-content:center;line-height:1;margin-bottom:20px;max-height:35px;max-width:35px;width:100%}
+
+</style>
+<style id='create-block-ufl-social-icon-facebook-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-ufl-social-icon-twitter-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-ufl-social-icon-instagram-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-ufl-social-icon-youtube-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='create-block-ufl-social-icon-linkedin-style-inline-css' type='text/css'>
+svg.ufl-brands.ufl-linkedin{max-width:25px}
+
+</style>
+<style id='create-block-ufl-social-icon-custom-style-inline-css' type='text/css'>
+
+
+</style>
+<link rel='stylesheet' id='Connections_Directory/Block/Carousel/Style-css' href='//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/dist/block/carousel/style.css?ver=1731963110' type='text/css' media='all' />
+<link rel='stylesheet' id='Connections_Directory/Block/Team/Style-css' href='//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/dist/block/team/style.css?ver=1731963110' type='text/css' media='all' />
+<link rel='stylesheet' id='create-block-featured-video-block-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/ufl-block/build/featured-video/style-index.css?ver=1759153821' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #0021a5;--wp--preset--color--orange: #e8552f;--wp--preset--color--light-gray: #f4f6f6;--wp--preset--color--dark-gray: #343741;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ccchildpagescss-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/cc-child-pages/includes/css/styles.css?ver=1.43' type='text/css' media='all' />
+<link rel='stylesheet' id='ccchildpagesskincss-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/cc-child-pages/includes/css/skins.css?ver=1.43' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='ccchildpagesiecss-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/cc-child-pages/includes/css/styles.ie.css?ver=1.43' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dashicons-css' href='https://www.transportation.institute.ufl.edu/wp-includes/css/dashicons.min.css?ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootscore-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/style.css?ver=5.2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/css/main.css?ver=202509231921' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/style.css?ver=1.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css' href='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css?ver=1.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://www.transportation.institute.ufl.edu/wp-content/plugins/tablepress/css/build/default.css?ver=3.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-public-css' href='//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/dist/frontend/style.css?ver=10.4.66-1731963110' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-gridder-css' href='//www.eng.ufl.edu/ufti/wp-content/plugins/connections-hwcoe-gridder/gridder.min.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='cnt-profile-css' href='//www.eng.ufl.edu/ufti/wp-content/plugins/connections/templates/profile/profile.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-brandicons-css' href='//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/vendor/icomoon-brands/style.css?ver=10.4.66' type='text/css' media='all' />
+<link rel='stylesheet' id='cn-chosen-css' href='//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/vendor/chosen/chosen.min.css?ver=1.8.7' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="misha_scripts-js-extra">
+/* <![CDATA[ */
+var misha_loadmore_params = {"ajaxurl":"https:\/\/www.transportation.institute.ufl.edu\/wp-admin\/admin-ajax.php","posts":"{\"error\":\"\",\"m\":\"\",\"p\":\"13427\",\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"pagename\":\"\",\"page_id\":\"13427\",\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","current_page":"1","max_page":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/ajax-script.js?ver=1" id="misha_scripts-js"></script>
+<link rel="https://api.w.org/" href="https://www.transportation.institute.ufl.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.transportation.institute.ufl.edu/wp-json/wp/v2/pages/13427" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.transportation.institute.ufl.edu/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.transportation.institute.ufl.edu/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.transportation.institute.ufl.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.transportation.institute.ufl.edu%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.transportation.institute.ufl.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.transportation.institute.ufl.edu%2F&#038;format=xml" />
+<script src='https://www.eng.ufl.edu/?dm=62ae995d78303d279f40275275085b3a&amp;action=load&amp;blogid=203&amp;siteid=1&amp;t=487622087&amp;back=https%3A%2F%2Fwww.transportation.institute.ufl.edu%2F' type='text/javascript'></script>	<script type="text/javascript">
+		window.addEventListener('load', (event) => {
+			initializeCookieExpiration({});
+		});
+	</script>
+	<link rel="icon" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/favicon.png" />
+		<style type="text/css" id="wp-custom-css">
+			/** Top and bottom logo **/
+    .navbar-brand-alternate img,     .footer-wrapper .footer .footer-section .navbar-brand-alternate img {
+        margin-right: 10px !important;
+    }
+
+/***  end of I-Street Logo CSS Style **/
+/*  hero module on home page; class=hp-hero */
+
+
+/* the height of the image needs to be smaller. the 700px defualt is not appropraite for home page. */
+
+.hp-hero    .hero-wrapper {
+   height: calc(100vh - 500px);
+}
+
+/*remove the animation for the title as we are not using excerpt and the button for more information  */
+.hp-hero .hero-wrapper .hero__text .banner_title h1 {
+	display:none;
+}
+
+
+.hp-hero .hero-wrapper .hero__text:hover .banner_title {
+		padding-bottom:0px !important;
+}
+/* removing the down arrow under the tittle */
+.hp-hero .hero-wrapper .banner_title h1:after{
+	background:none;
+}
+ /* end of css for hero module on home page */
+
+/* image margin inside a quote */
+
+.quote img{
+	float:left;
+	margin-right:20px
+}
+/** hiding page and subpages from NavBar **/
+
+/* removing annaul reports subpages from NavBar */
+.section-navigation .section-navigation-inner .section-menu .page-item-89 .dropdown-toggle:after, .caret{
+//	display:none;
+	}
+.page-item-89 > a.dropdown-toggle  {
+   // pointer-events: auto; 
+   // cursor: pointer; 
+}
+.page-item-89  .dropdown-menu{
+//	display:none !important;
+	}
+.section-navigation-back {
+   // display: none !important;
+}
+
+.page-item-89 > .dropdown-menu {
+   // display: none !important;
+}
+.page-item-89 > a.dropdown-toggle[href="https://www.eng.ufl.edu/ufti/about/annual-reports/"] {
+  // display: inline-block; /* Ensure it's displayed as a link */
+}
+		</style>
+		</head>
+
+<body class="home wp-singular page-template-default page page-id-13427 wp-custom-logo wp-embed-responsive wp-theme-ufl-main-uni wp-child-theme-ufl-main-uni-child">
+
+		
+	<div id="page" class="site">
+	
+	<div class="top-alert">
+		</div>
+
+	<div id="search-modal" class="search-modal">
+		<script src="https://www.google.com/jsapi"></script>
+        <script async src="https://cse.google.com/cse.js?cx=014080162503224819692:afbeo7xiquu"></script>
+		<div class="gcse-search" enableOrderBy="true" data-as_sitesearch="https://www.transportation.institute.ufl.edu"></div>
+		<button id="close-search-button" class="close-search" onclick="hideSearchModal();"><img class="search-icon" alt="close search" src="/wp-content/themes/ufl-main-uni/img/x.PNG"></button>
+	</div>
+	<header id="masthead" class="header header-wrapper fixed-header w-100">
+	<!-- START FULL WIDTH TOP NAV CONTAINER (LOGO + TOP NAV)-->
+	<div class="container-fluid header-container">
+		<div class="row justify-content-between header-row">
+			<a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+			<!-- START LOGO COL-->
+			<div class="col-sm-8 col-md-6 col-logo">
+
+			<a href="https://www.transportation.institute.ufl.edu/" class="custom-logo-link" rel="home" aria-current="page"><img width="815" height="120" src="https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png" class="custom-logo" alt="University of Florida Transportation Institute" decoding="async" fetchpriority="high" srcset="https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png 815w, https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White-300x44.png 300w, https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White-768x113.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></a><span class="visually-hidden">School Logo Link</span></div>
+				 
+
+			<!-- END LOGO COL-->
+
+
+			<!-- START MOBILE ONLY SEARCH AND TOGGLE-->
+			<div class="mobile-nav">
+				<div class="mobile-search mobile-only-search">
+					<button id="search-button" class="search-button" onclick="displaySearchModal();">
+					<img class="search-icon" alt="search" src="/wp-content/themes/ufl-main-uni/img/search_icon.png">
+					</button>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span style="margin-bottom: 10px;margin-top: -10px;">MENU</span>
+					<span class="navbar-icon-wrapper">
+						<span class="navbar-toggler-icon"></span>
+					</span>
+				</button>
+			</div>
+			<!-- END MOBILE ONLY SEARCH AND TOGGLE-->
+
+			<!-- START DESKTOP ONLY TOP MENU ITEMS & DROPDOWNS-->
+			<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3 flex-column audience-nav-col">
+				<!-- Optional Offsite and UFL Header Links-->
+				<div class="offsite-links d-flex justify-content-end">
+											<a href="https://www.eng.ufl.edu/" target="_blank" class="optional-offsite-link">UF College of Engineering</a>
+														</div>
+				<!-- END Optional Offsite and UFL Header Links-->
+
+				<!-- Audience Nav Dropdown Links-->
+				
+				<div class="audience-nav-links d-flex justify-content-end">
+					<div class="desk-only-search search-no-menus">
+						<button id="search-button" class="search-button" onclick="displaySearchModal();">
+							<img class="search-icon" alt="search" src="/wp-content/themes/ufl-main-uni/img/search_icon.png">
+						</button>
+					</div>
+														</div>
+			</div>
+			<!-- END DESKTOP ONLY TOP MENU ITEMS & DROPDOWNS-->
+		</div>
+	</div>
+	<!-- END FULL WIDTH TOP NAV CONTAINER (LOGO + TOP NAV)-->
+	<!-- START FULL WIDTH MAIN NAV CONTAINER -->
+	<nav class="navbar main_navbar pt-0 pb-0 navbar-expand-xxl" id="main-navbar">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<!-- START MOBILE ONLY LINKS + MOBILE MENU ACTIVE TOGGLE -->
+				<div class="mobile-offsite-toggle-wrapper"> <span class="mobile-offsite-links"></span> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span style="margin-bottom: 10px;margin-top: -10px;">MENU</span> <span class="navbar-icon-wrapper"> <span class="navbar-toggler-icon"></span> </span> </button> </div>
+				<!-- END MOBILE ONLY LINKS + MOBILE MENU ACTIVE TOGGLE -->
+				<ul class="navbar-nav d-md-flex m-auto justify-content-evenly flex-wrap w-100" id="main-nav-ul"><li  id="menu-item-28233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown nav-item nav-item-28233"><a href="https://www.transportation.institute.ufl.edu/about/" class="nav-link  dropdown-toggle" aria-haspopup="true" aria-expanded="false">About</a><span class="mobile-menu-toggle"></span>
+<ul class="dropdown-menu  depth_0">
+	<li  id="menu-item-28227" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28227"><a href="https://www.transportation.institute.ufl.edu/about/people/" class="dropdown-item ">People</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28981" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28981"><a href="https://www.transportation.institute.ufl.edu/about/annual-reports/" class="dropdown-item ">Annual Reports</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28225" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28225"><a href="https://www.transportation.institute.ufl.edu/about/ufti-industry-partnership-program/" class="dropdown-item ">Industry Partnership</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28603" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28603"><a href="https://www.transportation.institute.ufl.edu/about/facilities/" class="dropdown-item ">Facilities</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28657" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28657"><a href="https://www.transportation.institute.ufl.edu/about/giving/" class="dropdown-item ">Giving</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28697" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28697"><a href="https://www.transportation.institute.ufl.edu/about/i-street-contact-us/" class="dropdown-item ">Contact Us</a><span class="mobile-menu-toggle"></span></li>
+</ul>
+</li>
+<li  id="menu-item-28217" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28217"><a href="https://www.transportation.institute.ufl.edu/centers/" class="nav-link ">UFTI Centers</a><span class="mobile-menu-toggle"></span></li>
+<li  id="menu-item-28595" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown nav-item nav-item-28595"><a href="https://www.transportation.institute.ufl.edu/research/" class="nav-link  dropdown-toggle" aria-haspopup="true" aria-expanded="false">Research</a><span class="mobile-menu-toggle"></span>
+<ul class="dropdown-menu  depth_0">
+	<li  id="menu-item-28597" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28597"><a href="https://www.transportation.institute.ufl.edu/research/artificial-intelligence-and-big-data-analytics/" class="dropdown-item ">Artificial Intelligence and Big Data Analytics</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28599" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28599"><a href="https://www.transportation.institute.ufl.edu/research/autonomous-connected-vehicles/" class="dropdown-item ">Autonomous &amp; Connected Vehicles</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28619" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28619"><a href="https://www.transportation.institute.ufl.edu/research/human-factors/" class="dropdown-item ">Human Factors</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28617" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28617"><a href="https://www.transportation.institute.ufl.edu/research/materials-and-infrastructure/" class="dropdown-item ">Materials and Infrastructure</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28623" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28623"><a href="https://www.transportation.institute.ufl.edu/research/resilience-and-sustainability/" class="dropdown-item ">Resilience and Sustainability</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28621" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28621"><a href="https://www.transportation.institute.ufl.edu/research/safety/" class="dropdown-item ">Safety</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-30251" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-30251"><a href="https://faculty.eng.ufl.edu/sermos-lab/" class="dropdown-item ">Transit and Micromobility</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28629" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28629"><a href="https://www.transportation.institute.ufl.edu/research/transportation-equity/" class="dropdown-item ">Transportation Equity</a><span class="mobile-menu-toggle"></span></li>
+</ul>
+</li>
+<li  id="menu-item-28655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown nav-item nav-item-28655"><a href="https://www.transportation.institute.ufl.edu/training-technical-services/" class="nav-link  dropdown-toggle" aria-haspopup="true" aria-expanded="false">Training and Technical Services</a><span class="mobile-menu-toggle"></span>
+<ul class="dropdown-menu  depth_0">
+	<li  id="menu-item-28663" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28663"><a href="https://www.transportation.institute.ufl.edu/training-technical-services/engineering-courses/" class="dropdown-item ">Webinar Courses</a><span class="mobile-menu-toggle"></span></li>
+</ul>
+</li>
+<li  id="menu-item-28649" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28649"><a href="https://www.transportation.institute.ufl.edu/education/student-chapters/" class="nav-link ">Student Chapters</a><span class="mobile-menu-toggle"></span></li>
+<li  id="menu-item-28605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown nav-item nav-item-28605"><a href="https://www.transportation.institute.ufl.edu/news-and-events/" class="nav-link  dropdown-toggle" aria-haspopup="true" aria-expanded="false">News and Events</a><span class="mobile-menu-toggle"></span>
+<ul class="dropdown-menu  depth_0">
+	<li  id="menu-item-28601" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28601"><a href="https://www.transportation.institute.ufl.edu/news-and-events/newsletter/" class="dropdown-item ">Newsletter</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28209" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28209"><a href="https://www.transportation.institute.ufl.edu/news-and-events/newsletter/sign-up/" class="dropdown-item ">Sign Up For News Updates</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-28699" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-28699"><a href="https://www.transportation.institute.ufl.edu/news-and-events/media-inquiries/" class="dropdown-item ">Media Inquiries</a><span class="mobile-menu-toggle"></span></li>
+	<li  id="menu-item-29235" class="menu-item menu-item-type-post_type menu-item-object-page nav-item nav-item-29235"><a href="https://www.transportation.institute.ufl.edu/news-and-events/annual-research-to-practice-transit-symposium/" class="dropdown-item ">Annual Research-to-Practice Transit Symposium</a><span class="mobile-menu-toggle"></span></li>
+</ul>
+</li>
+</ul>				<div class="mobile-secondary-dropdown">
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- END FULL WIDTH MAIN NAV CONTAINER -->
+
+
+	</header><!-- #masthead -->
+	
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+
+  		<main id="main" class="site-main">
+		
+<section class="wp-block-create-block-hero-block hp-hero"><div class="hero-wrapper verScroll_Col"><div class="hero-bg-img" style="background-image:url(https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2024/07/transportation-4.png)"></div><div class="hero-object-wrapper"><div class="hero-object" id="object1"><img decoding="async" class="vce-single-image" width="10" height="219" src="/wp-content/plugins/ufl-block/assets/images/ver_bar_thick.webp" alt="" /></div><div class="hero-object" id="object2"><img decoding="async" loading="lazy" class="vce-single-image" width="2" height="363" src="/wp-content/plugins/ufl-block/assets/images/ver_bar_thin.webp" alt="" /></div></div><div class="hero-banner-wrapper hero__text"><div class="banner_subtitle"><p class="banner_subtitle_text"></p></div><div class="banner_title"><h1></h1><br /><div class="hero-excerpt-btn-wrapper"><p class="hero__excerpt"></p></div></div></div></div></section>
+
+
+
+<section class="title-block w-100 grey-bg"><div class="container-fluid page-title-container"><div class="title-wrapper"><h1 class="font-heading">Welcome to the UF Transportation Institute</h1><hr><p> The University of Florida Transportation Institute (UFTI) is dedicated to advancing transportation through innovative research, education, and technology transfer. We bring together diverse expertise to solve complex transportation challenges and shape a better future.</p></div></div>
+<div class="wp-block-button is-style-animated-border" style="text-align: center;margin-top: 50px"><a class="wp-block-button__link has-text-align-center wp-element-button" href="https://www.transportation.institute.ufl.edu/about/">Learn More</a></div>
+</section>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center">Innovating Transportation for a Better Future</h2>
+
+
+
+<div class="wp-block-create-block-visual-navigation"><section class="visual-navigation"><div class="visual-navigation-intro"></div><div class="visual-navigation-wrapper row">
+<a href="/ufti/centers/" class="col-12 col-lg-3 col-md-6 visual-navigation-link dh-container" rel="noopener noreferrer" target="_self"><span class="visual-navigation-image-wrapper"><img decoding="async" class="img-fluid visual-navigation-image" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2024/07/UFTI-Centers_Tile.png" alt="Centers" /><div class="dh-overlay"></div></span><p>Centers</p></a>
+
+
+
+<a href="/ufti/research/" class="col-12 col-lg-3 col-md-6 visual-navigation-link dh-container" rel="noopener noreferrer" target="_self"><span class="visual-navigation-image-wrapper"><img decoding="async" class="img-fluid visual-navigation-image" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2024/11/20241119_115636-scaled.jpg" alt="Research" /><div class="dh-overlay"></div></span><p>Research</p></a>
+
+
+
+<a href="/ufti/trainingprofessional-development/" class="col-12 col-lg-3 col-md-6 visual-navigation-link dh-container" rel="noopener noreferrer" target="_self"><span class="visual-navigation-image-wrapper"><img decoding="async" class="img-fluid visual-navigation-image" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2024/07/technology-transfer-1.jpeg" alt="Technology Transfer" /><div class="dh-overlay"></div></span><p>Technology Transfer</p></a>
+
+
+
+<a href="/ufti/education/" class="col-12 col-lg-3 col-md-6 visual-navigation-link dh-container" rel="noopener noreferrer" target="_self"><span class="visual-navigation-image-wrapper"><img decoding="async" class="img-fluid visual-navigation-image" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2024/07/graduate2-e1721677763392.jpg" alt="Education" /><div class="dh-overlay"></div></span><p>Education</p></a>
+</div></section></div>
+
+
+
+<div class="wp-block-create-block-content-carousel-stack"><section class="content-carousel—stack"><div class="stacked-slider slider">
+<div class="slider__content"><figure class="slider__image"><img decoding="async" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2025/03/Scott-Washburn.-ASCE-Fellow.jpg" alt="Slide Image" /></figure><div class="slider__text"><h2>Scott Washburn Elected to the American Society of Civil Engineers</h2><p>This prestigious recognition honors Washburn for decades of leadership and outstanding contributions to the field of civil engineering. </p><a href="https://www.transportation.institute.ufl.edu/2025/03/26/30549/" class="button animated-border-button button-border-orange button-text-dark" rel="noopener noreferrer" target="_self">Read more!</a></div></div>
+
+
+
+<div class="slider__content"><figure class="slider__image"><img decoding="async" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2025/06/IMG_20250603_153150.jpg" alt="Slide Image" /></figure><div class="slider__text"><h2>Student Spotlight: Renan Favero Says It’s Not All About the Degree; It’s about Making a Difference</h2><p></p><a href="https://www.transportation.institute.ufl.edu/2025/06/09/student-spotlight-renan-favero-says-its-not-all-about-the-degree-its-about-making-a-difference/" class="button animated-border-button button-border-orange button-text-dark" rel="noopener noreferrer" target="_self">Read more!</a></div></div>
+
+
+
+<div class="slider__content"><figure class="slider__image"><img decoding="async" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2025/03/hardhat-arms-folded-scaled.jpg" alt="Slide Image" /></figure><div class="slider__text"><h2>Student Spotlight: Myra Monreal, PE, AICP &#8211; The &#8220;Plangineer&#8221;</h2><p>Monreal is currently a doctoral student at UF.</p><a href="https://www.transportation.institute.ufl.edu/2025/03/21/student-spotlight-myra-monreal-p-e-aicp-the-plangineer/" class="button animated-border-button button-border-orange button-text-dark" rel="noopener noreferrer" target="_self">Read more</a></div></div>
+
+
+
+<div class="slider__content"><figure class="slider__image"><img decoding="async" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2025/06/1000023059-1.jpg" alt="Slide Image" /></figure><div class="slider__text"><h2>UFTI Affiliate Reaches Mount Everest Base Camp – a Lesson in Leadership</h2><p>Classen’s journey to Mount Everest’s Base Camp shows what transportation researchers work to accomplish every day: making sure the that the systems they create, the solutions they come up meet the needs of society.</p><a href="https://www.transportation.institute.ufl.edu/2025/06/09/30685/" class="button animated-border-button button-border-orange button-text-dark" rel="noopener noreferrer" target="_self">Read More</a></div></div>
+
+
+
+<div class="slider__content"><figure class="slider__image"><img decoding="async" src="https://www.transportation.institute.ufl.edu/wp-content/uploads/sites/203/2025/05/peggy-smedley.png" alt="Slide Image" /></figure><div class="slider__text"><h2>UFTI&#8217;s Lily Elefteriadou Talks About the Future of Transportation on the Peggy Smedley Show</h2><p>Elefteriadou was invited to the Peggy Smedley Show to speak about how artificial intelligence is transforming innovations in transportation, including autonomous vehicles and infrastructure, while emphasizing how human creativity is still important.</p><a href="https://peggysmedleyshow.com/innovation-in-transportation-in-2025" class="button animated-border-button button-border-orange button-text-dark" rel="noopener noreferrer" target="_self">Listen to podcast!</a></div></div>
+</div></section><div class="stacked-arrow-wrapper"></div></div>
+
+
+
+<section class="factoids"><div class="container-fluid"><div class="row g-0 justify-content-center">
+<div class="col-12 col-md-4 text-center col-lg-4 px-5 flex-fill factoid-col"><div class="wp-block-create-block-factoid-inner"><p class="factoid-number">$14M +</p><p class="factoid-subhead">UFTI Annual Research Expenditures (FY2023)</p><p class="factoid-subtext"></p></div></div>
+
+
+
+<div class="col-12 col-md-4 text-center col-lg-4 px-5 flex-fill factoid-col"><div class="wp-block-create-block-factoid-inner"><p class="factoid-number">200</p><p class="factoid-subhead">Miles of I-STREET Roadway Networks</p><p class="factoid-subtext"></p></div></div>
+
+
+
+<div class="col-12 col-md-4 text-center col-lg-4 px-5 flex-fill factoid-col"><div class="wp-block-create-block-factoid-inner"><p class="factoid-number">$10M+</p><p class="factoid-subhead">Invested in I-STREET Since 2017</p><p class="factoid-subtext"></p></div></div>
+</div></div></section>
+
+
+
+<section class="wp-block-create-block-showcase-text-only"><div class="container"><div class="row justify-content-center"><div class="col-12 text-center"><h2>Industry Partnerships</h2><p>By joining UFTI’s Industry Partnership program, your company’s contribution supports the work we do in Florida and beyond. Funds raised through partner contributions are used to support student scholarships and fellowships, independent research, technology development and innovation in transportation.</p><div class="d-flex flex-wrap justify-content-center button-wrapper">
+<div class="wp-block-create-block-showcase-text-only-button"><span><a href="/ufti/about/ufti-industry-partnership-program/" class="animated-border-button button button-border-blue button-text-dark" rel="noopener noreferrer" target="_self">Click now to learn about the UFTI&#8217;s Industry Partnership Program!</a></span></div>
+</div></div></div></div></section>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"></div>
+</div>
+	</main>
+    
+
+
+    </div>
+</div>
+<!-- START FOOTER WRAPPER -->
+<div class="footer-wrapper position-relative">
+	<div id="footerTopBorder" style="width: 1%;"></div>
+		<!-- Footer -->
+		<footer class="footer m-0 footer-title pb-4 text-lg-start text-white">
+			<!-- Grid container -->
+			<div class="container-fluid p-4 pb-0">
+				<!-- Section: Links -->
+				<section class="footer-section">
+
+					<!--Grid row-->
+					<div class="row">
+
+						<div class="col-12 col-md-6 footer-col-logo pb-5">
+
+													<a class="navbar-brand" href="https://www.transportation.institute.ufl.edu" alt="Home">
+							<span><a href="https://www.transportation.institute.ufl.edu/" class="custom-logo-link" rel="home" aria-current="page"><img width="815" height="120" src="https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png" class="custom-logo" alt="University of Florida Transportation Institute" decoding="async" srcset="https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White.png 815w, https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White-300x44.png 300w, https://www.eng.ufl.edu/ufti/wp-content/uploads/sites/203/2024/07/UFTI-White-768x113.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></a><span class="visually-hidden">School Logo Link</span>									
+								</span>
+							</a>
+											</div>
+					<div class="col-12 col-md-6 footer-col-social">
+
+						<a href="https://www.facebook.com/UFTransportation/" target="_blank" class="facebook-icon"><svg class="ufl-brands ufl-facebook"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/spritemap.svg#facebook"></use></svg><span class="visually-hidden">Facebook</span></a></a><a href="https://twitter.com/_UFTI" target="_blank" class="twitter-icon"><svg class="ufl-brands ufl-twitter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/spritemap.svg#twitter"></use></svg><span class="visually-hidden">X (formerly Twitter)</span></a></a><a href="https://www.youtube.com/@uftransportation2948" target="_blank" class="youtube-icon"><svg class="ufl-brands ufl-youtube"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/spritemap.svg#youtube"></use></svg><span class="visually-hidden">YouTube</span></a></a><a href="https://www.linkedin.com/company/uf-transportation-institute/" target="_blank" class="linkedin-icon"><svg class="ufl-brands ufl-linkedin"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/spritemap.svg#linkedin"></use></svg><span class="visually-hidden">LinkedIn</span></a></a><a href="https://www.instagram.com/uftigators/" target="_blank" class="instagram-icon"><svg class="ufl-brands ufl-instagram"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/img/spritemap.svg#instagram"></use></svg><span class="visually-hidden">Instagram</span></a></a>						
+						
+					</div>
+					</div><!--END TOP Grid row-->
+					<!--Start Link Grid row-->
+					<div class="row">
+						<!-- Grid column -->
+						<div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto my-4 footer-address-col">
+							<div class="footer_widget mb-4">
+															</div>
+						</div>
+						<!-- END Grid column -->
+	
+						
+	
+						<!-- Grid column -->
+						<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto my-4 footer-col footer-1">
+						<div class="footer_widget mb-4">
+														</div>
+						</div>
+						<!-- END Grid column -->
+	
+						
+	
+						<!-- Grid column -->
+						<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto my-4 footer-col footer-2">
+						<div class="footer_widget mb-4">
+												</div>
+						</div>
+						<!-- END Grid column -->
+						
+	
+						<!-- Grid column -->
+						<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto my-4 footer-col footer-3">
+						<div class="footer_widget mb-4">
+												</div>
+							</div>
+							<!-- END Grid column -->
+
+							<!-- Grid column -->
+							<div class="col-sm-6 col-md-6 col-lg-2 col-xl-2 mx-auto my-4 footer-col footer-4">
+							<div class="footer_widget mb-4">
+														</div>
+							</div>
+						<!-- END Grid column -->
+					</div>
+					<!--END Grid row-->
+				</section>
+				<!-- Section: Links -->
+	
+
+				<!-- Section: Copyright NEED TO TWEAK -->
+				<section class="copyright-section">
+					<div class="row">
+						<!-- Grid column -->
+
+						<div class="col-12 copyright-col">
+							<span id="footer-copyright">
+							<!-- Copyright -->
+														<!-- Copyright -->
+							</span>
+							</div>
+					</div>
+				</section>
+				<!-- Section: Copyright -->
+			
+			</div>
+			<!-- Grid container -->
+		<!-- Footer -->
+	</div>
+<!-- END FOOTER WRAPPER -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/ufti\/wp-content\/uploads\/sites\/203\/*","\/ufti\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/ufl-main-uni-child\/*","\/wp-content\/themes\/ufl-main-uni\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2C59FY24D"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-Z2C59FY24D', {'cookie_domain': 'www.transportation.institute.ufl.edu'});
+		</script>
+
+	<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-core-columns-is-layout-9d6595d7{flex-wrap:nowrap;}
+</style>
+<script type="text/javascript" src="//www.transportation.institute.ufl.edu/wp-content/plugins/connections/assets/vendor/picturefill/picturefill.min.js?ver=3.0.2" id="picturefill-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/custom.js?ver=1" id="custom-js-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/jquery.directional-hover.min.js?ver=1" id="directional-hover-js-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni-child/js/custom.js?ver=1" id="child-custom-js"></script>
+<script type="text/javascript" id="bootscore-script-js-extra">
+/* <![CDATA[ */
+var ufl_stamats = {"ie_title":"Internet Explorer detected","ie_limited_functionality":"This website will offer limited functionality in this browser.","ie_modern_browsers_1":"Please use a modern and secure web browser like","ie_modern_browsers_2":" <a href=\"https:\/\/www.mozilla.org\/firefox\/\" target=\"_blank\">Mozilla Firefox<\/a>, <a href=\"https:\/\/www.google.com\/chrome\/\" target=\"_blank\">Google Chrome<\/a>, <a href=\"https:\/\/www.opera.com\/\" target=\"_blank\">Opera<\/a> ","ie_modern_browsers_3":"or","ie_modern_browsers_4":" <a href=\"https:\/\/www.microsoft.com\/edge\" target=\"_blank\">Microsoft Edge<\/a> ","ie_modern_browsers_5":"to display this site correctly."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/theme.js?ver=202505151320" id="bootscore-script-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/lib/bootstrap.bundle.min.js?ver=202505151320" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/themes/ufl-main-uni/js/lightbox.js?ver=6.8.2" id="lightbox-js-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?ver=1.8.1" id="slick-js"></script>
+<script type="text/javascript" src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js?ver=6.8.2" id="isotope-js"></script>
+<script type="text/javascript" src="https://www.transportation.institute.ufl.edu/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.7" id="page-links-to-js"></script>
+<script type="text/javascript" async src="https://www.transportation.institute.ufl.edu/wp-content/plugins/ga-expire-cookies/js/expire-ga-cookies.js?ver=1.0.0" id="hwcoe-ufl-expire-ga-js"></script>
+
+ <!-- OFF CANVAS DROPDWON-->
+ <div class="offcanvas offcanvas-top off-canvas-search" tabindex="-1" id="offcanvasTop" aria-labelledby="siteSearch" data-bs-scroll="true" data-bs-backdrop="false">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" tabindex="3"></button>
+    </div>
+    <div class="offcanvas-body" id="siteSearch">
+       <!-- START SEARCH FORM -->
+        <form class="d-flex" method="get" action="https://www.transportation.institute.ufl.edu/">
+            <input class="form-control" type="search" placeholder="How can we help you?" tabindex="1" autofocus="true" aria-label="Search" value="">
+            <a class="btn search-submit" type="submit" tabindex="2"><span class="visually-hidden-focusable">Search Submit</span></a>
+        </form>
+        <!-- END SEARCH FORM -->
+    </div>
+  </div>
+ <!-- END OFF CANVAS DROPDWON-->
+			<script>
+	jQuery(document).ready(function(){
+		
+    var session_nav  = ;
+		
+		jQuery('.section-navigation .section-navigation-inner').removeClass('menu-active');
+		jQuery('.section-navigation .section-menu-btn').removeClass('menu-enabled');
+		jQuery('.section-navigation .section-menu-btn .open-btn').css('display', 'block');
+		jQuery('.section-navigation .section-menu-btn .close-btn').css('display', 'none');
+		
+		jQuery('.section-navigation .section-menu-btn').click(function(){
+				
+					if(jQuery(this).hasClass("menu-enabled")) {
+						
+								jQuery('.section-navigation .section-menu-btn .open-btn').css('display', 'none');
+								jQuery('.section-navigation .section-menu-btn .close-btn').css('display', 'block');
+								jQuery('.section-navigation .section-navigation-inner').addClass('menu-active');
+								jQuery('.section-navigation .section-menu-btn').addClass('menu-enabled');
+					}
+					else{
+								jQuery('.section-navigation .section-menu-btn .close-btn').css('display', 'none');
+								jQuery('.section-navigation .section-menu-btn .open-btn').css('display', 'block');
+								jQuery('.section-navigation .section-navigation-inner').removeClass('menu-active');
+								jQuery('.section-navigation .section-menu-btn').removeClass('menu-enabled');
+					}
+			
+		});
+});	
+</script>
+</body>
+</html>

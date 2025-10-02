@@ -1,0 +1,640 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Knowledge Base</title>
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <link href="../css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
+  <link href="../css/nchrp1441.css?v=20160525" rel="stylesheet" media="screen,print" />
+  <link href="../css/nchrp1441-facility.css?v=20160525" rel="stylesheet" media="screen,print" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" media="print" />
+  <script type="text/javascript"
+    src="https://cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css"
+    integrity="sha512-xtV3HfYNbQXS/1R1jP53KbFcU9WXiSA1RFKzl5hRlJgdOJm4OxHCWYpskm6lN0xp0XtKGpAfVShpbvlFH3MDAA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    label {
+      color: black !important;
+    }
+  </style>
+
+  <style>
+    a:hover {
+      text-decoration: none !important;
+    }
+
+    .list-group-item:first-child {
+      background-color: #ccc;
+    }
+
+    .indent-level-1 {
+      padding-left: 20px;
+      background-color: #eee;
+    }
+
+    .indent-level-2 {
+      padding-left: 40px;
+    }
+
+    .removable-filter {
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .removable-filter i {
+      margin-left: 5px;
+    }
+
+    #clearFilters {
+      margin-top: 10px;
+    }
+
+    .icon-indicator {
+      font-size: 30px;
+      line-height: 24px;
+    }
+
+    .group-title {
+      font-size: 22px;
+    }
+
+    .accordion-toggle:focus,
+    .panel-title>a:focus {
+      text-decoration: none;
+      outline: none;
+    }
+
+    .nav-tabs {
+      border-bottom: none;
+    }
+
+    .tab_item:hover {
+      border-bottom-width: 6px !important;
+    }
+
+    .tab-content {
+      padding-top: 10px;
+    }
+
+    .img-item {
+      padding: 5px;
+    }
+
+    .panel-level-2-heading {
+      background-color: #f7f7f7;
+      border-top: 3px solid #4d6832;
+    }
+
+    .panel-level-2-heading:hover {
+      background-color: #4D683263;
+    }
+
+    .list-group-item.active,
+    list-group-item:hover {
+      background-color: #4d6832 !important;
+      background-image: none;
+      border: none;
+    }
+
+    .bg-blue,
+    .bg-blue:hover {
+      background-color: #4d6832 !important;
+      color: white;
+    }
+
+    .label-custom {
+      font-size: 13px;
+      display: inline-block;
+    }
+    .ml-1{
+      margin-left: .25rem;
+    }
+    .ml-2{
+      margin-left: .5rem;
+    }
+  </style>
+</head>
+
+<body class="facility">
+  <header class="navbar navbar-static-top navbar-inverse" id="top" role="banner">
+    <div class="container v2">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="../index.htm" class="navbar-brand">NCHRP 17-113</a>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../index.htm">Home</a>
+          </li>
+          <li>
+            <a href="../about.htm">About</a>
+          </li>
+          <li>
+            <a href="tool2.html">Selection Tool</a>
+          </li>
+          <li class="active">
+            <a href="sd.htm">Resource Library</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end .container -->
+  </header>
+
+  <!-- ************************************************************************************************* -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>Resource Library</h3>
+        <!-- Custom Search Bar -->
+        <div class="input-group">
+          <input type="text" class="form-control" id="customKeyword" list="keywordsDatalist" placeholder="Search by title or keyword" />
+          <datalist id="keywordsDatalist">
+            <!-- Options will be dynamically loaded here -->
+          </datalist>
+          <span class="input-group-btn">
+            <button class="btn bg-blue" type="button" id="customSearchBtn">
+              Search
+            </button>
+          </span>
+        </div>
+
+        <!-- Display Selected Filters -->
+        <div id="selectedFilters">
+          <h6>Filters:</h6>
+          <div id="filterList"></div>
+          <button class="btn btn-danger btn-sm" id="clearFilters">
+            Clear
+          </button>
+        </div>
+
+        <!-- Sidebar Section -->
+        <div id="sidebar" class="list-group" style="margin-top: 20px">
+          <!-- Categories and subcategories will be dynamically loaded here -->
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="container">
+          <h2>Filtered Results</h2>
+          <div class="panel-group" id="groupAccordion">
+            <!-- The groups will be dynamically loaded here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+    integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function () {
+      var selectedFilters = [];
+      var selectedKeyword = "";
+
+      // Load the items from the JSON file to calculate the category counts and group the items
+      $.getJSON("https://raw.githubusercontent.com/Xatta-Trone/dummy-data-ait-lab/refs/heads/main/items_v2_with_keywords.json", function (items) {
+
+        // 1. extract and count unique keywords 
+        var keywordCounts = {};
+        items.forEach(function (item) {
+          if (item.keywords && Array.isArray(item.keywords)) {
+            item.keywords.forEach(function (keyword) {
+              var kw = keyword.toLowerCase();
+              if (!keywordCounts[kw]) {
+                keywordCounts[kw] = 0;
+              }
+              keywordCounts[kw]++;
+            });
+          }
+        });
+
+        // 2. render keywords in the sidebar
+        function esc(s){ return String(s)
+        .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;"); }
+        
+        var sidebar = $("#sidebar");
+        var keywordHTML = '<div class="list-group-item active"><strong>Keywords</strong></div>';
+        var i = 0;
+        Object.keys(keywordCounts).sort().forEach(function (keyword) {
+          var count = keywordCounts[keyword];
+          var id = 'kw-' + (i++);
+          keywordHTML +=
+        '<label class="list-group-item indent-level-1 d-flex align-items-center" for="'+id+'" style="gap:.5rem; cursor:pointer;">' +
+          '<input id="'+id+'" type="checkbox" class="filter-checkbox" data-label="'+esc(keyword)+'" />' +
+          '<span class="selectable-label ml-2">'+esc(keyword)+' ('+count+')</span>' +
+        '</label>';
+        });
+
+        sidebar.append(keywordHTML); // Add keywords section at the top
+
+        // add the lowercase keywords to datalist for autocomplete in the search box
+        var dataList = $("#keywordsDatalist");
+        Object.keys(keywordCounts).sort().forEach(function (keyword) {
+          dataList.append('<option value="' + keyword + '">');
+        });
+
+        // other codes
+
+        var categoryCounts = {};
+        var groups = {};
+        console.log(items);
+
+        // Count how many items belong to each category and group items by their group
+        items.forEach(function (item) {
+          // Count categories
+          item.categories.forEach(function (category) {
+            if (!categoryCounts[category]) {
+              categoryCounts[category] = 0;
+            }
+            categoryCounts[category]++;
+          });
+
+          // Group items
+          if (!groups[item.group]) {
+            groups[item.group] = [];
+          }
+          groups[item.group].push(item);
+        });
+
+
+
+        // Load the categories from the categories JSON file
+        $.getJSON("https://raw.githubusercontent.com/Xatta-Trone/dummy-data-ait-lab/refs/heads/main/categories.json", function (categories) {
+            // Handle filter checkbox click events (works for both text + checkbox)
+            // Single source of truth: checkbox change
+            $(document).on("change", ".filter-checkbox", function () {
+              var label = $(this).data("label");
+
+              if (this.checked) {
+                if (!selectedFilters.includes(label)) selectedFilters.push(label);
+              } else {
+                selectedFilters = selectedFilters.filter(function (item) {
+                  return item !== label;
+                });
+              }
+
+              // Update the URL (use replaceState to avoid back-stack growth)
+              var newUrl =
+                window.location.pathname +
+                (selectedFilters.length
+                  ? "?q=" + encodeURIComponent(selectedFilters.join("; "))
+                  : "");
+              history.replaceState({}, document.title, newUrl);
+
+              updateFilterList();
+              filterItems();
+            });
+
+
+
+          // Search keyword functionality
+          $("#customSearchBtn").click(function () {
+            var keyword = $("#customKeyword").val();
+            if (keyword) {
+              // check if the keyword exists in the sidebar and check its checkbox
+              var matchingCheckbox = $('.filter-checkbox[data-label="' + keyword.toLowerCase() + '"]');
+              if (matchingCheckbox.length) {
+                matchingCheckbox.prop("checked", true);
+                if (!selectedFilters.includes(keyword.toLowerCase())) {
+                  selectedFilters.push(keyword.toLowerCase());
+                }
+              }else {
+                // If keyword not in sidebar, just add it to selectedKeyword
+                selectedKeyword = keyword;
+              }
+              // Update the URL with the search keyword as a query parameter
+              const newUrl = window.location.origin + window.location.pathname + '?q=' + encodeURIComponent(selectedFilters.join('; '));
+              history.pushState({}, document.title, newUrl);
+            } else {
+              selectedKeyword = "";
+              // Clear the URL query parameter if the search box is empty
+              const newUrl = window.location.origin + window.location.pathname;
+              history.pushState({}, document.title, newUrl);
+            }
+            // Refresh filter list and filter items by keyword
+            if (selectedKeyword || selectedFilters.length > 0) {
+              updateFilterList();
+              filterItems();
+            }
+          });
+
+          // Function to update selected filters display
+          function updateFilterList() {
+            var filterList = $("#filterList");
+            filterList.empty(); // Clear previous list
+
+            if (selectedKeyword) {
+              filterList.append(
+                '<span class="label label-default label-custom bg-blue removable-filter" data-label="keyword">' +
+                selectedKeyword +
+                ' <i class="fa fa-times"></i></span> '
+              );
+            }
+
+            if (selectedFilters.length > 0) {
+              selectedFilters.forEach(function (filter) {
+                filterList.append(
+                  '<span class="label label-default label-custom bg-blue removable-filter" data-label="' +
+                  filter +
+                  '">' +
+                  filter +
+                  ' <i class="fa fa-times"></i></span> '
+                );
+              });
+            } else if (!selectedKeyword) {
+              filterList.html("<span>No filters selected</span>");
+            }
+          }
+
+          // Remove filter or keyword when clicked in the "Filtered by" section
+          $(document).on("click", ".removable-filter", function () {
+            var filter = $(this).attr("data-label");
+
+            if (filter === "keyword") {
+              selectedKeyword = "";
+            } else {
+              selectedFilters = selectedFilters.filter(function (item) {
+                return item !== filter;
+              });
+              // Uncheck corresponding checkbox
+              $('.filter-checkbox[data-label="' + filter + '"]').prop(
+                "checked",
+                false
+              );
+            }
+
+            // Update the URL with the search keyword as a query parameter
+            const newUrl = window.location.origin + window.location.pathname + (selectedFilters.length > 0 ? '?q=' + encodeURIComponent(selectedFilters.join('; ')) : '');
+            history.pushState({}, document.title, newUrl);
+
+            // Refresh filter list and filter items
+            updateFilterList();
+            filterItems();
+          });
+
+          // Clear all filters and keyword
+          $("#clearFilters").click(function () {
+            selectedFilters = [];
+            selectedKeyword = "";
+            $(".filter-checkbox").prop("checked", false); // Uncheck all checkboxes
+            // Clear the input box
+            $("#customKeyword").val("");
+            const newUrl = window.location.origin + window.location.pathname;
+            history.pushState({}, document.title, newUrl);
+            updateFilterList();
+            filterItems();
+          });
+
+          // Show items grouped by group and filter by categories and keyword
+          function filterItems() {
+              function getQueryKeywords() {
+              const urlParams = new URLSearchParams(window.location.search);
+              const q = urlParams.get('q'); // get the value of ?q=
+              if (!q) return [];
+
+              // Split by semicolon, trim spaces, and return array
+              let kk = q.split(';').map(k => k.trim().toLocaleLowerCase()).filter(Boolean);
+              console.log("Query Keywords:", kk);
+
+              // if queyr params exist, add them to selectedFilters if not already present
+              kk.forEach(k => {
+                if (!selectedFilters.includes(k)) {
+                  selectedFilters.push(k);
+                  // check the corresponding checkbox in the sidebar
+                  $('.filter-checkbox[data-label="' + k + '"]').prop("checked", true);
+                }
+                updateFilterList();
+              });
+
+
+              return kk;
+            }
+
+            let queryKeywords = getQueryKeywords();
+
+            var accordion = $("#groupAccordion");
+            accordion.empty(); // Clear previous items
+
+            // Get the filtered items
+            var filteredItems = items.filter(function (item) {
+              // Normalize item keywords to lowercase for comparison
+              var itemKeywords = (item.keywords || []).map(k => k.toLowerCase());
+
+              // Filter by selected keywords (from sidebar checkboxes)
+              var matchesSelectedKeywords =
+                selectedFilters.length === 0 ||
+                selectedFilters.some(function (filter) {
+                  return itemKeywords.includes(filter.toLowerCase());
+                });
+
+              // Filter by keyword in title (from search box)
+              var matchesTitleKeyword = selectedKeyword
+                ? (item.title || "").toLowerCase().includes(selectedKeyword.toLowerCase())
+                : true;
+
+              // Filter by query keywords in URL (?q=...)
+              var matchesQueryKeywords =
+                queryKeywords.length === 0 ||
+                queryKeywords.some(function (qk) {
+                  return itemKeywords.includes(qk);
+                });
+
+              return matchesSelectedKeywords && matchesTitleKeyword && matchesQueryKeywords;
+            });
+
+            // Update the filtered results count
+            var itemLabel = filteredItems.length === 1 ? "item" : "items";
+            $("h2:contains('Filtered Results')").text(`Filtered Results (showing ${filteredItems.length} ${itemLabel})`);
+
+            // Group the filtered items by group
+            var groupedItems = {};
+            filteredItems.forEach(function (item) {
+              if (!groupedItems[item.group]) {
+                groupedItems[item.group] = [];
+              }
+              groupedItems[item.group].push(item);
+            });
+
+            // Load the groups and their filtered items into the accordion
+            $.getJSON(
+              "https://raw.githubusercontent.com/Xatta-Trone/dummy-data-ait-lab/refs/heads/main/groups.json",
+              function (groupsList) {
+                // groupsList.forEach(function (group, groupIndex) {
+                //   if (groupedItems[group]) {
+                //     var groupHTML = `
+                //       <div class="panel">
+                //         <div class="panel-heading" style="background-color: #4D6832; color: white;">
+                //           <h4 class="panel-title">
+                //             <a
+                //               data-toggle="collapse"
+                //               href="#groupCollapse${groupIndex}"
+                //               class="accordion-toggle"
+                //               style="font-size: 22px;"
+                //             >
+                //               ${group}
+                //               <span class="pull-right icon-indicator">-</span>
+                //             </a>
+                //           </h4>
+                //         </div>
+                //         <div id="groupCollapse${groupIndex}" class="panel-collapse collapse in">
+                //           <div class="panel-body" style="padding-left: 0;padding-right: 0;">
+                //             <div class="panel-group" id="itemAccordion${groupIndex}">
+                //               ${groupedItems[group]
+                //         .map(
+                //           (item, itemIndex) => `
+                //                   <div class="panel" >
+                //                     <div class="panel-heading panel-level-2-heading">
+                //                       <h4 class="panel-title group-title" style="color: #333">
+                //                         <a
+                //                           data-toggle="collapse"
+                //                           href="#itemCollapse${groupIndex}-${itemIndex}"
+                //                         >
+                //                           ${item.title}
+                //                           <span class="pull-right icon-indicator">+</span>
+                //                         </a>
+                //                       </h4>
+                //                     </div>
+                //                     <div id="itemCollapse${groupIndex}-${itemIndex}" class="panel-collapse collapse">
+                //                       <div class="panel-body">
+                //                         <ul class="nav nav-tabs">
+                //                           <li class="active"><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #798e87" href="#desc${groupIndex}-${itemIndex}">Description</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #c27d38" href="#practices${groupIndex}-${itemIndex}">Objective</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #ccc591" href="#adv${groupIndex}-${itemIndex}">Method</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdd262" href="#drawbacks${groupIndex}-${itemIndex}">Key Findings</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #c7b19c" href="#ref${groupIndex}-${itemIndex}">References</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#measures${groupIndex}-${itemIndex}">Related Measures</a></li>
+                //                           <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#keywords${groupIndex}-${itemIndex}">Keywords</a></li>
+                //                         </ul>
+
+                //                         <div class="tab-content">
+                //                           <div id="desc${groupIndex}-${itemIndex}" class="tab-pane fade in active">
+                //                             <p>${item.description}</p>
+                //                           </div>
+                //                           <div id="practices${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                              <p>${item.objective}</p>
+                //                           </div>
+                //                           <div id="adv${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                              <p>${item.method}</p>
+                //                           </div>
+                //                           <div id="drawbacks${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                              <ul>${item.key_findings.map((item) => `<li>${item}</li>`).join("")}</ul>
+                //                           </div>
+                //                           <div id="ref${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                             <ul>${item.references.map((item) => `<li>${item}</li>`).join("")}</ul>
+                //                           </div>
+                //                           <div id="measures${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                             <ul>${item.related_measures.map((measure) => `<li><a href="${measure.link}" target="_blank">${measure.title}</a></li>`).join("")}</ul>
+                //                           </div>
+                //                           <div id="keywords${groupIndex}-${itemIndex}" class="tab-pane fade">
+                //                             <ul>${item.keywords.map((keyword) => `<li>${keyword}</li>`).join("")}</ul>
+                //                           </div>
+                //                           <p><a class="btn bg-blue" href="${item.pdf1 ? item.pdf1 : item.pdf}" target="_blank">Download PDF</a></p>
+
+                //                         </div>
+                //                       </div>
+                //                     </div>
+                //                   </div>`
+                //         )
+                //         .join("")}
+                //             </div>
+                //           </div>
+                //         </div>
+                //       </div>
+                //     `;
+                //     accordion.append(groupHTML);
+                //   }
+                // });
+
+                accordion.empty(); // Clear previous items
+
+                filteredItems.forEach(function (item, itemIndex) {
+                  var itemHTML = `
+                    <div class="panel">
+                      <div class="panel-heading panel-level-2-heading">
+                        <h4 class="panel-title group-title" style="color: #333">
+                          <a data-toggle="collapse" href="#itemCollapse-${itemIndex}">
+                            ${item.title}
+                            <span class="pull-right icon-indicator">+</span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="itemCollapse-${itemIndex}" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #798e87" href="#desc-${itemIndex}">Description</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #c27d38" href="#practices-${itemIndex}">Objective</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #ccc591" href="#adv-${itemIndex}">Method</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdd262" href="#drawbacks-${itemIndex}">Key Findings</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #c7b19c" href="#ref-${itemIndex}">References</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#measures-${itemIndex}">Related Measures</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#keywords-${itemIndex}">Keywords</a></li>
+                          </ul>
+
+                          <div class="tab-content">
+                            <div id="desc-${itemIndex}" class="tab-pane fade in active"><p>${item.description}</p></div>
+                            <div id="practices-${itemIndex}" class="tab-pane fade"><p>${item.objective}</p></div>
+                            <div id="adv-${itemIndex}" class="tab-pane fade"><p>${item.method}</p></div>
+                            <div id="drawbacks-${itemIndex}" class="tab-pane fade"><ul>${item.key_findings.map(k => `<li>${k}</li>`).join("")}</ul></div>
+                            <div id="ref-${itemIndex}" class="tab-pane fade"><ul>${item.references.map(r => `<li>${r}</li>`).join("")}</ul></div>
+                            <div id="measures-${itemIndex}" class="tab-pane fade"><ul>${item.related_measures.map(m => `<li><a href="${m.link}" target="_blank">${m.title}</a></li>`).join("")}</ul></div>
+                            <div id="keywords-${itemIndex}" class="tab-pane fade"><ul>${item.keywords.map(k => `<li>${k}</li>`).join("")}</ul></div>
+                            <p><a class="btn bg-blue" href="${item.pdf1 ? item.pdf1 : item.pdf}" target="_blank">Download PDF</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  `;
+
+                  accordion.append(itemHTML);
+                });
+
+                // Event listeners to toggle + and - icons
+                $("#groupAccordion").on("show.bs.collapse", function (e) {
+                  $(e.target)
+                    .prev(".panel-heading")
+                    .find(".icon-indicator")
+                    .text("-");
+                });
+
+                $("#groupAccordion").on("hide.bs.collapse", function (e) {
+                  $(e.target)
+                    .prev(".panel-heading")
+                    .find(".icon-indicator")
+                    .text("+");
+                });
+              }
+            );
+          }
+
+          // Initially show all items
+          filterItems();
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>

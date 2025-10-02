@@ -1,0 +1,388 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Countermeasures</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link
+      href="../css/bootstrap-theme.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link
+      href="../css/nchrp1441.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      href="../css/nchrp1441-facility.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+    <link
+      href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/fixedcolumns/4.0.1/css/fixedColumns.dataTables.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/4.0.1/js/dataTables.fixedColumns.min.js"></script>
+    <style>
+      /* Custom CSS for DataTables sorting arrows with Font Awesome 4.4 */
+      table.dataTable thead .sorting:after {
+        content: "\25B2\25BC"; /* Add both up and down arrow symbols */
+        font-family: Arial, sans-serif; /* Use standard font for arrows */
+        opacity: 0.3;
+        margin-left: 5px;
+      }
+
+      table.dataTable thead .sorting_asc:after {
+        content: "\25B2"; /* Up arrow for ascending */
+        opacity: 1;
+      }
+
+      table.dataTable thead .sorting_desc:after {
+        content: "\25BC"; /* Down arrow for descending */
+        opacity: 1;
+      }
+      /* CSS for text overflow with ellipsis */
+      .text-overflow {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 120px;
+        vertical-align: middle;
+      }
+      .pagination > .active > a {
+        background-color: #4d6832 !important;
+        border-color: #4d6832 !important;
+        color: white !important;
+      }
+      .pagination > li > a,
+      .pagination > li > span {
+        color: #4d6832 !important;
+      }
+      /* Enable horizontal scrolling for DataTable */
+      .dataTables_wrapper .dataTables_scroll {
+        overflow-x: auto;
+      }
+
+      table.dataTable th {
+        white-space: nowrap;
+        font-size: 14px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 8px 10px;
+        min-width: 100px;
+      }
+
+      table.dataTable td {
+        white-space: nowrap;
+        vertical-align: middle;
+        padding: 6px 10px;
+      }
+
+      table.dataTable th:nth-child(1),
+      table.dataTable td:nth-child(1) {
+        min-width: 120px;
+      }
+
+      table.dataTable th:nth-child(2),
+      table.dataTable td:nth-child(2) {
+        min-width: 130px;
+      }
+
+      table.dataTable th:nth-child(3),
+      table.dataTable td:nth-child(3) {
+        min-width: 100px;
+      }
+
+      /* Style for pagination active button */
+      .pagination > .active > a {
+        background-color: #4d6832 !important;
+        border-color: #4d6832 !important;
+        color: white !important;
+      }
+
+      .pagination > li > a,
+      .pagination > li > span {
+        color: #4d6832 !important;
+      }
+
+      /* Custom styling for table borders to visually separate columns */
+      table.dataTable tbody td {
+        border-right: 1px solid #ddd;
+      }
+
+      table.dataTable thead th {
+        border-right: 1px solid #ddd;
+        background-color: #f8f8f8;
+      }
+
+      /* Add horizontal padding and adjust width of the DataTable container */
+      .dataTables_wrapper {
+        padding: 15px;
+      }
+      table.dataTable th:nth-child(1){
+        z-index: 9999999;
+      }
+
+      /* .dataTables_length {
+        display: inline-block;
+      } */
+      div.dataTables_wrapper div.dataTables_length label {
+        color: #4d6832 !important;
+      }
+      button.dt-button, button.dt-button:hover {
+        background-color: #4d6832 !important;
+        color: white !important;
+      }
+      label {
+        color: #4d6832 !important;
+      }
+
+      /* Change background color for the first column header (th) */
+    table.dataTable thead tr > th:first-child,table.dataTable tbody tr > td:first-child {
+        background-color:  #4d6832;
+        color: white; 
+    }
+
+    </style>
+  </head>
+  <body class="facility">
+    <header
+      class="navbar navbar-static-top navbar-inverse"
+      id="top"
+      role="banner"
+    >
+      <div class="container v2">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target=".bs-navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="../index.htm" class="navbar-brand">NCHRP 17-113</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="../index.htm">Home</a>
+            </li>
+            <li>
+              <a href="sd.htm">Knowledge Base</a>
+            </li>
+            <li class="active">
+              <a href="tool2.html">Selection Tool</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end .container -->
+    </header>
+
+    <!-- ************************************************************************************************* -->
+
+    <div class="container">
+      <h2 class="text-center">All Countermeasures</h2>
+      <table
+        id="countermeasuresTable"
+        class="table table-striped table-bordered"
+        style="width: 100%"
+      >
+        <thead>
+          <tr>
+            <th>Emphasis Area</th>
+            <th>Target Crash Type</th>
+            <th>Contributing Factors</th>
+            <th>Area Type</th>
+            <th>Countermeasure</th>
+            <th>Min CMF</th>
+            <th>Max CMF</th>
+            <th>Road Type</th>
+            <th>Min Star Quality</th>
+            <th>Max Star Quality</th>
+            <th>Min AADT</th>
+            <th>Max AADT</th>
+            <th>CMF (min)</th>
+            <th>CMF (max)</th>
+            <th>CMF (mean)</th>
+            <th>Countermeasure 1</th>
+            <th>Countermeasure 2</th>
+            <th>Countermeasure 3</th>
+            <th>Key Stakeholder</th>
+            <th>SSA Pillars</th>
+            <th>SSA Hierarchy</th>
+            <th>AASHTO</th>
+            <th>NCHRP 500 Series Objective</th>
+            <th>N500St</th>
+            <th>Benefit-cost ratio</th>
+            <th>Service Life</th>
+            <th>Cost</th>           
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data will be populated here by JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        const dataUrl =
+          "https://raw.githubusercontent.com/Xatta-Trone/dummy-data-ait-lab/refs/heads/main/nchrp-17-113-countermeasure-v10-july-2025.json";
+        const baseUrl = window.location.origin;
+
+        // Fetch data and populate DataTable
+        $.getJSON(dataUrl, function (data) {
+            const tableData = data.map((item) => ({
+              "Emphasis area": item["Emphasis area"] || "N/A",
+              "Target Crash": item["Target Crash"] || "N/A",
+              "Contributing Factors": item["Contributing Factors"] || "N/A",
+              "Area Type": item["AreaType"] || "N/A",
+              "Countermeasure": item["Countermeasure"] || "N/A",
+              "minCMF": item["minCMF"] || "N/A",
+              "maxCMF": item["maxCMF"] || "N/A",
+              "Road Type": item["RoadType"]   || "N/A",
+              "Min Star Quality": renderStars(item["minStarQuality"]) || "N/A",
+              "Max Star Quality": renderStars(item["maxStarQuality"]) || "N/A",
+              "Min AADT": item["min_MinAADT"] || "N/A",
+              "Max AADT": item["min_MaxAADT"] || "N/A",
+              "CMF (min)": `${(cmfId = (item["CMF1 (min)"] || '').trim()) ? `<a href="https://cmfclearinghouse.fhwa.dot.gov/detail.php?facid=${cmfId.replace(/^CMF/, '').replace(/\s+/g, '-').toLowerCase()}" target="_blank">CMF min</a>` : 'N/A'}`,
+              "CMF (max)": `${(cmfId = (item["CMF1 (max)"] || '').trim()) ? `<a href="https://cmfclearinghouse.fhwa.dot.gov/detail.php?facid=${cmfId.replace(/^CMF/, '').replace(/\s+/g, '-').toLowerCase()}" target="_blank">CMF max</a>` : 'N/A'}`,
+              "CMF (mean)": `${(cmfId = (item["CMF1 (mean)"] || '').trim()) ? `<a href="https://cmfclearinghouse.fhwa.dot.gov/detail.php?facid=${cmfId.replace(/^CMF/, '').replace(/\s+/g, '-').toLowerCase()}" target="_blank">CMF mean</a>` : 'N/A'}`,
+              "Countermeasure 1": item["Countermeasure 1"] || "N/A",
+              "Countermeasure 2": item["Countermeasure 2"] || "N/A",
+              "Countermeasure 3": item["Countermeasure 3"] || "N/A",
+              "Key Stakeholder": item["Key Stakeholder"] || "N/A",
+              "SSA Pillars": item["SSA Pillars"] || "N/A",
+              "SSA Hierarchy": item["SSA Hierarchy"] || "N/A",
+              "AASHTO": item["AASHTO"] || "N/A",
+              "NCHRP 500 Series Objective": item["NCHRP 500 Series Objective"] || "N/A",
+              "N500St": item["N500St"] || "N/A",
+              "Benefit-cost ratio": item["Benefit-cost ratio"] || "N/A",
+              "Service Life": item["Service Life"] || "N/A",
+              "Cost": item["Cost"] || "N/A",
+              "Image": item["img"]
+                ? `<img src="${baseUrl}/core/images/countermeasures/${item["img"]}" alt="Countermeasure Image" style="width: 80px; height: auto;">`
+                : "N/A",
+            }));
+
+
+          // Initialize DataTable with horizontal scrolling enabled
+          $("#countermeasuresTable").DataTable({
+            data: tableData,
+            columns: [
+              { data: "Emphasis area" },
+              { data: "Target Crash" },
+              { data: "Contributing Factors" },
+              { data: "Area Type" },
+              { data: "Countermeasure" },
+              { data: "minCMF" },
+              { data: "maxCMF" },
+              { data: "Road Type" },
+              { data: "Min Star Quality" },
+              { data: "Max Star Quality" },
+              { data: "Min AADT" },
+              { data: "Max AADT" },
+              { data: "CMF (min)" },
+              { data: "CMF (max)" },
+              { data: "CMF (mean)" },
+              { data: "Countermeasure 1" },
+              { data: "Countermeasure 2" },
+              { data: "Countermeasure 3" },
+              { data: "Key Stakeholder" },
+              { data: "SSA Pillars" },
+              { data: "SSA Hierarchy" },
+              { data: "AASHTO" },
+              { data: "NCHRP 500 Series Objective" },
+              { data: "N500St" },
+              { data: "Benefit-cost ratio" },
+              { data: "Service Life" },
+              { data: "Cost" },
+              { data: "Image" }
+            ],
+            scrollX: true, // Enable horizontal scrolling
+            pageLength: 10,
+            autoWidth: true,
+            lengthMenu: [5, 10, 25, 50, 100],
+            fixedColumns: true,
+            order: [[0, "asc"]],
+            dom: "lBfrtip", // Enables the buttons at the top
+            buttons: [
+              {
+                extend: "csv",
+                text: "CSV",
+              },
+              {
+                extend: "excel",
+                text: "Excel",
+              },
+              {
+                extend: "print",
+                text: "Print",
+              },
+            ],
+            fixedColumns: {
+              leftColumns: 1, // Fix the first column
+            },
+          });
+        });
+
+        // Function to render stars with different shades of gold
+        function renderStars(rating) {
+          rating = parseInt(rating || 0);
+          const goldShades = [
+            "#FFD700",
+            "#FFC700",
+            "#FFB700",
+            "#FFA700",
+            "#FF9700",
+          ];
+          let stars = "";
+          for (let i = 0; i < rating; i++) {
+            const color = goldShades[i] || goldShades[goldShades.length - 1];
+            stars += `<i class="fa fa-star" style="color: ${color};"></i>`;
+          }
+          return stars || "N/A";
+        }
+      });
+    </script>
+  </body>
+</html>

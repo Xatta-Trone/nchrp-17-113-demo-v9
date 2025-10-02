@@ -1,0 +1,362 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Knowledge Base</title>
+    <!-- Bootstrap 3 -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link
+      href="../css/bootstrap-theme.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link
+      href="../css/nchrp1441.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      href="../css/nchrp1441-facility.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.rawgit.com/niklasvh/html2canvas/0.5.0-alpha2/dist/html2canvas.min.js"
+    ></script>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+
+    <style>
+      .loading-spinner {
+        display: none;
+      }
+      .results-container {
+        display: none;
+        opacity: 0;
+        transform: translateY(100px); /* Move from 100px below */
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+      }
+      .results-container.show {
+        opacity: 1;
+        transform: translateY(0); /* Original position */
+      }
+      .citation-details {
+        font-size: 1.5rem;
+        color: #888;
+      }
+      .result-stats {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      .result-list {
+        margin-top: 20px;
+      }
+      .my-2 {
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+      }
+      .list-group-item {
+        display: none;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        transform: scale(1);
+      }
+      /* Hover effect for list-group-item */
+      .list-group-item:hover {
+        background-color: #e8e8e8;
+        transform: scale(1.05); /* Zoom in 5% */
+      }
+      .text-black {
+        color: #000 !important;
+      }
+    </style>
+  </head>
+
+  <body class="facility">
+    <header
+      class="navbar navbar-static-top navbar-inverse"
+      id="top"
+      role="banner"
+    >
+      <div class="container v2">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target=".bs-navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="../index.htm" class="navbar-brand">NCHRP 17-113</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="../index.htm">Home</a>
+            </li>
+            <li class="active">
+              <a href="sd.htm">Searchable Database</a>
+            </li>
+            <li>
+              <a href="tool.htm">NCHRP 17-113 Tools</a>
+            </li>
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ************************************************************************************************* -->
+
+    <div class="container-fluid">
+      <div class="page-header" style="text-align: center">
+        <h2>Searchable Database</h2>
+      </div>
+    </div>
+
+    <!-- Google Scholar Search Section -->
+    <div class="container">
+      <div class="rct-comp-div">
+        <h5>Search Google Scholar<sup class="required noprint"></sup></h5>
+        <form id="searchForm">
+          <div class="form-group">
+            <label for="searchQuery" class="text-black">Search Query</label>
+            <input
+              type="text"
+              class="form-control"
+              id="searchQuery"
+              placeholder="Enter your Google Scholar query"
+              required
+            />
+          </div>
+          <div class="row m-0">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="startYear" class="text-black"
+                  >Start Year (Optional)</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="startYear"
+                  placeholder="Enter start year (e.g., 2010)"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="endYear" class="text-black"
+                  >End Year (Optional)</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="endYear"
+                  placeholder="Enter end year (e.g., 2023)"
+                />
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+
+      <!-- Loading Spinner -->
+      <div class="loading-spinner text-center mt-4">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <p>Fetching results...</p>
+      </div>
+
+      <!-- Results Section -->
+      <div class="results-container mt-5">
+        <p class="result-stats">
+          <strong>Total Results:</strong> <span id="totalResults"></span> |
+          <strong>Total Pages:</strong> <span id="totalPages"></span> |
+          <strong>Current Page:</strong> <span id="currentPage"></span>
+        </p>
+
+        <ul id="resultsList" class="list-group result-list"></ul>
+
+        <!-- Pagination Controls -->
+        <nav aria-label="Page navigation" class="mt-4">
+          <ul class="pagination pagination-lg">
+            <li class="page-item disabled" id="prevPageItem">
+              <a class="page-link" id="prevPage" style="cursor: pointer"
+                >Previous</a
+              >
+            </li>
+            <li class="page-item" id="nextPageItem">
+              <a class="page-link" id="nextPage" style="cursor: pointer"
+                >Next</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Error Message -->
+      <div
+        id="errorMessage"
+        class="alert alert-danger mt-4"
+        style="display: none"
+      ></div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- GSAP animation logic -->
+    <script>
+      let currentPage = 0;
+      let totalPages = 0;
+
+      $(document).ready(function () {
+        // Handle form submission
+        $("#searchForm").on("submit", function (e) {
+          e.preventDefault();
+          currentPage = 0; // Reset the current page on new search
+
+          // Fetch and display results
+          fetchResults();
+        });
+
+        // Pagination controls
+        $("#prevPage").on("click", function () {
+          if (currentPage > 0) {
+            currentPage -= 10; // Decrement by 10 (Google Scholar uses increments of 10)
+            fetchResults();
+          }
+        });
+
+        $("#nextPage").on("click", function () {
+          if (currentPage < totalPages * 10) {
+            currentPage += 10; // Increment by 10
+            fetchResults();
+          }
+        });
+
+        // Function to fetch results and display them
+        function fetchResults() {
+          // Clear previous results
+          $("#resultsList").empty();
+          $("#errorMessage").hide();
+          $(".results-container").hide();
+          $(".loading-spinner").show();
+
+          // Get form values
+          const searchQuery = $("#searchQuery").val();
+          const startPage = currentPage; // Use currentPage for pagination
+          const startYear = $("#startYear").val();
+          const endYear = $("#endYear").val();
+
+          // Build API query string
+          let apiQuery = `q=${encodeURIComponent(
+            searchQuery
+          )}&hl=en&as_sdt=7,44`;
+          if (startPage) {
+            apiQuery += `&start=${encodeURIComponent(startPage)}`;
+          }
+          if (startYear) {
+            apiQuery += `&as_ylo=${encodeURIComponent(startYear)}`;
+          }
+          if (endYear) {
+            apiQuery += `&as_yhi=${encodeURIComponent(endYear)}`;
+          }
+
+          // Call the API
+          $.ajax({
+            url: `https://google-scholar-scrap.vercel.app/scrape?${apiQuery}`,
+            method: "GET",
+            success: function (data) {
+              $(".loading-spinner").hide();
+
+              if (data.success && data.results.length > 0) {
+                // Show results container
+                $(".results-container").addClass("show");
+
+                // Display total results, pages, and current page
+                $("#totalResults").text(data.totalResults);
+                totalPages = data.totalPages;
+                $("#totalPages").text(data.totalPages);
+                $("#currentPage").text(startPage / 10 + 1);
+
+                // Enable/Disable pagination buttons
+                if (currentPage === 0) {
+                  $("#prevPageItem").addClass("disabled");
+                } else {
+                  $("#prevPageItem").removeClass("disabled");
+                }
+
+                if (currentPage >= totalPages * 10) {
+                  $("#nextPageItem").addClass("disabled");
+                } else {
+                  $("#nextPageItem").removeClass("disabled");
+                }
+
+                // Loop through results and append to the list
+                data.results.forEach(function (result) {
+                  $("#resultsList").append(`
+                    <li class="list-group-item my-2">
+                      <a href="${result.link}" target="_blank">${result.title}</a><br>
+                      <span class="citation-details">
+                        <strong>Authors:</strong> ${result.authors} | 
+                        <strong>Citations:</strong> ${result.citationCount} | 
+                        <strong>Year:</strong> ${result.year}
+                      </span>
+                    </li>
+                  `);
+                });
+
+                // GSAP staggered animation to slide up the list items
+                gsap.fromTo(
+                  ".list-group-item",
+                  { opacity: 0, y: 50,  display: "block" }, // Starting position: faded out and below
+                  {
+                    opacity: 1,
+                    y: 0,
+                    stagger: 0.2,
+                    duration: 0.3,
+                    display: "block",
+                  }
+                );
+              } else {
+                $("#errorMessage").text("No results found").show();
+              }
+            },
+            error: function () {
+              $(".loading-spinner").hide();
+              $("#errorMessage")
+                .text("An error occurred while fetching the data.")
+                .show();
+            },
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

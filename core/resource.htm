@@ -1,0 +1,856 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selection Tool</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link
+      href="../css/bootstrap-theme.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link
+      href="../css/nchrp1441.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      href="../css/nchrp1441-facility.css?v=20160525"
+      rel="stylesheet"
+      media="screen,print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+    />
+    <link
+      href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "Glyphicons Halflings";
+        src: url("./fonts/glyphicons-halflings-regular.eot");
+        /* your path */
+        src: url("./fonts/glyphicons-halflings-regular.eot?#iefix")
+            format("embedded-opentype"),
+          url("./fonts/glyphicons-halflings-regular.woff2") format("woff2"),
+          url("./fonts/glyphicons-halflings-regular.woff") format("woff"),
+          url("./fonts/glyphicons-halflings-regular.ttf") format("truetype"),
+          url("./fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular")
+            format("svg");
+        /* keep the same family name so Bootstrap's .glyphicon rules still work */
+      }
+    </style>
+
+    <style>
+      /* Style for selected card */
+      .selected-card {
+        background-color: #d1e7dd !important;
+        /* Light green for selected */
+      }
+
+      /* Style for fixed bottom-right button container */
+      .fixed-buttons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        z-index: 1000;
+      }
+
+      .fixed-buttons-left {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 1000;
+      }
+
+      /* Card layout */
+      .card-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .card-text-content {
+        width: 70%;
+      }
+
+      .card-img-content {
+        width: 25%;
+      }
+
+      .select-item {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+    <style>
+      a:hover {
+        text-decoration: none !important;
+      }
+
+      .list-group-item:first-child {
+        background-color: #ccc;
+      }
+
+      .indent-level-1 {
+        padding-left: 20px;
+        background-color: #eee;
+      }
+
+      .indent-level-2 {
+        padding-left: 40px;
+      }
+
+      .removable-filter {
+        margin-right: 5px;
+        cursor: pointer;
+      }
+
+      .removable-filter i {
+        margin-left: 5px;
+      }
+
+      #clearFilters {
+        margin-top: 10px;
+      }
+
+      .icon-indicator {
+        font-size: 30px;
+        line-height: 24px;
+      }
+
+      .group-title {
+        font-size: 22px;
+      }
+
+      .accordion-toggle:focus,
+      .panel-title > a:focus {
+        text-decoration: none;
+        outline: none;
+      }
+
+      .nav-tabs {
+        border-bottom: none;
+      }
+
+      .tab_item:hover {
+        border-bottom-width: 6px !important;
+      }
+
+      .tab-content {
+        padding-top: 10px;
+      }
+
+      .img-item {
+        padding: 5px;
+      }
+
+      .panel-level-2-heading {
+        background-color: #f7f7f7;
+        border-top: 3px solid #4d6832;
+      }
+
+      .panel-level-2-heading:hover {
+        background-color: #4d683263;
+      }
+
+      .list-group-item.active,
+      list-group-item:hover {
+        background-color: #4d6832 !important;
+        background-image: none;
+        border: none;
+      }
+
+      .bg-blue,
+      .bg-blue:hover {
+        background-color: #4d6832 !important;
+        color: white;
+      }
+
+      .label-custom {
+        font-size: 13px;
+        display: inline-block;
+      }
+
+      label {
+        color: black !important;
+      }
+
+      .card-text-content p,
+      .card-bottom-content p {
+        margin-bottom: 0;
+      }
+
+      /* Custom CSS for DataTables sorting arrows with Font Awesome 4.4 */
+      table.dataTable thead .sorting:after {
+        content: "\25B2\25BC";
+        /* Add both up and down arrow symbols */
+        font-family: Arial, sans-serif;
+        /* Use standard font for arrows */
+        opacity: 0.3;
+        margin-left: 5px;
+      }
+
+      table.dataTable thead .sorting_asc:after {
+        content: "\25B2";
+        /* Up arrow for ascending */
+        opacity: 1;
+      }
+
+      table.dataTable thead .sorting_desc:after {
+        content: "\25BC";
+        /* Down arrow for descending */
+        opacity: 1;
+      }
+
+      .panel-mt {
+        margin-top: 30px;
+        border-top: 5px solid green;
+      }
+
+      /* CSS for text overflow with ellipsis */
+      .text-overflow {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 120px;
+        vertical-align: middle;
+      }
+
+      .pagination > .active > a {
+        background-color: #4d6832 !important;
+        border-color: #4d6832 !important;
+        color: white !important;
+      }
+
+      .pagination > li > a,
+      .pagination > li > span {
+        color: #4d6832 !important;
+      }
+    </style>
+    <style>
+      /* Fixed sidebar */
+      .fixed-sidebar {
+        height: calc(100vh - 60px);
+        overflow-y: auto;
+        background-color: #dff0d8;
+        /* Light green background */
+      }
+
+      /* Scrollable main content */
+      .scrollable-content {
+        overflow-y: auto;
+        height: 100vh;
+        padding-top: 20px;
+      }
+
+      /* Button positioned at the bottom of the sidebar */
+      .bottom-button-container {
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .bottom-button {
+        background-color: #4d9fd9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+      }
+    </style>
+    <style>
+      /* The container holds the off-canvas positioning context */
+      #app {
+        position: relative;
+      }
+
+      /* Sidebar base (as a normal column on md+) */
+      .sidebar {
+        background: #f8f8f8;
+        border-right: 1px solid #ddd;
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      /* Sidebar nav look */
+      .sidebar .nav > li > a {
+        padding: 10px 15px;
+      }
+
+      /* md+ (≥992px): just a normal grid layout */
+      @media (min-width: 992px) {
+        .sidebar-overlay {
+          display: none !important;
+        }
+      }
+
+      /* xs/sm (≤991px): sidebar becomes off-canvas INSIDE the container */
+      @media (max-width: 991px) {
+        /* Take the sidebar out of the flow and slide it in */
+        .sidebar {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 240px;
+          z-index: 1030;
+          overflow-y: auto;
+          box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+          background: #f8f8f8;
+
+          /* Off-canvas via transforms */
+          -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+          -webkit-transition: -webkit-transform 0.25s ease-in-out;
+          transition: transform 0.25s ease-in-out;
+        }
+
+        .sidebar.open {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+
+        /* Content spans full width on mobile */
+        .content {
+          float: none;
+          width: 100%;
+        }
+
+        /* Overlay only within the container bounds */
+        .sidebar-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.25);
+          z-index: 1029;
+          display: none;
+          height: 100vh;
+        }
+
+        .sidebar-overlay.show {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="facility">
+    <header
+      class="navbar navbar-static-top navbar-inverse"
+      id="top"
+      role="banner"
+    >
+      <div class="container v2">
+        <div class="navbar-header">
+          <!-- NEW: Sidebar toggle for xs/sm -->
+          <button
+            type="button"
+            class="navbar-toggle sidebar-toggle visible-xs visible-sm"
+            aria-label="Toggle sidebar"
+            aria-controls="sidebar"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <button
+            class="navbar-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target=".bs-navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="../index.htm" class="navbar-brand">NCHRP 17-113</a>
+        </div>
+
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.htm">Home</a></li>
+            <li><a href="../about.htm">About</a></li>
+            <li><a href="tool2.html">Selection Tool</a></li>
+            <li class="active"><a href="resource.htm">Resource Library</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main page container with sidebar INSIDE -->
+    <main id="app" class="container">
+      <div class="row app-row">
+        <!-- Sidebar column (normal col on md+, off-canvas on xs/sm) -->
+        <aside
+          id="sidebar"
+          class="sidebar col-md-3 alert alert-success"
+          style="background-color: #dff0d8; padding: 10px 15px"
+        >
+          <h2>Resource Library</h2>
+          <!-- Custom Search Bar -->
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="customKeyword"
+                list="keywordsDatalist"
+                placeholder="Search by title or keyword"
+              />
+              <datalist id="keywordsDatalist">
+                <!-- Options will be dynamically loaded here -->
+              </datalist>
+              <span class="input-group-btn">
+                <button class="btn bg-blue" type="button" id="customSearchBtn">
+                  Search
+                </button>
+              </span>
+            </div>
+
+          <!-- Display Selected Filters -->
+          <div id="selectedFilters">
+            <h6>Filters:</h6>
+            <div id="filterList"></div>
+            <button class="btn btn-danger btn-sm" id="clearFilters">
+              Clear
+            </button>
+          </div>
+
+          <!-- Sidebar Section -->
+          <div id="sidebar" class="list-group" style="margin-top: 20px">
+            <!-- Categories and subcategories will be dynamically loaded here -->
+          </div>
+        </aside>
+
+        <!-- Main content column -->
+        <section id="content" class="content col-md-9">
+          <h2>Filtered Results</h2>
+
+          <div class="panel-group" id="groupAccordion">
+            <!-- The groups will be dynamically loaded here -->
+          </div>
+        </section>
+      </div>
+
+      <!-- Overlay lives inside the same container -->
+      <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    </main>
+
+    <script>
+      // Toggle sidebar on mobile
+      $(document).on("click", ".sidebar-toggle", function () {
+        var $sb = $("#sidebar");
+        var $ov = $("#sidebar-overlay");
+        var isOpen = $sb.hasClass("open");
+
+        $sb.toggleClass("open", !isOpen);
+        $ov.toggleClass("show", !isOpen);
+        $(this).attr("aria-expanded", String(!isOpen));
+
+        // Optional: hide top navbar collapse to avoid overlapping menus
+        if (!isOpen) {
+          $(".bs-navbar-collapse").collapse("hide");
+        }
+      });
+
+      // Close sidebar when clicking overlay
+      $(document).on("click", "#sidebar-overlay", function () {
+        $("#sidebar").removeClass("open");
+        $(this).removeClass("show");
+        $(".sidebar-toggle").attr("aria-expanded", "false");
+      });
+
+      // Close with ESC
+      $(document).on("keyup", function (e) {
+        if (e.keyCode === 27) {
+          $("#sidebar").removeClass("open");
+          $("#sidebar-overlay").removeClass("show");
+          $(".sidebar-toggle").attr("aria-expanded", "false");
+        }
+      });
+
+      // Clean state when resizing up to md+
+      $(window).on("resize", function () {
+        if (window.matchMedia("(min-width: 992px)").matches) {
+          $("#sidebar").removeClass("open");
+          $("#sidebar-overlay").removeClass("show");
+          $(".sidebar-toggle").attr("aria-expanded", "false");
+        }
+      });
+    </script>
+    <!-- Load the knowledge network data -->
+    <!-- Data is loaded into window.KN_DATA -->
+    <script src="data/resource_library.js"></script>
+    <script>
+      $(document).ready(function () {
+        console.log("Data loaded:", window.KN_DATA);
+        var data = []; // All data
+        var selectedFilters = [];
+        var selectedKeyword = "";
+
+        function initApp() {
+          // Create a Map to store unique items by 'an' (accession number)
+          const uniqueItems = new Map();
+          
+          // Filter unique items, keeping only the first occurrence of each 'an'
+          window.KN_DATA.forEach((item, index) => {
+            if (item.an && !uniqueItems.has(item.an)) {
+              uniqueItems.set(item.an, { ...item, index });
+            }
+          });
+          
+          // Convert Map values back to array
+          data = Array.from(uniqueItems.values());
+          
+          console.log(`Loaded ${data.length} unique items from ${window.KN_DATA.length} total items`);
+        }
+        initApp();
+
+        // 1. extract and count unique keywords
+        var keywordCounts = {};
+        data.forEach(function (item) {
+          if (item.keywords && Array.isArray(item.keywords)) {
+            item.keywords.forEach(function (keyword) {
+              var kw = keyword.toLowerCase();
+              if (!keywordCounts[kw]) {
+                keywordCounts[kw] = 0;
+              }
+              keywordCounts[kw]++;
+            });
+          }
+        });
+
+        // 2. render keywords in the sidebar
+        function esc(s) {
+          return String(s)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+        }
+
+        var sidebar = $("#sidebar");
+        var keywordHTML =
+          '<div class="list-group-item active"><strong>Keywords</strong></div>';
+        var i = 0;
+        Object.keys(keywordCounts)
+          .sort()
+          .forEach(function (keyword) {
+            var count = keywordCounts[keyword];
+            var id = "kw-" + i++;
+            keywordHTML +=
+              '<label class="list-group-item indent-level-1 d-flex align-items-center" for="' +
+              id +
+              '" style="gap:.5rem; cursor:pointer;">' +
+              '<input id="' +
+              id +
+              '" type="checkbox" class="filter-checkbox" data-label="' +
+              esc(keyword) +
+              '" style="margin:0; margin-right:.5rem;" />' +
+              '<span class="selectable-label ml-2">' +
+              esc(keyword) +
+              " (" +
+              count +
+              ")</span>" +
+              "</label>";
+          });
+
+        sidebar.append(keywordHTML); // Add keywords section at the top
+
+        // add the lowercase keywords to datalist for autocomplete in the search box
+        var dataList = $("#keywordsDatalist");
+        Object.keys(keywordCounts)
+          .sort()
+          .forEach(function (keyword) {
+            dataList.append('<option value="' + keyword + '">');
+          });
+
+        // Filter items and render the accordion
+        function filterItems() {
+          let queryKeywords = getQueryKeywords();
+
+          filteredItems = [...data]; // Start with all items
+
+          // Get the filtered items
+          filteredItems = filteredItems.filter(function (item) {
+            // Normalize item keywords to lowercase for comparison
+            var itemKeywords = (item.keywords || []).map((k) =>
+              k.toLowerCase()
+            );
+
+            // Filter by selected keywords (from sidebar checkboxes)
+            var matchesSelectedKeywords =
+              selectedFilters.length === 0 ||
+              selectedFilters.some(function (filter) {
+                return itemKeywords.includes(filter.toLowerCase());
+              });
+
+            // Filter by keyword in title (from search box)
+            var matchesTitleKeyword = selectedKeyword
+              ? (item.title || "")
+                  .toLowerCase()
+                  .includes(selectedKeyword.toLowerCase())
+              : true;
+
+            // Filter by query keywords in URL (?q=...)
+            var matchesQueryKeywords =
+              queryKeywords.length === 0 ||
+              queryKeywords.some(function (qk) {
+                return itemKeywords.includes(qk);
+              });
+
+            return (
+              matchesSelectedKeywords &&
+              matchesTitleKeyword &&
+              matchesQueryKeywords
+            );
+          });
+
+          // Update the filtered results count
+          var itemLabel = filteredItems.length === 1 ? "item" : "items";
+          $("h2:contains('Filtered Results')").text(
+            `Filtered Results (showing ${filteredItems.length} ${itemLabel})`
+          );
+
+          // Render the accordion
+          var accordion = $("#groupAccordion");
+          accordion.empty(); // Clear previous items
+
+          filteredItems.forEach(function (item, itemIndex) {
+            var itemHTML = `
+                    <div class="panel">
+                      <div class="panel-heading panel-level-2-heading">
+                        <h4 class="panel-title group-title" style="color: #333">
+                          <a data-toggle="collapse" href="#itemCollapse-${itemIndex}">
+                            ${item.title}
+                            <span class="pull-right icon-indicator">+</span>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="itemCollapse-${itemIndex}" class="panel-collapse collapse">
+                        <div class="panel-body">
+                          <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #798e87" href="#desc-${itemIndex}">Description</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #c27d38" href="#practices-${itemIndex}">Objective</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #ccc591" href="#adv-${itemIndex}">Method</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdd262" href="#drawbacks-${itemIndex}">Key Findings</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#measures-${itemIndex}">Related Measures</a></li>
+                            <li><a data-toggle="tab" class="tab_item" style="border: none; border-bottom: 3px solid #fdb81e" href="#keywords-${itemIndex}">Keywords</a></li>
+                          </ul>
+
+                          <div class="tab-content">
+                            <div id="desc-${itemIndex}" class="tab-pane fade in active"><p>${item.description}</p></div>
+                            <div id="practices-${itemIndex}" class="tab-pane fade"><p>${item.objective}</p></div>
+                            <div id="adv-${itemIndex}" class="tab-pane fade"><p>${item.method}</p></div>
+                            <div id="drawbacks-${itemIndex}" class="tab-pane fade"><ul>${item.key_findings.map((k) => `<li>${k}</li>`).join("")}</ul></div>
+                            <div id="measures-${itemIndex}" class="tab-pane fade"><ul>${item.related_measures.map((m) =>`<li><a href="${m.link}" target="_blank">${m.title} <i class="fa fa-external-link" aria-hidden="true"></i></a></li>`).join("")}</ul></div>
+                            <div id="keywords-${itemIndex}" class="tab-pane fade"><ul>${item.keywords.map((k) => `<li>${k}</li>`).join("")}</ul></div>
+                            <p><a class="btn bg-blue" href="docs/${
+                              item.source_pdf
+                            }" target="_blank">Download PDF</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  `;
+
+            accordion.append(itemHTML);
+          });
+        }
+
+        function getQueryKeywords() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const q = urlParams.get("q"); // get the value of ?q=
+          if (!q) return [];
+
+          // Split by semicolon, trim spaces, and return array
+          let kk = q
+            .split(";")
+            .map((k) => k.trim().toLocaleLowerCase())
+            .filter(Boolean);
+          console.log("Query Keywords:", kk);
+
+          // if queyr params exist, add them to selectedFilters if not already present
+          kk.forEach((k) => {
+            if (!selectedFilters.includes(k)) {
+              selectedFilters.push(k);
+              // check the corresponding checkbox in the sidebar
+              $('.filter-checkbox[data-label="' + k + '"]').prop(
+                "checked",
+                true
+              );
+            }
+            updateFilterList();
+          });
+
+          return kk;
+        }
+
+        // Handle checkbox changes
+        $(document).on("change", ".filter-checkbox", function () {
+          var label = $(this).data("label");
+
+          if (this.checked) {
+            if (!selectedFilters.includes(label)) selectedFilters.push(label);
+          } else {
+            selectedFilters = selectedFilters.filter(function (item) {
+              return item !== label;
+            });
+          }
+
+          // Update the URL (use replaceState to avoid back-stack growth)
+          var newUrl =
+            window.location.pathname +
+            (selectedFilters.length
+              ? "?q=" + encodeURIComponent(selectedFilters.join("; "))
+              : "");
+          history.replaceState({}, document.title, newUrl);
+
+          updateFilterList();
+          filterItems();
+        });
+
+        // Function to update selected filters display
+        function updateFilterList() {
+          var filterList = $("#filterList");
+          filterList.empty(); // Clear previous list
+
+          if (selectedKeyword) {
+            filterList.append(
+              '<span class="label label-default label-custom bg-blue removable-filter" data-label="keyword">' +
+                selectedKeyword +
+                ' <i class="fa fa-times"></i></span> '
+            );
+          }
+
+          if (selectedFilters.length > 0) {
+            selectedFilters.forEach(function (filter) {
+              filterList.append(
+                '<span class="label label-default label-custom bg-blue removable-filter" data-label="' +
+                  filter +
+                  '">' +
+                  filter +
+                  ' <i class="fa fa-times"></i></span> '
+              );
+            });
+          } else if (!selectedKeyword) {
+            filterList.html("<span>No filters selected</span>");
+          }
+        }
+
+        // Remove filter or keyword when clicked in the "Filtered by" section
+        $(document).on("click", ".removable-filter", function () {
+          var filter = $(this).attr("data-label");
+
+          if (filter === "keyword") {
+            selectedKeyword = "";
+          } else {
+            selectedFilters = selectedFilters.filter(function (item) {
+              return item !== filter;
+            });
+            // Uncheck corresponding checkbox
+            $('.filter-checkbox[data-label="' + filter + '"]').prop(
+              "checked",
+              false
+            );
+          }
+
+          // Update the URL with the search keyword as a query parameter
+          const newUrl =
+            window.location.origin +
+            window.location.pathname +
+            (selectedFilters.length > 0
+              ? "?q=" + encodeURIComponent(selectedFilters.join("; "))
+              : "");
+          history.pushState({}, document.title, newUrl);
+
+          // Refresh filter list and filter items
+          updateFilterList();
+          filterItems();
+        });
+
+        // Clear all filters and keyword
+        $("#clearFilters").click(function () {
+          selectedFilters = [];
+          selectedKeyword = "";
+          $(".filter-checkbox").prop("checked", false); // Uncheck all checkboxes
+          // Clear the input box
+          $("#customKeyword").val("");
+          const newUrl = window.location.origin + window.location.pathname;
+          history.pushState({}, document.title, newUrl);
+          updateFilterList();
+          filterItems();
+        });
+
+        // Search keyword functionality
+        $("#customSearchBtn").click(function () {
+          var keyword = $("#customKeyword").val();
+          if (keyword) {
+            // check if the keyword exists in the sidebar and check its checkbox
+            var matchingCheckbox = $(
+              '.filter-checkbox[data-label="' + keyword.toLowerCase() + '"]'
+            );
+            if (matchingCheckbox.length) {
+              matchingCheckbox.prop("checked", true);
+              if (!selectedFilters.includes(keyword.toLowerCase())) {
+                selectedFilters.push(keyword.toLowerCase());
+              }
+            } else {
+              // If keyword not in sidebar, just add it to selectedKeyword
+              selectedKeyword = keyword;
+            }
+            // Update the URL with the search keyword as a query parameter
+            const newUrl =
+              window.location.origin +
+              window.location.pathname +
+              "?q=" +
+              encodeURIComponent(selectedFilters.join("; "));
+            history.pushState({}, document.title, newUrl);
+          } else {
+            selectedKeyword = "";
+            // Clear the URL query parameter if the search box is empty
+            const newUrl = window.location.origin + window.location.pathname;
+            history.pushState({}, document.title, newUrl);
+          }
+          // Refresh filter list and filter items by keyword
+          if (selectedKeyword || selectedFilters.length > 0) {
+            updateFilterList();
+            filterItems();
+          }
+        });
+
+        // run filter items
+        filterItems();
+      });
+    </script>
+  </body>
+</html>

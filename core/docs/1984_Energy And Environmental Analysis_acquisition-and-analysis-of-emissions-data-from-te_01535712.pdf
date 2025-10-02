@@ -1,0 +1,103 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Please Wait for your document to download...</title>
+</head>
+
+<body background="/EPA/images/DLBackground.gif" onload='hidetxt()' onresize='sizeframe()'>
+
+<script language="JavaScript">
+function hidetxt()
+{
+    sizeframe()
+    var el = document.getElementById("please")
+        el.style.display = "none"
+    var el = document.getElementById("zoomer")
+        el.style.display = "none"
+    var el = document.getElementById("limits")
+        el.style.display = "none"
+    var el = document.getElementById("docframe")
+        el.style.display = "block"
+
+    document.body.style.backgroundImage = 'url("/EPA/Images/empty.gif")'
+    document.title ="NEPIS PDF Document"
+}
+function sizeframe()
+{
+  var myWidth = 0, myHeight = 0;
+  if( typeof( window.innerWidth ) == 'number' ) {
+    //Non-IE
+    myWidth = window.innerWidth;
+    myHeight = window.innerHeight;
+  } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    //IE 6+ in 'standards compliant mode'
+    myWidth = document.documentElement.clientWidth;
+    myHeight = document.documentElement.clientHeight;
+  } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    //IE 4 compatible
+    myWidth = document.body.clientWidth;
+    myHeight = document.body.clientHeight;
+  }
+
+    var el = document.getElementById("docframe")
+        el.style.width = myWidth - 15
+        el.style.height = myHeight - 20
+}
+
+var myname=window.name ;
+//
+//  Post the warning
+
+    if (myname == "imagePDF")
+    {
+        document.write('<span id="please"><font face="Arial Black" color="#0000FF">Please wait while NEPIS creates the PDF you requested...<\/font><\/span>')
+    }
+    if (myname == "imageMPT")
+    {
+        document.write('<span id="please"><font face="Arial Black" color="#0000FF">Please wait while NEPIS creates the Multi-page TIFF you requested...<\/font><\/span>')
+    }
+//
+//  Now do the eye candy.
+
+    if (myname == "imagePDF")
+    {
+        document.write('<span id="zoomer" style="left: 222; top: 129; position: absolute"><img border="0" src="/EPA/images/Down_PDF.gif" width="149" height="145"><\/span>')
+    }
+    if (myname == "imageMPT")
+    {
+        document.write('<span id="zoomer" style="left: 222; top: 129; position: absolute"><img border="0" src="/EPA/images/Down_MPT.gif" width="149" height="145"><\/span>')
+    }
+    
+isFirefox = navigator.appName.indexOf("Netscape") + 1
+
+
+//var myurl=window.location.href ;
+//var firstchar = myurl.indexOf("=") + 1 ;
+//var lastchar = myurl.length ;
+//var targeturl = myurl.substring(firstchar,lastchar);
+
+var targeturl = opener.document.DLwait.url.value;
+
+var action = 'window.location="' + targeturl + '"';
+var inframe='<iframe id="docframe" style="display:none" height=480 width=600px src="' + targeturl + '"><\/iframe>'
+
+if (isFirefox)
+{
+    setTimeout(action,2500)
+} else {
+    document.write(inframe)
+}
+
+focus()
+    
+</script>
+
+    <span id="limits" style="left: 22; top: 375; position: absolute"><font face="Arial Black" color="#0000FF">...this may take a minute or two for large documents.</font></span>
+</body>
+
+</html>

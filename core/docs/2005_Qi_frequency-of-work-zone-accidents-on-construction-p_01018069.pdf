@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head> 
+    <meta charset="utf-8" />
+<script async src="/sites/default/files/google_analytics/gtag.js?t3fzb1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-11755106-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path"});</script>
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/android-chrome-512x512.png" type="image/png" />
+<link rel="canonical" href="https://www.utrc2.org/publications/lane-occupancy-charges" />
+<link rel="shortlink" href="https://www.utrc2.org/node/2763" />
+
+    <title>Lane Occupancy Charges | University Transportation Research Center</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Pmf-GItH8KfKeVCn_eAiFOe0YvPBcBFAasMOB2nDCZE.css?delta=0&amp;language=en&amp;theme=gavias_facdori&amp;include=eJx1jlEKAyEMBS9k9UgSNSuhqRZfLHj7wsJ26ZZ-zsA8Xu29KkdqpMskI9SLcFgwfoREYFfpJYS4US59SKjaE-kNtlRadTAywb5SxnyS-tMcKVQKD6XFI_wqTwAb_DZ6M27lqPKOFtMULWd50f_qz90v9LhL80knvwHWDGdl" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Otfxs8fqhJ5QLt7K8fUcd4NbV7QSYAgvYrFypjX3vHQ.css?delta=2&amp;language=en&amp;theme=gavias_facdori&amp;include=eJx1jlEKAyEMBS9k9UgSNSuhqRZfLHj7wsJ26ZZ-zsA8Xu29KkdqpMskI9SLcFgwfoREYFfpJYS4US59SKjaE-kNtlRadTAywb5SxnyS-tMcKVQKD6XFI_wqTwAb_DZ6M27lqPKOFtMULWd50f_qz90v9LhL80knvwHWDGdl" />
+
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/2763","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"UA-11755106-1","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackColorbox":true},"statistics":{"data":{"nid":"2763"},"url":"\/core\/modules\/statistics\/statistics.php"},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"","show_empty_fields":false,"id":"sidebarproject","element":"div","show_label":true,"label_element":"h3","label_element_classes":"sidebarprojectlable","attributes":"","effect":"none","speed":"fast"}}},"ajaxTrustedUrl":{"\/search\/content":true},"user":{"uid":0,"permissionsHash":"df52e3879d2532bf4ba2d108ae2944b05e31999912b4cf208a68c2639a572b4a"}}</script>
+<script src="/sites/default/files/js/js_qWKPEq1IfP_rvjQm3fhi0BZBDTj24PqEMsVL9J3JupI.js?scope=header&amp;delta=0&amp;language=en&amp;theme=gavias_facdori&amp;include=eJx1jlEKAyEMBS9k9UgSNSuhqRZfLHj7wsJ26ZZ-zsA8Xu29KkdqpMskI9SLcFgwfoREYFfpJYS4US59SKjaE-kNtlRadTAywb5SxnyS-tMcKVQKD6XFI_wqTwAb_DZ6M27lqPKOFtMULWd50f_qz90v9LhL80knvwHWDGdl"></script>
+
+
+    <link rel="stylesheet" href="https://www.utrc2.org/themes/custom/gavias_facdori/css/custom.css" media="screen" />
+    <link rel="stylesheet" href="https://www.utrc2.org/themes/custom/gavias_facdori/css/update.css" media="screen" />
+
+    
+
+    
+          <style class="customize"></style>
+    
+  </head>
+
+  
+  <body class="gavias-content-builder layout-no-sidebars wide page-node-publications page-node-2763 path-node node--type-publications">
+
+    <a href="#page-main-content" class="visually-hidden focusable" aria-label="Skip to main content" style="color: #303030;">
+      Skip to main content
+    </a>
+
+      
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="gva-body-wrapper">
+	<div class="body-page gva-body-page">
+	   
+	   <header id="header" class="header-default">
+  	       <div class="topheader">  <div>
+    <div id="block-gavias-facdori-ccny-newheader-2" class="block block-block-content block-block-contentae3581d0-b5ae-4d0d-bc7f-9b5865f92e69 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="align-items:center;background-color:#7D55C7;display:flex;flex-wrap:wrap;justify-content:flex-start;padding:10px 20px;width:100%;"><!-- Original Image for larger screens (Desktop) --><div class="header-image" style="flex-shrink:0;margin-right:15px;"><a href="https://ccny.cuny.edu" aria-label="ccny.cuny.edu link" target="_blank"><img style="display:block;" src="/sites/default/files/inline-images/CCNY_RGB_one%20line_white_0.png" alt="CCNY_RGB_one line_white_0" width="275" height="66" loading="lazy"></a></div><!-- Mobile Version: Second Image wrapped with a link --><div class="text-align-center mobile-header-image" style="display:none;width:100%;"><a href="https://www.ccny.cuny.edu/" target="_blank"><img style="display:block;margin:0 auto;" src="/sites/default/files/inline-images/your-second-image.png" alt="Your Second Image" width="325" height="70" loading="lazy">&nbsp;</a></div></div><style>
+  /* Ensure the purple background is full width */
+  .header-image, .mobile-header-image {
+    width: 100%;
+  }
+  /* Mobile and tablet screen sizes */
+  @media (max-width: 768px) { 
+    /* Hide the original image on mobile */
+    .header-image {
+      display: none;
+    }
+    /* Show and center the second image on mobile */
+    .mobile-header-image {
+      display: block;
+      text-align: center;
+    }
+    .mobile-header-image img {
+      width: 325px; /* Resize the image for mobile */
+      height: 70px;
+    }
+  }
+  /* Default: Hide mobile image on desktop */
+  .mobile-header-image {
+    display: none;
+  }
+</style></div>
+      
+    </div>
+  </div>
+<div id="ccny_mobheader_id" class="block block-block-content block-block-contenta8568334-731b-464d-9425-085d2f4d1cfc no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="align-items:center;background-color:#7D55C7;display:flex;flex-wrap:wrap;justify-content:center;padding:10px 20px;width:100%;"><div class="header-image-"><a href="https://ccny.cuny.edu" aria-label="ccny.cuny.edu link" target="_blank"><img src="/sites/default/files/logoccny.svg" alt="CCNY_RGB_one line_white_0" width="275" height="75" loading="lazy"></a></div></div></div>
+      
+    </div>
+  </div>
+
+  </div>
+</div>
+  	   
+  
+            
+
+   <div class="header-main gv-sticky-menu">
+      <div class="container header-content-layout">
+         <div class="header-main-inner p-relative">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12 content-inner">
+                <div class="branding">
+                                        <div>
+    <div id="block-gavias-facdori-sempactlogo" class="block block-block-content block-block-contentab639320-6d29-4119-a8dc-3767641445a4 no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><img src="/sites/default/files/inline-images/Lca2og_w_0.png" data-entity-uuid="7d0986e3-ef32-45cb-a33a-2164944e1ce0" data-entity-type="file" width="200" height="65" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+      <a href="/" title="Home" rel="home" class="site-branding-logo">
+        
+        <img class="logo-site" src="/sites/default/files/logo_0_1.png" alt="Home" />
+        
+    </a>
+    
+  </div>
+
+                                  </div>
+                
+                <div class="header-inner clearfix ">
+                  <div class="main-menu">
+                    <div class="area-main-menu">
+                      <div class="area-inner">
+                        <div class="gva-offcanvas-mobile">
+                          <div class="close-offcanvas hidden"><i class="fa fa-times"></i></div>
+                          <div class="main-menu-inner">
+                                                            <div>
+    <nav aria-labelledby="block-gavias-facdori-main-navigation-menu" id="block-gavias-facdori-main-navigation" class="block block-menu navigation menu--main">
+          
+  
+  <h2  class="visually-hidden block-title block-title" id="block-gavias-facdori-main-navigation-menu"><span>Main navigation</span></h2>
+  
+  <div class="block-content">
+                 
+<div class="gva-navigation">
+
+              <ul  class="clearfix gva_menu gva_menu_main">
+      
+                              
+            <li  class="menu-item ">
+        <a href="/">          Home        </a>
+          
+              </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a href="/about-utrc">          About<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/welcome-utrc-site">          Welcome to the UTRC Site        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/theme">          Theme        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/directory/staff">          Staff        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/about-UTRC/press">          Press        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/annual-report">          Annual Report        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/program-progress-performance-report">          Program Progress Performance Report        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/newsletter">          Newsletter        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a href="">          Centers<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/sempact">          SEMPACT        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="https://tbd.ctr.utexas.edu/">          Travel Behavior and Demand (TBD Center)        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/utmsc">          University Transportation Modeling &amp; Simulation Center (UTMSC)        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded">
+        <a href="/research">          Research<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/publications">          Publications        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/research/projects">          Projects        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/research/rfps">          RFPs        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/welcome-utrc-ii-submission-system">          Submit Your Proposal        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/resources-principal-investigators">          Resources for Principal Investigators        </a>
+          
+              </li>
+                          
+            <li  class="menu-item menu-item--expanded">
+        <a href="">          Funding Categories<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/research/UTRC-research-initiative">          UTRC Research Initiative        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/research/UTRC-Advanced-Technology-Initiative">          UTRC Advanced Technology Initiative        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/research/UTRC-Faculty-Development-Minigrants">          UTRC Faculty Development Mini-grants        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/research/UTRC-Best-Transportation-Paper-Competition">          UTRC Best Transportation Paper Competition        </a>
+          
+              </li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded">
+        <a href="/directory">          Directory<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/directory/consortium-universities">          Consortium Universities        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/directory/partners">          Partners        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/directory/principal-investigators">          Principal Investigators        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/directory/staff">          Staff        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a href="/education">          Education<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/education/where-to-study">          Where to Study        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/urban-transportation-and-doctoral-series">          Transportation and Planning Doctoral Series        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/aite-scholarships">          AITE Scholarships        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/utrc-dissertation-grants-program-not-currently-open">          UTRC Dissertation Grants        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/summer-transportation-institute">          Summer Institute        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/september-11th-memorial-program">          September 11th Memorial Program        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/Technology-Transfer-Training">          Technology Transfer and Training        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/Transportation-Graduate-Education-Certificate-Program">          Online Graduate Certificate Program        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/utrc-travel-grants">          UTRC Travel Grants        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="">          Student Award Recipients        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/education/apply-for-scholarship">          Apply For Scholarships        </a>
+          
+              </li>
+        </ul>
+        </li>
+                          
+            <li  class="menu-item menu-item--expanded ">
+        <a href="/events">          Events<span class="icaret nav-plus fas fa-chevron-down"></span>        </a>
+          
+                      <ul class="menu sub-menu">
+                              
+            <li  class="menu-item">
+        <a href="/events">          Events        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/about-UTRC/press">          News        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/events/past-events">          Past Events        </a>
+          
+              </li>
+                          
+            <li  class="menu-item">
+        <a href="/events/visiting-scholar-seminar-series">          Visiting Scholar Seminar Series        </a>
+          
+              </li>
+        </ul>
+        </li>
+        </ul>
+  
+
+</div>
+
+
+        </div>  
+</nav>
+
+  </div>
+
+                                                      </div>
+
+                                                  </div>
+                        
+                        <div id="menu-bar" class="menu-bar menu-bar-mobile d-lg-none d-xl-none">
+                          <span class="one"></span>
+                          <span class="two"></span>
+                          <span class="three"></span>
+                        </div>
+
+                                                  <div class="gva-search-region search-region">
+                            <span class="icon"><i class="gv-icon-52"></i></span>
+                            <div class="search-content">  
+                                <div>
+    <div class="views-exposed-form block block-views block-views-exposed-filter-blocksearch-content-page-1 no-title" data-drupal-selector="views-exposed-form-search-content-page-1" id="block-gavias-facdori-exposedformsearch-contentpage-1">
+  
+    
+      <div class="content block-content">
+      <form action="/search/content" method="get" id="views-exposed-form-search-content-page-1" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-keys js-form-item-keys">
+      <label for="edit-keys">Search</label>
+        <input data-drupal-selector="edit-keys" type="text" id="edit-keys" name="keys" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search-content" type="submit" id="edit-submit-search-content" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+
+                            </div>  
+                          </div>
+                                                                          <div class="quick-side-icon d-none d-lg-block d-xl-block">
+                            <div class="icon"><a href="#"  aria-label="Menu icon for sidebar"><span class="qicon gv-icon-103"></span></a></div>
+                          </div>
+                          
+
+                      </div>
+                    </div>
+                  </div>  
+                </div> 
+              </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+
+</header>
+
+		
+	   	   				<div class="breadcrumbs">
+				  <div>
+    
+
+<div class="breadcrumb-content-inner">
+  <div class="gva-breadcrumb-content">
+    <div id="block-gavias-facdori-breadcrumbs" class="text-light block gva-block-breadcrumb block-system block-system-breadcrumb-block no-title">
+      <div class="breadcrumb-style gva-parallax-background" style="background-color: #F6F6F6;background-image: url(&#039;/themes/custom/gavias_facdori/images/breadcrumb.jpg&#039;);background-position: center center;background-repeat: no-repeat;">
+        <div class="container">
+          <div class="breadcrumb-content-main">
+                          <div class="">
+                <div class="content block-content"><div class="breadcrumb-links">
+  <div class="content-inner">
+          <nav class="breadcrumb " aria-labelledby="system-breadcrumb">
+        <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+        <ol>
+          
+                            <li>
+                          <a href="/">Home</a>
+                                      <span class=""> - </span>
+              
+          </li>
+                            <li>
+                          <a href="/publications">Publications</a>
+                                      <span class=""> - </span>
+              
+          </li>
+                            <li>
+                          
+                          
+          </li>
+                            <li>
+                          Lane Occupancy Charges
+                          
+          </li>
+        
+          <li></li>
+        </ol>
+      </nav>
+      </div> 
+</div>  </div>
+              </div>  
+                        <h2 class="page-title">Lane Occupancy Charges </h2>
+          </div> 
+        </div> 
+        <div class="gva-parallax-inner skrollable skrollable-between" data-bottom-top="top: -80%;" data-top-bottom="top: 0%;"></div>    
+      </div> 
+    </div>  
+  </div>  
+</div>  
+
+
+  </div>
+
+			</div>
+				
+		<div role="main" class="main main-page has-breadcrumb">
+		
+			<div class="clearfix"></div>
+				
+
+							<div class="help gav-help-region">
+					<div class="container">
+						<div class="content-inner">
+							  <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+						</div>
+					</div>
+				</div>
+						
+			<div class="clearfix"></div>
+						
+			<div class="clearfix"></div>
+			
+			<div id="content" class="content content-full">
+				<div class="container container-bg">
+					<div class="content-main-inner">
+	<div class="row">
+		
+				 
+
+		<div id="page-main-content" class="main-content col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-xs-1 ">
+
+			<div class="main-content-inner">
+				
+				
+									<div class="content-main">
+						  <div>
+    <div id="block-gavias-facdori-content" class="block block-system block-system-main-block no-title">
+  
+    
+      <div class="content block-content">
+      
+
+<article data-history-node-id="2763" class="node node--type-publications node--view-mode-full clearfix">
+  <header>
+    
+            
+      </header>
+  <div class="node__content clearfix">
+    
+<div  id="sidebarproject">
+    <h3 class="sidebarprojectlable">PROJECT DETAILS</h3>
+      
+  <div class="field field--name-field-investigators field--type-entity-reference field--label-inline">
+    <div class="field__label">Author(s)</div>
+          <div class="field__items">
+              <div class="field__item">Dr. Dimitrios G. Goulias</div>
+          <div class="field__item">Dr. Shmuel Yahalom</div>
+          <div class="field__item">Dr. Steven I-Jy Chien</div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-universities field--type-entity-reference field--label-inline">
+    <div class="field__label">Universities</div>
+          <div class="field__items">
+              <div class="field__item"><a href="/institutions/polytechnic-institute-nyu" hreflang="en">Polytechnic Institute of NYU</a></div>
+          <div class="field__item"><a href="/institutions/state-university-new-york-suny" hreflang="en">State University of New York (SUNY)</a></div>
+          <div class="field__item"><a href="/institutions/new-jersey-institute-technology" hreflang="en">New Jersey Institute of Technology</a></div>
+              </div>
+      </div>
+
+  <div class="field field--name-field-publication-year field--type-entity-reference field--label-inline">
+    <div class="field__label">Publication Year</div>
+              <div class="field__item"><a href="/category/publication-year/2001" hreflang="en">2001</a></div>
+          </div>
+
+  <div class="field field--name-taxonomy-vocabulary-3 field--type-entity-reference field--label-inline">
+    <div class="field__label">Publication Type</div>
+              <div class="field__item"><a href="/category/publications/final-report" hreflang="en">Final Report</a></div>
+          </div>
+
+  <div class="field field--name-field-projects field--type-entity-reference field--label-inline">
+    <div class="field__label">Project</div>
+          <div class="field__items">
+              <div class="field__item"><a href="/research/projects/lane-occupancy-charges" hreflang="en">Lane Occupancy Charges</a></div>
+              </div>
+      </div>
+
+  </div>
+
+<div  id="projectcontentsection">
+      
+      <div class="field field--name-field-file field--type-file field--label-hidden field__items">
+              <div class="field__item"><div class="pdfpreview" id="pdfpreview-3880">
+  <span class="pdfpreview-image-wrapper">
+  
+<div class="item-image">
+  <a href="/sites/default/files/pubs/Lane-Occupancy-Chane-Final.pdf"><img alt="" title="" class="pdfpreview-file" src="/sites/default/files/pdfpreview/3880-Lane-Occupancy-Chane-Final.png" loading="lazy" />
+</a>
+</div>
+
+  </span>
+  </div>
+</div>
+          </div>
+  
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The objective of this study was to address the NJDOT need in developing appropriate guidelines for lane charges that would minimize the closure of traffic lanes. The developed guidelines considered the impact on traffic and road users, depending on the characteristics of the projects. The study provided the general lane closure guidelines that can be used on a specific project and with respect to the specific project characteristics related to the AADT during the time of day, season, and type of highway/lane closure. It is expected that the criteria used to determine lane rental value for maintenance and construction schedule alternatives are, first, able to reduce private and social costs; second, able to impact construction and maintenance costs; and third, acceptable to the public and decision makers.</p>
+</div>
+      
+  </div>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+
+  </div>
+
+					</div>
+				
+							</div>
+
+		</div>
+
+		<!-- Sidebar Left -->
+				<!-- End Sidebar Left -->
+
+		<!-- Sidebar Right -->
+				<!-- End Sidebar Right -->
+		
+	</div>
+</div>
+				</div>
+			</div>
+
+			
+						
+		</div>
+	</div>
+
+	
+<footer id="footer" class="footer">
+  <div class="footer-inner">
+    
+         <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="before-footer clearfix area">
+                    <div>
+    <div id="block-gavias-facdori-beforefooter" class="block block-block-content block-block-content3a64bfb9-3524-45c2-be23-cc4c35e17f2e no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><!-- Begin Constant Contact Active Forms --><script> var _ctct_m = "0a09714a3e736e71446fc4c195b9c8cf"; </script><script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script><!-- Begin Constant Contact Inline Form Code --><!-- End Constant Contact Active Forms --><div class="ctct-inline-form" data-form-id="3877f27d-4dfc-4b1c-b591-9066d905df58">&nbsp;</div><!-- End Constant Contact Inline Form Code --></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+              </div>
+            </div>
+          </div>     
+        </div>   
+      </div> 
+          
+     <div class="footer-center">
+        <div class="container">      
+           <div class="row">
+                              <div class="footer-first col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-gavias-facdori-contactinfo" class="block block-block-content block-block-contented0b5835-fd56-4d4b-a1e3-b96b513d757b">
+  
+      <h2 class="block-title" ><span>Contact info</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="contact-info"><p class="description">University Transportation Research Center Marshak Hall - Science Building, Suite 910</p><ul><li><span>The City College of New York, 138th Street &amp; Convent Avenue , New York, NY 10031</span></li><li><a href="mailto:info@utrc2.org">info@utrc2.org</a></li><li>212-650-8050</li></ul><p>&nbsp;</p><p>&nbsp;</p></div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                             <div class="footer-second col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-gavias-facdori-contentblockempty" class="block block-block-content block-block-content3d8291b9-ef3c-4c3c-ac30-d6cb7647be2f no-title">
+  
+    
+      <div class="content block-content">
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                              <div class="footer-third col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-gavias-facdori-linksfooter" class="block block-block-content block-block-content74f40c64-99ef-4124-aaf8-c8aa46483ae5">
+  
+      <h2 class="block-title" ><span>Sitemap</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="clearfix"><div class="row"><div class="col-lg-6 col-xs-12"><p><a href="https://utrc2.org/about-utrc">About Us</a></p><p><a href="https://utrc2.org/sempact">SEMPACT</a></p><p><a href="https://utrc2.org/education/education">Education</a></p><p><a href="https://utrc2.org/research">Research</a></p><p><a href="https://utrc2.org/events">Events</a></p><p><a href="https://utrc2.org/directory">Directory</a></p></div></div></div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+              
+                               <div class="footer-four col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 footer-column">
+                    <div>
+    <div id="block-gavias-facdori-contactboxfooter" class="block block-block-content block-block-content0627c5de-fb9f-42bf-95bb-b933b0a74012">
+  
+      <h2 class="block-title" ><span>Social Media Links</span></h2>
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="contact-box-footer"><a href="https://www.linkedin.com/company/utrc2" aria-label="linkedin"><img src="/sites/default/files/linkedin_icon.png" alt width="20" height="20" loading="lazy"></a> @<a href="https://www.linkedin.com/company/UTRC2" aria-label="linkedin">UTRC2</a></div><div class="contact-box-footer">&nbsp;</div><div class="contact-box-footer"><a href="https://twitter.com/UTRCRegion2" aria-label="X logo"><img src="/sites/default/files/inline-images/X_logo_2023_%28white%29%2050x50.png" data-entity-uuid="72636357-9f57-4c96-9fb3-ce5d34b90c8f" data-entity-type="file" alt width="20" height="20" loading="lazy"></a> @<a href="https://twitter.com/utrcregion2" aria-label="X">UTRCRegion2</a></div><div class="contact-box-footer"><br><br>&nbsp;</div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+                </div> 
+                         </div>   
+        </div>
+    </div>  
+  </div>   
+
+      <div class="copyright">
+      <div class="container">
+        <div class="copyright-inner">
+              <div>
+    <div id="block-gavias-facdori-accessibility-2" class="block block-block-content block-block-content48ad6c92-2aee-496d-89fc-ef0a478a7efd no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><script src="https://cdn.userway.org/widget.js" data-account="8XFcHcTdVf" data-position="2"></script></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+        </div>   
+      </div>   
+    </div>
+    	       <div class="bottom_footer">  <div>
+    <div id="block-gavias-facdori-ccny-footer" class="block block-block-content block-block-contentd74176ad-e12b-4f5d-9217-4c13dc70a05c no-title">
+  
+    
+      <div class="content block-content">
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="align-items:center;background-color:black;color:white;display:flex;flex-wrap:wrap;justify-content:space-between;padding:20px;"><div class="footerlogo" style="align-items:center;display:flex;"><a href="https://www.ccny.cuny.edu/" aria-label="UTRC"><img src="/sites/default/files/inline-images/CCNY_RGB_horizontal_white.png" alt="ccny_whitefooter" width="200" height="84" loading="lazy"> </a><a href="https://www.cuny.edu/" aria-label="UTRC"><img src="/sites/default/files/inline-images/CUNY_Logo_WHT.png" alt="cuny_whitelogo" width="55" height="54" loading="lazy">&nbsp;</a></div><div class="text-align-center" style="flex-grow:1;"><a style="margin:0 10px;" href="https://instagram.com/ccnycitycollege/" aria-label="Instagram" alt="ccny_instagram" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2zm0-2A7.75 7.75 0 0 0 0 7.75v8.5A7.75 7.75 0 0 0 7.75 24h8.5A7.75 7.75 0 0 0 24 16.25v-8.5A7.75 7.75 0 0 0 16.25 0zM12 6.25A5.75 5.75 0 1 1 6.25 12 5.76 5.76 0 0 1 12 6.25m0-2A7.75 7.75 0 1 0 19.75 12 7.75 7.75 0 0 0 12 4.25zm6.5-.5a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 18.5 3.75z" /></svg>&nbsp;</a><a style="margin:0 10px;" href="https://www.facebook.com/TheCityCollegeofNewYork/#" aria-label="facebook" alt="ccny_facebook" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="white"> <path d="M22 12a10 10 0 1 0-11.5 9.9V14.9H7.9V12h2.6V9.7c0-2.5 1.5-3.9 3.8-3.9a15.6 15.6 0 0 1 2.3.2V8h-1.3c-1.3 0-1.6.6-1.6 1.5V12h2.7l-.4 2.9h-2.3v7.1A10 10 0 0 0 22 12z" /></svg></a><a style="margin:0 10px;" href="https://www.linkedin.com/school/city-college-of-new-york/posts/?feedView=all" aria-label="linkedin" alt="ccny_linkedin" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M4.98 3.5c0 1.2-.9 2.2-2.2 2.2S.58 4.7.58 3.5 1.48 1.3 2.78 1.3s2.2 1 2.2 2.2zM.92 21.8h3.8V7.8H.92zM7.2 7.8h3.7v1.9c.5-.8 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6v8h-3.8v-7c0-1.6-.6-2.8-2.1-2.8s-2.4 1.2-2.4 2.8v7H7.2z" /></svg></a><a style="margin:0 10px;" href="https://www.youtube.com/user/citycollegeofny" aria-label="youtube" alt="ccny_youtube" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M23.5 7.2s-.2-1.5-.9-2.2a3.6 3.6 0 0 0-2.6-1c-3.6-.3-8.9-.3-8.9-.3s-5.3 0-8.9.3a3.6 3.6 0 0 0-2.6 1c-.7.7-.9 2.2-.9 2.2A39.7 39.7 0 0 0 0 12c0 1.9.3 4.8.3 4.8s.2 1.5.9 2.2a3.6 3.6 0 0 0 2.6 1c3.6.3 8.9.3 8.9.3s5.3 0 8.9-.3a3.6 3.6 0 0 0 2.6-1c.7-.7.9-2.2.9-2.2s.3-2.9.3-4.8c0-1.9-.3-4.8-.3-4.8zM9.6 15.5v-7l6.2 3.5-6.2 3.5z" /></svg>&nbsp;</a></div><div class="text-align-right">© The City College of New York. All rights reserved.</div></div></div>
+      
+    </div>
+  </div>
+
+  </div>
+</div>
+  </footer>
+</div>
+
+  <div class="gva-quick-side quick-side">
+   <div class="side-content">
+       <div class="content-inner">
+         <a href="#" aria-label="Menu close icon for sidebar" class="quick-side-close"><i class="fa fa-times"></i></a>
+           <div>
+    <nav aria-labelledby="block-gavias-facdori-account-menu-menu" id="block-gavias-facdori-account-menu" class="block block-menu navigation menu--account">
+          
+  
+  <h2  class="visually-hidden block-title block-title" id="block-gavias-facdori-account-menu-menu"><span>User account menu</span></h2>
+  
+  <div class="block-content">
+                 
+              <ul class="gva_menu" role="menu">
+        
+                
+      <li  class="menu-item" role="none">
+                  <a href="/welcome-utrc-ii-submission-system" role="menuitem">UTRC II SUBMISSION SYSTEM</a>
+              </li>
+
+                
+      <li  class="menu-item" role="none">
+                  <a href="/about-UTRC/UTRC-Job-Announcements" role="menuitem">Careers</a>
+              </li>
+
+                
+      <li  class="menu-item" role="none">
+                  <a href="/contact-us" role="menuitem">Contact</a>
+              </li>
+
+                
+      <li  class="menu-item" role="none">
+                  <a href="/user/login" role="menuitem">Log in</a>
+              </li>
+
+        </ul>
+  
+
+
+        </div>  
+</nav>
+
+  </div>
+
+       </div>  
+   </div>
+  </div>
+
+  </div>
+
+    
+    <script src="/sites/default/files/js/js_aUOptQO6yhEtu4xtiBE6n4--TQPUBGVzfg_-y4AwXJs.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=gavias_facdori&amp;include=eJx1jlEKAyEMBS9k9UgSNSuhqRZfLHj7wsJ26ZZ-zsA8Xu29KkdqpMskI9SLcFgwfoREYFfpJYS4US59SKjaE-kNtlRadTAywb5SxnyS-tMcKVQKD6XFI_wqTwAb_DZ6M27lqPKOFtMULWd50f_qz90v9LhL80knvwHWDGdl"></script>
+
+    
+        <div id="gva-overlay"></div>
+  </body>
+</html>

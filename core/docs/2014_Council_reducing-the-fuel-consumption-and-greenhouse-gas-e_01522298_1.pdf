@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <title>Login | The National Academies Press</title>
+
+
+                <meta name="robots" content="noindex, nofollow">
+                  <link rel="canonical" href="https://nap.nationalacademies.org/login.php?">
+    
+    
+      <script src="/includes/js/jquery-latest.min.js"></script>
+           <!-- Data Layer -->
+<script> window.dataLayer = window.dataLayer || [];dataLayer.push({ 
+	'pageTitle'		: "Login",
+	'bookID' 		: "18736",
+	'bookTitle' 	: "Reducing the Fuel Consumption and Greenhouse Gas Emissions of Medium- and Heavy-Duty Vehicles, Phase Two",
+        'subtitle'      : "First Report",
+        'date'          : "2014-04-02 00:00:00",
+        'report_type'   : { 'code': "consensus",
+                            'word': "Consensus Study Report"
+                          },
+        'status'       : "final",
+        'display_authors' : "National Research Council; &lt;a href=&quot;/author/DEPS&quot;&gt;Division on Engineering and Physical Sciences&lt;/a&gt;; &lt;a href=&quot;/author/TRB&quot;&gt;Transportation Research Board&lt;/a&gt;; &lt;a href=&quot;/author/BEES&quot;&gt;Board on Energy and Environmental Systems&lt;/a&gt;; &lt;a href=&quot;/initiative/committee-on-assessment-of-technologies-and-approaches-for-reducing-the-fuel-consumption-of-medium-and-heavy-duty-vehicles-phase-two&quot;&gt;Committee on Assessment of Technologies and Approaches for Reducing the Fuel Consumption of Medium- and Heavy-Duty Vehicles, Phase Two&lt;/a&gt;",
+	'orgs': [ 
+],
+        'divisions': [
+],
+ 	'bookTopic'		: "Energy and Energy Conservation",
+   
+    
+    
+   	
+	'bookDivision'	: "DEPS",
+ 
+   	
+	'bookDivision'	: "TRB",
+ 
+   	'loginStatus' 	: "guest",  
+	'form' 		: "subscribe" 
+});
+</script>
+
+		      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N9MJ23');</script>
+<!-- Global site tag (gtag.js) - Google AdWords: 1071160892 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1071160892"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-1071160892'); 
+gtag('config', 'AW-1071160892');
+</script> 
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/eaea39b6442dc4e0d08e6aa4a/208cb1a4b431cae38b54bdb6f.js");</script>
+                        <link rel="stylesheet" href="/stylesheets/vendor/bootstrap-3.0.3/bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/naphome.css" />
+  <style>
+    body {
+      background: #f3f1ea;
+    }
+ #logo {
+ display: flex;
+ justify-content: space-between;
+      background-color: white;
+      height: 60px;
+	  line-height: 50px;
+      vertical-align: middle;
+      padding-left: 12px;
+      margin-bottom: 20px;
+      -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+    .help-link {
+      color: #3a85b3;
+      /*! padding-right: 10px; */
+	 
+      position: absolute;
+      bottom: -14px;
+      right: 11px;
+    }
+	a:hover {
+	text-decoration: underline;}
+	
+	.loginlogo {
+	
+	}
+    section {
+      max-width: 600px;
+      padding: 40px;
+      font-size: 16px;
+      background: #fff;
+      background: url(images/fff-bg.png) top left;
+      border: 1px solid #ccc;
+      margin-bottom: 25px;
+      margin: 10px auto;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, 0,75);
+      box-shadow: 0 5px 8px -6px rgba(0, 0, 0, 0.75);
+    }
+    section.well {
+      background-color: #f0ede5;
+      color: #666;
+      font-size: 16px;
+    }
+    section.well img {
+      float: left;
+      margin-right: 15px;
+			max-height: 70px;
+    }
+    h1, h2, h3 {
+		  font-size: 20px;
+			color: #666;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #efefef;
+			text-transform: uppercase;
+    }
+    input[type=text], input[type=password], input[type=email] {
+      font-size: 18px;
+      height: auto;
+      padding: 10px 14px;
+    }
+    label {
+      font-weight: normal;
+    }
+    #login input[name=email],
+    #register input[name=email],
+    #guest input[name=email] {
+      border-radius: 5px 5px 0 0;
+    }
+    input[name=password], textarea.form-control {
+      border-radius: 0 0 5px 5px;
+      border-top: none !important;
+    }
+    section .btn {
+      margin: 20px 0;
+    }
+		a.reset {
+			padding-top:10px;
+		}
+		.reset-wrapper {
+    line-height: 3;
+}
+		#login form {
+			padding-bottom: 20px;
+		}
+		
+		.btn-danger {
+			background-color: #4148c2;
+    	border-color: #4148c2;
+		}
+		
+		.btn-danger:hover {
+		  background-color: #4148c2;
+    	border-color:#4148c2;
+			opacity: .7;
+		}
+		button.close {
+		color: #000 !important
+		}
+		
+		.global-nav__logo {
+		width: 200px;
+		height: auto;
+		/*! position: absolute; */
+		/*! top: 10px; */
+		/*! left: 30px; */
+		margin-top: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		}
+		.nap-logo {
+			margin-top: 10px;
+		margin-right: 20px;
+		max-width: 200px;
+}
+		@media (max-width:400px) {
+		#logo {
+		max-height: 50px;}
+			#login-remember-me.pull-right {
+			float: left !important;
+			display: block;
+			width: 100%;
+			}
+			
+			section {
+			padding: 20px;
+			}
+			
+			
+		
+		}
+		
+		@media (max-width:670px) {
+		
+		#logo {
+				height: 60px;
+				line-height: 20px;
+			}
+			}
+  </style>
+
+    <style>pre { background-color: transparent !important; }</style>
+
+              
+  </head>
+<body>
+    <!-- Google Tag Manager (nos cript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N9MJ23"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+      <header id="logo">
+  
+  <div class="global-nav__logo"> 
+      
+       <a href="https://www.nationalacademies.org/" aria-label="Logo of The National Academies">
+			  
+		    <svg xmlns="http://www.w3.org/2000/svg" id="nasemLogo" data-name="nasemLogo" viewBox="0 0 360 66.64">
+      <defs/>
+      <path d="m4.26 8.63 19.56 20.49V1.72h-3.47v18.93L.8.16v27.32h3.46V8.63zM32.55 27.48h3.83l8.15-19.2 7.93 18.99.09.21h3.82L44.62 0 32.55 27.48zM175.05 27.48h3.83l8.16-19.2 7.93 18.99.08.21h3.83L187.12 0l-12.07 27.48zM68.23 27.48h3.47V5.03h7.72V1.72H60.51v3.31h7.72v22.45zM90.08 1.72h3.46v25.76h-3.46z" class="cls-2"/>
+      <path d="M157.14 38.67A13.39 13.39 0 1 0 143.75 52a13.21 13.21 0 0 0 13.39-13.33Zm-3.54 0a9.85 9.85 0 1 1-9.85-10 9.93 9.93 0 0 1 9.85 10Z" class="cls-2" transform="translate(-24.97 -24.05)"/>
+      <path d="m146.56 8.63 19.56 20.49V1.72h-3.47v18.93L143.1.16v27.32h3.46V8.63zM210.95 1.72h-3.46v25.76h13.8v-3.31h-10.34V1.72z" class="cls-2"/>
+      <path d="M67.41 63A13.13 13.13 0 0 0 54 76.37a13 13 0 0 0 13.26 13.24A13.48 13.48 0 0 0 75 87.1l.14-.1v-4.46l-.58.58a10.91 10.91 0 0 1-2.81 2 10 10 0 0 1-4.51 1.13c-6.74 0-9.77-5.78-9.77-9.89a9.82 9.82 0 0 1 9.74-10.11 10.44 10.44 0 0 1 4.18.94 12 12 0 0 1 3.17 2.27l.58.58v-4.41l-.13-.1a12.1 12.1 0 0 0-7.6-2.53ZM130 66.4a14 14 0 0 0-9.47-3h-5.45v25.75h5.42c4.25 0 6.88-.83 9.39-3a12.32 12.32 0 0 0 4.52-9.89A12.54 12.54 0 0 0 130 66.4Zm-2.39 17.26a10.37 10.37 0 0 1-7 2.18h-2.11V66.7h2.11c6.21 0 10.22 3.77 10.22 9.59a9.23 9.23 0 0 1-3.25 7.37Z" class="cls-2" transform="translate(-24.97 -24.05)"/>
+      <path d="M119.94 65.11h15.33V61.8h-11.86v-9.07h10.38v-3.31h-10.38v-6.76h11.86v-3.32h-15.33v25.77zM201.26 65.11h15.33V61.8h-11.86v-9.07h10.37v-3.31h-10.37v-6.76h11.86v-3.32h-15.33v25.77zM158.66 58.65l-9.79-21.53-4.42 27.99h3.56l2.36-16.59 8.25 18.12 8.35-18.12 2.25 16.59h3.56l-4.14-28.03-9.98 21.57zM184.29 39.34h3.46V65.1h-3.46z" class="cls-2"/>
+      <path d="M263.7 76.76a12.7 12.7 0 0 0-4-2.44l-2.42-1a8 8 0 0 1-2.53-1.51 2.32 2.32 0 0 1-.83-1.94c0-2.11 1.56-3.53 3.87-3.53a4.18 4.18 0 0 1 2.61.79 5.51 5.51 0 0 1 1.37 1.77l.17.34 2.8-1.85-.14-.27a7.79 7.79 0 0 0-2.56-2.91 7.16 7.16 0 0 0-4.18-1.21c-4.34 0-7.37 2.8-7.37 6.8a5.53 5.53 0 0 0 1.83 4.35 10.74 10.74 0 0 0 3.24 2l2.44 1.17a10.81 10.81 0 0 1 2.94 1.68 3.39 3.39 0 0 1 1.13 2.68A4.8 4.8 0 0 1 254 85a5.6 5.6 0 0 1-1.42-3l-.05-.39-3.4.94.07.32a9.51 9.51 0 0 0 2.43 4.61 7.73 7.73 0 0 0 5.69 2.13 7.9 7.9 0 0 0 8.28-8 6.38 6.38 0 0 0-1.9-4.85Z" class="cls-2" transform="translate(-24.97 -24.05)"/>
+      <path d="M0 65.11h3.83l8.16-19.21 7.92 19 .09.21h3.83L12.07 37.63 0 65.11zM57.37 65.11h3.83l8.15-19.21 7.93 19 .08.21h3.83L69.44 37.63 57.37 65.11z" class="cls-2"/>
+      <path d="M292 26.45a3.91 3.91 0 0 0-1.07-.14 2.94 2.94 0 0 0-1.74.52 1.71 1.71 0 0 0-.72 1.47 2.36 2.36 0 0 0 .63 1.7 9.45 9.45 0 0 0 1.9 1.38 15.52 15.52 0 0 1 1.45 1 4.28 4.28 0 0 1 .94 1.12 2.87 2.87 0 0 1 .38 1.51 3.57 3.57 0 0 1-.57 2 3.79 3.79 0 0 1-1.6 1.34 5.79 5.79 0 0 1-2.39.47 9.63 9.63 0 0 1-2.22-.25 4.15 4.15 0 0 1-1.41-.52l.39-2.49H287l.11 1.84a2.93 2.93 0 0 0 .92.39 5 5 0 0 0 1.16.14 3.39 3.39 0 0 0 2-.6 1.94 1.94 0 0 0 .83-1.68 2.25 2.25 0 0 0-.56-1.54 7.66 7.66 0 0 0-1.7-1.32c-.6-.39-1.1-.75-1.51-1.07a4.43 4.43 0 0 1-1-1.2 2.94 2.94 0 0 1-.43-1.59 3.08 3.08 0 0 1 .57-1.85 3.58 3.58 0 0 1 1.55-1.23 5.17 5.17 0 0 1 2.13-.43 7.84 7.84 0 0 1 2 .21 4 4 0 0 1 1.25.51l-.4 2.31h-.95l-.14-1.68a2.39 2.39 0 0 0-.83-.32ZM300.27 29.79a2.2 2.2 0 0 0-1.53.62 4.15 4.15 0 0 0-1.06 1.74 8 8 0 0 0-.38 2.55 4.11 4.11 0 0 0 .5 2.24 1.6 1.6 0 0 0 1.42.74 2.71 2.71 0 0 0 1.25-.27 5.56 5.56 0 0 0 1.15-.81l.35.64a4.42 4.42 0 0 1-1.31 1.08 3.78 3.78 0 0 1-2 .5 2.76 2.76 0 0 1-2.31-1 4.51 4.51 0 0 1-.83-2.9 7.35 7.35 0 0 1 .6-2.87 6 6 0 0 1 1.77-2.38 4.27 4.27 0 0 1 2.77-.95 5.7 5.7 0 0 1 1.06.11 3.31 3.31 0 0 1 .92.3l-.48 1.7-.29-.11a2.91 2.91 0 0 0-1.6-.93ZM306.13 37.31a.54.54 0 0 0 .08.33.22.22 0 0 0 .2.11.74.74 0 0 0 .39-.12 2.88 2.88 0 0 0 .5-.4l.23.42a3.34 3.34 0 0 1-.78.77 2 2 0 0 1-1.23.4 1.3 1.3 0 0 1-.89-.27.9.9 0 0 1-.26-.81c0-.3.18-1.43.46-3.41q.24-1.59.6-4.23l-1.09-.4.11-.6 2.49-.4.38.19-1.17 8.25Zm-.08-10.8a1 1 0 0 1-.27-.69 1.24 1.24 0 0 1 .34-.89 1.07 1.07 0 0 1 .82-.37.94.94 0 0 1 .7.27.93.93 0 0 1 .26.66 1.35 1.35 0 0 1-.33.92 1.14 1.14 0 0 1-.88.38.9.9 0 0 1-.64-.28ZM315.15 38.24a4.26 4.26 0 0 1-2.23.6 3.45 3.45 0 0 1-2-.53 3.23 3.23 0 0 1-1.15-1.41 4.83 4.83 0 0 1-.36-1.87 7.38 7.38 0 0 1 .67-3.14 5.91 5.91 0 0 1 1.92-2.33 4.33 4.33 0 0 1 2.62-.88 2.64 2.64 0 0 1 1.88.6 2.06 2.06 0 0 1 .63 1.56 2.66 2.66 0 0 1-1 2.11 6.62 6.62 0 0 1-2.37 1.28 9.48 9.48 0 0 1-2.46.45 3.85 3.85 0 0 0 .42 2.13 1.68 1.68 0 0 0 1.6.91 3.61 3.61 0 0 0 1.54-.36 4.41 4.41 0 0 0 1.39-1l.38.65a4.39 4.39 0 0 1-1.48 1.23Zm-2.41-8a4.82 4.82 0 0 0-1 1.65 7.41 7.41 0 0 0-.44 1.94 5.85 5.85 0 0 0 1.86-.39 4.34 4.34 0 0 0 1.6-1 2 2 0 0 0 .65-1.46 1.5 1.5 0 0 0-.33-1.05 1.14 1.14 0 0 0-.88-.35 2 2 0 0 0-1.46.67ZM323.42 29.32a3.62 3.62 0 0 1 2-.64 1.89 1.89 0 0 1 1.51.6 2.93 2.93 0 0 1 .53 1.95 16.77 16.77 0 0 1-.39 2.68l-.07.4-.14.85a12.6 12.6 0 0 0-.28 2.12c0 .32.08.47.23.47a1.35 1.35 0 0 0 .82-.44l.21.46a1.7 1.7 0 0 1-.36.4 2.81 2.81 0 0 1-.7.45 1.92 1.92 0 0 1-.9.2c-.74 0-1.11-.35-1.11-1.07a14.6 14.6 0 0 1 .32-2.14l.16-.84.07-.42c.11-.63.21-1.18.28-1.66a9 9 0 0 0 .1-1.32 2 2 0 0 0-.23-1.12 1 1 0 0 0-.84-.3 2.63 2.63 0 0 0-1.57.69 6.6 6.6 0 0 0-1.48 1.67l-.86 6.34H319l1.13-8.49-.86-.42.14-.67 2.14-.39.37.2-.23 2.1a6.56 6.56 0 0 1 1.73-1.66ZM334.3 29.79a2.22 2.22 0 0 0-1.53.62 4.14 4.14 0 0 0-1 1.74 7.68 7.68 0 0 0-.38 2.55 4.11 4.11 0 0 0 .49 2.24 1.61 1.61 0 0 0 1.42.74 2.78 2.78 0 0 0 1.26-.27 5.52 5.52 0 0 0 1.14-.81l.36.64a4.56 4.56 0 0 1-1.31 1.08 3.85 3.85 0 0 1-2 .5 2.79 2.79 0 0 1-2.31-1 4.57 4.57 0 0 1-.83-2.9 7.19 7.19 0 0 1 .61-2.87 5.94 5.94 0 0 1 1.77-2.38 4.24 4.24 0 0 1 2.76-.95 5.7 5.7 0 0 1 1.06.11 3.2 3.2 0 0 1 .92.3l-.47 1.7-.3-.11a2.91 2.91 0 0 0-1.66-.93ZM343.32 38.24a4.26 4.26 0 0 1-2.23.6 3.42 3.42 0 0 1-1.95-.53A3.17 3.17 0 0 1 338 36.9a4.66 4.66 0 0 1-.37-1.87 7.53 7.53 0 0 1 .67-3.14 6 6 0 0 1 1.86-2.33 4.36 4.36 0 0 1 2.63-.88 2.65 2.65 0 0 1 1.88.6 2.06 2.06 0 0 1 .63 1.56 2.69 2.69 0 0 1-1 2.11 6.66 6.66 0 0 1-2.38 1.28 9.33 9.33 0 0 1-2.46.45 4 4 0 0 0 .42 2.13 1.68 1.68 0 0 0 1.6.91 3.65 3.65 0 0 0 1.55-.36 4.37 4.37 0 0 0 1.38-1l.39.65a4.43 4.43 0 0 1-1.48 1.23Zm-2.4-8a4.67 4.67 0 0 0-1 1.65 7 7 0 0 0-.44 1.94 5.79 5.79 0 0 0 1.85-.39 4.25 4.25 0 0 0 1.6-1 2 2 0 0 0 .65-1.46 1.5 1.5 0 0 0-.32-1.05 1.17 1.17 0 0 0-.89-.35 1.93 1.93 0 0 0-1.45.67ZM351.91 29.91a3.08 3.08 0 0 0-1.24-.24 2.15 2.15 0 0 0-1.3.35 1.18 1.18 0 0 0-.49 1 1.54 1.54 0 0 0 .4 1.06 6.17 6.17 0 0 0 1.13 1c.42.33.76.61 1 .85a3.35 3.35 0 0 1 .67.87 2.38 2.38 0 0 1 .3 1.2 2.4 2.4 0 0 1-1 2.07 4.21 4.21 0 0 1-2.53.73 7.55 7.55 0 0 1-1.57-.17 2.73 2.73 0 0 1-1-.39l.29-1.21a3.77 3.77 0 0 0 1 .5 3.94 3.94 0 0 0 1.36.24 2.47 2.47 0 0 0 1.31-.33 1.14 1.14 0 0 0 .55-1.06 1.58 1.58 0 0 0-.43-1.09 8 8 0 0 0-1.26-1 3.53 3.53 0 0 1-1.81-2.86 2.43 2.43 0 0 1 .46-1.45 2.92 2.92 0 0 1 1.25-1 4.48 4.48 0 0 1 1.75-.34 7.2 7.2 0 0 1 1.29.12 4.56 4.56 0 0 1 .92.22l-.3 1.33a1.83 1.83 0 0 0-.75-.4ZM287 50.81h8.32l-.12 2.79h-1l-.28-1.84-4-.14-.67 5 4.07-.14-.12 1.32-4-.14-.81 5.34 4.95-.21 1-2.12 1 .19-.71 3h-9.33l.07-.68 1.32-.21 1.4-11.19-1.19-.2ZM301.65 54.52a3.52 3.52 0 0 1 2-.64 1.89 1.89 0 0 1 1.51.6 2.89 2.89 0 0 1 .53 1.94 16.85 16.85 0 0 1-.39 2.69l-.07.4-.14.84a12.68 12.68 0 0 0-.28 2.13c0 .31.07.47.23.47a1.41 1.41 0 0 0 .82-.44l.14.49a1.76 1.76 0 0 1-.37.4 3.17 3.17 0 0 1-.69.45 2 2 0 0 1-.9.2A1 1 0 0 1 303 63a14.6 14.6 0 0 1 .32-2.14l.16-.84.07-.42c.11-.64.21-1.19.28-1.66a9.18 9.18 0 0 0 .1-1.33 2 2 0 0 0-.23-1.11 1 1 0 0 0-.84-.31 2.59 2.59 0 0 0-1.57.7 6.6 6.6 0 0 0-1.48 1.67l-.86 6.33h-1.67l1.13-8.49-.86-.42.14-.66 2.14-.39.37.19-.23 2.11a6.56 6.56 0 0 1 1.68-1.71ZM313.74 66.64a4.23 4.23 0 0 1-1.77 1.2 5.86 5.86 0 0 1-2 .37 7.37 7.37 0 0 1-1.13-.09 4.89 4.89 0 0 1-.87-.22l.37-1.42a6.44 6.44 0 0 0 1 .39 4.29 4.29 0 0 0 1.22.18 2.62 2.62 0 0 0 1.66-.43 2.58 2.58 0 0 0 .71-1.62l.33-2.33a4.25 4.25 0 0 1-1.18 1 3 3 0 0 1-1.52.39 2.52 2.52 0 0 1-2.17-1 4.5 4.5 0 0 1-.72-2.68 7.33 7.33 0 0 1 .66-3 6.45 6.45 0 0 1 1.95-2.49 4.73 4.73 0 0 1 3-1 5.1 5.1 0 0 1 1 .11 5.19 5.19 0 0 1 .91.28l1.09-.39-1.58 10.63a3.73 3.73 0 0 1-.96 2.12ZM313 54.81a2.66 2.66 0 0 0-2 .85 5.43 5.43 0 0 0-1.22 2.11 7.91 7.91 0 0 0-.4 2.46 3.81 3.81 0 0 0 .42 2 1.31 1.31 0 0 0 1.17.71 2.42 2.42 0 0 0 1.37-.44 3.83 3.83 0 0 0 1-1l.93-6.28a2.13 2.13 0 0 0-1.27-.41ZM320.16 62.51a.56.56 0 0 0 .08.32.24.24 0 0 0 .2.12.8.8 0 0 0 .4-.12 4.16 4.16 0 0 0 .5-.41l.23.42a3.57 3.57 0 0 1-.78.78 2 2 0 0 1-1.24.4 1.32 1.32 0 0 1-.89-.27.92.92 0 0 1-.25-.82c0-.29.18-1.43.46-3.4.16-1.07.36-2.48.59-4.23l-1.09-.4.11-.6 2.49-.4.39.19-1.18 8.25Zm-.08-10.81a.93.93 0 0 1-.27-.68 1.25 1.25 0 0 1 .35-.89 1 1 0 0 1 .81-.37.93.93 0 0 1 .7.27.9.9 0 0 1 .27.66 1.36 1.36 0 0 1-.34.92 1.11 1.11 0 0 1-.88.37.87.87 0 0 1-.64-.28ZM328.56 54.52a3.54 3.54 0 0 1 2-.64 1.89 1.89 0 0 1 1.51.6 2.89 2.89 0 0 1 .53 1.94 16.85 16.85 0 0 1-.39 2.69l-.07.4-.14.84a12.68 12.68 0 0 0-.28 2.13c0 .31.08.47.23.47a1.41 1.41 0 0 0 .82-.44l.23.49a1.76 1.76 0 0 1-.37.4 3.17 3.17 0 0 1-.69.45 2 2 0 0 1-.9.2 1 1 0 0 1-1.16-1.05 14.6 14.6 0 0 1 .32-2.14l.16-.84.07-.42c.11-.64.21-1.19.28-1.66a9.18 9.18 0 0 0 .1-1.33 2 2 0 0 0-.23-1.11 1 1 0 0 0-.84-.31 2.59 2.59 0 0 0-1.57.7 6.6 6.6 0 0 0-1.48 1.67l-.86 6.33h-1.67l1.13-8.49-.86-.42.14-.66 2.14-.39.37.19-.23 2.11a6.56 6.56 0 0 1 1.71-1.71ZM340.41 63.44a4.26 4.26 0 0 1-2.23.6 3.35 3.35 0 0 1-1.95-.54 3 3 0 0 1-1.15-1.4 4.66 4.66 0 0 1-.37-1.87 7.38 7.38 0 0 1 .67-3.14 5.91 5.91 0 0 1 1.86-2.33 4.29 4.29 0 0 1 2.62-.88 2.62 2.62 0 0 1 1.88.6 2 2 0 0 1 .63 1.56 2.63 2.63 0 0 1-1 2.1 6.47 6.47 0 0 1-2.37 1.28 9.38 9.38 0 0 1-2.46.46A4 4 0 0 0 337 62a1.69 1.69 0 0 0 1.6.9 3.61 3.61 0 0 0 1.54-.36 4.27 4.27 0 0 0 1.39-1l.39.65a4.68 4.68 0 0 1-1.51 1.25Zm-2.4-8a4.53 4.53 0 0 0-1 1.65 6.69 6.69 0 0 0-.44 1.94 6.13 6.13 0 0 0 1.85-.39 4.25 4.25 0 0 0 1.6-1 2 2 0 0 0 .65-1.46 1.55 1.55 0 0 0-.32-1.05 1.14 1.14 0 0 0-.89-.36 2 2 0 0 0-1.46.68ZM349.39 63.44a4.26 4.26 0 0 1-2.23.6 3.35 3.35 0 0 1-2-.54 3.09 3.09 0 0 1-1.15-1.4 4.66 4.66 0 0 1-.37-1.87 7.38 7.38 0 0 1 .68-3.14 5.91 5.91 0 0 1 1.86-2.33 4.25 4.25 0 0 1 2.62-.88 2.65 2.65 0 0 1 1.88.6 2 2 0 0 1 .63 1.56 2.66 2.66 0 0 1-1 2.1 6.51 6.51 0 0 1-2.31 1.28 9.38 9.38 0 0 1-2.46.46 3.94 3.94 0 0 0 .43 2.13 1.66 1.66 0 0 0 1.59.9 3.65 3.65 0 0 0 1.55-.36 4.34 4.34 0 0 0 1.38-1l.39.65a4.68 4.68 0 0 1-1.49 1.24Zm-2.4-8a4.67 4.67 0 0 0-1 1.65 7 7 0 0 0-.44 1.94 6.07 6.07 0 0 0 1.85-.39 4.38 4.38 0 0 0 1.61-1 2 2 0 0 0 .65-1.46 1.5 1.5 0 0 0-.33-1.05 1.14 1.14 0 0 0-.89-.36 2 2 0 0 0-1.44.68ZM356.34 55.24a4.21 4.21 0 0 1 1.13-1 2.81 2.81 0 0 1 1.4-.38.93.93 0 0 1 .56.12l-.37 1.86a1.64 1.64 0 0 0-.86-.18 2.68 2.68 0 0 0-1.48.5 3.31 3.31 0 0 0-1.14 1.4l-.8 6.24h-1.69l1.11-8.45-.88-.44.12-.65 2.07-.4.35.21-.12 1.56-.08.7a3.9 3.9 0 0 1 .68-1.09ZM362.32 62.51a.56.56 0 0 0 .08.32.23.23 0 0 0 .2.12.8.8 0 0 0 .4-.12 4.16 4.16 0 0 0 .5-.41l.22.42a3.18 3.18 0 0 1-.78.78 2 2 0 0 1-1.23.4 1.3 1.3 0 0 1-.89-.27.92.92 0 0 1-.25-.82c0-.29.17-1.43.45-3.4.17-1.07.36-2.48.6-4.23l-1.09-.4.11-.6 2.49-.4.38.19-1.17 8.25Zm-.08-10.81a.93.93 0 0 1-.24-.7 1.24 1.24 0 0 1 .34-.89 1.07 1.07 0 0 1 .82-.37.94.94 0 0 1 .7.27.93.93 0 0 1 .26.66 1.35 1.35 0 0 1-.33.92 1.12 1.12 0 0 1-.88.37.86.86 0 0 1-.67-.26ZM370.36 54.52a3.55 3.55 0 0 1 2-.64 1.91 1.91 0 0 1 1.51.6 2.89 2.89 0 0 1 .52 1.94 17.7 17.7 0 0 1-.38 2.69l-.07.4-.14.84a12.68 12.68 0 0 0-.28 2.13c0 .31.07.47.22.47a1.4 1.4 0 0 0 .83-.44l.21.46a1.76 1.76 0 0 1-.37.4 3.74 3.74 0 0 1-.69.45 2.13 2.13 0 0 1-.91.2 1 1 0 0 1-1.1-1.07 14.1 14.1 0 0 1 .31-2.14l.16-.84.07-.42c.12-.64.21-1.19.28-1.66a9.27 9.27 0 0 0 .11-1.33 1.88 1.88 0 0 0-.24-1.11 1 1 0 0 0-.83-.31 2.59 2.59 0 0 0-1.57.7 6.6 6.6 0 0 0-1.48 1.67l-.86 6.33H366l1.12-8.49-.86-.42.14-.66 2.14-.39.37.19-.23 2.11a6.72 6.72 0 0 1 1.68-1.66ZM382.46 66.64a4.23 4.23 0 0 1-1.77 1.2 5.87 5.87 0 0 1-2 .37 7.34 7.34 0 0 1-1.12-.09 4.82 4.82 0 0 1-.88-.22l.37-1.42a6.58 6.58 0 0 0 1 .39 4.24 4.24 0 0 0 1.22.18 2.57 2.57 0 0 0 1.65-.43 2.53 2.53 0 0 0 .72-1.62l.33-2.33a4.25 4.25 0 0 1-1.18 1 3.07 3.07 0 0 1-1.52.39 2.52 2.52 0 0 1-2.17-1 4.5 4.5 0 0 1-.73-2.68 7.35 7.35 0 0 1 .67-3 6.27 6.27 0 0 1 1.95-2.51 4.71 4.71 0 0 1 3-1 5.1 5.1 0 0 1 1 .11 5.47 5.47 0 0 1 .91.28l1.09-.39-1.58 10.63a3.86 3.86 0 0 1-.96 2.14Zm-.7-11.83a2.62 2.62 0 0 0-2 .85 5.31 5.31 0 0 0-1.22 2.11 7.93 7.93 0 0 0-.41 2.46 3.7 3.7 0 0 0 .43 2 1.31 1.31 0 0 0 1.17.71 2.42 2.42 0 0 0 1.37-.44 3.79 3.79 0 0 0 1-1l.93-6.28a2.08 2.08 0 0 0-1.27-.41ZM295.85 80.3q1.44-3.12 1.89-4.29h3.76l-.07.75-1.56.19-.34 11.2 1.49.21-.02.64h-4.82l.07-.68 1.6-.21.4-7.76.23-3.56L297.1 80l-4.1 9.08-.94.12-1.44-9-.55-3.33-.71 3.4-1.88 7.9 1.77.21-.07.68h-4.53l.07-.68 1.46-.21L289 77l-1.62-.19.11-.75h4.07l1.35 8.56.23 1.79.77-1.76q.49-1.22 1.94-4.35ZM308 88.64a4.35 4.35 0 0 1-2.23.59 3.38 3.38 0 0 1-2-.53 3.26 3.26 0 0 1-1.15-1.4 4.87 4.87 0 0 1-.36-1.87 7.34 7.34 0 0 1 .67-3.14 6 6 0 0 1 1.91-2.29 4.32 4.32 0 0 1 2.62-.87 2.63 2.63 0 0 1 1.88.59 2.06 2.06 0 0 1 .63 1.56 2.65 2.65 0 0 1-1 2.11 6.62 6.62 0 0 1-2.37 1.28 10 10 0 0 1-2.46.46 3.89 3.89 0 0 0 .42 2.13 1.69 1.69 0 0 0 1.6.9 3.61 3.61 0 0 0 1.54-.36 4.3 4.3 0 0 0 1.39-1l.38.65a4.52 4.52 0 0 1-1.47 1.19Zm-2.41-8a4.68 4.68 0 0 0-1 1.64 7.5 7.5 0 0 0-.44 1.94 6.11 6.11 0 0 0 1.86-.38 4.61 4.61 0 0 0 1.6-1 2 2 0 0 0 .65-1.47 1.54 1.54 0 0 0-.32-1 1.15 1.15 0 0 0-.89-.36 2 2 0 0 0-1.45.64ZM318.78 87.71c0 .29.09.44.26.44a1.42 1.42 0 0 0 .81-.44l.24.44a3.31 3.31 0 0 1-.76.71 1.9 1.9 0 0 1-1.15.36c-.69 0-1-.38-1-1.13v-.38a4.57 4.57 0 0 1-1.23 1.07 3.18 3.18 0 0 1-1.65.44 2.46 2.46 0 0 1-2.14-1 4.54 4.54 0 0 1-.72-2.68 7.24 7.24 0 0 1 .67-3 6.3 6.3 0 0 1 1.89-2.48 4.67 4.67 0 0 1 3-1 4.42 4.42 0 0 1 1.31.21l.48-3.16-1.16-.3.14-.61 2.47-.32.39.23-1.83 12.4a.59.59 0 0 0-.02.2Zm-2-7.7a2.62 2.62 0 0 0-2 .85 5.14 5.14 0 0 0-1.21 2.1 8 8 0 0 0-.4 2.47 3.83 3.83 0 0 0 .42 2 1.27 1.27 0 0 0 1.16.7 2.39 2.39 0 0 0 1.4-.46 3.7 3.7 0 0 0 1-1l.95-6.19a2.2 2.2 0 0 0-1.32-.48ZM324.44 87.71a.56.56 0 0 0 .08.32.25.25 0 0 0 .21.12.79.79 0 0 0 .39-.13 3.18 3.18 0 0 0 .5-.4l.23.42a3.35 3.35 0 0 1-.78.77 2 2 0 0 1-1.24.41 1.34 1.34 0 0 1-.89-.28.92.92 0 0 1-.25-.81c0-.29.18-1.43.46-3.41.16-1.06.36-2.47.59-4.22l-1.08-.41.1-.59 2.49-.41.39.2-1.18 8.24Zm-.07-10.81a1 1 0 0 1-.28-.68 1.29 1.29 0 0 1 .35-.9 1.1 1.1 0 0 1 .81-.37.92.92 0 0 1 1 .93 1.29 1.29 0 0 1-.34.92 1.11 1.11 0 0 1-.87.38.84.84 0 0 1-.67-.28ZM332.76 80.18a2.22 2.22 0 0 0-1.53.62 4.15 4.15 0 0 0-1.06 1.74 8 8 0 0 0-.37 2.55 4.09 4.09 0 0 0 .49 2.24 1.59 1.59 0 0 0 1.42.75 2.71 2.71 0 0 0 1.29-.28 5.56 5.56 0 0 0 1.15-.81l.35.65a4.84 4.84 0 0 1-1.3 1.08 3.94 3.94 0 0 1-2 .5 2.78 2.78 0 0 1-2.31-1 4.49 4.49 0 0 1-.83-2.9 7.35 7.35 0 0 1 .6-2.87 6.1 6.1 0 0 1 1.72-2.45 4.26 4.26 0 0 1 2.77-.94 5.66 5.66 0 0 1 1.06.1 3.31 3.31 0 0 1 .92.3l-.47 1.7-.3-.1a2.88 2.88 0 0 0-1.6-.88ZM338.88 87.71a.56.56 0 0 0 .12.29.23.23 0 0 0 .2.12.82.82 0 0 0 .4-.13 3.18 3.18 0 0 0 .5-.4l.23.42a3.56 3.56 0 0 1-.78.77 2 2 0 0 1-1.24.41 1.32 1.32 0 0 1-.89-.28.9.9 0 0 1-.25-.81c0-.29.18-1.43.46-3.41.16-1.06.36-2.47.59-4.22l-1.09-.41.11-.59 2.49-.41.39.2-1.18 8.24Zm-.08-10.81a1 1 0 0 1-.27-.68 1.29 1.29 0 0 1 .35-.9 1.07 1.07 0 0 1 .81-.37.92.92 0 0 1 1 .93 1.34 1.34 0 0 1-.34.92 1.11 1.11 0 0 1-.88.38.87.87 0 0 1-.67-.28ZM347.19 79.72a3.54 3.54 0 0 1 2-.64 1.89 1.89 0 0 1 1.51.59 2.93 2.93 0 0 1 .53 2 16.77 16.77 0 0 1-.39 2.68l-.07.41-.14.84a12.6 12.6 0 0 0-.28 2.12c0 .32.08.48.23.48a1.38 1.38 0 0 0 .82-.44l.21.45a1.91 1.91 0 0 1-.36.41 3.11 3.11 0 0 1-.7.44 1.93 1.93 0 0 1-.9.21 1 1 0 0 1-1.11-1.07 14.24 14.24 0 0 1 .32-2.14l.16-.85.07-.42c.11-.63.21-1.18.28-1.66a9 9 0 0 0 .1-1.32 1.87 1.87 0 0 0-.23-1.11 1 1 0 0 0-.84-.31 2.66 2.66 0 0 0-1.57.69 6.48 6.48 0 0 0-1.48 1.68l-.89 6.24h-1.66l1.12-8.49-.86-.42.14-.67 2.14-.38.37.19-.23 2.1a6.52 6.52 0 0 1 1.71-1.61ZM359 88.64a4.35 4.35 0 0 1-2.23.59 3.34 3.34 0 0 1-1.95-.53 3.19 3.19 0 0 1-1.15-1.4 4.69 4.69 0 0 1-.37-1.87 7.34 7.34 0 0 1 .67-3.14 6 6 0 0 1 1.9-2.29 4.35 4.35 0 0 1 2.63-.87 2.61 2.61 0 0 1 1.87.59 2 2 0 0 1 .64 1.56 2.68 2.68 0 0 1-1 2.11 6.75 6.75 0 0 1-2.38 1.28 9.81 9.81 0 0 1-2.46.46 4.08 4.08 0 0 0 .42 2.13 1.69 1.69 0 0 0 1.6.9 3.65 3.65 0 0 0 1.55-.36 4.37 4.37 0 0 0 1.38-1l.39.65a4.57 4.57 0 0 1-1.51 1.19Zm-2.4-8a4.54 4.54 0 0 0-1 1.64 6.76 6.76 0 0 0-.44 1.94 6 6 0 0 0 1.85-.38 4.52 4.52 0 0 0 1.6-1 2 2 0 0 0 .65-1.47 1.49 1.49 0 0 0-.32-1 1.14 1.14 0 0 0-.89-.36 2 2 0 0 0-1.41.64Z" class="cls-2" transform="translate(-24.97 -24.05)"/>
+    </svg></a> </div>
+    <div class="nap-logo"><a href="http://nap.nationalacademies.org">
+    
+    <img src="/images/hdr/nasem-nap-textlogo.png" class="img-responsive" alt="The National Academies Press"></a></div>
+
+  </header>
+
+      <div class="container">
+          <section id="book" class="well">
+        <a href="https://nap.nationalacademies.org/catalog/18736/reducing-the-fuel-consumption-and-greenhouse-gas-emissions-of-medium-and-heavy-duty-vehicles-phase-two"><img src="/images/cover.php?record_id=18736" alt="Reducing the Fuel Consumption and Greenhouse Gas Emissions of Medium- and Heavy-Duty Vehicles, Phase Two: First Report"></a>
+        <p class="clearfix">To continue, please log in with your existing MyNAP account, create a free account, or download <em>Reducing the Fuel Consumption and Greenhouse Gas Emissions of Medium- and Heavy-Duty Vehicles, Phase Two: First Report</em> as a guest. You can find additional resources through the <a href="https://nap.nationalacademies.org/catalog/18736/reducing-the-fuel-consumption-and-greenhouse-gas-emissions-of-medium-and-heavy-duty-vehicles-phase-two">catalog page</a>.
+</p>
+      </section>
+    
+    <div class="tab-content">
+      <section id="login" data-title="Login" class="tab-pane fade in active">
+        <header>
+          <h2>Returning Users&#8212;Log in to MyNAP</h2>
+                     <div class="alert alert-danger" role="alert" aria-live="assertive" style="display: none;">
+              <button class="close" aria-label="Close alert">&times;</button>
+              <span></span>
+            </div>
+                  </header>
+        <form id="myNAPLogin" method="POST">
+          <input type="hidden" name="action" value="login">
+                      <input type="hidden" name="page" value="">
+            <input type="hidden" name="cart" value="">
+            <input type="hidden" name="record_id" value="18736">
+                    <input type="text" class="form-control" name="email" placeholder="Email Address" value="">
+          <input type="password" class="form-control" name="password" placeholder="Password">
+<span class="reset-wrapper"><a href="#reset-request"class="reset" data-toggle="tab">Reset My Password</a> |     <a href="//nap.nationalacademies.org/content/using-mynap#Login" target="_blank" class="reset">Help</a></span>
+          <label class="checkbox pull-right" id="login-remember-me">
+            <input type="checkbox" name="remember_me" id="login-remember-me" checked> Keep me logged in
+          </label>
+          <input type="submit" value="Log In" class="btn btn-lg btn-danger btn-block">
+        </form>
+      
+        
+      
+			 <header>
+          <h2>New Users</h2>
+				</header>
+				<a href="#register" class="btn btn-lg btn-primary btn-block"data-toggle="tab">Create a Free MyNAP Account &raquo;</a>
+				<a href="#guest" data-toggle="tab" class="btn btn-lg btn-primary btn-block">Download  as Guest &raquo;</a>
+				
+			</section>
+      <section id="register" data-title="Register" class="tab-pane fade ">
+        <header>
+          <h2>Sign up for MyNAP</h2>
+          <p>MyNAP members enjoy free access to thousands of National Academies reports, a 10% discount off every purchase at NAP.edu, and lots of great features. <a href="http://nap.nationalacademies.org/content/help/mynaphelp.html" target="_blank">Learn more.</a></p>
+                     <div class="alert alert-danger" role="alert" aria-live="assertive" style="display: none;">
+              <button class="close" aria-label="Close alert">&times;</button>
+              <span></span>
+            </div>
+          
+        </header>
+        <form id="myNAPNew" method="POST">
+          <input id="new" type="hidden" name="action" value="register">
+                      <input type="hidden" name="page" value="">
+            <input type="hidden" name="cart" value="">
+            <input type="hidden" name="record_id" value="18736">
+          
+          <input type="text" class="form-control" name="email" placeholder="Email Address" value="">
+          <input type="password" class="form-control" name="password" placeholder="Password">
+          <label class="checkbox">
+            <input id="newMailings" type="checkbox" name="mailings"> Yes, send me e-mail when similar titles are published.
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="tou"> Yes, I accept the <a href="http://www.nationalacademies.org/legal/index.html" title="Click to read the terms of use." target="_blank">terms of use</a>.
+          </label>
+          <input type="submit" value="Create My Account" class="btn btn-lg btn-danger btn-block">
+        </form>
+        <a class="" href="#login" data-toggle="tab">&laquo; Login</a>
+        <a class="pull-right" href="#guest" data-toggle="tab">Download as guest &raquo;</a>
+      </section>
+
+      <section id="guest" data-title="Guest Login" class="tab-pane fade ">
+        <header>
+          <h2>Download as a guest</h2>
+          <p>While logged in as a guest, you can download any of the free PDFs on NAP.edu. You'll remain logged in until you close your browser.</p>
+                     <div class="alert alert-danger" role="alert" aria-live="assertive" style="display: none;">
+              <button class="close" aria-label="Close alert">&times;</button>
+              <span></span>
+            </div>
+          
+        </header>
+        <form id="myNAPGuest" method="POST">
+          <input type="hidden" name="action" value="guest">
+                      <input type="hidden" name="page" value="">
+            <input type="hidden" name="cart" value="">
+            <input type="hidden" name="record_id" value="18736">
+          
+          <input type="text" class="form-control" name="email" placeholder="Email Address" value="">
+                    <label class="checkbox">
+            <input id="guestMailings" type="checkbox" name="mailings"> Yes, send me e-mail when similar titles are published.
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" name="tou"> Yes, I accept the <a href="http://www.nationalacademies.org/legal/index.html" title="Click to read the terms of use." target="_blank">terms of use</a>.
+          </label>
+                    <input type="submit" value="Continue &raquo;" class="btn btn-lg btn-danger btn-block" style="margin-top: 20px">
+        </form>
+        <a class="" href="#register" data-toggle="tab">&laquo; Sign up for MyNAP</a>
+      </section>
+
+      <section id="reset-request" data-title="Reset Password" class="tab-pane fade ">
+        <header>
+          <h2 class="heading">Reset my password</h2>
+          <p>Please enter the e-mail address you used when signing up for a MyNAP account. We will then e-mail you instructions for resetting your password.</p>
+                     <div class="alert alert-danger" role="alert" aria-live="assertive" style="display: none;">
+              <button class="close" aria-label="Close alert">&times;</button>
+              <span></span>
+            </div>
+          
+        </header>
+        <form id="myNAPreset" method="POST">
+          <input type="hidden" name="action" value="reset">
+                      <input type="hidden" name="page" value="">
+            <input type="hidden" name="cart" value="">
+            <input type="hidden" name="record_id" value="18736">
+          
+          <input class="form-control" type="text" name="email" placeholder="Email Address" value="">
+          <input type="submit" value="Continue &raquo;" class="btn btn-lg btn-danger btn-block" style="margin-top: 20px">
+        </form>
+        <a class="" href="#login" data-toggle="tab">&laquo; Back to login</a>
+      </section>
+
+      <section id="reset-thanks" data-title="Reset Password" class="tab-pane fade ">
+        <header>
+          <h2 class="heading">Reset requested</h2>
+          <p>We just sent a message to . Follow the instructions in that email to reset your password.</p>
+        </header>
+        <a class="" href="#login" data-toggle="tab">&laquo; Back to login</a>
+        <a class="pull-right" href="">Continue browsing &raquo;</a>
+      </section>
+    </div>    
+  </div>
+
+
+    
+      <script src="/vendor/bootstrap/3.1.1/bootstrap.min.js"></script>
+  <script src="/includes/js/jquery.placeholder.js"></script>
+
+  <script>
+    function validate(event) {
+      var $form = $(event.target);
+      var $email = $form.find("input[name=email]");
+      $email.val( $.trim($email.val()) );
+      $section = $form.closest('section');
+      if (!validEmail( $email.val() )) {
+        displayError('The email address you entered is not a valid email address.');
+        return false;
+      }
+      if ($section.is('#register, #guest') && !$section.find('input[name=tou]').is(':checked')) {
+        displayError('You must agree to the terms of use.');
+        return false;
+      }
+      return true;
+    }
+
+    function validEmail(email) {
+      emailRegex = /^[a-z0-9\.\_\%\+\-\']+@[a-z0-9\.-]+\.[a-z]{2,}$/i;
+      return emailRegex.test(email);
+    }
+
+    function displayError(message) {
+      $(".alert span").text(message);
+      $('.alert').show();
+      $(document).trigger('displayError');
+    }
+
+    $(function() { 
+      // Validate forms on submit.
+      $("form").on('submit', validate);
+
+      // Change page title on tab switch.
+      $("a[data-toggle='tab']").on('show.bs.tab', function() {
+        var section = $( $(this).attr('href') ).attr('data-title') || 'Login';
+        document.title = section + ' | National Academies Press';
+      });
+
+      // Apply placeholder text polyfill to older browsers.
+      $("input, textarea").placeholder(); 
+
+      // Keep email address form field value across sections.
+      $("input[name='email']").on('change', function(event) {
+        $("input[name='email']").val( $(event.target).val() );
+      });
+      $("input[name='mailings']").on('change', function(event) {
+        $("input[name='mailings']").val( $(event.target).val() );
+      });
+
+      // Dismiss the aler t if the user navigates to a different section or clicks the close button.
+      $("a, button, .close").on('click', function() {
+        $(".alert").hide();
+      });
+
+      /////////////////////////////////////
+      // Google Analytics Event Tracking //
+      /////////////////////////////////////
+
+      // NAP: login page errors
+      //   error > [active tab id] > [error message]
+      $(trackErrorEvent);
+      $(document).on('displayError', trackErrorEvent);
+      function trackErrorEvent(event) {
+        if ($(".alert:visible").length > 0) {
+          // trackEvent('error', $("section.active").attr('id'), $(".alert:visible span").text());
+        }
+      }
+
+      // NAP: login nav
+      //   login > nav > [current tab ID -> target tab ID]
+      $("a[data-toggle='tab']").on('click', function(e) {
+        // trackEvent('login', 'nav', $(this).closest('section').attr('id') + ' -> ' + $(this).attr('href').replace('#', ''));
+      });
+
+      // NAP: login submit
+      //   login > submit > [current tab ID]
+      // NAP: email signup
+      //   email > subscribe > [current tab ID]
+      $("form").on('submit', function(e) {
+        // trackEvent('login', $(this).closest('section').attr('id'), 'submit');
+        if ($("input[name='mailings']").is(":checked")) {
+          // trackEvent('email', 'subscribe', $(this).closest('section').attr('id'));
+          window.dataLayer = window.dataLayer || [];dataLayer.push({ 
+            'mailing': "yes",
+          });
+        }
+      });
+      $("form").on('submit', function(e) {
+        // trackEvent('login', $(this).closest('section').attr('id'), 'submit');
+        if ($("#guestMailings").is(":checked")) {
+          // trackEvent('email', 'subscribe', $(this).closest('section').attr('id'));
+          window.dataLayer = window.dataLayer || [];dataLayer.push({ 
+            'mailing': "yes",
+          });
+        }
+      });
+
+    });
+  </script>
+  
+
+          <!-- 144.171.19.9 -->
+    
+  </body>
+</html>

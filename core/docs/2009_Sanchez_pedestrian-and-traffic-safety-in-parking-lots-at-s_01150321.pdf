@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/idp/authmenu/image/favicon.ico">
+
+	<title>SNL Authentication</title>
+	
+
+	<!-- <link href="/idp/authmenu/css/style.css" rel="stylesheet"> -->
+	<link href="/idp/authmenu/css/style.css" rel="stylesheet">
+	<!-- <link href="authmenu/css/style.css" rel="stylesheet"> -->
+	
+	<!-- <script src="/idp/authmenu/js/jquery.min.js"></script> -->
+	<script src="/idp/authmenu/js/jquery.min.js"></script>
+
+    <script src="/idp/authmenu/js/jquery.cookie.js"></script>
+
+	<!-- <script src="authmenu/js/jquery.min.js"></script> -->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="/idp/authmenu/js/html5shiv.min.js"></script>
+	<script src="/idp/authmenu/js/respond.min.js"></script>
+	<![endif]-->
+	
+	<script>
+	$(function() {
+		$('.modalBarrier').hide();
+		$('.modalBlocker').hide();
+		$('#helpModal').hide();
+		$('#siteModal').hide();
+		$('.helpLink').click( function() {
+			$('.modalBarrier').show();
+			$('#helpModal').show();
+		});
+		$('.closeHelp').click( function() {
+			$('.modalBarrier').hide();
+			$('#helpModal').hide();
+		});
+		$('#site-select').click(function() {
+			$('.modalBarrier').show();
+			$('#siteModal').show();
+		})
+		$('.closeSite').click( function() {
+			$('.modalBarrier').hide();
+			$('#siteModal').hide();
+		});
+       $('.closeSite2').click( function() {
+			$('.modalBarrier').hide();
+			$('#siteModal').hide();
+		});
+        
+        $('.modalBarrier').click( function() {
+			$('.modalBarrier').hide();
+			$('#siteModal').hide();
+            $('#helpModal').hide();
+		});
+
+		$('.authBtn').click( function() {
+			$('.modalBlocker').show();
+			var id = $(this).attr("id");
+			document.cookie = "id=" + id;
+		});
+
+
+
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) {
+                $('.modalBarrier').hide();
+                $('#siteModal').hide();
+                $('#helpModal').hide();
+            }
+        });
+		
+	});
+    window.onunload = function(){};
+	</script>
+</head>
+
+<body>
+
+	<div id="banner"></div>
+
+	<div id="authButtons">
+	
+	
+		<p>Choose an authentication method: </p>
+		
+		
+		<a href="https://sso.sandia.gov/Shibboleth.sso/Login?target=https://sso.sandia.gov/idp/Authn/RemoteUserSAML&entityID=https://sts.windows.net/7ccb5a20-a303-498c-b0c1-29007381b574/" class="authBtn">Sandia Azure AD with Seamless SSO OR MS Authenticator on a Sandia phone OR a Yubikey with FIDO2</a>
+		
+		<a href="https://certauth-sso.sandia.gov/idp/Authn/RemoteUserAssureCert_r?goto=https://sso.sandia.gov/idp/Authn/ExtendedRemoteUserAuth" class="authBtn">HSPD-12 badge OR Yubikey with certs (PIV-D or SNL PIV-C)</a>
+		
+		<a href="https://sso.sandia.gov/idp/Authn/RemoteUserAssureCryptoCard" class="authBtn">YubiKey one-time password (requires CCHD approval)</a>
+		
+
+       <div id="siteModal" class="modal">
+            <a href="javascript:void(0)" class="closeSite">close</a>
+            <h3 class="modalTitle">Please choose a trusted identity provider to authenticate</h3>
+            <div class="site-list">
+                
+                
+                     <a href="https://sso.sandia.gov/Shibboleth.sso/Login?forceAuthn=true&target=https://sso.sandia.gov/idp/Authn/RemoteUserSAML&entityID=https://eidp.llnl.gov&authnContextClassRef=http://idmanagement.gov/icam/2009/12/saml_2.0_profile/assurancelevel3" class="llnl site-select"><span>Lawrence Livermore National Laboratory</span></a>
+                
+		        
+                
+                     <a href="https://sso.sandia.gov/Shibboleth.sso/Login?forceAuthn=true&target=https://sso.sandia.gov/idp/Authn/RemoteUserSAML&entityID=https://weblogin.lanl.gov&authnContextClassRef=http://idmanagement.gov/icam/2009/12/saml_2.0_profile/assurancelevel3" class="lanl site-select"><span>Los Alamos National Laboratory</span></a>
+                
+		        
+                
+                     <a href="https://sso.sandia.gov/Shibboleth.sso/Login?forceAuthn=true&target=https://sso.sandia.gov/idp/Authn/RemoteUserSAML&entityID=federation:eams-auth.yc.energy.gov:saml2&authnContextClassRef=http://idmanagement.gov/icam/2009/12/saml_2.0_profile/assurancelevel3" class="oneid site-select"><span>OneID</span></a>
+                
+		        
+                <a href="javascript:void(0)" class="closeSite2 sandia site-select"><span>Sandia National Laboratories/Other</span></a>
+            </div>
+        </div>
+	</div>
+    <br>
+    
+    <div id="siteSelection">
+    Optionally login in from your home site. <br id="break2"/>
+    <br>
+    <a class="changeBtn" href="javascript:void(0)" id="site-select">Select Your Site</a>
+    </div>
+    
+
+
+
+	<div id="notice">
+            <h4><b>Legal Notice Reminder - SF 2902-NTU (5-2017)</b> <i>Supersedes (3-2009) Issue</i></h4>
+            <h3><center>WARNING NOTICE TO USERS: SNL Systems Are Monitored</center></h3>
+		<p>This Sandia National Laboratories (SNL) information system is monitored. It is the property of the U.S. Government and is for authorized uses only.</p>
+                <p><center><b>----------------------------- Be aware you have no privacy on these systems. -------------------------------</b></center></p>
+		<p>All users of this system and all information on this system are subject to interception, monitoring, recording, copying, auditing, and inspection at the discretion of National Technology and Engineering Solutions of Sandia, LLC (NTESS), and disclosure to NTESS and third parties, including, but not limited to, the United States Government, any authorized investigative and law enforcement personnel, and officials of other entities, both domestic and foreign. By using or accessing this system, you consent to and permit all of the above without limit as to when such action may be undertaken.</p>
+                <p><b>Unauthorized or improper use of this SNL system may result in disciplinary, administrative, civil, and/or criminal penalties.</b></p>
+		<p>Continued use of this system indicates your awareness of and agreement with these terms and conditions. If you do not consent to these terms and conditions DISCONTINUE all efforts to access or use this SNL information system.</p>
+	</div>
+
+	<p class="footer">Copyright 2023 Sandia National Laboratories</p>
+	<div class="modalBarrier"></div>
+	<div class="modalBlocker"></div>
+
+
+
+</body>
+</html>

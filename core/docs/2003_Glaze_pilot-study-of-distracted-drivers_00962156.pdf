@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5M7X8H');</script>
+    
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - VCU News - Virginia Commonwealth University</title>
+
+    <meta name="description" content="VCU News is your destination for stories that show the impact of a top, urban public research university, and the people who make it great." />
+    <meta name="keywords" content="" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72-precomposed.png">
+    <link rel="icon" href="/images/favicons/favicon.ico" type="image/x-icon">
+
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="VCU News" />
+    <meta property="og:description" content="VCU News is your destination for stories that show the impact of a top, urban public research university, and the people who make it great." />
+    <meta property="og:image" content="~/images/social_og_img_1200x632.jpg" />
+    <meta property="og:url" content="https://news.vcu.edu/" />
+    <meta property="og:site_name" content="VCU News" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@vcunews" />
+    <meta name="twitter:creator" content="@vcunews">
+    <meta name="twitter:image:alt" content="Social share logo image 1200x632">
+    <meta name="twitter:title" content="VCU News">
+    <meta name="twitter:image" content="~/images/social_og_img_1200x632.jpg">
+    <meta name="twitter:description" content="VCU News is your destination for stories that show the impact of a top, urban public research university, and the people who make it great.">
+    <meta name="geo.region" content="US-VA" />
+    <meta name="geo.placename" content="Richmond" />
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/lib/jquery/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\u0022\u003E\u003C/script\u003E"));</script>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="/css/site.min.css" />
+
+    <script type="text/javascript"
+            src="//branding.vcu.edu/bar/academic/latest.js"
+            data-width-container="1600"
+            data-color-top-campaign="graydark"
+            data-logo-status="hidden"></script>
+
+
+    
+</head>
+<body>
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M7X8H"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+    
+    <div id="skip-links" role="navigation">
+        <a href="#main-navigation" tabindex="1" onclick="openMenu()">Skip to main navigation</a>
+        <a href="#main-content" tabindex="2">Skip to main content</a>
+        <a href="#footer" tabindex="3">Skip to footer</a>
+    </div>
+    
+    
+
+    <header>
+        <div class="container">
+            <h1 class="vcu-news-brandmark"><a href="/"><span class="hide-element">VCU news</span></a></h1>
+            <div>
+                <button id="menu-toggle" class="toggle"
+                        aria-expanded="false" aria-label="Toggle sections menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i> Sections
+                </button>
+            </div>
+            <form id="search" name="search" method="get" action="//search.vcu.edu/s/search.html">
+                <div id="searchFieldContainer">
+                    <label class="screen-reader-text" for="searchField">Search:</label>
+                    <div class="relative">
+                        <label class="sr-only" for="searchField">Search</label>
+                        <input id="searchField" type="text" name="query" placeholder="Search..." autocomplete="off" maxlength="200" class="search-input">
+                        <button class="magnifying-glass" type="submit" value="Search"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+                    </div>
+                    <input type="hidden" name="scope" value="//news.vcu.edu">
+                    <input type="hidden" name="clive" value="vcu-news">
+                    <input type="hidden" name="clive" value="vcu-website">
+                    <input type="hidden" name="collection" value="vcu-meta">
+                    <input type="hidden" name="sort" value="date">
+                </div>
+            </form>
+        </div>
+    </header>
+    <nav id="side-wrapper">
+        <div class="row justify-content-end">
+            <a id="main-navigation" href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times; <span class="sr-only">Close</span></a>
+        </div>
+        <p class="category-hed">Sections</p>
+        <ul>
+                    <li class="u-news"><a href="/categories/university-news">University news</a></li>
+                    <li class="student-success"><a href="/categories/student-success">Student success</a></li>
+                    <li class="campus-community"><a href="/categories/campus-and-community">Campus &amp; community</a></li>
+                    <li class="research-discovery"><a href="/categories/research-and-discovery">Research &amp; discovery</a></li>
+                    <li class="health-medicine"><a href="/categories/health-and-medicine">Health &amp; medicine</a></li>
+                    <li class="arts-culture"><a href="/categories/arts-and-culture">Arts &amp; culture</a></li>
+        </ul>
+        <ul class="secondary-links">
+                <li><a href="/series">Series</a></li>
+                <li><a href="/topics">Topics A to Z</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/archives">Archives</a></li>
+            <li><a href="/contact/#for-the-media">For the media</a></li>
+        </ul>
+    </nav>
+
+
+    
+    
+
+
+    
+
+<main class="news-main topics-main">
+    <a id="main-content" class="jump-anchor"></a>
+
+
+        <div class="fixed-width">
+            <a class="feature main-feature main-feat__full" href="/article/2025/09/meet-vcus-class-of-2029">
+                    <div class="categories student-success">
+                        <p>Student success</p>
+                    </div>
+
+                <article class="news-article-full">
+                    <div class="full-width-feature-media">
+                        <figure>
+                            <img src="/image/9d7e9ce3-678b-4a3c-aa5a-bc25301bd768/feature" data-src="/image/9d7e9ce3-678b-4a3c-aa5a-bc25301bd768/feature" data-mobile-src="/image/9d7e9ce3-678b-4a3c-aa5a-bc25301bd768/tn" alt=" A photo of a crowd of people sitting in a basketball arena. ">
+                        </figure>
+                    </div>
+                    <div class="full-width-feature-content">
+                        <div class="featured-story-headlines-subheads left-align_heds-subs">
+                            <p class="article-date angle-psuedo-element student-success">Sept. 26, 2025</p>
+                            <h2 class="headline">Meet VCU&#x2019;s Class of 2029</h2>
+                            <p class="subhead">Here are the numbers &#x2013; and more &#x2013; that make the new Rams uncommon.</p>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </a>
+        </div> 
+        <section class="secondary-features__container fixed-width">
+
+                <a class="feature research-discovery" href="/article/2025/09/the-molecule-found-at-vcu-that-powered-a-wall-street-transaction">
+                        <div class="categories research-discovery">
+                            <p>Research &amp; discovery</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/71b4f7a1-e568-452c-8da9-c756f139099c/tn" alt="Article photo">
+                        <h2 class="headline">The molecule found at VCU that powered a Wall Street transaction</h2>
+
+                    </article>
+                </a>
+                <a class="feature u-news" href="/article/2025/09/david-and-michelle-baldacci-launch-civil-discourse-and-collaboration-initiative">
+                        <div class="categories u-news">
+                            <p>University news</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/f20fd133-c995-44d9-9745-ac83f9a4c51e/tn" alt="Article photo">
+                        <h2 class="headline">David and Michelle Baldacci launch the &#x2018;Civil Discourse and Collaboration Initiative&#x2019; with VCU and the Library of Virginia</h2>
+
+                    </article>
+                </a>
+                <a class="feature campus-community" href="/article/2025/09/the-plots-thicken-vcus-seeds-of-sustainability-are-growing">
+                        <div class="categories campus-community">
+                            <p>Campus &amp; community</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/51888f31-ebdf-4100-ad2b-57700bc4b017/tn" alt="Article photo">
+                        <h2 class="headline">The plots thicken: VCU&#x2019;s seeds of sustainability are growing</h2>
+
+                    </article>
+                </a>
+
+        </section>
+
+<section class="stories v2 ">
+    <div class="container stories-container">
+        <h3 class="angle-psuedo-element no-top-margin centered ">Latest headlines</h3>
+
+            <ul class="block-link">
+                    <li>
+                        <a href="/article/2025/09/andrew-chesnut-selected-as-co-editor-of-religion-encyclopedia">
+                            <img src="/image/placeholder/tn" data-src="/image/1fef8538-5a34-457e-9cbe-26214b31ab9b/tn" alt="Article photo">
+                            <p class="stories-date">Sept. 29, 2025</p>
+                            <p>Andrew Chesnut selected as co-editor of religion encyclopedia</p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/article/2025/09/vcus-humanities-week-will-highlight-their-transformative-power-for-real-world-challenges">
+                            <img src="/image/placeholder/tn" data-src="/image/a69847c2-12c6-4031-9305-bca869878b76/tn" alt="Article photo">
+                            <p class="stories-date">Sept. 29, 2025</p>
+                            <p>VCU&#x2019;s second annual Humanities Week will highlight their transformative power for real-world challenges</p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/article/2025/09/finding-purpose-in-grief-how-returning-to-vcu-is-shaping-a-medical-students-career">
+                            <img src="/image/placeholder/tn" data-src="/image/32b23517-a2ee-4cc7-a3a0-d243d98a7426/tn" alt="Article photo">
+                            <p class="stories-date">Sept. 29, 2025</p>
+                            <p>Finding purpose in grief: How returning to VCU is shaping a medical student&#x2019;s career</p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/article/2025/09/the-molecule-found-at-vcu-that-powered-a-wall-street-transaction">
+                            <img src="/image/placeholder/tn" data-src="/image/71b4f7a1-e568-452c-8da9-c756f139099c/tn" alt="Article photo">
+                            <p class="stories-date">Sept. 26, 2025</p>
+                            <p>The molecule found at VCU that powered a Wall Street transaction</p>
+
+                        </a>
+                    </li>
+            </ul>
+
+                <div>
+                    <a class="load-more-btn" href="/archives" aria-label="View all articles">View all</a>
+                </div>
+
+    </div>
+</section>
+
+
+<div class="half-half-container fixed-width">
+    <section class="fifty-fifty events">
+        <h3 class="angle-psuedo-element no-padding-margin">Events</h3>
+        <ul class="event-headlines-list block-link">
+
+                    <li class="event-list-item">
+                        <a class="event-links" href="http://telegram.vcu.edu/archives/default.aspx?ID=21575#72999">
+                            <div class="event-month-date">Oct <span class="date">01</span></div>
+                            <div class="event-info">
+                                <h4 class="event-hed">Emerging Researchers Academy Workshop: Reading and Incorporating Academic Sources Into Your Writing</h4>
+                                <p class="time"><i class="far fa-clock"></i>3 p.m.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="event-list-item">
+                        <a class="event-links" href="http://telegram.vcu.edu/archives/default.aspx?ID=21525#73265">
+                            <div class="event-month-date">Oct <span class="date">01</span></div>
+                            <div class="event-info">
+                                <h4 class="event-hed">M.Ed. Educational Leadership Informational Session</h4>
+                                <p class="time"><i class="far fa-clock"></i>5 p.m.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="event-list-item">
+                        <a class="event-links" href="http://telegram.vcu.edu/archives/default.aspx?ID=21575#73422">
+                            <div class="event-month-date">Oct <span class="date">01</span></div>
+                            <div class="event-info">
+                                <h4 class="event-hed">Campaign Celebration: MCV Campus</h4>
+                                <p class="time"><i class="far fa-clock"></i>noon to 3 p.m.</p>
+                            </div>
+                        </a>
+                    </li>
+
+
+        </ul>
+    </section>
+
+    <section class="fifty-fifty vcu-in-the-news">
+        <h3 class="angle-psuedo-element no-padding-margin">VCU in the News</h3>
+        <ul class="in-the-news-headlines-list block-link">
+                    <li class="in-the-news-list-item">
+                        <a class="in-the-news-links" href="https://richmond.com/news/local/education/higher-education/article_4bcb7ff0-a3c1-49bd-9da6-70f165db2f91.html">
+                            <h4 class="in-the-news-title">Famed author makes $13M donation to VCU, Library of Va.</h4>
+                            <p class="source-time">Richmond Times-Dispatch </p>
+                        </a>
+                    </li>
+                    <li class="in-the-news-list-item">
+                        <a class="in-the-news-links" href="https://www.dailypress.com/2025/09/30/rocket-lab-expands-virginias-role-in-commercial-space-launch-exploration/">
+                            <h4 class="in-the-news-title">Rocket Lab expands Virginia&#x2019;s role in commercial space launch, exploration</h4>
+                            <p class="source-time">Daily Press/VCU Capitol News Service </p>
+                        </a>
+                    </li>
+                    <li class="in-the-news-list-item">
+                        <a class="in-the-news-links" href="https://www.essence.com/art/the-2025-armory-show-nyc/">
+                            <h4 class="in-the-news-title">How the Armory Show reframed southern narratives in the art world</h4>
+                            <p class="source-time">Essence </p>
+                        </a>
+                    </li>
+                    <li class="in-the-news-list-item">
+                        <a class="in-the-news-links" href="https://www.forbes.com/sites/lilianraji/2025/09/29/will-bernard-arnaults-lvmh-control-the-empire-giorgio-armani-built/">
+                            <h4 class="in-the-news-title">Will Bernard Arnault&#x2019;s LVMH control the empire Giorgio Armani built?</h4>
+                            <p class="source-time">Forbes </p>
+                        </a>
+                    </li>
+
+        </ul>
+    </section>
+</div>
+        <div class="fixed-width">
+            <a class="feature  main-feat__big-fifty" href="/article/2025/09/vcus-race-car-team-returns-to-the-fast-lane">
+                    <div class="categories student-success">
+                        <p>Student success</p>
+                    </div>
+
+                <article class="news-article-split">
+                    <div class="featured-story-media order-2">
+                        <figure>
+                            <img src="/image/5a5fc808-43be-440e-b09b-a5004aa65a3e/feature" data-src="/image/5a5fc808-43be-440e-b09b-a5004aa65a3e/feature" data-mobile-src="/image/5a5fc808-43be-440e-b09b-a5004aa65a3e/tn" alt="A photo of three people wheeling a car frame off of a trailer bed. ">
+                        </figure>
+                    </div>
+                    <div class="featured-story-content order-1">
+                        <div class="featured-story-headlines-subheads left-align_heds-subs">
+                            <p class="article-date angle-psuedo-element student-success">Sept. 3, 2025</p>
+                            <h2 class="headline">VCU&#x2019;s race car team returns to the fast lane</h2>
+                            <p class="subhead">With a new student crew and an electric dream, Ram Racing revs up for the national Formula SAE competition in spring 2026.</p>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </a>
+        </div> 
+        <section class="secondary-features__container fixed-width">
+
+                <a class="feature research-discovery" href="/article/2025/09/vcu-research-in-action-understanding-and-treating-problem-gambling">
+                        <div class="categories research-discovery">
+                            <p>Research &amp; discovery</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/9aae69ef-4374-4005-90d6-3130fd3d7ec4/tn" alt="Article photo">
+                        <h2 class="headline">VCU research in action: Understanding and treating problem gambling</h2>
+
+                    </article>
+                </a>
+                <a class="feature campus-community" href="/article/2025/09/whats-being-built-a-roundup-of-campus-construction-projects-at-vcu">
+                        <div class="categories campus-community">
+                            <p>Campus &amp; community</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/794d99cc-19a9-4645-a400-e8329d15aee7/tn" alt="Article photo">
+                        <h2 class="headline">What&#x2019;s being built? A roundup of campus construction projects at VCU</h2>
+
+                    </article>
+                </a>
+                <a class="feature campus-community" href="/article/2025/09/vcu-professor-awarded-two-grants-totaling-36m-to-help-build-the-behavioral-health-workforce">
+                        <div class="categories campus-community">
+                            <p>Campus &amp; community</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/36d41f55-0872-4872-9ad9-bbebf68451ba/tn" alt="Article photo">
+                        <h2 class="headline">VCU professor awarded two grants totaling $3.6M to help build the behavioral health workforce</h2>
+
+                    </article>
+                </a>
+
+        </section>
+
+        <section class="secondary-features__container fixed-width">
+
+                <a class="feature student-success" href="/article/2025/09/social-work-student-wins-award-for-tackling-a-grand-challenge">
+                        <div class="categories student-success">
+                            <p>Student success</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/e8d7f7da-fd2a-4982-a356-a6330fa32e5d/tn" alt="Article photo">
+                        <h2 class="headline">Social work student wins award for tackling a Grand Challenge</h2>
+
+                    </article>
+                </a>
+                <a class="feature student-success" href="/article/2025/09/flying-high-student-balances-medical-school-and-trapeze-career">
+                        <div class="categories student-success">
+                            <p>Student success</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/b73781ed-99a1-46d0-b796-966c02a7aa70/tn" alt="Article photo">
+                        <h2 class="headline">Flying high: Student balances medical school and trapeze career</h2>
+
+                    </article>
+                </a>
+                <a class="feature student-success" href="/article/2025/09/vmfa-internship-frames-the-future-for-vcuarts-student">
+                        <div class="categories student-success">
+                            <p>Student success</p>
+                        </div>
+                    <article class="news-article">
+                        <img src="/image/fb9a70f5-eb30-4970-9ffb-825a89eafe52/tn" alt="Article photo">
+                        <h2 class="headline">VMFA internship frames the future for VCUarts student</h2>
+
+                    </article>
+                </a>
+
+        </section>
+
+</main>
+
+
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="container-left">
+            <img src="/images/vcu-gold-logo.svg" alt="">
+            <address>
+                <a href="https://vcu.edu">Virginia Commonwealth University</a><br />
+                <a href="https://univrelations.vcu.edu/">Enterprise Marketing and Communications</a> <br />
+                <a href="/">Public Relations</a> <br />
+                <a href="tel:18048281231">(804) 828-1231</a> <br />
+                <a href="mailto:vcunews@vcu.edu">vcunews@vcu.edu</a>
+            </address>
+            <ul class="social-links">
+                <li>
+                    <a href="http://www.facebook.com/virginiacommonwealthuniversity">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Visit us on Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/vcunews">
+                        <i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Visit us on Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/vcu/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Visit us on Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/edu/school?id=19608&trk=tyah">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">Visit us on LinkedIn</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-right">
+            <p class="subscribe-p">Keep up with the latest at VCU<i class="fas fa-envelope-open-text"></i></p>
+            <a class="btn subscribe" href="https://go.vcu.edu/vcunewsletter">Subscribe <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <div class="cwf-footer__disclaimer">
+        <div class="cwf-footer__disclaimer__text">
+            Virginia Commonwealth University is a nationally renowned public research institution dedicated to the success and well-being of all members of its community. VCU student, faculty and staff groups and associations are open without regard to any characteristic or identity protected by law.
+        </div>
+    </div>
+
+
+
+    <ul class="footer-links-small">
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="https://www.vcu.edu/privacy-statement/" title="VCU privacy statement" target="_blank" rel="noopener noreferrer">Privacy</a></li>
+        <li><a href="https://accessibility.vcu.edu/" title="Accessibility at VCU" target="_blank" rel="noopener noreferrer">Accessibility</a></li>
+        <li><a href="mailto:webmaster@vcu.edu" title="Contact the VCU webmaster">Webmaster</a></li>
+        <li><a href="https://marcom.vcu.edu/foia/" title="Freedom of Information Act request" target="_blank">FOIA</a></li>
+        <li>Last updated: 10/1/2025</li>
+    </ul>
+</footer>
+
+    
+    
+
+    
+    <script src="/js/site.min.js?v=Imnkx9CIqxAVDigNQVOzCGCopqrZrxTvgbLe3n8nD6k"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Watch For Me NC: A statewide pedestrian and bicycle safety program">
+    <meta property="og:site_name" content="Watch For Me, NC">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="We all share the responsibility to make sure North Carolina roads are safe for everyone.">
+    <meta property="og:image" content="NCDOT_WFM_Logos-and-Colors_NCDONT watch for me_white and yellow_logo.png">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Safely walking across a crosswalk">
+    <title>Watch For Me NC: A statewide pedestrian and bicycle safety program</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hmr0gmf.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+  
+<!--[if gte mso 9]><![endif]-->
+</head>
+  <body>
+      <header id="header" class="bg-dark border-bottom border-primary">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <img src="NCDOT_WFM_Logos-and-Colors_NCDONT watch for me_white and yellow_logo.svg" alt="NCDOT Watch For Me Logo" class="mx-auto d-block mt-4 mb-4">
+                  </div>
+              </div>
+          </div>
+      </header>
+      <section id="hero" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center font-weight-bold mx-auto">We all share the responsibility to make sure North Carolina roads are safe for everyone.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Group 2.jpg" alt="Safely crossing the crosswalk" class="mx-auto d-block img-fluid">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="be-aware" class="bg-dark text-white position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h2 class="bg-primary text-dark font-weight-bold">Be aware. Know the rules. Stay safe.</h2>
+                    <p>Watch for Me NC aims to reduce pedestrian and bicycle injuries and deaths through a comprehensive, targeted approach of public education, community engagement, and high visibility law enforcement.</p>
+                    <p>Each year more than 3,000 pedestrians and 850 bicyclists are hit by drivers in North Carolina, making it one of the least safe states in the US for walking and bicycling. Of those, about 180 are killed, representing about 15% of all traffic fatalities that occur on North Carolina roads.</p>
+                    <h3 class="text-primary font-weight-bold">We can save lives.</h3>
+                    <p>Learn more about how to be a safer driver, bicyclist, and pedestrian, and ultimately, reduce the number of people hit or killed by vehicles on our streets.</p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="video-wrapper border border-primary border-3">
+                        <iframe src="https://www.youtube.com/embed/XYFslMKHkwo?si=Uiu0d5KWT1ZvFwSC" title="Watch For Me NC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mx-auto d-block w-100 h-auto mw-100"></iframe>
+                    </div>
+                    <div class="walker-wrapper">
+                        <img src="NCDOT_WFM_ASSETS__crosswalk sign white lines.png" alt="" class="d-block mx-auto">
+                    </div>              
+                </div>
+            </div>
+        </div> 
+        <img src="NCDOT_WFM_ASSETS__yellow line.png" alt="" class="yellow-line w-100"> 
+      </section>
+      <section id="rules" class="bg-light position-relative">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="d-flex justify-content-center align-items-center ">
+                          <img src="NCDOT_WFM_ASSETS__bracket left.png" alt="">
+                          <h2 class="font-weight-bold text-center">Rules of the Road</h2>
+                          <img src="NCDOT_WFM_ASSETS__bracket right.png" alt="">
+                      </div>
+                  </div>
+              </div>
+              <div class="row rules-details">
+                <div class="col-12 col-sm-4">
+                    <h3 class="bg-primary text-dark text-center">Motorist</h3>
+                    <img src="NCDOT_WFM_ASSETS__CAR.png" alt="" class="d-block mx-auto">
+                    <ul>
+                        <li><span>Avoid distractions, such as using your phone.</span></li>
+                        <li><span>Don't exceed speed limits and drive at speeds safe for the road and weather conditions.</span></li>
+                        <li><span>Know when pedestrians or bicyclists have the right-of-way, like at a crosswalk.</span></li>
+                        <li>Give a bicyclist at least four feet of space when passing.</li>
+                        <li>Never pass a vehicle that is stopped for pedestrians.</li>
+                        <li>Look behind your vehicle for pedestrians before backing-up.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 relative">
+                    <h3 class="bg-primary text-dark text-center">Bicyclist</h3>
+                    <img src="NCDOT_WFM_ASSETS__biker1.png" alt="" class="d-block mx-auto">
+                    <ul>
+                        <li>Wear a helmet. It could save your life.</li>
+                        <li>Use a light, reflectors and/or reflective clothing when bicycling at night.</li>
+                        <li>Ride in the direction of traffic and obey 
+                            the rules of the road.</li>
+                        <li>Watch and listen for cars, particularly 
+                            at intersections and driveways.</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h3 class="bg-primary text-dark text-center">Pedestrian</h3>
+                    <img src="NCDOT_WFM_ASSETS__PED WOMAN and MAN.png" alt="" class="d-block mx-auto">
+                    <ul>
+                        <li>Look for cars in all directions before crossing the street; never assume a driver will stop.</li>
+                        <li>At night, walk in well-lit areas, carry a flashlight or wear reflective clothing.</li>
+                        <li>Avoid distraction, especially using your phone when crossing the street.</li>
+                        <li>Watch for cars backing up in parking lots and driveways.</li>
+                        <li>Always walk on the sidewalk; if there is no sidewalk, walk facing traffic.</li>
+                    </ul>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <div class="graphics-wrapper d-flex justify-content-center justify-content-sm-between align-items-end flex-wrap flex-sm-nowrap">
+                          <div><img src="NCDOT_WFM_ASSETS__CROWD.png" alt="" class="mw-100"></div>
+                          <div><img src="NCDOT_WFM_ASSETS__biker2.png" alt="" class="mw-100 mx-sm-0"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <img src="NCDOT_WFM_ASSETS__yellow line2.png" alt="" class="yellow-line w-100"> 
+      </section>
+      <section id="resources" class="position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <img src="NCDOT_WFM_ASSETS__bracket left.png" alt="">
+                        <h2>Resources You Can Use</h2>
+                        <img src="NCDOT_WFM_ASSETS__bracket right.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row resources-list justify-content-evenly">
+                <div class="col-12 col-sm-4">
+                    <a href="https://www.nhtsa.gov/risky-driving/distracted-driving" class="text-dark" target="_blank" rel="noopener noreferrer">
+                        <img src="nhtsa-logo-no-text-1200-1200_gray.png" alt="" class="d-block mx-auto">
+                        <p class="text-center">NHTSA:<br>Distracted Driving</p>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="https://bikeleague.org/" class="text-dark" target="_blank" rel="noopener noreferrer">
+                        <img src="SEO-Logo_gray.png"text-center"ng" alt="" class="d-block mx-auto">
+                        <p class="text-center">League of<br>American Bicyclists</p>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="https://www.saferoutesinfo.org/" class="text-dark" target="_blank" rel="noopener noreferrer">
+                        <img src="SRTS_6inch_gray.png" alt="" class="d-block mx-auto">
+                        <p class="text-center">National Center for<br>Safe Routes to School</p>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="https://ncvisionzero.org/" class="text-dark" target="_blank" rel="noopener noreferrer">
+                        <img src="NC-vision-zero-logo_gray.png" alt="" class="d-block mx-auto">
+                        <p class="text-center">NC Vision Zero</p>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="https://www.pedbikeinfo.org/" class="text-dark" target="_blank" rel="noopener noreferrer">
+                        <img src="PBIC-logo_gray.png" alt="" class="d-block mx-auto">
+                        <p class="text-center">Pedestrian and Bicycle<br>Information Center</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="NCDOT_WFM_ASSETS__yellow line2.png" alt="" class="yellow-line w-100"> 
+      </section>
+      <footer id="footer" class="bg-light border-bottom border-primary">
+          <div class="container"> 
+              <div class="row">
+                  <div class="col text-center">
+                      <p>N.C. Department of Transportation Governor's Highway Safety Program<br/>
+                        <!-- <a href="tel:9198143650" class="text-dark">(919) 814-3650</a>   /   <a href="mailto:ghsp@ncdot.gov" class="text-dark">ghsp@ncdot.gov</a></p> -->
+                        <a href="tel:9198143650" class="text-dark">(919) 814-3650</a>   /   <a href="https://www.ncdot.gov/contact/Pages/form.aspx?UnitName=GHSP&sourceUrl=" class="text-dark" target="_blank">Contact Us</a></p>
+                  </div>
+              </div>
+              <div class="row justify-content-center footer-logos">
+                  <div class="col-12 col-sm-3 mb-3 mb-sm-0">
+                    <img src="GHP logo.svg" alt="" class="d-block mx-auto">
+                  </div>
+                  <div class="col-12 col-sm-3 mb-3 mb-sm-0">
+                    <img src="NCDOT_WFM_Logos-and-Colors_NCDONT watch for me_ful color logo.svg" alt="" class="d-block mx-auto">
+                  </div>
+                  <div class="col-12 col-sm-3 mb-3 mb-sm-0">
+                    <img src="Seal_of_the_North_Carolina_Department_of_Transportation.svg.svg" alt="" class="d-block mx-auto">
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
