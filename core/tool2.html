@@ -767,13 +767,37 @@
           data.forEach((item) => {
             focusAreaVals.push(cleanCap(item["Emphasis area"]));
 
-            // Target Crash: from CrashType1 + CrashType2
-            targetCrashVals.push(cleanCap(item["CrashType1"]));
-            targetCrashVals.push(cleanCap(item["CrashType2"]));
+            // ✅ Target Crash: CrashType1 + CrashType2 (avoid duplicates per row)
+            const crash1 = cleanCap(item["CrashType1"]);
+            const crash2 = cleanCap(item["CrashType2"]);
+            console.log("Crash types:", crash1, crash2, crash1 === crash2);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                targetCrashVals.push(crash1);
+              } else {
+                targetCrashVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              targetCrashVals.push(crash1);
+            } else if (crash2) {
+              targetCrashVals.push(crash2);
+            }
 
-            // Land Use Type: AreaType1 + AreaType2
-            areaTypeVals.push(cleanCap(item["AreaType1"]));
-            areaTypeVals.push(cleanCap(item["AreaType2"]));
+            // ✅ Land Use Type: AreaType1 + AreaType2 (avoid duplicates per row)
+            const area1 = cleanCap(item["AreaType1"]);
+            const area2 = cleanCap(item["AreaType2"]);
+            console.log("Area types:", area1, area2,  area1 === area2);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                areaTypeVals.push(area1);
+              } else {
+                areaTypeVals.push(area1, area2);
+              }
+            } else if (area1) {
+              areaTypeVals.push(area1);
+            } else if (area2) {
+              areaTypeVals.push(area2);
+            }
 
             ssaElementVals.push(cleanCap(item["SSA Pillars"]));
             contribFactorVals.push(
@@ -854,8 +878,34 @@
             ssahVals = [];
           filtered.forEach((d) => {
             // focusVals.push(cleanCap(d["Emphasis area"]));
-            tcVals.push(cleanCap(d["CrashType1"]), cleanCap(d["CrashType2"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Target Crash Type: avoid duplicates per row
+            const crash1 = cleanCap(d["CrashType1"]);
+            const crash2 = cleanCap(d["CrashType2"]);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                tcVals.push(crash1);
+              } else {
+                tcVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              tcVals.push(crash1);
+            } else if (crash2) {
+              tcVals.push(crash2);
+            }
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -936,7 +986,20 @@
             ssahVals = [];
           filtered.forEach((d) => {
             focusVals.push(cleanCap(d["Emphasis area"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -1019,8 +1082,34 @@
             ssahVals = [];
           filtered.forEach((d) => {
             focusVals.push(cleanCap(d["Emphasis area"]));
-            tcVals.push(cleanCap(d["CrashType1"]), cleanCap(d["CrashType2"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Target Crash Type: avoid duplicates per row
+            const crash1 = cleanCap(d["CrashType1"]);
+            const crash2 = cleanCap(d["CrashType2"]);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                tcVals.push(crash1);
+              } else {
+                tcVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              tcVals.push(crash1);
+            } else if (crash2) {
+              tcVals.push(crash2);
+            }
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -1104,8 +1193,34 @@
             ssahVals = [];
           filtered.forEach((d) => {
             focusVals.push(cleanCap(d["Emphasis area"]));
-            tcVals.push(cleanCap(d["CrashType1"]), cleanCap(d["CrashType2"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Target Crash Type: avoid duplicates per row
+            const crash1 = cleanCap(d["CrashType1"]);
+            const crash2 = cleanCap(d["CrashType2"]);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                tcVals.push(crash1);
+              } else {
+                tcVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              tcVals.push(crash1);
+            } else if (crash2) {
+              tcVals.push(crash2);
+            }
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -1189,8 +1304,34 @@
             ssahVals = [];
           filtered.forEach((d) => {
             focusVals.push(cleanCap(d["Emphasis area"]));
-            tcVals.push(cleanCap(d["CrashType1"]), cleanCap(d["CrashType2"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Target Crash Type: avoid duplicates per row
+            const crash1 = cleanCap(d["CrashType1"]);
+            const crash2 = cleanCap(d["CrashType2"]);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                tcVals.push(crash1);
+              } else {
+                tcVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              tcVals.push(crash1);
+            } else if (crash2) {
+              tcVals.push(crash2);
+            }
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -1274,8 +1415,34 @@
             ssahVals = [];
           filtered.forEach((d) => {
             focusVals.push(cleanCap(d["Emphasis area"]));
-            tcVals.push(cleanCap(d["CrashType1"]), cleanCap(d["CrashType2"]));
-            atVals.push(cleanCap(d["AreaType1"]), cleanCap(d["AreaType2"]));
+            // ✅ Target Crash Type: avoid duplicates per row
+            const crash1 = cleanCap(d["CrashType1"]);
+            const crash2 = cleanCap(d["CrashType2"]);
+            if (crash1 && crash2) {
+              if (crash1 === crash2) {
+                tcVals.push(crash1);
+              } else {
+                tcVals.push(crash1, crash2);
+              }
+            } else if (crash1) {
+              tcVals.push(crash1);
+            } else if (crash2) {
+              tcVals.push(crash2);
+            }
+            // ✅ Land Use Type: avoid duplicates per row
+            const area1 = cleanCap(d["AreaType1"]);
+            const area2 = cleanCap(d["AreaType2"]);
+            if (area1 && area2) {
+              if (area1 === area2) {
+                atVals.push(area1);
+              } else {
+                atVals.push(area1, area2);
+              }
+            } else if (area1) {
+              atVals.push(area1);
+            } else if (area2) {
+              atVals.push(area2);
+            }
             ssaeVals.push(cleanCap(d["SSA Pillars"]));
             cfVals.push(
               cleanCap(firstContribFactor(d["Contributing Factors"]))
@@ -1711,20 +1878,49 @@
                           }</p>
                           <p><strong>Target Crash Type:</strong> 
                             ${
-                              [item["CrashType1"], item["CrashType2"]]
-                                .filter((v) => v && v.trim() !== "")
-                                .join(", ") || "N/A"
+                              (() => {
+                                const v1 = item["CrashType1"]?.trim();
+                                const v2 = item["CrashType2"]?.trim();
+
+                                if (v1 && v2) {
+                                  if (v1 === v2) {
+                                    return v1;
+                                  } else {
+                                    return `${v1} (CMF1), ${v2} (CMF2)`;
+                                  }
+                                } else if (v1) {
+                                  return `${v1} (CMF1)`;
+                                } else if (v2) {
+                                  return `${v2} (CMF2)`;
+                                } else {
+                                  return "N/A";
+                                }
+                              })()
                             }
                           </p>
 
                           <p><strong>Land Use Type:</strong> 
                             ${
-                              [item["AreaType1"], item["AreaType2"]]
-                                .filter((v) => v && v.trim() !== "")
-                                .join(", ") || "N/A"
+                              (() => {
+                                const v1 = item["AreaType1"]?.trim();
+                                const v2 = item["AreaType2"]?.trim();
+
+                                if (v1 && v2) {
+                                  if (v1 === v2) {
+                                    return v1;
+                                  } else {
+                                    return `${v1} (CMF1), ${v2} (CMF2)`;
+                                  }
+                                } else if (v1) {
+                                  return `${v1} (CMF1)`;
+                                } else if (v2) {
+                                  return `${v2} (CMF2)`;
+                                } else {
+                                  return "N/A";
+                                }
+                              })()
                             }
                           </p>
-
                           <p><strong>Contributing Factors:</strong> ${
                             item["Contributing Factors"] || "N/A"
                           }</p>
@@ -1750,11 +1946,26 @@
                         <div class="row">
                           <div class="col-md-12">
                             <p><strong>CMF:</strong> ${
-                              item.CMF1 && item.CMF2
-                                ? item.CMF1 !== item.CMF2
-                                  ? `[${item.CMF1} - ${item.CMF2}]`
-                                  : `${item.CMF1}`
-                                : "N/A"
+                              (() => {
+                                const c1 = parseFloat(item.CMF1);
+                                const c2 = parseFloat(item.CMF2);
+
+                                if (!isNaN(c1) && !isNaN(c2)) {
+                                  if (c1 === c2) {
+                                    return `${c1} (CMF1 & CMF2)`;
+                                  } else if (c1 < c2) {
+                                    return `[${c1} (CMF1) - ${c2} (CMF2)]`;
+                                  } else {
+                                    return `[${c2} (CMF2) - ${c1} (CMF1)]`;
+                                  }
+                                } else if (!isNaN(c1)) {
+                                  return `${c1} (CMF1)`;
+                                } else if (!isNaN(c2)) {
+                                  return `${c2} (CMF2)`;
+                                } else {
+                                  return "N/A";
+                                }
+                              })()
                             }</p>
                             <p><strong>NCHRP 500 Series Objective:</strong> ${
                               item["NCHRP 500 Series Objective"] || "N/A"
@@ -1797,9 +2008,9 @@
                           <div class="col-md-8">
                             <p><strong>Redundancy-Driven Countermeasures</strong></p>
                             <ol>
-                              <li>${item["Countermeasure 1"] || "N/A"}</li>
-                              <li>${item["Countermeasure 2"] || "N/A"}</li>
-                              <li>${item["Countermeasure 3"] || "N/A"}</li>
+                              <li><p>${item["Countermeasure 1"] || "N/A"}</p></li>
+                              <li><p>${item["Countermeasure 2"] || "N/A"}</p></li>
+                              <li><p>${item["Countermeasure 3"] || "N/A"}</p></li>
                             </ol>
                           </div>
                           <!--favorite checkbox -->
