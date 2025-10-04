@@ -1597,14 +1597,26 @@
           } else {
             filtered = filtered.filter((item) => {
               return (
+                norm(item["Countermeasure"]).includes(query) ||
+                norm(item["Countermeasure Staus_OnlyforTool"]).includes(query) ||
+                norm(item["SSA Pillars"]).includes(query) ||
+                norm(item["AASHTO"]).includes(query) ||
+                norm(item["SSA Hierarchy"]).includes(query) ||
                 norm(item["Emphasis area"]).includes(query) ||
                 norm(item["CrashType1"]).includes(query) ||
                 norm(item["CrashType2"]).includes(query) ||
                 norm(item["AreaType1"]).includes(query) ||
                 norm(item["AreaType2"]).includes(query) ||
                 norm(item["Contributing Factors"]).includes(query) ||
-                norm(item["SSA Pillars"]).includes(query) ||
-                norm(item["SSA Hierarchy"]).includes(query)
+                norm(item["NCHRP 500 Series Objective"]).includes(query) ||
+                norm(item["Cost"]).includes(query) ||
+                norm(item["Service Life"]).includes(query) ||
+                norm(item["Implementation Time"]).includes(query) ||
+                norm(item["Countermeasure 1"]).includes(query) ||
+                norm(item["Countermeasure 2"]).includes(query) ||
+                norm(item["Countermeasure 3"]).includes(query) 
+
+               
               );
             });
             $("#clearSearch").show(); // show clear link after search
@@ -1929,9 +1941,9 @@
                         <div class="col-md-3 card-img-content" >
                           <a href="../core/images/countermeasures/${
                             item["img"]
-                          }" data-lightbox="${item["CountermeasureID"]}-${
+                          }" data-lightbox="${
               item.Countermeasure
-            }" data-title="${item["CountermeasureID"]}-${item.Countermeasure}">
+            }" data-title="${item.Countermeasure}">
                             <img src="../core/images/countermeasures/${
                               item["img"]
                             }"
@@ -1973,6 +1985,9 @@
                             <span style="color:red">Note: This is guidance only. States can select their own countermeasures.</span>
 
                             <p style="margin-top:15px; margin-bottom:15px;">
+                              <a href="factsheets/${
+                                item["CountermeasureID"]
+                              }.pdf" target="_blank" style="background-color:lightgreen;display:inline-block;padding:5px 10px;color:black;">Countermeasure Fact Sheet <i class="fa fa-external-link" aria-hidden="true"></i></a>
                               ${
                                 cmfIdSafe
                                   ? `
@@ -1981,9 +1996,7 @@
                                   : ``
                               }
                               <a href="resource.htm?q=${kbQuery}" target="_blank" style="background-color:lightblue;display:inline-block;padding:5px 10px;color:black;">Resource Library <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                              <a href="factsheets/${
-                                item["CountermeasureID"]
-                              }.pdf" target="_blank" style="background-color:lightgreen;display:inline-block;padding:5px 10px;color:black;">Countermeasure Fact Sheet <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                              
                             </p>
                           </div>
 
