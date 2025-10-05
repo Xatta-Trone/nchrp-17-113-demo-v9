@@ -12,14 +12,6 @@
     <!--  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css">-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
-    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
@@ -106,68 +98,243 @@
       <div class="layer-tint">
         <div class="jumbotron">
           <div class="container">
-            <h1>About: Safe System Approach Countermeasure Selection Tool</h1>
+            <section class="page-hero">
+              <h1>About: Safe System Approach Countermeasure Selection Tool</h1>
+              <p class="tagline">
+                Quick links to foundational guidance and the full background
+                below.
+              </p>
+            </section>
 
-            <h2>BACKGROUND</h2>
+            <!-- 1) NEW: concise quick-links at the very top -->
+            <section
+              class="key-resources"
+              aria-labelledby="key-resources-heading"
+            >
+              <h2 id="key-resources-heading">Key Background Resources</h2>
+              <ul class="resource-list" style="list-style-type: none">
+                <li>
+                  <a
+                    href="https://www.trb.org/Main/Blurbs/152868.aspx"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    NCHRP Report 500 Series
+                    <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#resource-collection"
+                  >
+                    FHWA Safe System Approach Flyer (PDFs)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/core/docs/About_links_pdfs/FHWA_SSA_Hierarchy/Safe_System_Roadway_Design_Hierarchy (1).pdf"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    FHWA Safe System Roadway Design Hierarchy (PDF) <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </section>
 
-            <p>
-              NCHRP Report 500: Guidance for Implementation of the AASHTO
-              Strategic Highway Safety Plan identifies proven, tried, and
-              experimental safety strategies for each of the emphasis areas in
-              the American Association of State Highway and Transportation
-              Officials’ (AASHTO’s) original 1998 Strategic Highway Safety Plan.
-              The Federal Highway Administration (FHWA) and state departments of
-              transportation (DOTs) partnered through a pooled fund study to
-              develop reliable estimates of the effectiveness of the safety
-              improvements identified as strategies in the NCHRP Report 500
-              series.
+            <!-- 2) Background (short lead + expandable full) -->
+            <section class="background" aria-labelledby="background-heading">
+              <h2 id="background-heading">Background</h2>
+              <p>
+                NCHRP Report 500: Guidance for Implementation of the AASHTO
+                Strategic Highway Safety Plan identifies proven, tried, and
+                experimental safety strategies for each of the emphasis areas in
+                the American Association of State Highway and Transportation
+                Officials’ (AASHTO’s) original 1998 Strategic Highway Safety
+                Plan. The Federal Highway Administration (FHWA) and state
+                departments of transportation (DOTs) partnered through a pooled
+                fund study to develop reliable estimates of the effectiveness of
+                the safety improvements identified as strategies in the NCHRP
+                Report 500 series.
 
-              <br /><br />
-              Information presented in the NCHRP Report 500 series predates the
-              Safe System approach, which is an internationally adopted
-              framework for road safety management that works by building and
-              reinforcing multiple layers of protection to prevent crashes from
-              happening in the first place and minimize the harm caused to those
-              involved when crashes do occur
-              <a
-                target="_blank"
-                href="https://www.un.org/pga/76/wp-content/uploads/sites/101/2022/05/HLM-on-Road-Safety-Concept-note-Circulated.pdf"
-                >(UN Resolution)</a
-              >
-              . An increasing number of localities and states are moving toward
-              a Safe System approach in road planning, design, and operation. To
-              assist transportation owners and operators, FHWA developed a
-              series of guidance documents and associated tools outlining
-              application to the Safe System in the U.S. context
-              <a
-                href="https://safety.fhwa.dot.gov/zerodeaths/docs/FHWA_SafeSystem_Brochure_V9_508_200717.pdf"
-                target="_blank"
-                >(FHWA Brochure)</a
-              >
-              . To further support this process, there is an immediate need to
-              provide updated, evidence-based countermeasure information for
-              priority crash types addressed in the NCHRP Report 500 series to
-              reflect the current knowledge base.
-            </p>
+                <br /><br />
+                Information presented in the NCHRP Report 500 series predates
+                the Safe System approach, which is an internationally adopted
+                framework for road safety management that works by building and
+                reinforcing multiple layers of protection to prevent crashes
+                from happening in the first place and minimize the harm caused
+                to those involved when crashes do occur
+                <a
+                  target="_blank"
+                  href="https://www.un.org/pga/76/wp-content/uploads/sites/101/2022/05/HLM-on-Road-Safety-Concept-note-Circulated.pdf"
+                  >(UN Resolution)</a
+                >
+                . An increasing number of localities and states are moving
+                toward a Safe System approach in road planning, design, and
+                operation. To assist transportation owners and operators, FHWA
+                developed a series of guidance documents and associated tools
+                outlining application to the Safe System in the U.S. context
+                <a
+                  href="https://safety.fhwa.dot.gov/zerodeaths/docs/FHWA_SafeSystem_Brochure_V9_508_200717.pdf"
+                  target="_blank"
+                  >(FHWA Brochure)</a
+                >
+                . To further support this process, there is an immediate need to
+                provide updated, evidence-based countermeasure information for
+                priority crash types addressed in the NCHRP Report 500 series to
+                reflect the current knowledge base.
+              </p>
+            </section>
 
-            <h2>OBJECTIVE</h2>
-            <p>
-              The objective of this project is to develop a searchable
-              electronic toolkit that builds on the NCHRP Report 500 series to
-              align with Safe System principles and AASHTO’s current priorities,
-              as well as reflect the most recent research and identify new
-              innovations to help achieve the goal of zero deaths on the
-              nation’s roads. Successful completion of this project will (1)
-              help transportation officials consider a broader list of
-              countermeasures applicable to the majority of crash types; (2)
-              improve the efficiency of countermeasure selection, link to state
-              analysis tools, and enhance usability of the NCHRP Report 500
-              series; (3) provide access to the most current information; (4)
-              advance implementation of the Safe System approach; and (5)
-              increase practitioner awareness of the NCHRP Report 500 series.
-            </p>
+            <!-- 3) Objective -->
+            <section>
+              <h2>Objective</h2>
+              <p>
+                The objective of this project is to develop a searchable
+                electronic toolkit that modernizes the NCHRP Report 500 series
+                by aligning it with Safe System principles and AASHTO’s current
+                priorities, while integrating the latest research and
+                innovations to advance the goal of zero roadway deaths.
+              </p>
+              <p style="text-align: left">Specifically, the toolkit aims to:</p>
+              <ol style="text-align: left">
+                <li>
+                  Enable transportation practitioners to consider a broader
+                  range of countermeasures applicable to a wide variety of crash
+                  types.
+                </li>
+                <li>
+                  Streamline countermeasure selection and enhance usability
+                  through direct links to state analysis tools.
+                </li>
+                <li>
+                  Provide access to the most current safety information and
+                  research.
+                </li>
+                <li>
+                  Support implementation of the Safe System approach across
+                  jurisdictions.
+                </li>
+                <li>
+                  Increase practitioner awareness and use of the NCHRP Report
+                  500 series.
+                </li>
+              </ol>
+            </section>
 
-            <h2>ACKNOWLEDGMENT</h2>
+            <section class="resources" id="resource-collection" aria-labelledby="resources-heading">
+              <h2 id="resources-heading">Resource Collections</h2>
+
+
+              <!-- Bootstrap 3 accordion: collapsed by default -->
+              <div class="panel-group" id="accordion-fhwa-ssa" role="tablist" aria-multiselectable="true">
+                <div class="panel">
+                  <div class="panel-heading" role="tab" id="fhwa-ssa-heading" style="background-color: #3F5827;">
+                    <h4 class="panel-title">
+                      <a role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordion-fhwa-ssa"
+                        href="#fhwa-ssa-panel"
+                        aria-expanded="false"
+                        aria-controls="fhwa-ssa-panel"
+                        class="collapsed">
+                        FHWA Safe System Approach Flyer — Individual Fact Sheets (Click to Expand)
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="fhwa-ssa-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fhwa-ssa-heading">
+                    <div class="panel-body" style="background-color: #3F5827;">
+                      <ol>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Appropriate speed limits for all road users/App Speed Limits_508.pdf" target="_blank">Appropriate speed limits for all road users <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Backplates with Retroreflective Borders/Backplates with Retroreflective Borders_508.pdf" target="_blank">Backplates with Retroreflective Borders <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Bicycle Lanes/Bicycle Lanes_508.pdf" target="_blank">Bicycle Lanes <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Corridor Access Management/Corridor Access Management_508.pdf" target="_blank">Corridor Access Management <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Crosswalk Visibility Enhancements/Crosswalk Visibility Enhancements_508_1.pdf" target="_blank">Crosswalk Visibility Enhancements <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Dedicated Left- and Right-Turn Lanes at Intersections/Left- and Right-Turn Lanes_508.pdf" target="_blank">Dedicated Left- and Right-Turn Lanes at Intersections <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Enhanced Delineation for Horizontal Curves/Enhanced Delineation for Curves_508.pdf" target="_blank">Enhanced Delineation for Horizontal Curves <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Leading Pedestrian Interval/Leading_Pedestrian_Interval_1.pdf" target="_blank">Leading Pedestrian Interval <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Lighting/Lighting_508_0.pdf" target="_blank">Lighting <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Local Road Safety Plans/Local Road Safety Plans_508.pdf" target="_blank">Local Road Safety Plans <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Longitudinal Rumble Strips and Stripes on Two-Lane Roads/Longitudinal Rumble Strips_508.pdf" target="_blank">Longitudinal Rumble Strips and Stripes on Two-Lane Roads <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Median Barriers/Median Barriers_508.pdf" target="_blank">Median Barriers <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Medians and Pedestrian Refuge Islands/Medians and Pedestrian Refuge Islands_508.pdf" target="_blank">Medians and Pedestrian Refuge Islands <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Pavement Friction Management/Pavement Friction Management_508.pdf" target="_blank">Pavement Friction Management <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Pedestrian Hybrid Beacons/Pedestrian Hybrid Beacons_508_0.pdf" target="_blank">Pedestrian Hybrid Beacons <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Rectangular Rapid Flashing Beacons (RRFB)/RRFB_508_0.pdf" target="_blank">Rectangular Rapid Flashing Beacons (RRFB) <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Reduced Left-Turn Conflict Intersections/Reduced Left-Turn Conflict Intersections_508.pdf" target="_blank">Reduced Left-Turn Conflict Intersections <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Road Diets (Roadway Reconfiguration)/Road Diets_508.pdf" target="_blank">Road Diets (Roadway Reconfiguration) <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Road Safety Audit/Road Safety Audits_508.pdf" target="_blank">Road Safety Audit <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Roadside Design Improvements at Curves/Roadside Design Improvements at Curves_508.pdf" target="_blank">Roadside Design Improvements at Curves <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Roundabouts/Roundabouts_508.pdf" target="_blank">Roundabouts <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Safety edge/SafetyEdge_508.pdf" target="_blank">Safety edge <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Speed Safety Cameras/Speed Safety Cameras_508.pdf" target="_blank">Speed Safety Cameras <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Systemic Application of Multiple Low-Cost/Systemic Application at Stop-Controlled Intersections_508.pdf" target="_blank">Systemic Application of Multiple Low-Cost <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Variable Speed Limits/Variable Speed Limits_508.pdf" target="_blank">Variable Speed Limits <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Walkways/Walkways_508.pdf" target="_blank">Walkways <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Wider edge lines/Wider Edge Lines_508_0.pdf" target="_blank">Wider edge lines <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/FHWA_SSA_Flyer/Yellow Change Intervals/Yellow Change Intervals_508_0.pdf" target="_blank">Yellow Change Intervals <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bootstrap 3 accordion for NCHRP 500 Series -->
+              <div class="panel-group" id="accordion-nchrp500" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="nchrp500-heading" style="background-color: #3F5827;">
+                    <h4 class="panel-title">
+                      <a role="button"
+                        data-toggle="collapse"
+                        data-parent="#accordion-nchrp500"
+                        href="#nchrp500-panel"
+                        aria-expanded="false"
+                        aria-controls="nchrp500-panel"
+                        class="collapsed">
+                        NCHRP 500 Series — Individual Reports (Click to Expand)
+                      </a>
+                    </h4>
+                  </div>
+
+                  <div id="nchrp500-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="nchrp500-heading">
+                    <div class="panel-body" style="background-color: #3F5827;">
+                      <ol>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Aggressive/Vol 1 Aggressive Driving 2003.pdf" target="_blank">Vol 1 – Aggressive <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Unlicensed/Vol 2 Unlicensed Drivers 2003.pdf" target="_blank">Vol 2 – Unlicensed <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Tree/Vol 3 Trees 2003.pdf" target="_blank">Vol 3 – Tree <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Head-on/Vol 4 Head-on Collisions 2003.pdf" target="_blank">Vol 4 – Head-on <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Unsignalized intersection/Vol 5 Unsignalized Intersections 2003.pdf" target="_blank">Vol 5 – Unsignalized intersection <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/ROR/Vol 6 ROR 2003.pdf" target="_blank">Vol 6 – ROR <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Horizontal curves/Vol 7 Horizontal Curve 2004.pdf" target="_blank">Vol 7 – Horizontal curves <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Utility poles/Vol 8 Utility Poles 2004.pdf" target="_blank">Vol 8 – Utility poles <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Older Driver/Vol 9 Older Drivers 2004.pdf" target="_blank">Vol 9 – Older Driver <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Pedestrian/Vol 10 Pedestrian 2004.pdf" target="_blank">Vol 10 – Pedestrian <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Seatbelt use/Vol 11 Seatbelt Use 2004.pdf" target="_blank">Vol 11 – Seatbelt use <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Signalized intersection/Vol 12 Signalized Intersections 2003.pdf" target="_blank">Vol 12 – Signalized intersection <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Heavy trucks/Vol 13 Heavy Trucks (2004).pdf" target="_blank">Vol 13 – Heavy trucks <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Distracted/Vol 14 Distracted Drivers (2005).pdf" target="_blank">Vol 14 – Distracted <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Rural EMS/Vol 15 Emergency Medical Services_Rural (2005).pdf" target="_blank">Vol 15 – Rural EMS <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Alcohol/Vol 16 Alcohol-Related.pdf" target="_blank">Vol 16 – Alcohol <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Workzone/Vol 17 Work Zone Collisions.pdf" target="_blank">Vol 17 – Workzone <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Bicycles/Vol 18 Bicycles (2008).pdf" target="_blank">Vol 18 – Bicycles <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Young Drivers/Vol 19 Young Drivers (2007).pdf" target="_blank">Vol 19 – Young Drivers <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Head-on Freeways/Vol 20 Head-on Crashes on Freeways (2008).pdf" target="_blank">Vol 20 – Head-on Freeways <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Emphasis area plans/Vol 21 Emphasis Area Plans (2008).pdf" target="_blank">Vol 21 – Emphasis area plans <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Motorcycle/Vol 22 Motorcycles (2008).pdf" target="_blank">Vol 22 – Motorcycle <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="/core/docs/About_links_pdfs/NCHRP 500 Series/Speeding/Vol 23 Speeding-Related Crashes (2009).pdf" target="_blank">Vol 23 – Speeding <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              
+
+              </section>
+
+            <h2>Acknowledgment</h2>
             <p>
               The National Cooperative Highway Research Program (NCHRP) produces
               ready-to-implement solutions to the challenges facing
@@ -180,13 +347,13 @@
               (FHWA).
             </p>
 
-            <h2>COPYRIGHT INFORMATION</h2>
+            <h2>Copyright Information</h2>
             <p>
               Permission to reproduce any copyrighted material included herein
               was obtained by the contractor.
             </p>
 
-            <h2>DISCLAIMERS</h2>
+            <h2>Disclaimers</h2>
             <p>
               The opinions and conclusions expressed or implied in this report
               are those of the researchers who performed the research and are
