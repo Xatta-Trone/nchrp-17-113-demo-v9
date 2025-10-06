@@ -681,11 +681,17 @@
           Object.keys(countsObj)
             .sort((a, b) => a.localeCompare(b))
             .forEach((label) => {
+              // If the label is N/A or NA skip it. 
+              if (label.toLowerCase() === "n/a" || label.toLowerCase() === "na") return;
+              const colonIndex = label.indexOf(':');
+              const displayLabel = colonIndex !== -1 ?
+                label.slice(0, colonIndex + 2) + label.charAt(colonIndex + 2).toUpperCase() + label.slice(colonIndex + 3) :
+                label;
               $box.append(
                 `<label><input type="checkbox" name="${selector.replace(
                   "#",
                   ""
-                )}" value="${label}"> ${label} (${countsObj[label]})</label>`
+                )}" value="${label}"> ${displayLabel} (${countsObj[label]})</label>`
               );
             });
         }
@@ -714,13 +720,17 @@
             // Update the count label text (e.g., "Urban (12)")
             const labelEl = $(this).closest("label");
             const baseText = val; // assuming label text is the value itself
+            const colonIndex = baseText.indexOf(':');
+            const displayText = colonIndex !== -1 ?
+              baseText.slice(0, colonIndex + 2) + baseText.charAt(colonIndex + 2).toUpperCase() + baseText.slice(colonIndex + 3) :
+              baseText;
             labelEl
               .contents()
               .filter(function () {
                 return this.nodeType === 3;
               })
               .remove(); // remove old text nodes
-            labelEl.append(` ${baseText} (${count})`);
+            labelEl.append(` ${displayText} (${count})`);
           });
         }
 
@@ -1959,25 +1969,22 @@
                           <div class="col-md-12">
                             <p><strong>CMF:</strong> ${
                               (() => {
-                                const c1 = parseFloat(item.CMF1);
-                                const c2 = parseFloat(item.CMF2);
+                                  const c1 = parseFloat(item.CMF1);
+                                  const c2 = parseFloat(item.CMF2);
 
-                                if (!isNaN(c1) && !isNaN(c2)) {
-                                  if (c1 === c2) {
-                                    return `${c1} (CMF1 & CMF2)`;
-                                  } else if (c1 < c2) {
-                                    return `[${c1} (CMF1) - ${c2} (CMF2)]`;
+                                  const hasC1 = !isNaN(c1);
+                                  const hasC2 = !isNaN(c2);
+
+                                  if (hasC1 && hasC2) {
+                                    return `${c1} (CMF1), ${c2} (CMF2)`;
+                                  } else if (hasC1) {
+                                    return `${c1} (CMF1)`;
+                                  } else if (hasC2) {
+                                    return `${c2} (CMF2)`;
                                   } else {
-                                    return `[${c2} (CMF2) - ${c1} (CMF1)]`;
+                                    return "N/A";
                                   }
-                                } else if (!isNaN(c1)) {
-                                  return `${c1} (CMF1)`;
-                                } else if (!isNaN(c2)) {
-                                  return `${c2} (CMF2)`;
-                                } else {
-                                  return "N/A";
-                                }
-                              })()
+                                })()
                             }</p>
                             <p><strong>NCHRP 500 Series Objective:</strong> ${
                               item["NCHRP 500 Series Objective"] || "N/A"
@@ -2009,7 +2016,7 @@
                               item["Service Life"]
                                 .toString()
                                 .trim()
-                                .toUpperCase() !== "N/A"
+                                .toUpperCase() !== "N/A" || item["Service Life"] === "NA"
                                 ? `${item["Service Life"]} years`
                                 : "N/A"
                             }</p>
