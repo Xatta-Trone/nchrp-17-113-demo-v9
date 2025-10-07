@@ -1975,8 +1975,10 @@
                                   const hasC1 = !isNaN(c1);
                                   const hasC2 = !isNaN(c2);
 
-                                  if (hasC1 && hasC2) {
+                                  if (hasC1 && hasC2 && c1 !== c2) {
                                     return `${c1} (CMF1), ${c2} (CMF2)`;
+                                  } else if (hasC1 && hasC2 && c1 === c2) {
+                                    return `${c1}`;
                                   } else if (hasC1) {
                                     return `${c1} (CMF1)`;
                                   } else if (hasC2) {

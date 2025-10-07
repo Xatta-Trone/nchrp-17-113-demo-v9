@@ -1,70 +1,83 @@
-import pandas as pd
+import csv
 import json
-import numpy as np
+import os
+from datetime import datetime
+from pathlib import Path
+# -------------------------------
+# 1️⃣ Step 1: Convert CSV → JSON
+# -------------------------------
 
-# Load the Excel file
-excel_path = "list09.xlsx"
-df = pd.read_excel(excel_path)
+# Input and output file paths
+csv_file = "Factsheet_Spreadsheet_V08a_Mi_Tools_v01.csv"
+intermediate_json = "output.json"
+final_json = "data.json"
 
-# Define the mapping between DataFrame columns and desired JSON keys
-column_mapping = {
-    "id": "id",
-    "Emphasis Area": "Emphasis Area",
-    "Target Crash": "Target Crash Type",
-    "Area Type": "Land Use Type",
-    "CountermeasureID": "CountermeasureID",
-    "Countermeasure": "Countermeasure",
-    "Countermeasure Staus": "Countermeasure Type",
-    "CMF": "CMF",
-    "Crash Severity": "Crash Severity",
-    "Road Type": "Road Type",
-    "Star Quality": "Star Quality",
-    "Min AADT": "Min AADT",
-    "Max AADT": "Max AADT",
-    "Min Num Lanes": "Min Num Lanes",
-    "Max Num Lane": "Max Num Lane",
-    "Cost": "Cost",
-    "Service Life": "Service Life",
-    "Implementation Time": "Implementation Time",
-    "Contributing Factors": "Contributing Factors",
-    "SSA Pillars": "SSA Element",
-    "SSA Hierarchy": "SSA Hierarchy",
-    "AASHTO": "AASHTO",
-    "Countermeasure Link": "Countermeasure Link",
-    "Knowledge Base": "Knowledge Base",
-    "Countermeasure Factsheet": "Countermeasure Factsheet",
-    "Other Countermeasures": "Other Countermeasures",
-    "NCHRP 500 Series Objective": "NCHRP 500 Series Objective",
-    # "CountermeasureID": "img"
-}
+# Read CSV and convert to JSON
+data = []
+with open(csv_file, mode="r", encoding="latin1") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        data.append(row)
 
-# Helper function to handle NaN values
-def clean_value(value):
-    if pd.isna(value):
-        return ""  # or return "" if you prefer empty strings
-    if isinstance(value, np.integer):
-        return int(value)
-    if isinstance(value, np.floating):
-        return float(value)
-    return value
+# Write initial JSON
+with open(intermediate_json, mode="w", encoding="utf-8") as f:
+    json.dump(data, f, indent=4, ensure_ascii=False)
 
-# Apply the mapping with NaN handling
-json_list = []
-for _, row in df.iterrows():
-    entry = {}
-    for old_key, new_key in column_mapping.items():
-        value = row.get(old_key)
-        # Special handling for "img"
-        if new_key == "img":
-            value = f"{value}.PNG" if not pd.isna(value) else None
-        else:
-            value = clean_value(value)
-        entry[new_key] = value
-    json_list.append(entry)
+print(f"✅ CSV converted to JSON: {intermediate_json}")
 
-# Save the JSON list to a file
-json_path = "data-v9-updated-april-2025.json"
-with open(json_path, "w") as f:
-    json.dump(json_list, f, indent=4)
+# -------------------------------
+# 2️⃣ Step 2: Add image paths
+# -------------------------------
 
-print(f"JSON file saved to: {json_path}")
+# Define the path: go up one folder, then into images/countermeasures
+images_folder = os.path.join('..', 'images', 'countermeasures')
+
+# Convert to absolute path
+images_folder = os.path.abspath(images_folder)
+
+# Check if the folder exists
+if not os.path.isdir(images_folder):
+    raise FileNotFoundError(f"❌ Image folder not found: {images_folder}")
+
+# List all image files inside countermeasures folder
+image_files = os.listdir(images_folder)
+
+# -------------------------------
+# 3️⃣ Step 3: Update JSON items
+# -------------------------------
+
+for idx, item in enumerate(data):
+    # Add an 'id' field (1-based index)
+    item["id"] = idx + 1
+
+    # Get CountermeasureID to match image files
+    countermeasure_id = item.get("CountermeasureID")
+    if countermeasure_id:
+        matching_image = next(
+            (img for img in image_files if img.startswith(countermeasure_id)),
+            None
+        )
+        if matching_image:
+            item["img"] = matching_image
+
+# -------------------------------
+# 4️⃣ Step 4: Save Final JSON
+# -------------------------------
+
+with open(final_json, 'w', encoding='utf-8') as file:
+    json.dump(data, file, indent=4, ensure_ascii=False)
+
+print(f"✅ Final updated JSON saved to: {final_json}")
+
+final_js = Path("data.js")
+
+# 5) Write JS (window.CM_DATA = ...)
+body = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</script>", "<\\/script>")
+js_content = (
+    "/* Auto-generated on " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n"
+    f" * Source: {csv_file}\n"
+    " */\n"
+    "window.CM_DATA = " + body + ";\n"
+)
+final_js.write_text(js_content, encoding="utf-8")
+print(f"✅ Wrote JS: {final_js.resolve()}")

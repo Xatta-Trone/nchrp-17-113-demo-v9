@@ -35,9 +35,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Pavement width; head-on collision reduction; lane expansion; safety improvement",
-        "id": 1,
-        "img": "treat001.jpg"
+        "Keyword_OnlyForTool": "Pavement width; head-on collision reduction; lane expansion; safety improvement"
     },
     {
         "CountermeasureID": "treat002",
@@ -75,9 +73,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Access control; traffic flow; crash barrier; lane increase",
-        "id": 2,
-        "img": "treat002.jpg"
+        "Keyword_OnlyForTool": "Access control; traffic flow; crash barrier; lane increase"
     },
     {
         "CountermeasureID": "treat005",
@@ -115,9 +111,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Lane narrowing; low-cost; urban setting; lower speed; restriping; exposure reduction; speed management; traffic calming; crash severity mitigation",
-        "id": 3,
-        "img": "treat005.jpg"
+        "Keyword_OnlyForTool": "Lane narrowing; low-cost; urban setting; lower speed; restriping; exposure reduction; speed management; traffic calming; crash severity mitigation"
     },
     {
         "CountermeasureID": "treat006",
@@ -155,9 +149,7 @@
         "Service Life": "20",
         "Cost": "Moderate to high",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Head-on crash prevention; safe overtaking; rural safety; lane separation",
-        "id": 4,
-        "img": "treat006.jpg"
+        "Keyword_OnlyForTool": "Head-on crash prevention; safe overtaking; rural safety; lane separation"
     },
     {
         "CountermeasureID": "treat007",
@@ -195,9 +187,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Lane increase; low-cost; lower speed; four to five",
-        "id": 5,
-        "img": "treat007.png"
+        "Keyword_OnlyForTool": "Lane increase; low-cost; lower speed; four to five"
     },
     {
         "CountermeasureID": "treat008",
@@ -235,9 +225,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Lane increase; low-cost; lower speed; five to six",
-        "id": 6,
-        "img": "treat008.png"
+        "Keyword_OnlyForTool": "Lane increase; low-cost; lower speed; five to six"
     },
     {
         "CountermeasureID": "treat009",
@@ -275,9 +263,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Road reconfiguration; conflict reduction; multimodal safety; lane reallocation",
-        "id": 7,
-        "img": "treat009.jpg"
+        "Keyword_OnlyForTool": "Road reconfiguration; conflict reduction; multimodal safety; lane reallocation"
     },
     {
         "CountermeasureID": "treat017m",
@@ -315,9 +301,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Dedicated turn lane; reduce delay; minimize rear-end and turning conflicts",
-        "id": 8,
-        "img": "treat017m.jpg"
+        "Keyword_OnlyForTool": "Dedicated turn lane; reduce delay; minimize rear-end and turning conflicts"
     },
     {
         "CountermeasureID": "treat019",
@@ -355,9 +339,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Right-turn lane; channelization; turning radius improvement; conflict angle reduction; large vehicle accommodation; intersection safety",
-        "id": 9,
-        "img": "treat019.jpg"
+        "Keyword_OnlyForTool": "Right-turn lane; channelization; turning radius improvement; conflict angle reduction; large vehicle accommodation; intersection safety"
     },
     {
         "CountermeasureID": "treat020m",
@@ -395,9 +377,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Right-turn geometry; line of sight; turning safety; channelization; intersection visibility; improved angle",
-        "id": 10,
-        "img": "treat020m.jpg"
+        "Keyword_OnlyForTool": "Right-turn geometry; line of sight; turning safety; channelization; intersection visibility; improved angle"
     },
     {
         "CountermeasureID": "treat022",
@@ -435,9 +415,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Signal visibility; nighttime driving; visual enhancement; intersection alert",
-        "id": 11,
-        "img": "treat022.jpg"
+        "Keyword_OnlyForTool": "Signal visibility; nighttime driving; visual enhancement; intersection alert"
     },
     {
         "CountermeasureID": "treat023",
@@ -475,9 +453,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Flashing warning; advance alert; signal visibility; speed reduction",
-        "id": 12,
-        "img": "treat023.png"
+        "Keyword_OnlyForTool": "Flashing warning; advance alert; signal visibility; speed reduction"
     },
     {
         "CountermeasureID": "treat024",
@@ -515,9 +491,7 @@
         "Service Life": "15",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Systemic safety; signalized intersections; visibility improvement; signage enhancement; risk-based approach; proactive treatment",
-        "id": 13,
-        "img": "treat024.png"
+        "Keyword_OnlyForTool": "Systemic safety; signalized intersections; visibility improvement; signage enhancement; risk-based approach; proactive treatment"
     },
     {
         "CountermeasureID": "treat025",
@@ -555,9 +529,7 @@
         "Service Life": "15",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Speed compliance; crash deterrence; automated enforcement; behavior change",
-        "id": 14,
-        "img": "treat025.jpg"
+        "Keyword_OnlyForTool": "Speed compliance; crash deterrence; automated enforcement; behavior change"
     },
     {
         "CountermeasureID": "treat026m",
@@ -595,9 +567,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Automated enforcement; speed compliance; tangents; system-based control",
-        "id": 15,
-        "img": "treat026m.jpg"
+        "Keyword_OnlyForTool": "Automated enforcement; speed compliance; tangents; system-based control"
     },
     {
         "CountermeasureID": "treat029",
@@ -635,9 +605,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Signal enforcement; red-light compliance; speed monitoring; crash deterrent",
-        "id": 16,
-        "img": "treat029.png"
+        "Keyword_OnlyForTool": "Signal enforcement; red-light compliance; speed monitoring; crash deterrent"
     },
     {
         "CountermeasureID": "treat031",
@@ -675,9 +643,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "RRFB; pedestrian crossing; flashing alert; driver yield compliance; crosswalk visibility; low-cost beacon",
-        "id": 17,
-        "img": "treat031.jpg"
+        "Keyword_OnlyForTool": "RRFB; pedestrian crossing; flashing alert; driver yield compliance; crosswalk visibility; low-cost beacon"
     },
     {
         "CountermeasureID": "treat032",
@@ -715,9 +681,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Roundabout; eliminate crossing conflicts; reduce crash severity; improve flow",
-        "id": 18,
-        "img": "treat032.jpg"
+        "Keyword_OnlyForTool": "Roundabout; eliminate crossing conflicts; reduce crash severity; improve flow"
     },
     {
         "CountermeasureID": "treat033",
@@ -755,9 +719,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Automated enforcement; deter red-light running; intersection safety; behavior change",
-        "id": 19,
-        "img": "treat033.png"
+        "Keyword_OnlyForTool": "Automated enforcement; deter red-light running; intersection safety; behavior change"
     },
     {
         "CountermeasureID": "treat034",
@@ -795,9 +757,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Intersection visibility; driver alertness; enhance stop compliance; nighttime warning",
-        "id": 20,
-        "img": "treat034.jpg"
+        "Keyword_OnlyForTool": "Intersection visibility; driver alertness; enhance stop compliance; nighttime warning"
     },
     {
         "CountermeasureID": "treat035m",
@@ -835,9 +795,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Centerline rumble strips; rumble strips; stripes; keep vehicle in lane; remove distraction",
-        "id": 21,
-        "img": "treat035m.jpg"
+        "Keyword_OnlyForTool": "Centerline rumble strips; rumble strips; stripes; keep vehicle in lane; remove distraction"
     },
     {
         "CountermeasureID": "treat037",
@@ -875,9 +833,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Lane separation; capacity; conflict point reduction; median safety",
-        "id": 22,
-        "img": "treat037.png"
+        "Keyword_OnlyForTool": "Lane separation; capacity; conflict point reduction; median safety"
     },
     {
         "CountermeasureID": "treat038m",
@@ -915,9 +871,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "TWLTL; center turn lane; four-lane road; left-turn safety; rear-end crash reduction; access management",
-        "id": 23,
-        "img": "treat038m.png"
+        "Keyword_OnlyForTool": "TWLTL; center turn lane; four-lane road; left-turn safety; rear-end crash reduction; access management"
     },
     {
         "CountermeasureID": "treat039",
@@ -955,9 +909,7 @@
         "Service Life": "15",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Intersection lighting; nighttime visibility; crash prevention; conflict illumination; energy-efficient lighting",
-        "id": 24,
-        "img": "treat039.jpg"
+        "Keyword_OnlyForTool": "Intersection lighting; nighttime visibility; crash prevention; conflict illumination; energy-efficient lighting"
     },
     {
         "CountermeasureID": "treat040",
@@ -995,9 +947,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "LED signals; visibility; reliability; energy efficiency",
-        "id": 25,
-        "img": "treat040.png"
+        "Keyword_OnlyForTool": "LED signals; visibility; reliability; energy efficiency"
     },
     {
         "CountermeasureID": "treat042",
@@ -1035,9 +985,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Thermoplastic markings; profile lines; vibration cue; lane guidance; enhanced delineation; wet visibility",
-        "id": 26,
-        "img": "treat042.jpeg"
+        "Keyword_OnlyForTool": "Thermoplastic markings; profile lines; vibration cue; lane guidance; enhanced delineation; wet visibility"
     },
     {
         "CountermeasureID": "treat043",
@@ -1075,9 +1023,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Pedestrian priority; signal timing; reduce turning conflicts",
-        "id": 27,
-        "img": "treat043.PNG"
+        "Keyword_OnlyForTool": "Pedestrian priority; signal timing; reduce turning conflicts"
     },
     {
         "CountermeasureID": "treat044",
@@ -1115,9 +1061,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Pedestrian safety; school zone visibility; driver alertness; marked crossings",
-        "id": 28,
-        "img": "treat044.jpg"
+        "Keyword_OnlyForTool": "Pedestrian safety; school zone visibility; driver alertness; marked crossings"
     },
     {
         "CountermeasureID": "treat045m",
@@ -1155,9 +1099,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Pedestrian beacon; HAWK signal; active warning; pedestrian safety; crosswalk enhancement; yield compliance; visibility",
-        "id": 29,
-        "img": "treat045m.jpg"
+        "Keyword_OnlyForTool": "Pedestrian beacon; HAWK signal; active warning; pedestrian safety; crosswalk enhancement; yield compliance; visibility"
     },
     {
         "CountermeasureID": "treat046",
@@ -1195,9 +1137,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Raised median; uncontrolled crossing; pedestrian refuge; midblock safety; access control; speed moderation",
-        "id": 30,
-        "img": "treat046.jpg"
+        "Keyword_OnlyForTool": "Raised median; uncontrolled crossing; pedestrian refuge; midblock safety; access control; speed moderation"
     },
     {
         "CountermeasureID": "treat048",
@@ -1235,9 +1175,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Access management; head-on conflict reduction; physical separation; safer turns",
-        "id": 31,
-        "img": "treat048.jpg"
+        "Keyword_OnlyForTool": "Access management; head-on conflict reduction; physical separation; safer turns"
     },
     {
         "CountermeasureID": "treat050",
@@ -1275,9 +1213,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Traffic control; signal timing; manage intersection flow; reduce crossing conflicts",
-        "id": 32,
-        "img": "treat050.jpg"
+        "Keyword_OnlyForTool": "Traffic control; signal timing; manage intersection flow; reduce crossing conflicts"
     },
     {
         "CountermeasureID": "treat052",
@@ -1315,9 +1251,7 @@
         "Service Life": "15",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Advanced markings; yield line; stop control; visual cue; pedestrian awareness; low-cost improvement",
-        "id": 33,
-        "img": "treat052.jpg"
+        "Keyword_OnlyForTool": "Advanced markings; yield line; stop control; visual cue; pedestrian awareness; low-cost improvement"
     },
     {
         "CountermeasureID": "treat053",
@@ -1355,9 +1289,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Drowsy driving; run-off-road crashes; edge line alert; tactile feedback",
-        "id": 34,
-        "img": "treat053.jpg"
+        "Keyword_OnlyForTool": "Drowsy driving; run-off-road crashes; edge line alert; tactile feedback"
     },
     {
         "CountermeasureID": "treat054",
@@ -1395,9 +1327,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Visibility in rain; retroreflectivity; pavement marking; all-weather safety",
-        "id": 35,
-        "img": "treat054.png"
+        "Keyword_OnlyForTool": "Visibility in rain; retroreflectivity; pavement marking; all-weather safety"
     },
     {
         "CountermeasureID": "treat055",
@@ -1435,9 +1365,7 @@
         "Service Life": "10",
         "Cost": " High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Transit priority; signal phasing; reduce transit delays; prevent bus-vehicle conflicts",
-        "id": 36,
-        "img": "treat055.jpg"
+        "Keyword_OnlyForTool": "Transit priority; signal phasing; reduce transit delays; prevent bus-vehicle conflicts"
     },
     {
         "CountermeasureID": "treat060",
@@ -1475,9 +1403,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Run-off-road crash reduction; shoulder awareness; tactile warning; rural road safety",
-        "id": 37,
-        "img": "treat060.jpg"
+        "Keyword_OnlyForTool": "Run-off-road crash reduction; shoulder awareness; tactile warning; rural road safety"
     },
     {
         "CountermeasureID": "treat061",
@@ -1515,9 +1441,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Visual guidance; lane discipline; retroreflectivity; nighttime visibility",
-        "id": 38,
-        "img": "treat061.gif"
+        "Keyword_OnlyForTool": "Visual guidance; lane discipline; retroreflectivity; nighttime visibility"
     },
     {
         "CountermeasureID": "treat063",
@@ -1555,9 +1479,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Run-off-road alert; edge safety; combined treatment; rural safety",
-        "id": 39,
-        "img": "treat063.jpg"
+        "Keyword_OnlyForTool": "Run-off-road alert; edge safety; combined treatment; rural safety"
     },
     {
         "CountermeasureID": "treat065",
@@ -1595,9 +1517,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Wider markings; longitudinal guidance; visibility enhancement; wet weather delineation; lane discipline",
-        "id": 40,
-        "img": "treat065.gif"
+        "Keyword_OnlyForTool": "Wider markings; longitudinal guidance; visibility enhancement; wet weather delineation; lane discipline"
     },
     {
         "CountermeasureID": "treat066",
@@ -1635,9 +1555,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Right-of-way control; crash reduction; rural safety; traffic predictability",
-        "id": 41,
-        "img": "treat066.png"
+        "Keyword_OnlyForTool": "Right-of-way control; crash reduction; rural safety; traffic predictability"
     },
     {
         "CountermeasureID": "treat067",
@@ -1675,9 +1593,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Signal upgrade; backplates; reflective tapes; lens size",
-        "id": 42,
-        "img": "treat067.jpg"
+        "Keyword_OnlyForTool": "Signal upgrade; backplates; reflective tapes; lens size"
     },
     {
         "CountermeasureID": "treat068",
@@ -1715,9 +1631,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Signal timing; crash reduction; intersection safety; red light buffer",
-        "id": 43,
-        "img": "treat068.jpg"
+        "Keyword_OnlyForTool": "Signal timing; crash reduction; intersection safety; red light buffer"
     },
     {
         "CountermeasureID": "treat069",
@@ -1755,9 +1669,7 @@
         "Service Life": "15",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Visibility; nighttime compliance; sign enhancement; reflectivity",
-        "id": 44,
-        "img": "treat069.jpg"
+        "Keyword_OnlyForTool": "Visibility; nighttime compliance; sign enhancement; reflectivity"
     },
     {
         "CountermeasureID": "treat070m",
@@ -1795,9 +1707,7 @@
         "Service Life": "10",
         "Cost": "Moderate to high",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "ICWS; combined signage; overhead flashers; multilane intersections; high-visibility alert; advanced driver warning; intersection crash reduction",
-        "id": 45,
-        "img": "treat070m.png"
+        "Keyword_OnlyForTool": "ICWS; combined signage; overhead flashers; multilane intersections; high-visibility alert; advanced driver warning; intersection crash reduction"
     },
     {
         "CountermeasureID": "treat071",
@@ -1835,9 +1745,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Intersection devices; safety monitoring; dynamic warning; systemic safety; high-crash locations",
-        "id": 46,
-        "img": "treat071.png"
+        "Keyword_OnlyForTool": "Intersection devices; safety monitoring; dynamic warning; systemic safety; high-crash locations"
     },
     {
         "CountermeasureID": "treat082",
@@ -1875,9 +1783,7 @@
         "Service Life": "2",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Advance warning; visual cue; alert inattentive drivers; reduce stop-run crashes",
-        "id": 47,
-        "img": "treat082.jpg"
+        "Keyword_OnlyForTool": "Advance warning; visual cue; alert inattentive drivers; reduce stop-run crashes"
     },
     {
         "CountermeasureID": "treat083m",
@@ -1915,9 +1821,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Skid resistance; surface quality; friction improvement; hydroplaning prevention",
-        "id": 48,
-        "img": "treat083m.jpg"
+        "Keyword_OnlyForTool": "Skid resistance; surface quality; friction improvement; hydroplaning prevention"
     },
     {
         "CountermeasureID": "treat086",
@@ -1955,9 +1859,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Turning movement safety; delay reduction; crash separation; intersection control",
-        "id": 49,
-        "img": "treat086.png"
+        "Keyword_OnlyForTool": "Turning movement safety; delay reduction; crash separation; intersection control"
     },
     {
         "CountermeasureID": "treat096",
@@ -1995,9 +1897,7 @@
         "Service Life": "1",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Midblock crosswalk; pedestrian access; crossing safety; uncontrolled location; refuge island; visibility treatment",
-        "id": 50,
-        "img": "treat096.jpg"
+        "Keyword_OnlyForTool": "Midblock crosswalk; pedestrian access; crossing safety; uncontrolled location; refuge island; visibility treatment"
     },
     {
         "CountermeasureID": "treat097",
@@ -2035,9 +1935,7 @@
         "Service Life": "15",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Street lighting; brightness uniformity; visibility improvement; low-light crash reduction; pedestrian detection",
-        "id": 51,
-        "img": "treat097.jpg"
+        "Keyword_OnlyForTool": "Street lighting; brightness uniformity; visibility improvement; low-light crash reduction; pedestrian detection"
     },
     {
         "CountermeasureID": "treat098",
@@ -2075,9 +1973,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Bike lanes; multimodal design; bicycle safety; lane separation; active transportation; complete streets",
-        "id": 52,
-        "img": "treat098.jpg"
+        "Keyword_OnlyForTool": "Bike lanes; multimodal design; bicycle safety; lane separation; active transportation; complete streets"
     },
     {
         "CountermeasureID": "treat099",
@@ -2115,9 +2011,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Separated bike lane; flexi-posts; buffer conversion; cycling protection; visual barrier; bike safety",
-        "id": 53,
-        "img": "treat099.jpg"
+        "Keyword_OnlyForTool": "Separated bike lane; flexi-posts; buffer conversion; cycling protection; visual barrier; bike safety"
     },
     {
         "CountermeasureID": "treat100",
@@ -2155,9 +2049,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Protected bike lane; vertical separation; flexi-posts; planters; delineators; enhanced bike safety",
-        "id": 54,
-        "img": "treat100.jpg"
+        "Keyword_OnlyForTool": "Protected bike lane; vertical separation; flexi-posts; planters; delineators; enhanced bike safety"
     },
     {
         "CountermeasureID": "treat101m",
@@ -2195,9 +2087,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Sidewalk; pedestrian infrastructure; walkability; separation from traffic; pedestrian safety; active transportation",
-        "id": 55,
-        "img": "treat101m.jpg"
+        "Keyword_OnlyForTool": "Sidewalk; pedestrian infrastructure; walkability; separation from traffic; pedestrian safety; active transportation"
     },
     {
         "CountermeasureID": "treat102",
@@ -2235,9 +2125,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Left-turn safety; lane separation; reduce angle crashes; transit access",
-        "id": 56,
-        "img": "treat102.jpg"
+        "Keyword_OnlyForTool": "Left-turn safety; lane separation; reduce angle crashes; transit access"
     },
     {
         "CountermeasureID": "treat103",
@@ -2275,9 +2163,7 @@
         "Service Life": "20",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Indirect left turns; spacing design; reduce merging/weaving conflicts",
-        "id": 57,
-        "img": "treat103.jpg"
+        "Keyword_OnlyForTool": "Indirect left turns; spacing design; reduce merging/weaving conflicts"
     },
     {
         "CountermeasureID": "treat104",
@@ -2315,9 +2201,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Left-turn crashes; signal timing; conflict management",
-        "id": 58,
-        "img": "treat104.jpg"
+        "Keyword_OnlyForTool": "Left-turn crashes; signal timing; conflict management"
     },
     {
         "CountermeasureID": "treat105",
@@ -2355,9 +2239,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Low-speed design; shared road; bicycle priority; reduced vehicle volume",
-        "id": 59,
-        "img": "treat105.jpg"
+        "Keyword_OnlyForTool": "Low-speed design; shared road; bicycle priority; reduced vehicle volume"
     },
     {
         "CountermeasureID": "treat119",
@@ -2395,9 +2277,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Enhanced visibility; alert drivers; improve sign recognition; proactive warning",
-        "id": 60,
-        "img": "treat119.jpg"
+        "Keyword_OnlyForTool": "Enhanced visibility; alert drivers; improve sign recognition; proactive warning"
     },
     {
         "CountermeasureID": "treat120",
@@ -2435,9 +2315,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Signal compliance; driver perception; reduced violations",
-        "id": 61,
-        "img": "treat120.jpg"
+        "Keyword_OnlyForTool": "Signal compliance; driver perception; reduced violations"
     },
     {
         "CountermeasureID": "treat121",
@@ -2475,9 +2353,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Enhanced visibility; compliance; warning device; nighttime recognition",
-        "id": 62,
-        "img": "treat121.jpg"
+        "Keyword_OnlyForTool": "Enhanced visibility; compliance; warning device; nighttime recognition"
     },
     {
         "CountermeasureID": "treat122m",
@@ -2515,9 +2391,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Shoulder width; lateral clearance; maneuvering space; run-off recovery",
-        "id": 63,
-        "img": "treat122m.jpg"
+        "Keyword_OnlyForTool": "Shoulder width; lateral clearance; maneuvering space; run-off recovery"
     },
     {
         "CountermeasureID": "treat125",
@@ -2555,9 +2429,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Managed lane; envelope widening; buffer space; operational safety; lane discipline; high-occupancy vehicle lane",
-        "id": 64,
-        "img": "treat125.gif"
+        "Keyword_OnlyForTool": "Managed lane; envelope widening; buffer space; operational safety; lane discipline; high-occupancy vehicle lane"
     },
     {
         "CountermeasureID": "treat126",
@@ -2595,9 +2467,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Paved shoulders; roadside recovery; edge support; rural roads; shoulder safety; low-cost treatment",
-        "id": 65,
-        "img": "treat126.JPG"
+        "Keyword_OnlyForTool": "Paved shoulders; roadside recovery; edge support; rural roads; shoulder safety; low-cost treatment"
     },
     {
         "CountermeasureID": "treat127m",
@@ -2635,9 +2505,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Speed management; policy change; severity reduction; expressway safety",
-        "id": 66,
-        "img": "treat127m.png"
+        "Keyword_OnlyForTool": "Speed management; policy change; severity reduction; expressway safety"
     },
     {
         "CountermeasureID": "treat131",
@@ -2675,9 +2543,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "High-speed roundabout; intersection conversion; crash severity reduction; conflict elimination; yield control; speed moderation",
-        "id": 67,
-        "img": "treat131.jpg"
+        "Keyword_OnlyForTool": "High-speed roundabout; intersection conversion; crash severity reduction; conflict elimination; yield control; speed moderation"
     },
     {
         "CountermeasureID": "treat132",
@@ -2715,9 +2581,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Signal redundancy; visibility enhancement; fail-safe indicator for red light compliance",
-        "id": 68,
-        "img": "treat132.jpg"
+        "Keyword_OnlyForTool": "Signal redundancy; visibility enhancement; fail-safe indicator for red light compliance"
     },
     {
         "CountermeasureID": "treat133",
@@ -2755,9 +2619,7 @@
         "Service Life": "15",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Night visibility; merging safety; illumination; reduce nighttime crashes",
-        "id": 69,
-        "img": "treat133.png"
+        "Keyword_OnlyForTool": "Night visibility; merging safety; illumination; reduce nighttime crashes"
     },
     {
         "CountermeasureID": "treat134",
@@ -2795,9 +2657,7 @@
         "Service Life": "15",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Improve visibility; pedestrian safety; nighttime crashes; intersection awareness",
-        "id": 70,
-        "img": "treat134.jpg"
+        "Keyword_OnlyForTool": "Improve visibility; pedestrian safety; nighttime crashes; intersection awareness"
     },
     {
         "CountermeasureID": "treat135",
@@ -2835,9 +2695,7 @@
         "Service Life": "15",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Street lighting; uniform brightness; night visibility; pedestrian detection; contrast enhancement; low-light safety",
-        "id": 71,
-        "img": "treat135.jpg"
+        "Keyword_OnlyForTool": "Street lighting; uniform brightness; night visibility; pedestrian detection; contrast enhancement; low-light safety"
     },
     {
         "CountermeasureID": "treat139",
@@ -2875,9 +2733,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Drift alert; tactile feedback; lane departure warning; reduce head-on collisions",
-        "id": 72,
-        "img": "treat139.jpg"
+        "Keyword_OnlyForTool": "Drift alert; tactile feedback; lane departure warning; reduce head-on collisions"
     },
     {
         "CountermeasureID": "treat146",
@@ -2915,9 +2771,7 @@
         "Service Life": "10",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Proven",
-        "Keyword_OnlyForTool": "Edge drop prevention; run-off-road; slope design; recovery zone",
-        "id": 73,
-        "img": "treat146.png"
+        "Keyword_OnlyForTool": "Edge drop prevention; run-off-road; slope design; recovery zone"
     },
     {
         "CountermeasureID": "treat147",
@@ -2955,9 +2809,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Run-off-road recovery; slope safety; vehicle control; roadside design",
-        "id": 74,
-        "img": "treat147.gif"
+        "Keyword_OnlyForTool": "Run-off-road recovery; slope safety; vehicle control; roadside design"
     },
     {
         "CountermeasureID": "treat148",
@@ -2995,9 +2847,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Roadway edge marking; night visibility; curve alignment; driver guidance",
-        "id": 75,
-        "img": "treat148.jpg"
+        "Keyword_OnlyForTool": "Roadway edge marking; night visibility; curve alignment; driver guidance"
     },
     {
         "CountermeasureID": "treat149m",
@@ -3035,9 +2885,7 @@
         "Service Life": "25",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Barrier installation; run-off-road crash prevention; fixed object shielding; high-speed roads; longitudinal protection; roadway departure mitigation",
-        "id": 76,
-        "img": "treat149m.jpg"
+        "Keyword_OnlyForTool": "Barrier installation; run-off-road crash prevention; fixed object shielding; high-speed roads; longitudinal protection; roadway departure mitigation"
     },
     {
         "CountermeasureID": "treat151m",
@@ -3075,9 +2923,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Lane narrowing; moderate-cost; speed reduction; restriping; operational safety; urban roads; traffic calming",
-        "id": 77,
-        "img": "treat151m.png"
+        "Keyword_OnlyForTool": "Lane narrowing; moderate-cost; speed reduction; restriping; operational safety; urban roads; traffic calming"
     },
     {
         "CountermeasureID": "treat156",
@@ -3115,9 +2961,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Wet pavement safety; crash prevention; high-friction surface treatment",
-        "id": 78,
-        "img": "treat156.PNG"
+        "Keyword_OnlyForTool": "Wet pavement safety; crash prevention; high-friction surface treatment"
     },
     {
         "CountermeasureID": "treatnew001",
@@ -3155,9 +2999,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Protected intersection; conflict reduction; bike-pedestrian safety; corner refuge; sightlines; turning control",
-        "id": 79,
-        "img": "treatnew001.png"
+        "Keyword_OnlyForTool": "Protected intersection; conflict reduction; bike-pedestrian safety; corner refuge; sightlines; turning control"
     },
     {
         "CountermeasureID": "treatnew004",
@@ -3195,9 +3037,7 @@
         "Service Life": "20",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Self-enforcing design; road geometry; speed control; behavioral design; passive enforcement; traffic calming",
-        "id": 80,
-        "img": "treatnew004.png"
+        "Keyword_OnlyForTool": "Self-enforcing design; road geometry; speed control; behavioral design; passive enforcement; traffic calming"
     },
     {
         "CountermeasureID": "treatnew005",
@@ -3235,9 +3075,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Raised crosswalk; vertical deflection; pedestrian priority; speed reduction; intersection safety; visibility",
-        "id": 81,
-        "img": "treatnew005.jpg"
+        "Keyword_OnlyForTool": "Raised crosswalk; vertical deflection; pedestrian priority; speed reduction; intersection safety; visibility"
     },
     {
         "CountermeasureID": "treatnew006",
@@ -3275,9 +3113,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Gateways; transition zone; speed cue; neighborhood entry; traffic calming; psychological narrowing",
-        "id": 82,
-        "img": "treatnew006.png"
+        "Keyword_OnlyForTool": "Gateways; transition zone; speed cue; neighborhood entry; traffic calming; psychological narrowing"
     },
     {
         "CountermeasureID": "treatnew007",
@@ -3315,9 +3151,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Speed hump; traffic calming; vertical deflection; speed control; low-speed environment; residential safety",
-        "id": 83,
-        "img": "treatnew007.jpg"
+        "Keyword_OnlyForTool": "Speed hump; traffic calming; vertical deflection; speed control; low-speed environment; residential safety"
     },
     {
         "CountermeasureID": "treatnew008",
@@ -3355,9 +3189,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Pedestrian scramble; diagonal crossing; exclusive pedestrian phase; intersection safety; pedestrian priority; signal timing",
-        "id": 84,
-        "img": "treatnew008.png"
+        "Keyword_OnlyForTool": "Pedestrian scramble; diagonal crossing; exclusive pedestrian phase; intersection safety; pedestrian priority; signal timing"
     },
     {
         "CountermeasureID": "treatnew011",
@@ -3395,9 +3227,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Median island; pedestrian refuge; midblock safety; crossing aid; access management; conflict reduction",
-        "id": 85,
-        "img": "treatnew011.jpg"
+        "Keyword_OnlyForTool": "Median island; pedestrian refuge; midblock safety; crossing aid; access management; conflict reduction"
     },
     {
         "CountermeasureID": "treatnew015",
@@ -3435,9 +3265,7 @@
         "Service Life": "10",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Vehicle activated sign; dynamic speed display; real-time warning; speed limit compliance; rural safety; behavioral feedback",
-        "id": 86,
-        "img": "treatnew015.jpg"
+        "Keyword_OnlyForTool": "Vehicle activated sign; dynamic speed display; real-time warning; speed limit compliance; rural safety; behavioral feedback"
     },
     {
         "CountermeasureID": "treatnew016",
@@ -3475,9 +3303,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Corner blisters; protective curb extension; pedestrian safety; intersection corner treatment; space buffer; visibility",
-        "id": 87,
-        "img": "treatnew016.jpg"
+        "Keyword_OnlyForTool": "Corner blisters; protective curb extension; pedestrian safety; intersection corner treatment; space buffer; visibility"
     },
     {
         "CountermeasureID": "treatnew017",
@@ -3515,9 +3341,7 @@
         "Service Life": "3",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Vehicle setback; driveway safety; visibility triangle; pedestrian sight distance; driveway control; urban design",
-        "id": 88,
-        "img": "treatnew017.jpg"
+        "Keyword_OnlyForTool": "Vehicle setback; driveway safety; visibility triangle; pedestrian sight distance; driveway control; urban design"
     },
     {
         "CountermeasureID": "treatnew019",
@@ -3555,9 +3379,7 @@
         "Service Life": "3",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Bicycle lane markings; buffered bike lane; painted bike lane; lane visibility; visual separation; bike safety",
-        "id": 89,
-        "img": "treatnew019.jpg"
+        "Keyword_OnlyForTool": "Bicycle lane markings; buffered bike lane; painted bike lane; lane visibility; visual separation; bike safety"
     },
     {
         "CountermeasureID": "treatnew020",
@@ -3595,9 +3417,7 @@
         "Service Life": "3",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Bike box; advanced stop line; cyclist visibility; intersection safety; head start; conflict mitigation",
-        "id": 90,
-        "img": "treatnew020.JPG"
+        "Keyword_OnlyForTool": "Bike box; advanced stop line; cyclist visibility; intersection safety; head start; conflict mitigation"
     },
     {
         "CountermeasureID": "treatnew021",
@@ -3635,9 +3455,7 @@
         "Service Life": "20",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Raised intersection; vertical deflection; speed reduction; crosswalk visibility; pedestrian safety; intersection leveling",
-        "id": 91,
-        "img": "treatnew021.jpg"
+        "Keyword_OnlyForTool": "Raised intersection; vertical deflection; speed reduction; crosswalk visibility; pedestrian safety; intersection leveling"
     },
     {
         "CountermeasureID": "treatnew022",
@@ -3675,9 +3493,7 @@
         "Service Life": "20",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Horizontal deflection; chicanes; lateral shift; lane deviation; speed calming; roadway geometry",
-        "id": 92,
-        "img": "treatnew022.jpg"
+        "Keyword_OnlyForTool": "Horizontal deflection; chicanes; lateral shift; lane deviation; speed calming; roadway geometry"
     },
     {
         "CountermeasureID": "treatnew023",
@@ -3715,9 +3531,7 @@
         "Service Life": "10",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Dutch signals; bicycle priority; dedicated bike signal; intersection safety; multimodal integration; protected phasing",
-        "id": 93,
-        "img": "treatnew023.jpg"
+        "Keyword_OnlyForTool": "Dutch signals; bicycle priority; dedicated bike signal; intersection safety; multimodal integration; protected phasing"
     },
     {
         "CountermeasureID": "treatnew025",
@@ -3755,9 +3569,7 @@
         "Service Life": "5",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Transverse rumble strips; alertness enhancement; tactile warning; speed reduction; stop sign approach; inattentiveness mitigation",
-        "id": 94,
-        "img": "treatnew025.png"
+        "Keyword_OnlyForTool": "Transverse rumble strips; alertness enhancement; tactile warning; speed reduction; stop sign approach; inattentiveness mitigation"
     },
     {
         "CountermeasureID": "treatnew027",
@@ -3795,9 +3607,7 @@
         "Service Life": "5",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "LDWS; lane keeping; vehicle-based alert; unintentional departure; driver assistance; crash prevention",
-        "id": 95,
-        "img": "treatnew027.jpg"
+        "Keyword_OnlyForTool": "LDWS; lane keeping; vehicle-based alert; unintentional departure; driver assistance; crash prevention"
     },
     {
         "CountermeasureID": "treatnew028",
@@ -3835,9 +3645,7 @@
         "Service Life": "5",
         "Cost": "Moderate to High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "ESC; skid control; electronic intervention; loss of control prevention; vehicle stability; rollover risk reduction",
-        "id": 96,
-        "img": "treatnew028.jpg"
+        "Keyword_OnlyForTool": "ESC; skid control; electronic intervention; loss of control prevention; vehicle stability; rollover risk reduction"
     },
     {
         "CountermeasureID": "treatnew030",
@@ -3875,9 +3683,7 @@
         "Service Life": "8",
         "Cost": "High",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "ISA; speed compliance; vehicle technology; intelligent control; geofencing; speed limiter",
-        "id": 97,
-        "img": "treatnew030.jpg"
+        "Keyword_OnlyForTool": "ISA; speed compliance; vehicle technology; intelligent control; geofencing; speed limiter"
     },
     {
         "CountermeasureID": "treatnew031",
@@ -3915,9 +3721,7 @@
         "Service Life": "N/A",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Seatbelt law; occupant protection; injury prevention; legal mandate; traffic safety policy",
-        "id": 98,
-        "img": "treatnew031.jpg"
+        "Keyword_OnlyForTool": "Seatbelt law; occupant protection; injury prevention; legal mandate; traffic safety policy"
     },
     {
         "CountermeasureID": "treatnew032",
@@ -3955,9 +3759,7 @@
         "Service Life": "N/A",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Seatbelt enforcement; law compliance; citation risk; primary enforcement; safety behavior change",
-        "id": 99,
-        "img": "treatnew032.jpg"
+        "Keyword_OnlyForTool": "Seatbelt enforcement; law compliance; citation risk; primary enforcement; safety behavior change"
     },
     {
         "CountermeasureID": "treatnew033",
@@ -3995,9 +3797,7 @@
         "Service Life": "N/A",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Impaired driving; public awareness; alcohol education; community program; behavioral change",
-        "id": 100,
-        "img": "treatnew033.jpg"
+        "Keyword_OnlyForTool": "Impaired driving; public awareness; alcohol education; community program; behavioral change"
     },
     {
         "CountermeasureID": "treatnew034",
@@ -4035,9 +3835,7 @@
         "Service Life": "N/A",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "Alcohol interlock; in-vehicle breath test; ignition lock; impaired driving deterrent; legal compliance",
-        "id": 101,
-        "img": "treatnew034.png"
+        "Keyword_OnlyForTool": "Alcohol interlock; in-vehicle breath test; ignition lock; impaired driving deterrent; legal compliance"
     },
     {
         "CountermeasureID": "treatnew035",
@@ -4075,9 +3873,7 @@
         "Service Life": "N/A",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "DWI law enforcement; sobriety checks; impaired driver detection; traffic law application",
-        "id": 102,
-        "img": "treatnew035.png"
+        "Keyword_OnlyForTool": "DWI law enforcement; sobriety checks; impaired driver detection; traffic law application"
     },
     {
         "CountermeasureID": "treatnew036",
@@ -4115,9 +3911,7 @@
         "Service Life": "N/A",
         "Cost": "Low",
         "Countermeasure Staus_OnlyforTool": "Current",
-        "Keyword_OnlyForTool": "BAC test refusal; legal consequence; impaired driving penalties; enforcement strategy; deterrence",
-        "id": 103,
-        "img": "treatnew036l.jpg"
+        "Keyword_OnlyForTool": "BAC test refusal; legal consequence; impaired driving penalties; enforcement strategy; deterrence"
     },
     {
         "CountermeasureID": "treatnew040",
@@ -4155,8 +3949,6 @@
         "Service Life": "N/A",
         "Cost": "Moderate",
         "Countermeasure Staus_OnlyforTool": "New",
-        "Keyword_OnlyForTool": "Automatic crash notification; eCall; emergency alert; injury response time; telematics system",
-        "id": 104,
-        "img": "treatnew040.jpg"
+        "Keyword_OnlyForTool": "Automatic crash notification; eCall; emergency alert; injury response time; telematics system"
     }
 ]
